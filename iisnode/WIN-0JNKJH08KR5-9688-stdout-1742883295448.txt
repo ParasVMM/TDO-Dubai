@@ -1,0 +1,76 @@
+Server is running on port:  \\.\pipe\03f6781f-cc98-4257-abc6-a81a68b8f065
+[0mGET /boaform/admin/formLogin?username=adminisp&psd=adminisp [33m404[0m 39.900 ms - 162[0m
+[0mGET / [32m200[0m 43.156 ms - 32382[0m
+[0mGET / [32m200[0m 18.984 ms - 32382[0m
+[0mGET / [32m200[0m 17.985 ms - 32382[0m
+Connected to MySQL database
+{ Email: 'parasmarwaha246@gmail.com', Password: 'Tdo@3301' }
+PARAS MARWAHA parasmarwaha246@gmail.com Success login 2025-03-25 11:45:57 220 115.246.85.86
+INSERT INTO agent_log (name, email, status, Remarks,time, agent_id, client_ip) 
+                   VALUES (?, ?, ?, ?, ?, ?, ?)
+[0mPOST /agent-login [32m200[0m 535.251 ms - 463[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /agent-dashboard [32m200[0m 32.478 ms - 35968[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 78.822 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742883358,
+  exp: 1742969758
+}
+[0mGET /getAgentData [36m304[0m 44.606 ms - -[0m
+Connected to MySQL database
+[0mGET /flight-search [36m304[0m 73.964 ms - -[0m
+[0mGET / [32m200[0m 15.143 ms - 32382[0m
+[0mGET / [32m200[0m 13.131 ms - 32382[0m
+[0mGET / [32m200[0m 11.367 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/search-page [32m200[0m 24.219 ms - 42201[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 42.149 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 48.022 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Search Query: new delhi
+Connected to MySQL database
+response data: {
+  Code: '401',
+  Message: 'Authorization Failed. Invalid APIKEY or IP Address.'
+}
+[0mPOST /hotels/hotelSearchPlaces [32m200[0m 413.860 ms - 126[0m
+[0mGET /assets2/flights/js/lightbox.min.map [33m404[0m 6.074 ms - 174[0m
+[0mGET /assets2/vendor/global/metisMenu.min.js.map [33m404[0m 3.284 ms - 181[0m
+[0mGET /assets2/vendor/chartjs/chart.umd.js.map [33m404[0m 3.337 ms - 178[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.css.map [33m404[0m 9.297 ms - 212[0m
+[0mGET /assets2/css/style.css.map [32m200[0m 11.881 ms - 1638830[0m
+[0mGET /assets2/flights/css/bootstrap.min.css.map [33m404[0m 3.218 ms - 180[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css.map [33m404[0m 3.279 ms - 189[0m
+[0mGET / [32m200[0m 14.365 ms - 32382[0m
+[0mGET / [32m200[0m 11.801 ms - 32382[0m
+[0mGET / [32m200[0m 10.609 ms - 32382[0m
+[0mGET / [32m200[0m 12.756 ms - 32382[0m
+[0mGET / [32m200[0m 13.163 ms - 32382[0m
+[0mGET / [32m200[0m 11.966 ms - 32382[0m
+[0mGET / [32m200[0m 11.221 ms - 32382[0m
+[0mGET / [32m200[0m 12.387 ms - 32382[0m
+[0mGET /.git/config [33m404[0m 3.284 ms - 150[0m
+[0mGET / [32m200[0m 12.960 ms - 32382[0m
+[0mGET / [32m200[0m 14.433 ms - 32382[0m
+[0mGET / [32m200[0m 12.047 ms - 32382[0m
+[0mGET / [32m200[0m 10.217 ms - 32382[0m
+[0mGET / [32m200[0m 12.220 ms - 32382[0m
+[0mGET / [32m200[0m 12.446 ms - 32382[0m
+[0mGET / [32m200[0m 12.804 ms - 32382[0m
+[0mGET / [32m200[0m 11.109 ms - 32382[0m

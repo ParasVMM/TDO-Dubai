@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TDO DXB | Hotels </title>
+    <%- include('../partials/header2') %>
+    <link rel="icon" type="image/x-icon" href="/assets2/flights/img/favicon.png">
+
+
+    <link href="/assets2/flights/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/animation.css" rel="stylesheet">
+    <link href="/assets2/flights/css/dropzone.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/flatpickr.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/flickity.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/lightbox.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/magnifypopup.css" rel="stylesheet">
+    <link href="/assets2/flights/css/rangeSlider.min.css" rel="stylesheet">
+    <link href="/assets2/flights/css/prism.css" rel="stylesheet">
+
+
+    <link href="/assets2/flights/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets2/flights/css/fontawesome.css" rel="stylesheet">
+
+
+    <link href="/assets2/flights/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <style>
+        .image-cover {
+            /*background: url('/assets2/banner33.png') no-repeat center center; !* Center the image *!*/
+            background: url('/assets2/IMG.jpg') no-repeat center center; /* Center the image */
+            /*background: url('assets2/bg_pic2.jpeg') no-repeat center center; !* Center the image *!*/
+            background-size: cover; /* Cover the entire element */
+            height: 80vh; /* Use viewport height for full screen */
+            width: 100vw; /* Use viewport width for full screen */
+            position: relative; /* Set position for any child elements */
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .visible {
+            display: block;
+        }
+
+        .modal {
+            position: absolute;
+            top: 36%;
+            left: 57%;
+            width: 21%;
+            height: 27%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .modal-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 999; /* Ensure it’s behind the modal */
+            display: none;
+        }
+
+        /* Flex container to align label on the left and buttons on the right */
+        .flex-container {
+            display: flex;
+            justify-content: space-between; /* Pushes the label to the left and the buttons to the right */
+            align-items: center; /* Vertically center the label and buttons */
+        }
+
+        /* Button container to keep the buttons inline */
+        .button-container {
+            display: flex;
+            align-items: center; /* Vertically center buttons */
+        }
+
+        /* Optional: Space between buttons */
+        .button-container button {
+            margin-left: 5px; /* Space between buttons */
+        }
+
+        .error{
+            color: red;!important;
+        }
+
+    </style>
+
+    <style>
+        #autocomplete-results {
+            max-height: 300px;
+            overflow-y: auto;
+            width: 100%;
+            background: #fff;
+            border: 1px solid #ddd;
+            position: absolute;
+            z-index: 1000;
+            white-space: normal; /* Allows text to wrap */
+            word-wrap: break-word; /* Ensures long words break */
+        }
+
+        .dropdown-item {
+            padding: 10px;
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .dropdown-item:hover {
+            background: #f0f0f0;
+        }
+
+    </style>
+</head>
+<body>
+<div id="preloader">
+    <div class="loader">
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--text"></div>
+    </div>
+</div>
+<div id="main-wrapper">
+    <%- include('../partials/topNavbar') %>
+    <div id="guestsModal" class="modal modal-content" style="display: none; border: 1px solid #ccc; padding: 16px; border-radius: 8px;">
+        <form id="roomForm">
+            <div id="roomsContainer">
+                <!-- Room1 will be automatically added when the modal is opened -->
+            </div>
+            <button type="button" class="btn-sm btn btn-danger" onclick="addRoom()">Add Room</button>
+            <button type="button" class="btn-sm btn btn-danger offset-3" onclick="removeRoom()">Remove Room</button>
+
+        </form>
+    </div>
+    <div id="modalBackground" class="modal-background"></div>
+
+    <div class="image-cover hero-header bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <!--  Top right text-->
+                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mt-5">
+                    <div class="position-relative text-center mb-5 mt-5">
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 shadow mt-3">
+                    <div class="search-wrap bg-white rounded-3 p-3">
+                        <form id="myForm1">
+                            <div class="row gx-lg-2 g-3" id="oneWayForm">
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 position-relative">
+                                        <div class="form-group hdd-arrow mb-0">
+                                            <input type="text" name="cityName" id="source" class="form-control fw-bold" placeholder="Search Place" required>
+                                            <input type="hidden" name="cityId" id="selectedCityId"> <!-- Hidden Input -->
+                                            <input type="hidden" name="country" id="country">
+                                            <ul id="autocomplete-results" class="dropdown-menu"></ul>
+                                        </div>
+
+                                        <input type="hidden" name="correlationId" id="correlationId">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-12">
+                                    <div class="row gy-3 gx-lg-2 gx-3">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group mb-0">
+                                                    <input id="checkInDate" class="form-control fw-bold choosedate" name="checkIn"
+                                                           type="text" placeholder="Check In"
+                                                           required>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group mb-0">
+                                                    <input id="checkOutDate" class="form-control fw-bold choosedate" name="checkOut"
+                                                           type="text" placeholder="Check Out"
+                                                           required>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                                        <div class="form-group hdd-arrow mb-0">
+                                            <input class="form-control fw-bold " name="guests"
+                                                   id="guestInput"
+                                                   onclick="toggleModal()"
+                                                   style="cursor: pointer"
+                                                   type="text" placeholder="Guests List"
+                                                   readonly="readonly" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-12">
+                                    <div class="form-group mb-0">
+                                        <button type="button" class="btn btn-primary full-width fw-medium"
+                                                onclick="test()"><i
+                                                    class="fa-solid fa-magnifying-glass me-2"></i>Search
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="border-bottom">
+        <div class="container">
+            <div class="row align-items-center justify-content-between g-4">
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-5">
+                    <div class="featuresBox-wrap">
+                        <div class="featuresBox-icons mb-3">
+                            <i class="fa-solid fa-sack-dollar fs-1 text-primary"></i>
+                        </div>
+                        <div class="featuresBox-captions">
+                            <h4 class="fw-bold fs-5 lh-base mb-0">Easy Booking</h4>
+                            <p class="m-0 text-left">Booking your flights has never been easier! With our streamlined
+                                process, you
+                                can quickly search for flights and choose the best options that fit
+                                your schedule and budget.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-5">
+                    <div class="featuresBox-wrap">
+                        <div class="featuresBox-icons mb-3">
+                            <i class="fa-solid fa-umbrella-beach fs-1 text-primary"></i>
+                        </div>
+                        <div class="featuresBox-captions">
+                            <h4 class="fw-bold fs-5 lh-base mb-0">Best Destinations</h4>
+                            <p class="m-0 text-left">Discover the world’s best destinations with us! Whether you're
+                                dreaming of
+                                sun-soaked beaches, vibrant cities, or tranquil mountain getaways, we’ve got you
+                                covered.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-5">
+                    <div class="featuresBox-wrap">
+                        <div class="featuresBox-icons mb-3">
+                            <i class="fa-solid fa-person-walking-luggage fs-1 text-primary"></i>
+                        </div>
+                        <div class="featuresBox-captions">
+                            <h4 class="fw-bold fs-5 lh-base mb-0">Travel Guides</h4>
+                            <p class="m-0 text-left"> Make the most of your trip with our comprehensive travel guides!
+                                Whether you
+                                're visiting for the first time or returning to a favorite spot
+                                to your destination.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-5">
+                    <div class="featuresBox-wrap">
+                        <div class="featuresBox-icons mb-3">
+                            <i class="fa-solid fa-headset fs-1 text-primary"></i>
+                        </div>
+                        <div class="featuresBox-captions">
+                            <h4 class="fw-bold fs-5 lh-base mb-0">Friendly Support</h4>
+                            <p class="m-0 text-left">Our dedicated support team is here to ensure your travel experience
+                                is as
+                                smooth as possible. Our friendly agents are available around the clock
+                                to provide personalized help.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <%- include('../partials/footer2') %>
+
+</div>
+</body>
+<script>
+    let data = '';
+    let dataPlatform = '';
+
+    $(document).ready(function () {
+        let debounceTimeout;
+
+        $("#source").on("input", function () {
+            let query = $(this).val().trim();
+            if (query.length < 1) return $("#autocomplete-results").hide();
+
+            clearTimeout(debounceTimeout);
+            debounceTimeout = setTimeout(() => {
+                fetch('/hotels/hotelSearchPlaces', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ q: query })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        let locationSuggestions = data.data.locationSuggestions;
+                        document.getElementById('correlationId').value = data.correlationId;
+                        console.log(data)
+                        // Prioritize "Hotels" first, then "City," then others
+                        locationSuggestions.sort((a, b) => {
+                            if (a.type === "City") return -1;
+                            if (b.type === "City") return 1;
+                            if (a.type === "Hotel") return -1;
+                            if (b.type === "Hotel") return 1;
+                            return 0;
+                        });
+
+                        let results = locationSuggestions.map(places =>
+                            `<li class="dropdown-item" data-value="${places.id}" data-country="${places.country}" title="${places.fullName} (${places.type})">
+        <span class="place-name">${places.fullName}</span><br>
+        <span class="place-type">(${places.type})</span>
+    </li>`
+                        ).join("");
+
+
+                        $("#autocomplete-results").html(results).show();
+                    })
+                    .catch(() => $("#autocomplete-results").hide());
+            }, 300);
+        });
+
+        // Click to select an option
+        $(document).on("click", "#autocomplete-results li", function () {
+            let selectedText = $(this).find(".place-name").text();
+            let selectedId = $(this).attr("data-value");
+            let selectedCountry = $(this).attr("data-country"); // Get country code
+
+            $("#source").val(selectedText);  // Set input text
+            $("#selectedCityId").val(selectedId);  // Store city ID
+            $("#country").val(selectedCountry);  // Store country code
+            $("#autocomplete-results").hide();
+        });
+
+        // Hide dropdown when clicking outside
+        $(document).on("click", function (e) {
+            if (!$(e.target).closest("#source, #autocomplete-results").length) {
+                $("#autocomplete-results").hide();
+            }
+        });
+    });
+
+    let roomCount = 0;  // Initialize room count globally
+    let totalAdults = 0;
+    let totalChildren = 0;
+
+    function toggleModal() {
+        const modal = document.getElementById("guestsModal");
+        const modalBackground = document.getElementById("modalBackground");
+        const isModalOpen = modal.style.display === "block";
+
+        if (isModalOpen) {
+            modal.style.display = "none"; // Close modal
+            modalBackground.style.display = "none"; // Hide background
+        } else {
+            if (roomCount === 0) {
+                // Ensure at least one room is present
+                addRoom();
+            }
+            modal.style.display = "block"; // Open modal
+            modalBackground.style.display = "block"; // Show background
+        }
+        updateGuestInput();
+    }
+
+    function updateGuestInput() {
+        const guestInput = document.getElementById("guestInput");
+        guestInput.value = `Guests (Rooms: ${roomCount}, Adults: ${totalAdults}, Children: ${totalChildren})`;
+    }
+
+    function addRoom() {
+        const roomId = `room${roomCount + 1}`;
+        const roomHtml = `
+    <div class="room" id="${roomId}">
+        <h5>Room ${roomCount + 1}</h5>
+        <div class="mb-2">
+            <div class="flex-container">
+                <label>Adults:</label>
+                <div class="button-container">
+                    <button id="${roomId}-Adt-btn" type="button" class="btn-sm btn btn-danger" style="width: 10px;height: 20px" onclick="updateCount('${roomId}', 'adults', -1)">-</button>
+                    <span id="${roomId}-adults" class="count p-1">1</span>
+                    <button type="button" class="btn-sm btn btn-danger" style="width: 10px;height: 20px" onclick="updateCount('${roomId}', 'adults', 1)">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="mb-2">
+            <div class="flex-container">
+                <label>Children:</label>
+                <div class="button-container">
+                    <button id="${roomId}-Chd-btn" type="button" class="btn-sm btn btn-danger" style="width: 10px;height: 20px" onclick="updateCount('${roomId}', 'children', -1)">-</button>
+                    <span id="${roomId}-children" class="count p-1">0</span>
+                    <button type="button" class="btn-sm btn btn-danger" style="width: 10px;height: 20px" onclick="updateCount('${roomId}', 'children', 1)">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="mb-2">
+            <div id="${roomId}-children-ages" class="row">
+                <!-- Child age inputs will dynamically appear here -->
+            </div>
+        </div>
+        <hr>
+    </div>
+    `;
+        document.getElementById("roomsContainer").insertAdjacentHTML("beforeend", roomHtml);
+        roomCount++; // Increment room count
+        document.getElementById(`${roomId}-Adt-btn`).disabled = true;
+        document.getElementById(`${roomId}-Chd-btn`).disabled = true;
+        totalAdults+= 1 ;
+        updateGuestInput()
+    }
+
+    function updateCount(roomId, type, change) {
+        const countElement = document.getElementById(`${roomId}-${type}`);
+        let currentCount = parseInt(countElement.textContent);
+        currentCount += change;
+
+        // Ensure count does not fall below limits
+        if (type === "adults" && currentCount <= 1) {
+            currentCount = 1; // Minimum of 1 adult
+            document.getElementById(`${roomId}-Adt-btn`).disabled = true;
+        } else if (type === "adults" && currentCount >= 1) {
+            document.getElementById(`${roomId}-Adt-btn`).disabled = false;
+        } else if (type !== "adults" && currentCount <= 0) {
+            currentCount = 0; // Minimum of 0 for children
+            document.getElementById(`${roomId}-Chd-btn`).disabled = true;
+        } else if (type !== "adults" && currentCount > 0) {
+            document.getElementById(`${roomId}-Chd-btn`).disabled = false;
+        }
+
+        countElement.textContent = currentCount;
+
+        // Update total counts
+        if (type === "adults") {
+            totalAdults += change;
+        } else if (type === "children") {
+            totalChildren += change;
+        }
+
+        // Update the guest input field
+        updateGuestInput();
+
+        // Handle children-specific logic
+        if (type === "children") {
+            const childrenAgesContainer = document.getElementById(`${roomId}-children-ages`);
+
+            // Store existing values
+            const existingValues = {};
+            document.querySelectorAll(`#${roomId}-children-ages input`).forEach((input, index) => {
+                existingValues[index] = input.value;
+            });
+
+            childrenAgesContainer.innerHTML = ""; // Clear previous inputs
+
+            for (let i = 0; i < currentCount; i++) {
+                const savedValue = existingValues[i] || ""; // Preserve existing values
+                const childAgeInput = `
+                <div class="col-sm-3 p-1">
+                    <label for="${roomId}-child-age-${i}">Age ${i + 1}:</label>
+                    <input type="number" id="${roomId}-child-age-${i}" name="${roomId}-child-age-${i}"
+                        class="form-control" min="0" max="17" placeholder="Age" style="height: 35px"
+                        required onkeyup="this.value = Math.min(17, Math.max(0, this.value))"
+                        value="${savedValue}">
+                </div>`;
+                childrenAgesContainer.insertAdjacentHTML("beforeend", childAgeInput);
+            }
+        }
+    }
+
+    function removeRoom() {
+        if (roomCount === 1) {
+            // Prevent removal of the last room
+            Swal.fire({
+                icon: "error",
+                title: "At least one room must be selected",
+            });
+            return;
+        }
+
+        // Determine the last room's ID dynamically
+        const roomId = `room${roomCount}`;
+        const roomElement = document.getElementById(roomId);
+
+        if (!roomElement) return; // If room doesn't exist, return
+
+        // Get the number of adults and children in the room being removed
+        const adultsInRoom = parseInt(document.getElementById(`${roomId}-adults`).innerText);
+        const childrenInRoom = parseInt(document.getElementById(`${roomId}-children`).innerText);
+
+        // Subtract from total count
+        totalAdults -= adultsInRoom;
+        totalChildren -= childrenInRoom;
+
+        // Ensure values don't go negative
+        totalAdults = Math.max(totalAdults, 0);
+        totalChildren = Math.max(totalChildren, 0);
+
+        // Remove the last added room
+        roomElement.remove();
+        roomCount--; // Decrement room count
+
+        // Update the guest input field
+        updateGuestInput();
+    }
+
+    async function test() {
+        let form1 = document.getElementById('myForm1');
+        let formData1 = new FormData(form1);
+        let form2 = document.getElementById('roomForm');
+        let formData2 = new FormData(form2);
+
+        let locationID = document.getElementById('selectedCityId').value;
+        let correlationId = document.getElementById('correlationId').value;
+        let country = document.getElementById('country').value;
+        console.log(country);
+
+        formData1.append("LocationID", locationID);
+        formData1.append("correlationId", correlationId);
+        formData1.append("destinationCountryCode", country);
+
+        // Validate forms
+        if (!$("#myForm1").valid()) return;
+        if (!$("#roomForm").valid()) return toggleModal();
+
+        if (typeof roomCount === "undefined" || roomCount === 0) {
+            return toggleModal();
+        }
+
+        // Convert FormData to a JSON object
+        let data = {};
+
+        formData1.forEach((value, key) => {
+            data[key] = value;
+        });
+
+        formData2.forEach((value, key) => {
+            data[key] = value;
+        });
+
+        // Loop through rooms and add room data
+        let rooms = [];
+
+        for (let i = 1; i <= roomCount; i++) {
+            const roomId = `room${i}`;
+            const adults = parseInt(document.getElementById(`${roomId}-adults`).innerText, 10);
+            const children = parseInt(document.getElementById(`${roomId}-children`).innerText, 10);
+            let childrenAges = [];
+
+            for (let j = 0; j < children; j++) {
+                const age = document.getElementById(`${roomId}-child-age-${j}`).value;
+                childrenAges.push(age);
+            }
+
+            rooms.push({
+                roomId,
+                adults,
+                children,
+                childrenAges
+            });
+        }
+
+        data.rooms = rooms; // Attach rooms array to main data object
+
+        // Store the FormData object in sessionStorage
+        sessionStorage.setItem("fd", JSON.stringify(data));
+        window.location.href = "/hotels/hotelResults"
+
+    }
+
+    // Close the modal when clicking outside of it
+    document.getElementById("modalBackground").addEventListener("click", function() {
+        const modal = document.getElementById("guestsModal");
+        const modalBackground = document.getElementById("modalBackground");
+
+        modal.style.display = "none"; // Close modal
+        modalBackground.style.display = "none"; // Hide background
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const checkInInput = document.getElementById("checkInDate");
+        const checkOutInput = document.getElementById("checkOutDate");
+
+        let checkInDate = null;
+
+        // Initialize Flatpickr for Check-In
+        flatpickr(checkInInput, {
+            dateFormat: "Y-m-d",
+            minDate: "today",
+            onChange: function (selectedDates) {
+                checkInDate = selectedDates[0];
+
+                // Update Check-Out Flatpickr to disable dates before the Check-In date
+                if (checkInDate) {
+                    checkOutPicker.set("minDate", new Date(checkInDate.getTime() + 24 * 60 * 60 * 1000)); // Add 1 day
+                }
+            }
+        });
+
+        // Initialize Flatpickr for Check-Out
+        const checkOutPicker = flatpickr(checkOutInput, {
+            dateFormat: "Y-m-d",
+            minDate: "today",
+        });
+    });
+
+</script>
+</html>

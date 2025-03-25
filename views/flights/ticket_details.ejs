@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TDO :: View Ticket Details</title>
+    <%- include('../partialPages/headerfiles') %>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body onload="getTicketDetails(`<%= id %>`)">
+<div id="main-wrapper">
+    <%- include('../partialPages/topHeader') %>
+    <div class="header">
+        <div class="header-content">
+            <nav class="navbar navbar-expand">
+                <div class="collapse navbar-collapse justify-content-between">
+                    <div class="header-left">
+                        <div class="dashboard_bar">
+                            View Ticket Details
+
+                        </div>
+                    </div>
+                    <div class="header-right d-flex align-items-center">
+                        <div id="agEmailId" class="fs-6 fw-bold"
+                             style="word-break: break-all;text-align: right;width:40vw"></div>
+                        <%- include('../partialPages/userSettings') %>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="modal fade" id="downloadModal" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl bg-white">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Choose Ticket Type to Download Group Ticket</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-2">
+                        <div class="col-lg-6 offset-lg-2 text-center">
+                            <input type="hidden" id="bookId"/>
+                            <input type="hidden" id="bookDetailId"/>
+                            <div class="form-check-inline p-1">
+                                <input type="radio" class="input-type-input" id="with" name="type" value="with"
+                                       onchange="showOptions(this.value)"/> <label
+                                        for="with" class="form-check-label">Download Ticket with Price</label>
+                                <input type="radio" class="input-type-input" name="type" id="without" value="without"
+                                       checked
+                                       onchange="showOptions(this.value)"/> <label
+                                        for="without" class="form-check-label">Download Ticket without Price</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" id="ans">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="downloadModal1" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl bg-white">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Choose Ticket Type to Download</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-2">
+                        <div class="col-lg-6 offset-lg-2 text-center">
+                            <input type="hidden" id="bookId1"/>
+                            <input type="hidden" id="bookDetailId1"/>
+                            <div class="form-check-inline p-1">
+                                <input type="radio" class="input-type-input" id="withAgent" name="singleType"
+                                       value="with agent" onchange="showOptions(this.value)"/> <label
+                                        for="withAgent" class="form-check-label">Download Ticket with Agent
+                                    Details</label>
+                                <input type="radio" class="input-type-input" name="singleType" id="withoutAgent"
+                                       value="without agent" onchange="showOptions(this.value)" checked/> <label
+                                        for="withoutAgent" class="form-check-label">Download Ticket without Agent
+                                    Details</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" id="ans1">
+                            <button type="button" class="btn btn-primary form-control" onclick="setSessionValues1()"><i
+                                        class="fa fa-print"></i> Print
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="markupModal" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog bg-white">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add / Update MarkUp </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form id="markupForm">
+                        <input type="hidden" id="bid" name="bookingId" value="<%= id %>"/>
+                        <div class="row mb-2">
+                            <div class="col-12 mb-2">
+                                <label for="markupVal">Enter Markup Value</label>
+                                <input type="text" name="markupVal" id="markupVal" required data-rule-number="true"
+                                       class="form-control"/>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <button type="button" class="btn btn-primary" onclick="submitMarkUp()">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <%- include('../partialPages/agentSidebar') %>
+    <!--**********************************
+        Content body start
+    ***********************************-->
+    <div class="content-body"
+         style="background-image: url('/images/travel.png'); background-repeat: no-repeat; background-size: contain; background-position: center">
+        <div class="container">
+            <h1 style="text-align: center; justify-content: center">Ticket Done <img src="/images/booked.gif"/></h1>
+            <h2 style="text-align: center; justify-content: center" id="tx">Transaction Id: </h2>
+            <div id="markUpValue"></div>
+            <div class="mt-2" id="result">
+            </div>
+            <div class="row mt-2">
+                <div class="col-lg-6 offset-lg-3">
+                    <button type="button" class="btn btn-success w-100 btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#downloadModal"
+                            onclick="setValues(<%= id %>,'0')"><i class="fa fa-download"></i>
+                        Download Group Ticket
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    <%- include('../partialPages/footer') %>-->
+</div>
+
+<%- include('../partialPages/scripts') %>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js?r=1899'></script>
+
+<script>
+
+async function getTicketDetails(id)
+{
+
+    let formData = new FormData();
+
+    formData.append("bookingId", id);
+
+    let res = await fetch('/flights/getTicketDetails',{
+        method : 'POST',
+        body :  formData
+    })
+
+    res = await res.json();
+
+    console.log(res)
+
+    if(res.error === false)
+    {
+
+        let row = res.response[0];
+        let sector = JSON.parse(res.response[0].SectorJson);
+        let passengers = JSON.parse(res.response[0].PassengerJson);
+        let segments = JSON.parse(res.response[0].SegmentJson);
+        let result = `<div class="row mb-2">`;
+
+
+
+        document.getElementById("tx").innerHTML = `PNR: ${sector[0].gdspnr} <button type='button' class="btn text-bg-dark" data-bs-toggle="modal" data-bs-target="#markupModal">Add / Update MarkUp</button>`
+
+        result += `<div class='col-lg-12 col-12'>
+                <table class="table fs-8 w-full">
+                <tr  class="text-center">
+                <tr  class="text-center">
+                <th class=" text-center">Sr. No.</th>
+            <th class=" text-center">Member Name</th>
+            <th class=" text-center">Price</th>
+            <th class=" text-center">Destination</th>
+            <th class=" text-center">Ticket No.</th>
+            <th class=" text-center">PNR</th>
+        </tr>`;
+        for (let i = 0; i < passengers.length; i++) {
+            result += `
+    <tr class="text-center">
+        <td class="text-lg-center text-center">${i + 1}</td>
+        <td class="text-lg-center text-center">${passengers[i].salutation + " " + passengers[i].first_name + " " + passengers[i].last_name}</td>
+        <td class="text-lg-center text-center">${passengers[i].passenger_published_fare}</td>
+        <td class="text-lg-center text-center">${sector[0].origin + " " + sector[0].destination}</td>
+        <td class="text-lg-center text-center">${passengers[i].ticket_no}</td>
+        <td class="text-lg-center text-center">${sector[0].gdspnr}</td>
+    </tr>
+`
+        }
+
+
+        result += `</table>
+</div></div>`;
+
+        document.getElementById("result").innerHTML = result
+    }
+
+}
+
+
+</script>
+
+</body>
+</html>

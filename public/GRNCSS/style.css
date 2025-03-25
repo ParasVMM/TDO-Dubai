@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?g2jav0');
+    src:  url('fonts/icomoon.eot?g2jav0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g2jav0') format('truetype'),
+    url('fonts/icomoon.woff?g2jav0') format('woff'),
+    url('fonts/icomoon.svg?g2jav0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-worldwide:before {
+    content: "\e972";
+}
+.icon-WhiteLabelIcon:before {
+    content: "\e971";
+}
+.icon-pay-at-hotel:before {
+    content: "\e96d";
+}
+.icon-tripadvisor:before {
+    content: "\e96e";
+}
+.icon-direct-incentive:before {
+    content: "\e96f";
+}
+.icon-api:before {
+    content: "\e970";
+}
+.icon-upfrontdiscount:before {
+    content: "\e96c";
+}
+.icon-alot-credit-limit:before {
+    content: "\e900";
+}
+.icon-credit-limit-history:before {
+    content: "\e901";
+}
+.icon-finalize-by-cc:before {
+    content: "\e902";
+}
+.icon-finalize:before {
+    content: "\e903";
+}
+.icon-pause:before {
+    content: "\e904";
+}
+.icon-play:before {
+    content: "\e905";
+}
+.icon-send-message:before {
+    content: "\e906";
+}
+.icon-set-markup:before {
+    content: "\e907";
+}
+.icon-hr-check-in:before {
+    content: "\e908";
+}
+.icon-add-to-quote:before {
+    content: "\e909";
+}
+.icon-admin-control:before {
+    content: "\e90a";
+}
+.icon-air-conditioner:before {
+    content: "\e90b";
+}
+.icon-apartments:before {
+    content: "\e90c";
+}
+.icon-attachment:before {
+    content: "\e90d";
+}
+.icon-back-to-top:before {
+    content: "\e90e";
+}
+.icon-bar:before {
+    content: "\e90f";
+}
+.icon-best-deal:before {
+    content: "\e910";
+}
+.icon-book-on-time-limit:before {
+    content: "\e911";
+}
+.icon-bookmark:before {
+    content: "\e912";
+}
+.icon-business-center:before {
+    content: "\e913";
+}
+.icon-cafe:before {
+    content: "\e914";
+}
+.icon-cancellation-policy:before {
+    content: "\e915";
+}
+.icon-cart:before {
+    content: "\e916";
+}
+.icon-check-box-deselected:before {
+    content: "\e917";
+}
+.icon-check-box-selected:before {
+    content: "\e918";
+}
+.icon-close:before {
+    content: "\e919";
+}
+.icon-cancel-booking:before {
+    content: "\e91a";
+}
+.icon-compass:before {
+    content: "\e91b";
+}
+.icon-competitive-prices:before {
+    content: "\e91c";
+}
+.icon-mobile:before {
+    content: "\e91d";
+}
+.icon-currency-exchange:before {
+    content: "\e91e";
+}
+.icon-time:before {
+    content: "\e91f";
+}
+.icon-door-to-door:before {
+    content: "\e920";
+}
+.icon-drop-down-expand:before {
+    content: "\e921";
+}
+.icon-drop-down-collapse:before {
+    content: "\e922";
+}
+.icon-edit:before {
+    content: "\e923";
+}
+.icon-email:before {
+    content: "\e924";
+}
+.icon-error:before {
+    content: "\e925";
+}
+.icon-free-wifi:before {
+    content: "\e926";
+}
+.icon-gym:before {
+    content: "\e927";
+}
+.icon-header-main-navigation:before {
+    content: "\e928";
+}
+.icon-hotels-inventory:before {
+    content: "\e929";
+}
+.icon-hotels:before {
+    content: "\e92a";
+}
+.icon-icon-1:before {
+    content: "\e92b";
+}
+.icon-Icon-2:before {
+    content: "\e92c";
+}
+.icon-icon-3:before {
+    content: "\e92d";
+}
+.icon-information:before {
+    content: "\e92e";
+}
+.icon-insurance:before {
+    content: "\e92f";
+}
+.icon-internet:before {
+    content: "\e930";
+}
+.icon-invoice:before {
+    content: "\e931";
+}
+.icon-list:before {
+    content: "\e932";
+}
+.icon-location:before {
+    content: "\e933";
+}
+.icon-luggage:before {
+    content: "\e934";
+}
+.icon-map:before {
+    content: "\e935";
+}
+.icon-next:before {
+    content: "\e936";
+}
+.icon-no-credit-card-charges:before {
+    content: "\e937";
+}
+.icon-occupancy-2:before {
+    content: "\e938";
+}
+.icon-occupancy:before {
+    content: "\e939";
+}
+.icon-onine-booking:before {
+    content: "\e93a";
+}
+.icon-paid-by-credit-card:before {
+    content: "\e93b";
+}
+.icon-paid-by-time-limit:before {
+    content: "\e93c";
+}
+.icon-payment:before {
+    content: "\e93d";
+}
+.icon-point-of-intrest:before {
+    content: "\e93e";
+}
+.icon-pool:before {
+    content: "\e93f";
+}
+.icon-previous:before {
+    content: "\e940";
+}
+.icon-print-voucher:before {
+    content: "\e941";
+}
+.icon-review-booking:before {
+    content: "\e942";
+}
+.icon-radio-button-deselected:before {
+    content: "\e943";
+}
+.icon-radio-button-half-selected:before {
+    content: "\e944";
+}
+.icon-radio-button-selected:before {
+    content: "\e945";
+}
+.icon-rating-star-deselected:before {
+    content: "\e946";
+}
+.icon-uniE947:before {
+    content: "\e947";
+}
+.icon-uniE948:before {
+    content: "\e948";
+}
+.icon-rating-star-half-selected:before {
+    content: "\e949";
+}
+.icon-rating-star-selected:before {
+    content: "\e94a";
+}
+.icon-restaurant:before {
+    content: "\e94b";
+}
+.icon-robust-system:before {
+    content: "\e94c";
+}
+.icon-rows-collapse:before {
+    content: "\e94d";
+}
+.icon-room-service:before {
+    content: "\e94e";
+}
+.icon-rows-expand:before {
+    content: "\e94f";
+}
+.icon-search:before {
+    content: "\e950";
+}
+.icon-section-collapse:before {
+    content: "\e951";
+}
+.icon-section-expand:before {
+    content: "\e952";
+}
+.icon-send-message1:before {
+    content: "\e953";
+}
+.icon-sight-seeing:before {
+    content: "\e954";
+}
+.icon-sort-by-ascending:before {
+    content: "\e955";
+}
+.icon-sort-by-descending:before {
+    content: "\e956";
+}
+.icon-success:before {
+    content: "\e957";
+}
+.icon-support:before {
+    content: "\e958";
+}
+.icon-taxi-service:before {
+    content: "\e959";
+}
+.icon-transfers:before {
+    content: "\e95a";
+}
+.icon-trip-advisor:before {
+    content: "\e95b";
+}
+.icon-upload:before {
+    content: "\e95c";
+}
+.icon-warning:before {
+    content: "\e95d";
+}
+.icon-left:before {
+    content: "\e95e";
+}
+.icon-calendar:before {
+    content: "\e95f";
+}
+.icon-right:before {
+    content: "\e960";
+}
+.icon-uniE961:before {
+    content: "\e961";
+}
+.icon-uniE962:before {
+    content: "\e962";
+}
+.icon-uniE963:before {
+    content: "\e963";
+}
+.icon-uniE964:before {
+    content: "\e964";
+}
+.icon-reconfirm-booking:before {
+    content: "\e965";
+}
+.icon-delete:before {
+    content: "\e966";
+}
+.icon-compare:before {
+    content: "\e967";
+}
+.icon-product:before {
+    content: "\e968";
+}
+.icon-add-to-quote-2:before {
+    content: "\e969";
+}
+.icon-add-to-quote-3:before {
+    content: "\e96a";
+}
+.icon-profile:before {
+    content: "\e96b";
+}

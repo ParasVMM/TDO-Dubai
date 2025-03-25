@@ -1,0 +1,853 @@
+Server is running on port:  \\.\pipe\183ae33f-a0d6-4034-8a4e-5e4bf580e050
+[0mGET / [32m200[0m 66.027 ms - 32382[0m
+[0mGET /admin/login [32m200[0m 10.846 ms - 1464[0m
+[0mGET /assets/index-BISASkG-.css [32m200[0m 7.893 ms - 1817237[0m
+[0mGET /assets/index-BKwpocr6.js [32m200[0m 13.303 ms - 10096630[0m
+[0mGET /assets/Login-BHpwRaCA.js [32m200[0m 2.451 ms - 2458[0m
+[0mGET / [32m200[0m 21.037 ms - 32382[0m
+[0mGET /assets/css/bootstrap.min.css [36m304[0m 3.713 ms - -[0m
+[0mGET /assets/css/fontawesome.min.css [36m304[0m 9.824 ms - -[0m
+[0mGET /assets/css/registerAgent.css [36m304[0m 16.186 ms - -[0m
+[0mGET /assets/css/responsive.css [32m200[0m 37.257 ms - 16523[0m
+[0mGET /assets/css/boxicons.min.css [32m200[0m 39.487 ms - 84759[0m
+[0mGET /assets/css/animate.min.css [32m200[0m 35.775 ms - 71764[0m
+[0mGET /assets/css/style1.css [32m200[0m 37.184 ms - 2046[0m
+[0mGET /assets/css/theme-dark.css [32m200[0m 35.653 ms - 7831[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [32m200[0m 34.905 ms - 15734[0m
+[0mGET /assets/css/nice-select.css [32m200[0m 33.134 ms - 3070[0m
+[0mGET /assets/css/style.css [32m200[0m 30.944 ms - 124545[0m
+[0mGET /assets/css/magnific-popup.min.css [32m200[0m 32.059 ms - 5235[0m
+[0mGET /assets/css/owl.carousel.min.css [32m200[0m 24.518 ms - 3353[0m
+[0mGET /assets/css/meanmenu.min.css [32m200[0m 31.666 ms - 2309[0m
+[0mGET /assets/img/TDO_DUBAI.png [32m200[0m 32.513 ms - 388600[0m
+[0mGET /assets/img/TDO_logo1.png [32m200[0m 32.122 ms - 391964[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [32m200[0m 2.429 ms - 20216[0m
+[0mGET /assets/images/flights.png [32m200[0m 2.368 ms - 62486[0m
+[0mGET /assets/images/hotels.png [32m200[0m 2.250 ms - 42233[0m
+[0mGET /assets/images/travel-insurance.png [32m200[0m 2.058 ms - 38063[0m
+[0mGET /assets/js/jquery.min.js [32m200[0m 3.430 ms - 87532[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [32m200[0m 2.677 ms - 33871[0m
+[0mGET /assets/js/owl.carousel.min.js [36m304[0m 2.854 ms - -[0m
+[0mGET /assets/js/jquery.filterizr.min.js [32m200[0m 7.742 ms - 49179[0m
+[0mGET /assets/js/jquery.nice-select.min.js [32m200[0m 8.232 ms - 2942[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [32m200[0m 7.782 ms - 80672[0m
+[0mGET /assets/js/script.js [36m304[0m 7.031 ms - -[0m
+[0mGET /assets/js/form-validator.min.js [32m200[0m 15.844 ms - 7729[0m
+[0mGET /assets/js/meanmenu.min.js [32m200[0m 16.808 ms - 5351[0m
+[0mGET /assets/images/visa.png [32m200[0m 21.906 ms - 4221[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [32m200[0m 16.222 ms - 2381[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [32m200[0m 8.625 ms - 129992[0m
+[0mGET /assets/js/contact-form-script.js [32m200[0m 8.195 ms - 1256[0m
+[0mGET /assets/images/bg1.jpg [32m200[0m 2.085 ms - 282103[0m
+[0mGET /assets/fonts/boxicons.woff2 [36m304[0m 1.177 ms - -[0m
+[0mGET /assets/img/img_1.png [32m200[0m 2.219 ms - 4486[0m
+----- connect ETIMEDOUT
+[0mPOST /agent-login [32m200[0m 10050.363 ms - 94[0m
+[0mGET / [32m200[0m 14.832 ms - 32382[0m
+[0mGET / [32m200[0m 14.059 ms - 32382[0m
+Connected to MySQL database
+{ Email: 'parasmarwaha246@gmail.com', Password: 'Tdo@3301' }
+PARAS MARWAHA parasmarwaha246@gmail.com Success login 2025-03-25 12:55:52 220 2405:201:5008:f002:d175:b899:9645:1296
+INSERT INTO agent_log (name, email, status, Remarks,time, agent_id, client_ip) 
+                   VALUES (?, ?, ?, ?, ?, ?, ?)
+[0mPOST /agent-login [32m200[0m 508.671 ms - 463[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+[0mGET /agent-dashboard [32m200[0m 31.907 ms - 35968[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [32m200[0m 2.221 ms - 10722[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [32m200[0m 2.125 ms - 11512[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [32m200[0m 2.508 ms - 8194[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [32m200[0m 4.904 ms - 4121[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [32m200[0m 5.147 ms - 22699[0m
+[0mGET /assets2/css/style.css [32m200[0m 2.536 ms - 1472397[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 7.769 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [32m200[0m 8.711 ms - 4070[0m
+[0mGET /assets2/flights/js/jquery.min.js [32m200[0m 8.035 ms - 87461[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 14.332 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [32m200[0m 14.211 ms - 9754[0m
+[0mGET /assets2/flights/js/custom.js [32m200[0m 23.617 ms - 13521[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 11.327 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [32m200[0m 38.284 ms - 41171[0m
+[0mGET /assets2/js/deznav-init.js [32m200[0m 40.827 ms - 2620[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [32m200[0m 26.574 ms - 18089[0m
+[0mGET /assets2/flights/js/flatpickr.js [32m200[0m 26.089 ms - 50679[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [32m200[0m 25.700 ms - 51654[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [32m200[0m 25.900 ms - 38268[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [32m200[0m 26.993 ms - 87096[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [32m200[0m 24.139 ms - 14781[0m
+[0mGET /assets2/flights/js/select2.min.js [32m200[0m 33.634 ms - 73163[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [32m200[0m 17.110 ms - 8298[0m
+[0mGET /assets2/vendor/global/global.min.js [32m200[0m 36.943 ms - 210045[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [32m200[0m 36.567 ms - 205240[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [32m200[0m 24.418 ms - 2403792[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 3.853 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [32m200[0m 13.386 ms - 17527[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [32m200[0m 12.558 ms - 89220[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [32m200[0m 8.524 ms - 89729[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [32m200[0m 13.899 ms - 141765[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [32m200[0m 12.336 ms - 20439[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [32m200[0m 12.736 ms - 5591[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [32m200[0m 2.179 ms - 126828[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [32m200[0m 2.145 ms - 6268[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+[0mGET /getAgentData [32m200[0m 76.833 ms - 2386[0m
+Connected to MySQL database
+28
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742887553,
+  exp: 1742973953
+}
+Connected to MySQL database
+[0mGET /getBalance [32m200[0m 83.963 ms - 169[0m
+[0mGET /flight-search [32m200[0m 52.013 ms - 143[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.182 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742887553,
+  exp: 1742973953
+}
+[0mGET /flights [32m200[0m 30.449 ms - 59706[0m
+[0mGET /assets2/flights/css/select2.min.css [32m200[0m 4.184 ms - 18929[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [32m200[0m 4.171 ms - 11084[0m
+[0mGET /assets2/flights/css/animation.css [32m200[0m 5.247 ms - 56275[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [32m200[0m 4.003 ms - 232969[0m
+[0mGET /assets2/flights/css/lightbox.min.css [32m200[0m 9.018 ms - 2532[0m
+[0mGET /assets2/flights/css/dropzone.min.css [32m200[0m 8.581 ms - 9678[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [32m200[0m 14.457 ms - 16166[0m
+[0mGET /assets2/flights/css/flickity.min.css [32m200[0m 10.352 ms - 2045[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 4.923 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [32m200[0m 13.147 ms - 5076[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [32m200[0m 16.112 ms - 85884[0m
+[0mGET /assets2/flights/css/fontawesome.css [32m200[0m 14.326 ms - 102217[0m
+[0mGET /assets2/flights/css/style.css [32m200[0m 10.395 ms - 131865[0m
+[0mGET /assets2/img_2.png [32m200[0m 2.154 ms - 2616735[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [32m200[0m 2.166 ms - 150020[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 32.282 ms - -[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 32.797 ms - 170[0m
+[0mGET /assets2/flights/images/close.png [33m404[0m 33.476 ms - 171[0m
+[0mGET /assets2/flights/images/next.png [33m404[0m 33.923 ms - 170[0m
+[0mGET /assets2/flights/images/loading.gif [32m200[0m 27.307 ms - 8476[0m
+[0mGET /getBalance [36m304[0m 63.345 ms - -[0m
+[0mGET /assets2/flights/img/favicon.png [32m200[0m 2.440 ms - 7856[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi',
+    CityCode: 'DEL'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio',
+    CityCode: 'AJA'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta',
+    CityCode: 'BIG'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro',
+    CityCode: 'BOC'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes',
+    CityCode: 'CEQ'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur',
+    CityCode: 'CYO'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen',
+    CityCode: 'CME'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel',
+    CityCode: 'CMV'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio',
+    CityCode: 'DRT'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction',
+    CityCode: 'DJ'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover',
+    CityCode: 'DOV'
+  },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba',
+    CityCode: 'ESC'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon',
+    CityCode: 'BJX'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange',
+    CityCode: 'DD'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este',
+    CityCode: 'AGT'
+  },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio',
+    CityCode: 'DRT'
+  },
+  {
+    AirportName: 'Enrique Olaya Herrara',
+    AirportCode: 'EOH',
+    CityName: 'Medellin',
+    CityCode: 'MDE'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia',
+    CityCode: 'BBX'
+  },
+  {
+    AirportName: 'Fuerteventura Arpt',
+    AirportCode: 'FUE',
+    CityName: 'Puerto Del Rosario',
+    CityCode: 'FUE'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 43.670 ms - 1856[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi',
+    CityCode: 'DEL'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 16.531 ms - 109[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Chhatrapati Shivaji',
+    AirportCode: 'BOM',
+    CityName: 'Mumbai',
+    CityCode: 'BOM'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 16.878 ms - 105[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+{
+  from: 'DEL',
+  to: 'BOM',
+  adult: 1,
+  child: 0,
+  infant: 0,
+  travel_date: '2025-03-26',
+  return_date: '',
+  fare_type: '2'
+}
+Connected to MySQL database
+[0mPOST /flights/addFlightSearchData [32m200[0m 42.608 ms - 153[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+[0mGET /flights/flightResults [32m200[0m 222.450 ms - 702443[0m
+[0mGET /flightWorthCSS/images/sunrise.svg [32m200[0m 5.341 ms - 19166[0m
+[0mGET /flightWorthCSS/images/afternoon_sun.svg [32m200[0m 7.317 ms - 21982[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 4.636 ms - 166[0m
+[0mGET /flightWorthCSS/css/myStyle.css [32m200[0m 7.658 ms - 529391[0m
+[0mGET /flightWorthCSS/images/evening_time.svg [32m200[0m 2.172 ms - 14522[0m
+[0mGET /flightWorthCSS/images/night_time.svg [32m200[0m 1.797 ms - 1711[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 2.055 ms - -[0m
+[0mGET /assets1/js/select2.min.js [33m404[0m 5.259 ms - 164[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 29.775 ms - -[0m
+{
+  adults: '1',
+  child: '0',
+  infants: '0',
+  ResultFareType: 'Regular Fare',
+  data: 'undefined',
+  platform: '""',
+  from: 'DEL',
+  to: 'BOM',
+  travelDate: '2025-03-26',
+  fare_type: '2'
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+[0mGET /getBalance [36m304[0m 271.224 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 18.833 ms - 150[0m
+[0mGET /manifest.json [33m404[0m 17.581 ms - 152[0m
+[0mGET /flights/airlines [32m200[0m 81.438 ms - 131983[0m
+[0mGET /manifest.json [33m404[0m 2.732 ms - 152[0m
+[0mGET /assets2/vendor/chartjs/chart.umd.js.map [33m404[0m 8.165 ms - 178[0m
+[0mGET /assets2/vendor/global/metisMenu.min.js.map [33m404[0m 8.228 ms - 181[0m
+[0mGET /assets2/flights/js/lightbox.min.map [33m404[0m 6.200 ms - 174[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css.map [33m404[0m 3.111 ms - 189[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.css.map [33m404[0m 3.649 ms - 212[0m
+[0mGET /assets2/css/style.css.map [32m200[0m 2.231 ms - 1638830[0m
+{
+  Id: '1',
+  Success: true,
+  Message: '',
+  RequestTimeStamp: '2025-03-25 12:56:24:1309',
+  ResponseTimeStamp: '2025-03-25 12:56:37:3408'
+}
+[0mPOST /flights/getAllFlights [32m200[0m 15644.201 ms - 963392[0m
+[0mGET / [32m200[0m 12.787 ms - 32382[0m
+[0mGET /images/others/baggage-vector.svg [33m404[0m 3.182 ms - 171[0m
+[0mGET /flightWorthCSS/images/flight-details-line.svg [32m200[0m 2.920 ms - 675[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742887553,
+  exp: 1742973953
+}
+[0mGET /flights/book [32m200[0m 54.337 ms - 151169[0m
+[0mGET /images/new.gif [32m200[0m 56.955 ms - 130823[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742887553,
+  exp: 1742973953
+}
+[0mGET /flights/bookbook [32m200[0m 53.100 ms - 151169[0m
+[0mGET /flightWorthCSS/images/Seat.png [36m304[0m 1.214 ms - -[0m
+[0mGET /static/js/main.c9d5cbec.js [33m404[0m 3.005 ms - 165[0m
+[0mGET /style.css [32m200[0m 2.005 ms - 1321[0m
+[0mGET /flightWorthCSS/images/Baggage1.png [36m304[0m 1.180 ms - -[0m
+[0mGET /flightWorthCSS/images/Meal.png [32m200[0m 2.084 ms - 3581[0m
+[0mGET /flights_india/flightBooking.js [32m200[0m 3.140 ms - 94545[0m
+[0mGET /flightWorthCSS/images/cockpit.svg [32m200[0m 2.784 ms - 1745[0m
+[0mGET /flights_india/common.js [32m200[0m 5.066 ms - 103[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.css.map [33m404[0m 3.252 ms - 212[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css.map [33m404[0m 3.292 ms - 189[0m
+[0mGET /assets2/css/style.css.map [36m304[0m 1.260 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.map [33m404[0m 3.010 ms - 174[0m
+[0mGET /assets2/vendor/global/metisMenu.min.js.map [33m404[0m 2.787 ms - 181[0m
+[0mGET /assets2/vendor/chartjs/chart.umd.js.map [33m404[0m 2.884 ms - 178[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 25.627 ms - -[0m
+[0mGET /getBalance [36m304[0m 36.544 ms - -[0m
+{
+  traceId: '20250325072624132068_570f3c29-b8d5-4814-bdb5-b423bdfcdd18',
+  flightKey: '6E_DEL_BOM_1ADT_0CHD_0INF_ 673_202503250726321085_81c291e7-63ab-43a7-8f1d-6b3d9a130833_$MR_TVJGQUUwODI4',
+  adult: '1',
+  child: '0',
+  infant: '0',
+  flight: '[{"departure":"DEL","arrival":"BOM","departureDateTime":"2025-03-26T02:00:00","BasicFare":194,"GrossFare":225,"segments":[{"departure":"DEL","arrival":"BOM","departureDateTime":"2025-03-26T02:00:00","arrivalDateTime":"2025-03-26T04:20:00","flightNumber":" 673"}]}]'
+}
+[0mGET /manifest.json [33m404[0m 2.781 ms - 152[0m
+{
+  status: 200,
+  statusText: 'OK',
+  headers: Object [AxiosHeaders] {
+    date: 'Tue, 25 Mar 2025 07:28:00 GMT',
+    'content-type': 'text/plain; charset=utf-8',
+    'content-length': '4131',
+    connection: 'keep-alive',
+    server: 'Kestrel',
+    'cache-control': 'no-store, no-cache',
+    expires: '-1',
+    pragma: 'no-cache',
+    'set-cookie': [
+      '.AspNetCore.Session=CfDJ8L3WCFfxn0lArgxP%2FsMt3BkIHYljKF8IGaDPp%2Fm8nVzVcva4GJhhxwxMUtDvYFcA6wMtu4aMQ8FS1wULNufz4J0dJiHALNWkAvaoeVEe5fRCpFSwPVI0YGbEZNbDP%2Fv%2B5VkoHoaJRQULiFsMnbwfUlVPHPgioQ4VvgpZMp3J2%2Bo4; path=/; samesite=lax; httponly'
+    ]
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      ApiKey: 'CUST001741GoldenGatewaysGEITlZTJUrVe1dMnJMuTMJPMcI7ObfYhYEjaSg2',
+      'User-Agent': 'axios/1.7.4',
+      'Content-Length': '516',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'https://api.air.prod.trvlnxt.com/api/AirSell',
+    data: '{"trackID":"20250325072624132068_570f3c29-b8d5-4814-bdb5-b423bdfcdd18","flightKeys":["6E_DEL_BOM_1ADT_0CHD_0INF_ 673_202503250726321085_81c291e7-63ab-43a7-8f1d-6b3d9a130833_$MR_TVJGQUUwODI4"],"paxType":{"adult":"1","child":"0","infant":"0"},"flights":[{"departure":"DEL","arrival":"BOM","departureDateTime":"2025-03-26T02:00:00","BasicFare":194,"GrossFare":225,"segments":[{"departure":"DEL","arrival":"BOM","departureDateTime":"2025-03-26T02:00:00","arrivalDateTime":"2025-03-26T04:20:00","flightNumber":" 673"}]}]}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '516',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.air.prod.trvlnxt.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.air.prod.trvlnxt.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      autoSelectFamilyAttemptedAddresses: [Array],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 242698,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 5926,
+        [Symbol(triggerId)]: 5924
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /api/AirSell HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'ApiKey: CUST001741GoldenGatewaysGEITlZTJUrVe1dMnJMuTMJPMcI7ObfYhYEjaSg2\r\n' +
+      'User-Agent: axios/1.7.4\r\n' +
+      'Content-Length: 516\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.air.prod.trvlnxt.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/AirSell',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://api.air.prod.trvlnxt.com/api/AirSell',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.air.prod.trvlnxt.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 516,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.air.prod.trvlnxt.com/api/AirSell',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      apikey: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: {
+    ResponseStatusType: {
+      Id: '1',
+      Success: true,
+      Message: '',
+      RequestTimeStamp: '2025-03-25 12:57:48:9563',
+      ResponseTimeStamp: '2025-03-25 12:57:59:7299'
+    },
+    SellKey: 'S20250325072757327635_921e6f1e-1ff4-4817-847a-4fd5f950815e',
+    TrackID: '20250325072624132068_570f3c29-b8d5-4814-bdb5-b423bdfcdd18',
+    HoldAvailable: true,
+    Isfarerevised: false,
+    SessionTimeOut: 10,
+    Flights: [ [Object] ]
+  }
+}
+[0mPOST /flights/AirSell [32m200[0m 11180.577 ms - 3958[0m
+[0mGET /flightWorthCSS/images/alaram-clock.svg [36m304[0m 1.325 ms - -[0m
+[0mGET / [32m200[0m 11.561 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4NzU1MywiZXhwIjoxNzQyOTczOTUzfQ.vnqts2HYlir5EYSyCXNrNeagDhJagWWYGJedVtvIVd0
+Connected to MySQL database
+2405:201:5008:f002:d175:b899:9645:1296, 172.69.176.71
+[0mGET /logout [36m302[0m 42.380 ms - 46[0m
+[0mGET / [32m200[0m 11.178 ms - 32382[0m
+[0mGET / [32m200[0m 10.510 ms - 32382[0m
+[0mGET / [32m200[0m 12.657 ms - 32382[0m
+[0mGET /hls.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2024078702.m3u8 [33m404[0m 3.085 ms - 203[0m
+[0mGET / [32m200[0m 14.623 ms - 32382[0m
+[0mGET /admin/login [32m200[0m 6.060 ms - 1464[0m
+[0mGET /assets/index-BKwpocr6.js [36m304[0m 1.245 ms - -[0m
+[0mGET /admin/staff-detail [32m200[0m 10.133 ms - 48[0m
+[0mGET /admin/count [32m200[0m 9.345 ms - 48[0m
+[0mGET /assets/tdo-logo-white-2-WwjSyhGE.png [32m200[0m 3.289 ms - 68615[0m
+[0mGET /assets/Login-BHpwRaCA.js [36m304[0m 1.123 ms - -[0m
+[0mGET / [32m200[0m 12.835 ms - 32382[0m
+Connected to MySQL database
+[0mPOST /admin/login [32m200[0m 403.496 ms - 789[0m
+Connected to MySQL database
+Connected to MySQL database
+[0mGET /admin/staff-detail [32m200[0m 25.734 ms - 131[0m
+[0mGET /admin/count [32m200[0m 125.023 ms - 298[0m
+[0mGET / [32m200[0m 10.822 ms - 32382[0m
+Connected to MySQL database
+[0mGET /admin/getHotelBookingData [32m200[0m 51.587 ms - 61550[0m
+{ id: '205' }
+Connected to MySQL database
+{
+  id: 205,
+  api_booking_id: 'TNHAPI00005402',
+  paymentTransactionId: null,
+  responseJSON: '{"token":"8a00f100-c20d-40d6-8f46-1012ed20579c","bookingStatus":"Confirmed","bookingId":"TNHAPI00005402","providerConfirmationNumber":"7845489979717","hotelConfirmationNumber":null,"cancellationToken":"VE5IQVBJMDAwMDU0MDJ8","roomConfirmation":[{"rateId":"0f6d4c9b-11aa-45d2-be46-2983bda8a528","roomId":"fa816828-8ec4-4f0d-9bad-27999109703c","providerConfirmationNumber":"397001848894013","hotelConfirmationNumber":null,"cancellationToken":null}],"ClientBookingId":"DYK-20250325070653-9292","additionalInformation":null,"error":null}',
+  agentEmail: 'parasmarwaha246@gmail.com',
+  booking_DateTime: '2025-03-25 12:36:53',
+  paymentStatus: 'Success',
+  hotelName: 'Roomshala 124 Royal inn Rohini',
+  Hotelid: '55298684',
+  checkIN: '2025-11-11',
+  checkOut: '2025-11-12',
+  totalAmount: '498.96',
+  baseAmount: '445.5',
+  totalTaxes: '53.46',
+  supplierCommission: '31.483636363636368',
+  tdsDeductedAmount: '0',
+  final_amount: '467.4763636363636',
+  published_rate: '498.96',
+  totalPax: '1',
+  totalAdult: '1',
+  totalChild: '0',
+  supplier: 'Riya Supplier',
+  markupFee: null,
+  platformFee: null,
+  user_phoneNumber: '917340896847',
+  user_passport_number: null,
+  user_pan_number: null,
+  booking_status: 'Cancelled',
+  payment_type: null,
+  booking_type: null,
+  hotel_address: '{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"}',
+  hotel_phone: '["91-8810468622"]',
+  total_rooms: null,
+  meal_basics: '{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false}',
+  deadline_date: null,
+  markupAddedByAgent: '10',
+  gatewayCharges: null,
+  totalWithMOMarkup: null,
+  taxOnPlatformFee: null,
+  cancelCharge: null,
+  MDCancelCharges: null,
+  HotelCharges: null,
+  refundedAmount: null,
+  subUser: null,
+  correlationId: '772010-1742886031653',
+  cancellationResponse: {
+    error: null,
+    Message: null,
+    bookingId: 'TNHAPI00005402',
+    bookingStatus: 'Cancelled',
+    roomCancellation: [ [Object] ],
+    hotelCancellationNumber: 'VE5IQVBJMDAwMDU0MDJ8',
+    providerCancellationNumber: '7845489979717'
+  },
+  after_markupAddedByAgent_amount: '508.96',
+  roomTravellerInfo: [ { travellerInfo: [Array] } ]
+}
+[0mGET /admin/getHotelBookingDetailData/205 [32m200[0m 64.168 ms - 5463[0m
+{ booking_id: 95, bId: 205, pt: 'Master', fN: 'PARAS', lN: 'Test' }
+Connected to MySQL database
+----- adminService.GetInfo is not a function
+[0mPOST /admin/update-guest-details [32m200[0m 12.308 ms - 115[0m
+[0mGET / [32m200[0m 10.937 ms - 32382[0m
+[0mGET / [32m200[0m 12.889 ms - 32382[0m
+{ booking_id: 95, bId: 205, pt: 'Mr', fN: 'PARAS', lN: 'Test' }
+Connected to MySQL database
+[0mPOST /admin/update-guest-details [32m200[0m 65.241 ms - 94[0m
+{ id: '205' }
+Connected to MySQL database
+{
+  id: 205,
+  api_booking_id: 'TNHAPI00005402',
+  paymentTransactionId: null,
+  responseJSON: '{"token":"8a00f100-c20d-40d6-8f46-1012ed20579c","bookingStatus":"Confirmed","bookingId":"TNHAPI00005402","providerConfirmationNumber":"7845489979717","hotelConfirmationNumber":null,"cancellationToken":"VE5IQVBJMDAwMDU0MDJ8","roomConfirmation":[{"rateId":"0f6d4c9b-11aa-45d2-be46-2983bda8a528","roomId":"fa816828-8ec4-4f0d-9bad-27999109703c","providerConfirmationNumber":"397001848894013","hotelConfirmationNumber":null,"cancellationToken":null}],"ClientBookingId":"DYK-20250325070653-9292","additionalInformation":null,"error":null}',
+  agentEmail: 'parasmarwaha246@gmail.com',
+  booking_DateTime: '2025-03-25 12:36:53',
+  paymentStatus: 'Success',
+  hotelName: 'Roomshala 124 Royal inn Rohini',
+  Hotelid: '55298684',
+  checkIN: '2025-11-11',
+  checkOut: '2025-11-12',
+  totalAmount: '498.96',
+  baseAmount: '445.5',
+  totalTaxes: '53.46',
+  supplierCommission: '31.483636363636368',
+  tdsDeductedAmount: '0',
+  final_amount: '467.4763636363636',
+  published_rate: '498.96',
+  totalPax: '1',
+  totalAdult: '1',
+  totalChild: '0',
+  supplier: 'Riya Supplier',
+  markupFee: null,
+  platformFee: null,
+  user_phoneNumber: '917340896847',
+  user_passport_number: null,
+  user_pan_number: null,
+  booking_status: 'Cancelled',
+  payment_type: null,
+  booking_type: null,
+  hotel_address: '{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"}',
+  hotel_phone: '["91-8810468622"]',
+  total_rooms: null,
+  meal_basics: '{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false}',
+  deadline_date: null,
+  markupAddedByAgent: '10',
+  gatewayCharges: null,
+  totalWithMOMarkup: null,
+  taxOnPlatformFee: null,
+  cancelCharge: null,
+  MDCancelCharges: null,
+  HotelCharges: null,
+  refundedAmount: null,
+  subUser: null,
+  correlationId: '772010-1742886031653',
+  cancellationResponse: {
+    error: null,
+    Message: null,
+    bookingId: 'TNHAPI00005402',
+    bookingStatus: 'Cancelled',
+    roomCancellation: [ [Object] ],
+    hotelCancellationNumber: 'VE5IQVBJMDAwMDU0MDJ8',
+    providerCancellationNumber: '7845489979717'
+  },
+  after_markupAddedByAgent_amount: '508.96',
+  roomTravellerInfo: [ { travellerInfo: [Array] } ]
+}
+[0mGET /admin/getHotelBookingDetailData/205 [36m304[0m 73.501 ms - -[0m
+{ booking_id: 95, bId: 205, pt: 'Master', fN: 'PARAS', lN: 'Test' }
+Connected to MySQL database
+----- adminService.GetInfo is not a function
+[0mPOST /admin/update-guest-details [32m200[0m 11.094 ms - 115[0m
+[0mGET / [32m200[0m 12.048 ms - 32382[0m
+[0mGET / [32m200[0m 10.150 ms - 32382[0m
+[0mGET / [32m200[0m 10.775 ms - 32382[0m
+[0mGET / [32m200[0m 12.529 ms - 32382[0m
+[0mGET / [32m200[0m 12.251 ms - 32382[0m
+[0mGET / [32m200[0m 11.030 ms - 32382[0m

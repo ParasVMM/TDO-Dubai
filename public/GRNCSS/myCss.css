@@ -1,0 +1,200 @@
+.sorbar
+{
+    background-color:#F6F6F6;
+}
+
+
+.searchHead strong
+{
+    font-weight:normal;
+}
+.sortList li
+{
+    float:left;
+    padding-right:10px;
+    padding-left:10px;
+    border-left: solid 1px $000000;
+
+}
+.sortList li a
+{
+    display:block;
+    padding:3px;
+    font-size:12px;
+
+}
+.sortList li.active a
+{
+    color:#FF0000;
+}
+
+.hotelschk {
+    background:url(../images/bg/hotel-pic-bg.png) 2px 2px no-repeat;
+    border-top:#FFCC00 2px solid;
+    border-bottom:#FFCC00 2px solid;
+    font-size:14px;
+    color:#000000;line-height:20px;
+    background-color:#FFFFCC;
+    height:110px;
+
+}
+.hotelschk h2 {text-align:center; padding-bottom:10px; font-weight:bold; color:#f51c20!important; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+.hotelschk td {height:25px; padding:0 5px; font-weight:bold; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4)}
+.bdr {border-bottom:solid 1px #ccc }
+
+.modalbox
+{
+    position:absolute;
+    z-index:200;
+    text-align:center;
+    border:solid 1px #CCCCCC;
+    background-color:#CCCCCC;
+    color:#CCCCCC;
+    padding:20px;
+    width:250px;
+}
+.details
+td
+{
+    vertical-align:middle;
+}
+.bprice a
+{
+    color:#D14B27;
+}
+
+/*div.row div.col
+{
+	float:left;
+	background-color:#F0F0F0;
+}*/
+
+/* Loader start */
+.loaderDiv h2 {padding:10px 5px 0px 5px;}
+
+/* .loaderDiv h2 span {display:block} */
+.loaderDiv { background-image:url(/images/custom/loading_2.jpg);	background-repeat:no-repeat;	width:728px;	height:450px;  border:solid #666666 4px; position:absolute; z-index:99999 }
+.loaderDiv .loaderimg {padding-top:150px!important;}
+
+
+.loaderDiv h2 { padding:5px 5px 1px 5px; text-align:center; font-size:20px!important; color:#3070c4!important}
+.loaderDiv p {text-align:center; padding:5px; font-size:12px; color:#3070c4!important}
+.loaderDiv p a img {text-align:center; padding:5px; border:0}
+.loaderDiv p span {text-align:center; padding:5px; color:#000000; font-size:11px;}
+
+/* Loader End */
+.autocomplete-w1 { background:url(/images/img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:6px 0 0 6px; /* IE6 fix: */ _background:none; _margin:1px 0 0 0; }
+.autocomplete {text-transform: capitalize; font-size:12px;border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete .autocomplete-selected { background:#F0F0F0; }
+/*.autocomplete div { padding:2px 5px; white-space:nowrap; overflow:hidden; }*/
+.autocomplete strong { /*font-weight:normal; color:#3399FF; */}
+
+.bottom {
+    border-top: 1px dotted #CECECE;
+}
+
+.bottom span {
+    color: #666;
+    float: left;
+    padding-top: 2px;
+}
+
+.bottom .close {
+    float: right;
+}
+
+.bottom .close .icon-close {
+    background-image: url(/images/iconsClose.png);
+    background-repeat: no-repeat;
+    background-position: 30px;
+    width: 47px;
+    height: 15px;
+    float: none;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+
+.sortBar
+{
+    background-color:#F3F8FB;
+}
+.pricetag
+{
+    background:url(/images/custom/price_tag.gif) 0 10px no-repeat;
+    width:106px;
+    height:65px;
+    padding:0px 0px 0px 0px;
+}
+
+
+.pricetag span {display:block; color:#fff; padding:10px 0; text-align:center!important}
+.pricetag h3 {display:block; color:#fff; font-size:16px; text-align:center!important }
+.hotel-info p {background:#f3f8fb!important}
+
+
+
+
+
+
+
+
+.hotelscount
+{
+    background-image:url(/images/custom/results_count.gif);
+    background-repeat:no-repeat;
+    height:80px;
+    color:#FFFFFF;
+    text-align:center;
+    padding:10px;
+}
+
+.hotelscount span {font-weight:bold; color:#fff}
+
+
+.desc
+{
+    background-color:#F3F8FB;
+}
+
+.cityNameTitle
+{
+    color:#C3322D;
+
+}
+/* 26.07.2011 */
+.search-div-top {width:782px;float: left; height: 65px; }
+.search-div-left {float:left; width:120px;}
+.search-div-middle {float:left; width:430px; padding:0 10px}
+.search-div-middle ul  {padding:5px 0; list-style:none; margin:0}
+.search-div-middle ul li  {padding:3px 0;}
+.search-div-middle ul li span.redcolor {color:#cc2f28; font-weight:bold; padding-left:5px}
+.search-div-middle ul li span.armycolor {color:#00695f;  padding-left:5px}
+
+.search-div-right {width:140px; float:right; text-align:right}
+.search-div-right a {background: url(/images/icons/fugue/chevron-expand.png) no-repeat scroll 100% 5px transparent;
+    color: #0B6FC7;
+    display: block;
+    font-weight: bold;
+    padding: 5px 24px 0 0;
+    text-decoration: underline;}
+
+.td-bg-color {background:#f6f6f6; height:22px; }
+.li-act {background:url(../images/icons/bot-arrow.png) no-repeat scroll 0 5px transparent; color:#0463e1; font-weight:bold;}
+
+
+.search-top-header {border-bottom:solid 3px #c93004; height:45px}
+.search-top-header h1 {float:left; color:#c93004; font-size:36px; width:300px; display:block; padding:5px; font-weight:normal; font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,Helvetica,sans-serif;}
+.search-top-header span {padding-top:28px; color:#000; float:right;}
+.search-top-header span a {color:#006cb0;}
+
+
+.search-top h1 {float:left; color:#c93004!important; font-size:36px!important;  display:block; padding:5px 0 10px; font-weight:normal; border-bottom:solid 3px #c93004!important;}
+
+.top-a {background: url(/images/icons/fugue/chevron.png) no-repeat scroll 100% 5px transparent;
+    color: #0B6FC7;
+    display: block;
+    font-weight: bold;
+    padding: 5px 24px 0 0;
+    text-decoration: underline;}

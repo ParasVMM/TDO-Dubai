@@ -1,0 +1,6145 @@
+---
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}

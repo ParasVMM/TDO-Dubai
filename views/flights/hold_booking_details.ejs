@@ -1,0 +1,1439 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TDO DXB | Flights </title>
+    <%- include('../partials/header2') %>
+
+    <style>
+        /* Adjust the sector to use flex column layout so content aligns correctly */
+/* Styling the new sector container with distinct class names */
+.custom-sector {
+    margin: 15px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Ensures space between icon, text, and button */
+    gap: 20px; /* Space between the icon, sector info, and button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for new sector */
+.custom-sector:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* New sector icon styling */
+.custom-sector-icon {
+    font-size: 36px;
+    color: #ec3e3e;
+    animation: bounce 1.5s infinite;
+    flex-shrink: 0; /* Prevents icon from shrinking */
+}
+
+/* Bounce animation for the sector icon */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* New sector info container to align the header and details */
+.custom-sector-info {
+    flex-grow: 1; /* Allows this container to grow and take remaining space */
+}
+
+/* Sector header style */
+.custom-sector-header {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 5px 0; /* Adds space below the header */
+    font-weight: bold;
+}
+
+/* Sector details text styling */
+.custom-sector-details {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Styling for the new Cancel button */
+.custom-cancel-btn {
+    background: #ec3e3e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+/* Hover effect for new Cancel button */
+.custom-cancel-btn:hover {
+    background-color: #ec3e3e;
+    transform: scale(1.1);
+}
+
+/* Optional media query for smaller screens */
+@media (max-width: 768px) {
+    .custom-sector {
+        flex-direction: column; /* Stack sector content on smaller screens */
+        align-items: flex-start;
+    }
+
+    .custom-sector-info {
+        margin-top: 10px;
+    }
+
+    .custom-cancel-btn {
+        align-self: flex-end; /* Align the button to the right on small screens */
+        margin-top: 10px;
+    }
+}
+
+.sector {
+    margin: 15px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+    gap: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* On hover, add shadow and slight move */
+.sector:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure the sector icon and details are aligned in the same row */
+.sector-info {
+    display: flex; /* Aligns the icon and details horizontally */
+    align-items: center; /* Vertically centers the items */
+    gap: 10px; /* Adds space between the icon and the details */
+}
+
+/* Keep the sector header readable */
+.sector-header {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+/* Ensure sector details appear beside the icon */
+.sector-details {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sector icon styling */
+.sector-icon {
+    font-size: 32px;
+    color: #ec3e3e;
+    animation: bounce 1.5s infinite;
+}
+
+/* Bounce animation for the sector icon */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* Bounce animation for the sector icon */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* Fix for person list to be aligned correctly */
+.person-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start; /* Align the person cards properly */
+    margin-top: 10px;
+    flex-grow: 1; /* Make sure the list grows to fill space */
+}
+
+/* Person card layout */
+.person-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffebeb;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for person card */
+.person-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Person icon styling */
+.person-icon {
+    font-size: 28px;
+    color: #ec3e3e;
+    margin-bottom: 5px;
+}
+
+/* Person name and age styling */
+.person-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.person-age {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Checkbox styling */
+.person-checkbox {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Footer styling for modal */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/* Cancel button styling */
+.cancel-all-btn {
+    background: linear-gradient(135deg, #ec3e3e, rgba(236, 62, 62, 0.81));
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cancel-all-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Button hover effect */
+.proceed-btn {
+    background: linear-gradient(135deg, #ec3e3e, rgba(236, 62, 62, 0.81));
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.proceed-btn:hover {
+    transform: translateY(-2px);
+}
+
+        .paginate_button.previous  {
+            /*font-size: 12px !important;*/
+            width: 85px !important;
+        }
+
+        .rounded-modal {
+            border-radius: 15px; /* Adjust value as needed */
+            overflow: hidden;    /* Prevents content from spilling over rounded corners */
+        }
+        /*.invoice-container {*/
+        /*    width: 100%;*/
+        /*}*/
+        /*h1 {*/
+        /*    color: #e74c3c;*/
+        /*    text-align: center;*/
+        /*    margin-bottom: 20px;*/
+        /*}*/
+        /*.invoice-header, .invoice-footer {*/
+        /*    display: flex;*/
+        /*    justify-content: space-between;*/
+        /*}*/
+        /*.invoice-header div, .invoice-footer div {*/
+        /*    width: 45%;*/
+        /*}*/
+        /*table {*/
+        /*    width: 100%;*/
+        /*    border-collapse: collapse;*/
+        /*    margin-bottom: 20px;*/
+        /*}*/
+        /*table, th, td {*/
+        /*    border: 1px solid #ddd;*/
+        /*}*/
+        /*th, td {*/
+        /*    padding: 10px;*/
+        /*    text-align: left;*/
+        /*}*/
+        /*th {*/
+        /*    background-color: #f8f8f8;*/
+        /*    color: #333;*/
+        /*}*/
+        /*.total {*/
+        /*    font-size: 1.5em;*/
+        /*    color: #e74c3c;*/
+        /*    text-align: right;*/
+        /*}*/
+        .badge {
+            padding: 3px 6px;
+            border-radius: 3px;
+            margin-left: 5px; /* Adjust as needed */
+        }
+
+
+        .icon1 {
+            font-size: 20px;
+            color: red;
+        }
+        .status {
+            font-weight: bold;
+            color: #007bff; /* blue color */
+        }
+        .type {
+            color: #28a745; /* green color */
+        }
+        .transaction-details p {
+            margin-bottom: 0; /* Ensure paragraphs are inline */
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        .table {
+            width: 100%;
+            table-layout: auto; /* Changed from fixed to auto for more flexibility */
+            border-collapse: collapse;
+            white-space: nowrap; /* Prevent wrapping in table cells by default */
+        }
+
+        .table th, .table td {
+            padding: 5px 5px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 12px;
+            border: 2px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-all; /* Breaks long words without spaces */
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* Set specific widths for columns with typically longer text */
+        .table td:nth-child(1), /* TDO Reference Id */
+        .table td:nth-child(2), /* Total Amount Paid */
+        .table td:nth-child(3), /* Ticket Status */
+        .table td:nth-child(4), /* Markup By Agent */
+        .table td:nth-child(5), /* Departure Airport */
+        .table td:nth-child(6), /* Departure Airport */
+        .table td:nth-child(7), /* Departure Airport */
+        .table td:nth-child(8)  /* Arrival Airport */ {
+            min-width: 100px;
+            max-width: 100px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+
+        .table td img {
+            max-width: 30px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .nowrap {
+            white-space: nowrap; /* Prevent wrapping for specific short text */
+        }
+
+        @media (max-width: 768px) {
+            .table th, .table td {
+                font-size: 6px;
+                padding: 6px;
+            }
+            .table td:nth-child(1), .table td:nth-child(3),
+            .table td:nth-child(6), .table td:nth-child(7) {
+                min-width: 80px;
+                max-width: 120px;
+            }
+        }
+
+        /* Styling the table title */
+        h5 {
+            background-color: #ec3e3e;
+            border-radius: 12px;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .print-button {
+
+            margin: 8px;
+            background: linear-gradient(135deg, #ec3e3e, rgba(236, 62, 62, 0.82)); /* Green gradient */
+            color: #fff;
+            padding: 5px 5px;
+            font-size: 12px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            transition: all 0.3s ease;
+        }
+
+        .print-button:hover {
+            background: linear-gradient(135deg, #ec3e3e, rgba(236, 62, 62, 0.82)); /* Lighter green on hover */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px); /* Subtle lift effect */
+        }
+
+        .print-button:active {
+            background: linear-gradient(135deg, #ec3e3e, rgba(236, 62, 62, 0.82));
+            transform: translateY(0); /* Reset lift effect on click */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 20px; /* Space between options */
+            flex-wrap: wrap;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+
+        .radio-option input[type="radio"] {
+            display: none; /* Hide default radio button */
+        }
+
+        .radio-option i {
+            font-size: 20px;
+            color: #4CAF50;
+            margin-right: 8px;
+        }
+
+        .radio-option .price {
+            margin-left: auto;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .radio-option:hover {
+            background-color: #e0e0e0;
+        }
+
+        .radio-option input[type="radio"]:checked + i {
+            color: #388E3C; /* Change icon color when selected */
+        }
+
+        .radio-option input[type="radio"]:checked + span {
+            color: #388E3C; /* Change text color when selected */
+        }
+        canvas {
+            overflow-y: hidden;
+            overflow-x: hidden;
+            width: 100%;
+            margin: 0;
+        }
+        /* Make the modal backdrop fully transparent */
+        #popper .modal-backdrop {
+            background-color: transparent !important;
+        }
+
+        /* Make the modal content transparent */
+        #popper .modal-content {
+            background-color: transparent !important;
+            border: none; /* Optional: remove the border if you want a clean transparent look */
+        }
+
+        /* Optional: Adjust the modal dialog to make it fully transparent */
+        #popper .modal-dialog {
+            background-color: transparent !important;
+            border: none; /* Optional: remove the border */
+        }
+
+        /* Optional: Add custom styles for modal content if needed */
+        #popper .modal-body {
+            background-color: transparent !important;
+        }
+
+        /* Form container styling */
+        .form-container {
+            width: 100%; /* Adjust width as needed */
+            max-width: 600px; /* Set a maximum width for the form */
+            margin: 20px auto; /* Center the form horizontally */
+            padding: 20px;
+            background-color: #f9f9f9; /* Light gray background */
+            border: 1px solid #ddd; /* Soft border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Label styling */
+        .form-label {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        /* Textarea styling */
+        .form-textarea {
+            width: 100%; /* Full width of the form */
+            padding: 12px;
+            font-size: 14px;
+            color: #555;
+            border: 1px solid #ccc; /* Soft gray border */
+            border-radius: 8px; /* Rounded corners */
+            resize: vertical; /* Allow vertical resizing only */
+            background-color: #fff; /* White background */
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Inset shadow for depth */
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Focus effect on textarea */
+        .form-textarea:focus {
+            outline: none;
+            border-color: #007bff; /* Blue border on focus */
+            box-shadow: 0 0 6px rgba(0, 123, 255, 0.3); /* Glow effect */
+        }
+
+        /* Placeholder styling */
+        .form-textarea::placeholder {
+            color: #aaa;
+            font-style: italic;
+        }
+
+        /* Responsive design for mobile */
+        @media (max-width: 768px) {
+            .form-container {
+                padding: 15px;
+            }
+            .form-textarea {
+                font-size: 12px;
+            }
+        }
+
+    </style>
+</head>
+<body onload="showBookingDetails(`<%=id%>`)">
+<div id="preloader">
+    <div class="loader">
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--text"></div>
+    </div>
+</div>
+<div id="main-wrapper">
+    <%- include('../partials/navbar2') %>
+    <%- include('../partials/sidebar2') %>
+    <div class=" content-body default-height">
+        <!-- row -->
+        <div class="container-fluid">
+<!--            <div class="row page-titles">-->
+<!--                <ol class="breadcrumb">-->
+                    <!--                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Logs</a></li>-->
+<!--                </ol>-->
+<!--            </div>-->
+            <div class="col-12">
+                <div class="card">
+                    <!--                    <div class="card-header">-->
+                    <!--                        <h3 class="card-title">Logs</h3>-->
+                    <!--                    </div>-->
+              
+                        <div class="container">
+                           <button class="print-button" id="rbt"> Release Booking</button>
+                           <button class="print-button" id="cbt"> Confirm Booking</button>
+                            <div id="result">
+                                <i class="spinner-grow"></i>
+                            </div>
+                
+                        </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('../partials/footer2') %>
+</div>
+<div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg bg-white rounded-modal">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h6 class="modal-title" id="staticBackdropLabel">Select Types Of Ticket</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body table-container" id="myans">
+                <canvas id="canvas"></canvas>
+
+<!--                <div class="row text-center">-->
+<!--                     <div class="col-6">-->
+<!--                         <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal">  <i class="fas fa-user-tie"></i>  With Agent Without Price</button>-->
+<!--                     </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <button class="print-button" style="font-size: 18px !important;"  data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-tie"></i> With Agent With Price</button>-->
+<!--                    </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent Without Price</button>-->
+<!--                    </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent With Price</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="popper" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen bg-white rounded-modal">
+        <div class="modal-content ">
+
+            <div class="modal-body table-container" id="myans">
+                <canvas id="canvas"></canvas>
+
+                <!--                <div class="row text-center">-->
+                <!--                     <div class="col-6">-->
+                <!--                         <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal">  <i class="fas fa-user-tie"></i>  With Agent Without Price</button>-->
+                <!--                     </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;"  data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-tie"></i> With Agent With Price</button>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent Without Price</button>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent With Price</button>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg bg-white rounded-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="staticBackdropLabel">Partial Cancellation</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Sector 1 -->
+          <div id="myPersons">
+
+          </div>
+            <div class="modal-footer" id="btt">
+              </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modals" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg bg-white rounded-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="staticBackdropLabel">Sector Cancellation</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          <div id="mySectors">
+              <!-- Sector 1 -->
+              <div class="custom-sector">
+                  <i class="fas fa-plane-departure custom-sector-icon"></i>
+                  <div class="custom-sector-info">
+                      <h3 class="custom-sector-header">Delhi (DEL) → Mumbai (BOM)</h3>
+                      <p class="custom-sector-details">
+                          Flight: AI-101<br>
+                          Departure: 15 Nov 2024, 10:00 AM<br>
+                          Arrival: 15 Nov 2024, 12:00 PM
+                      </p>
+                  </div>
+                  <button class="custom-cancel-btn">Cancel</button>
+              </div>
+              <!-- Sector 2 -->
+              <div class="custom-sector">
+                  <i class="fas fa-plane custom-sector-icon"></i>
+                  <div class="custom-sector-info">
+                      <h3 class="custom-sector-header">Mumbai (BOM) → Bangalore (BLR)</h3>
+                      <p class="custom-sector-details">
+                          Flight: AI-102<br>
+                          Departure: 15 Nov 2024, 2:00 PM<br>
+                          Arrival: 15 Nov 2024, 4:00 PM
+                      </p>
+                  </div>
+                  <button class="custom-cancel-btn">Cancel</button>
+              </div>
+
+          </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg bg-white rounded-modal">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h6 class="modal-title" id="staticBackdropLabel">Select Types Of Ticket</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body table-container" id="myfull">
+
+
+                <!--                <div class="row text-center">-->
+                <!--                     <div class="col-6">-->
+                <!--                         <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal">  <i class="fas fa-user-tie"></i>  With Agent Without Price</button>-->
+                <!--                     </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;"  data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-tie"></i> With Agent With Price</button>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent Without Price</button>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-6">-->
+                <!--                        <button class="print-button" style="font-size: 18px !important;" data-bs-toggle="modal" data-bs-target="#modal"> <i class="fas fa-user-slash"></i> Without Agent With Price</button>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+            </div>
+            <div class="modal-footer" id="bttfull">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+      let row = [];
+    let partialArray = [];
+    let Airlines = [];
+    let Airports = [];
+      function formatDuration(duration) {
+          let [hours, minutes] = duration.split(":").map(Number);
+          let formattedDuration = `${hours > 0 ? hours + " hrs " : ""}${minutes > 0 ? minutes + " mins" : ""}`.trim();
+          return formattedDuration || "0 mins";
+      }
+      async function getAirlineNames() {
+          try {
+              let url = '/flights/airlines';
+              let response = await fetch(url);
+
+              if (!response.ok) {
+                  throw new Error(`HTTP error! Status: ${response.status}`);
+              }
+              response = await response.json();
+              console.log(response.data)
+              Airlines = response.data
+          } catch (error) {
+              console.error("Error fetching airport names:", error);
+              return []; // Return an empty array in case of an error
+          }
+      }
+
+      async function getAirports() {
+          try {
+              let url = '/flights/airports';
+              let response = await fetch(url);
+
+              if (!response.ok) {
+                  throw new Error(`HTTP error! Status: ${response.status}`);
+              }
+              response = await response.json();
+              console.log(response.data)
+              Airports = response.data
+          } catch (error) {
+              console.error("Error fetching airport names:", error);
+              return []; // Return an empty array in case of an error
+          }
+      }
+
+      async function showBookingDetails(id) {
+          getAirports().then(async () => {
+
+              await getAirlineNames()
+
+              let formData = new FormData();
+
+              formData.append("bookingId", id);
+
+              let res = await fetch('/flights/getTicketDetails', {
+                  method: "POST",
+                  body: formData
+              });
+
+              res = await res.json();
+
+              console.log(res)
+              row = res.response[0];
+
+
+              let bookingDetail = row;
+
+              let sector = bookingDetail.SectorJson
+
+              let pass = bookingDetail.PassengerJson
+
+              let segment = bookingDetail.SegmentJson
+
+              document.getElementById("rbt").onclick = function () {
+                  releaseBooking(`${row.token_id}`)
+              }
+
+              document.getElementById("cbt").onclick = function () {
+                  confirmBooking(`${row.trace_id}`, `${row.GDSPNR}`)
+              }
+
+              let ans = ``;
+
+              ans += `
+<h5>Booking Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-center">TDO Reference Id</th>
+                <th class="text-center">Booked On</th>
+                <th class="text-center">Amount Payable</th>
+                <th class="text-center">Hold Til Date</th>
+                <th class="text-center">Ticket Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-center">${row.booking_id}</td>
+                <td class="text-center">
+  ${new Date(row.booking_date_time).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(row.booking_date_time).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs
+</td>
+                <td class="text-center">${row.agent_amount}</td>
+                <td class="text-center">
+  ${new Date(row.hold_date).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(row.hold_date).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs</td>
+                <td class="text-center" style="color: red">${row.ticket_status}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h5>Flight Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-center">Flight</th>
+                <th class="text-center">Fare Type</th>
+                <th class="text-center">Trip Type</th>
+                <th class="text-center">Departure</th>
+                <th class="text-center">Arrival</th>
+                <th class="text-center">Departure Airport</th>
+                <th class="text-center">Arrival Airport</th>
+                <th class="text-center">Duration</th>
+            </tr>
+        </thead>
+        <tbody>`
+
+
+              for (let trip = 0; trip < sector.length; trip++) {
+                  let flight = sector[trip];
+                  let airline = Airlines.find(a => a.Code === flight.airline_code);
+                  let Dairline = Airports.find(a => a.AirportCode === flight.departure_airport_name);
+                  let Aairline = Airports.find(a => a.AirportCode === flight.arrival_airport_name);
+                  let airlineName = airline ? airline.Name : flight.airline_code;
+                  let DepartureCityName = Dairline ? Dairline.CityName : flight.airline_code;
+                  let ArrivalCityName = Aairline ? Aairline.CityName : flight.airline_code;
+                  let DepartureAirportName = Dairline ? Dairline.AirportName : flight.departure_airport_name;
+                  let ArrivalAirportName = Aairline ? Aairline.AirportName : flight.arrival_airport_name;
+
+
+                  ans += `
+            <tr>
+<td class="nowrap text-center">
+        <img src="https://content.airhex.com/content/logos/airlines_${flight.airline_code}_30_30_s.png"/>
+
+<br>${airlineName}(${flight.airline_code}-${flight.flight_number})</td>
+
+</td>
+ <td class="col-lg-1 col-sm-1 nowrap" style="word-wrap: break-word;" id="fareType">${flight.fare_type}</td>
+        <td  id="fare" class="nowrap">${bookingDetail.trip_type}</td>
+        <td id="departure" class="nowrap text-center">
+${new Date(flight.departure).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(flight.departure).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs
+</td>
+
+        <td  id="arrival" class="nowrap text-center">
+${new Date(flight.arrival).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(flight.arrival).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs       </td>
+        <td class="nowrap text-center">
+${DepartureAirportName} <br>(${DepartureCityName})
+</td>
+ <td class="nowrap text-center">
+${ArrivalAirportName} <br>(${ArrivalCityName})
+</td>
+        <td  id="duration" class="nowrap text-center">${formatDuration(flight.duration)}</td>
+</tr>
+            `
+              }
+              ans += `</tbody>
+    </table>
+</div>
+
+<h5>Segment Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-center">Flight</th>
+                <th class="text-center">Origin</th>
+                <th class="text-center">Destination</th>
+                <th class="text-center">Departure</th>
+                <th class="text-center">Arrival</th>
+                <th class="text-center">Departure Airport</th>
+                <th class="text-center">Arrival Airport</th>
+                <th class="text-center">Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+
+`
+              for (let seg = 0; seg < segment.length; seg++) {
+                  let singleSegment = segment[seg];
+                  let airline = Airlines.find(a => a.Code === singleSegment.airline_code);
+                  let airlineName = airline ? airline.Name : flight.airline_code;
+                  let Dairline = Airports.find(a => a.AirportCode === singleSegment.departure_airport_name);
+                  let Aairline = Airports.find(a => a.AirportCode === singleSegment.arrival_airport_name);
+                  let DepartureCityName = Dairline ? Dairline.CityName : singleSegment.airline_code;
+            let DepartureCityCode = Dairline ? Dairline.CityCode : singleSegment.airline_code;
+
+            let ArrivalCityName = Aairline ? Aairline.CityName : singleSegment.airline_code;
+            let ArrivalCityCode = Aairline ? Aairline.CityCode : singleSegment.airline_code;
+                  let DepartureAirportName = Dairline ? Dairline.AirportName : singleSegment.departure_airport_name;
+                  let ArrivalAirportName = Aairline ? Aairline.AirportName : singleSegment.arrival_airport_name;
+
+                  ans += `
+           <tr style="text-align: center">
+<td class="nowrap text-center">
+        <img src="https://content.airhex.com/content/logos/airlines_${singleSegment.airline_code}_30_30_s.png"/>
+
+<br>${airlineName}(${singleSegment.airline_code}-${singleSegment.flight_number})</td>
+
+</td>
+<td class="nowrap text-center">${DepartureCityName}(${DepartureCityCode})</td>
+<td class="nowrap text-center">${ArrivalCityName}(${ArrivalCityCode}) </td>
+<td class="nowrap text-center">
+${new Date(singleSegment.departure).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(singleSegment.departure).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs
+</td>
+<td class="nowrap text-center">
+${new Date(singleSegment.arrival).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'})} <br>
+  ${new Date(singleSegment.arrival).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit', hour12: false})} Hrs</td>
+<td class="nowrap text-center">${DepartureAirportName} <br>(${DepartureCityName})</td>
+<td class="nowrap text-center">${ArrivalAirportName} <br>(${ArrivalCityName})</td>
+<td class="nowrap text-center">${formatDuration(singleSegment.duration)}</td>
+</tr>
+            `
+              }
+
+              ans += `</tbody>
+    </table>
+</div>
+
+<h5>Passenger Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-center">Name & FF</th>
+                <th class="text-center">Pax Type</th>
+                <th class="text-center">Ticket Status</th>
+<th class="text-center">Extra Meal</th>
+<th class="text-center">Extra Baggage</th>
+            </tr>
+        </thead>
+        <tbody>
+        `
+
+// Group passengers by unique identifier (e.g., ticket_no)
+              let passengerMap = new Map();
+
+              pass.forEach(passenger => {
+                  let key = `${passenger.first_name}${passenger.last_name}`; // Unique key for each passenger
+                  if (!passengerMap.has(key)) {
+                      passengerMap.set(key, {
+                          salutation: passenger.salutation,
+                          first_name: passenger.first_name,
+                          last_name: passenger.last_name,
+                          pax_type: passenger.pax_type,
+                          ticket_no: passenger.ticket_no,
+                          meals: [],
+                          baggages: []
+                      });
+                  }
+                  // Aggregate meal and baggage data
+                  if (passenger?.ssr_data?.length > 0) {
+                      let meals = passenger.ssr_data.filter(item => item.ssr_type === 'meal');
+                      let baggages = passenger.ssr_data.filter(item => item.ssr_type === 'Baggage');
+                      meals.forEach(meal => passengerMap.get(key).meals.push(meal));
+                      baggages.forEach(baggage => passengerMap.get(key).baggages.push(baggage));
+                  }
+              });
+
+// Generate table rows for consolidated passenger data
+              let paxIndex = 1;
+
+              passengerMap.forEach((data, key) => {
+                  ans += `
+    <tr style="text-align: center">
+        <td class="text-center">${paxIndex++} - ${data.salutation} ${data.first_name} ${data.last_name}</td>
+        <td class="text-center">${data.pax_type}</td>
+        <td class="text-center">${data.ticket_no}</td>
+        <td class="text-center">`;
+
+                  if (data.meals.length > 0) {
+                      data.meals.forEach(m => {
+                          ans += `(${m?.origin || 'Nil'}) - (${m?.destination || 'Nil'}) <br>${m?.description || 'Nil'}<br><br>`;
+                      });
+                  } else {
+                      ans += `Nil`;
+                  }
+                  ans += `</td><td class="text-center">`;
+
+                  if (data.baggages.length > 0) {
+                      data.baggages.forEach(b => {
+                          ans += ` (${b?.origin || 'Nil'}) - (${b?.destination || 'Nil'}) <br>${b?.description || 'Nil'}<br><br>`;
+                      });
+                  } else {
+                      ans += `Nil`;
+                  }
+                  ans += `</td></tr>`;
+              });
+              ans += `</tbody>
+    </table>
+</div>`;
+
+              let ticket = `
+
+                <table class="table">
+
+                    <thead style="background-color: #ec3e3e !important; color: white">
+                    <tr>
+                     <th style="background-color: #ec3e3e !important;"><i class="fas fa-user-tie"></i> With Agent Detail</th>
+                     <th style="background-color: #ec3e3e !important;"><i class="fas fa-user-slash"></i> Without Agent Details</th>
+                    </tr>
+                    </thead>
+<tbody>
+<tr>
+    <td> <a href="/flights/ticket/${row.trace_id}/ai" target="_blank"><button class="print-button">  <i class="fas fa-check"></i>  Including Price</button></a></td>
+    <td> <a href="/flights/ticket/${row.trace_id}/wi" target="_blank"><button class="print-button">  <i class="fas fa-check"></i>  Including Price</button></a></td>
+</tr>
+<tr>
+    <td> <a href="/flights/ticket/${row.trace_id}/ae" target="_blank"><button class="print-button">  <i class="fas fa-times"></i>  Excluding Price</button></a></td>
+    <td> <a href="/flights/ticket/${row.trace_id}/we" target="_blank"><button class="print-button">  <i class="fas fa-times"></i>  Excluding Price</button></a></td>
+</tr>
+</tbody>
+                </table>
+        `
+              document.getElementById("result").innerHTML = ans;
+              document.getElementById("myans").innerHTML = ticket;
+          })
+      }
+
+   async function releaseBooking(id)
+    {
+
+     
+        let fd = new FormData();
+
+        fd.append("id",id);
+        let res = await fetch('/flights/releaseBooking', {
+            method : "POST",
+            body : fd
+        });
+
+        res = await res.json();
+
+        console.log(res);
+
+        if(res.error === false)
+        {
+            partyPopper()
+        }
+        else
+        {
+            Swal.fire({ icon:'error' , title : res.message});
+        }
+    }
+
+
+    async function confirmBooking(traceid,gdspnr)
+    {
+
+        let fd = new FormData();
+
+        fd.append("traceid",traceid);
+        fd.append("gdspnr",gdspnr);
+        let res = await fetch('/flights/confirmBooking', {
+            method : "POST",
+            body : fd
+        });
+
+        res = await res.json();
+
+        console.log(res);
+
+        if(res.error === false)
+        {
+            confirmPopper();
+        }
+        else
+        {
+            alert('Error Occurred')
+        }
+    }
+
+
+    function confirmPopper() {
+        // Hide the modal if it's already open
+        $('#modals').modal('hide');
+        $('#modalp').modal('hide');
+        $('#modalr').modal('hide');
+
+        // Window dimensions
+        let W = window.innerWidth;
+        let H = window.innerHeight;
+
+        // Get the canvas and context for drawing confetti
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+        const maxConfettis = 150;
+        const particles = [];
+
+        // Array of possible confetti colors
+        const possibleColors = [
+            "DodgerBlue", "OliveDrab", "Gold", "Pink", "SlateBlue", "LightBlue",
+            "Gold", "Violet", "PaleGreen", "SteelBlue", "SandyBrown", "Chocolate",
+            "Crimson"
+        ];
+
+        // Helper function to generate random numbers between a range
+        function randomFromTo(from, to) {
+            return Math.floor(Math.random() * (to - from + 1) + from);
+        }
+
+        // Particle class for confetti
+        function confettiParticle() {
+            this.x = Math.random() * W; // x
+            this.y = Math.random() * H - H; // y
+            this.r = randomFromTo(11, 33); // radius
+            this.d = Math.random() * maxConfettis + 11;
+            this.color = possibleColors[Math.floor(Math.random() * possibleColors.length)];
+            this.tilt = Math.floor(Math.random() * 33) - 11;
+            this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
+            this.tiltAngle = 0;
+
+            this.draw = function() {
+                context.beginPath();
+                context.lineWidth = this.r / 2;
+                context.strokeStyle = this.color;
+                context.moveTo(this.x + this.tilt + this.r / 3, this.y);
+                context.lineTo(this.x + this.tilt, this.y + this.tilt + this.r / 5);
+                return context.stroke();
+            };
+        }
+
+        // Draw confetti particles on the canvas
+        function Draw() {
+            const results = [];
+
+            // Request animation frame to keep the animation going
+            requestAnimationFrame(Draw);
+
+            // Clear the canvas and draw each confetti particle
+            context.clearRect(0, 0, W, window.innerHeight);
+
+            for (let i = 0; i < maxConfettis; i++) {
+                results.push(particles[i].draw());
+            }
+
+            let particle = {};
+            let remainingFlakes = 0;
+
+            // Update the position of each particle
+            for (let i = 0; i < maxConfettis; i++) {
+                particle = particles[i];
+
+                // Animate confetti
+                particle.tiltAngle += particle.tiltAngleIncremental;
+                particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
+                particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+
+                // Count how many confetti particles are still visible
+                if (particle.y <= H) remainingFlakes++;
+
+                // Reset particle when it goes out of view
+                if (particle.x > W + 30 || particle.x < -30 || particle.y > H) {
+                    particle.x = Math.random() * W;
+                    particle.y = -30;
+                    particle.tilt = Math.floor(Math.random() * 10) - 20;
+                }
+            }
+
+            return results;
+        }
+
+        // Resize event to update canvas size dynamically
+        window.addEventListener(
+            "resize", function() {
+                W = window.innerWidth;
+                H = window.innerHeight;
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            },
+            false
+        );
+
+        // Create confetti particles
+        for (let i = 0; i < maxConfettis; i++) {
+            particles.push(new confettiParticle());
+        }
+
+        // Initialize the canvas size and start the animation
+        canvas.width = W;
+        canvas.height = H;
+        Draw();
+
+        // Show the modal with the success message and OK button
+        $('#popper').modal('show');
+
+        // Add custom HTML for success message and OK button
+        $('body').append(`
+        <div id="successMessage" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 2rem; z-index: 9999;">
+            <div style="margin-bottom: 20px; font-weight: bold; font-size: 2.5rem;"><span style='font-size:100px;'>&#128512;</span><br>Your Booking has been Released!</div>
+             <button id="okButton" style="padding: 10px 20px; font-size: 1rem; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">OK</button>
+        </div>
+    `);
+
+        // Ensure the canvas is behind all other elements by explicitly setting its z-index
+        canvas.style.position = "absolute";
+        canvas.style.top = "0";
+        canvas.style.left = "0";
+        canvas.style.zIndex = "1";  // Canvas stays behind the modal and success message
+
+
+        // Button click handler to close the modal and reset the background
+        $('#okButton').on('click', function() {
+            $('#popper').modal('hide');
+           
+            context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+            window.location.href = '/flights/viewTicketedBookings'
+        });
+    }
+
+
+    function partyPopper() {
+        // Hide the modal if it's already open
+        $('#modals').modal('hide');
+        $('#modalp').modal('hide');
+        $('#modalr').modal('hide');
+
+        // Window dimensions
+        let W = window.innerWidth;
+        let H = window.innerHeight;
+
+        // Get the canvas and context for drawing confetti
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+        const maxConfettis = 150;
+        const particles = [];
+
+        // Array of possible confetti colors
+        const possibleColors = [
+            "DodgerBlue", "OliveDrab", "Gold", "Pink", "SlateBlue", "LightBlue",
+            "Gold", "Violet", "PaleGreen", "SteelBlue", "SandyBrown", "Chocolate",
+            "Crimson"
+        ];
+
+        // Helper function to generate random numbers between a range
+        function randomFromTo(from, to) {
+            return Math.floor(Math.random() * (to - from + 1) + from);
+        }
+
+        // Particle class for confetti
+        function confettiParticle() {
+            this.x = Math.random() * W; // x
+            this.y = Math.random() * H - H; // y
+            this.r = randomFromTo(11, 33); // radius
+            this.d = Math.random() * maxConfettis + 11;
+            this.color = possibleColors[Math.floor(Math.random() * possibleColors.length)];
+            this.tilt = Math.floor(Math.random() * 33) - 11;
+            this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
+            this.tiltAngle = 0;
+
+            this.draw = function() {
+                context.beginPath();
+                context.lineWidth = this.r / 2;
+                context.strokeStyle = this.color;
+                context.moveTo(this.x + this.tilt + this.r / 3, this.y);
+                context.lineTo(this.x + this.tilt, this.y + this.tilt + this.r / 5);
+                return context.stroke();
+            };
+        }
+
+        // Draw confetti particles on the canvas
+        function Draw() {
+            const results = [];
+
+            // Request animation frame to keep the animation going
+            requestAnimationFrame(Draw);
+
+            // Clear the canvas and draw each confetti particle
+            context.clearRect(0, 0, W, window.innerHeight);
+
+            for (let i = 0; i < maxConfettis; i++) {
+                results.push(particles[i].draw());
+            }
+
+            let particle = {};
+            let remainingFlakes = 0;
+
+            // Update the position of each particle
+            for (let i = 0; i < maxConfettis; i++) {
+                particle = particles[i];
+
+                // Animate confetti
+                particle.tiltAngle += particle.tiltAngleIncremental;
+                particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
+                particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+
+                // Count how many confetti particles are still visible
+                if (particle.y <= H) remainingFlakes++;
+
+                // Reset particle when it goes out of view
+                if (particle.x > W + 30 || particle.x < -30 || particle.y > H) {
+                    particle.x = Math.random() * W;
+                    particle.y = -30;
+                    particle.tilt = Math.floor(Math.random() * 10) - 20;
+                }
+            }
+
+            return results;
+        }
+
+        // Resize event to update canvas size dynamically
+        window.addEventListener(
+            "resize", function() {
+                W = window.innerWidth;
+                H = window.innerHeight;
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            },
+            false
+        );
+
+        // Create confetti particles
+        for (let i = 0; i < maxConfettis; i++) {
+            particles.push(new confettiParticle());
+        }
+
+        // Initialize the canvas size and start the animation
+        canvas.width = W;
+        canvas.height = H;
+        Draw();
+
+        // Show the modal with the success message and OK button
+        $('#popper').modal('show');
+
+        // Add custom HTML for success message and OK button
+        $('body').append(`
+        <div id="successMessage" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 2rem; z-index: 9999;">
+            <div style="margin-bottom: 20px; font-weight: bold; font-size: 2.5rem;"><span style='font-size:100px;'>&#128512;</span><br>Your Booking has been Released!</div>
+             <button id="okButton" style="padding: 10px 20px; font-size: 1rem; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">OK</button>
+        </div>
+    `);
+
+        // Ensure the canvas is behind all other elements by explicitly setting its z-index
+        canvas.style.position = "absolute";
+        canvas.style.top = "0";
+        canvas.style.left = "0";
+        canvas.style.zIndex = "1";  // Canvas stays behind the modal and success message
+
+
+        // Button click handler to close the modal and reset the background
+        $('#okButton').on('click', function() {
+            $('#popper').modal('hide');
+           
+            context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+            window.location.href = '/flights/viewReleasedBookings'
+        });
+    }
+
+</script>
+</body>
+</html>

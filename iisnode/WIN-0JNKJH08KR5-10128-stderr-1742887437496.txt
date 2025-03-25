@@ -1,0 +1,11 @@
+(node:10128) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error connecting to the database: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (C:\TDO\Dubai\tdo-dubai-phase-1\node_modules\mysql2\lib\connection.js:205:17)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}

@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TDO DXB | Flights </title>
+    <%- include('../partials/header2') %>
+
+    <style>
+        .paginate_button.previous  {
+            /*font-size: 12px !important;*/
+            width: 85px !important;
+        }
+    </style>
+</head>
+<body onload="fetchAllBookings()">
+<div id="preloader">
+    <div class="loader">
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--text"></div>
+    </div>
+</div>
+<div id="main-wrapper">
+    <%- include('../partials/navbar2') %>
+    <%- include('../partials/sidebar2') %>
+    <div class=" content-body default-height">
+        <!-- row -->
+        <div class="container-fluid">
+<!--            <div class="row page-titles">-->
+<!--                <ol class="breadcrumb">-->
+                    <!--                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Logs</a></li>-->
+<!--                </ol>-->
+<!--            </div>-->
+            <div class="col-12">
+                <div class="card">
+                    <card class="card-header">
+                        <h3>Released Bookings</h3>
+                    </card>
+                    <!--                    <div class="card-header">-->
+                    <!--                        <h3 class="card-title">Logs</h3>-->
+                    <!--                    </div>-->
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="result" class="table-responsive">
+                                <i class="spinner-grow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('../partials/footer2') %>
+</div>
+<div class="modal fade" id="detailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog bg-white modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">View Booking Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body table-responsive" id="bResult" >
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary mt-2" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let row = [];
+    async function fetchAllBookings()
+    {
+        let res = await fetch('/flights/releasedBookings',{
+            method : 'POST'
+        });
+
+        res = await res.json();
+
+        console.log(res)
+
+        if(res.error === false)
+        {
+             row = res.response;
+
+            console.log(row.length)
+
+            let result = `<table class="hover" id="ttable">
+<thead>
+<tr class="text-center">
+<th>Details</th>
+<th>Serial No.</th>
+<th>Booking Id</th>
+<th>Trip Type</th>
+<th>Total No. of Pax</th>
+<th>Booking Status</th>
+<th>Agent Amount</th>
+<th>Primary Pax Name</th>
+<th>Sector</th>
+<th>PNR</th>
+<th>Booked On</th>
+</tr>
+</thead><tbody>`;
+
+            for(let a = 0; a<row.length; a++)
+            {
+                let passengers = row[a].PassengerJson;
+                let sector = row[a].SectorJson;
+                console.log(JSON.parse(row[a].booking_response_json).Flights[0].AirlinePNR)
+                let PNR = JSON.parse(row[a].booking_response_json).Flights[0].AirlinePNR
+
+                let passengerName = (passengers && passengers.length > 0) ?
+                    `${passengers[0].first_name} ${passengers[0].last_name}` : "N/A";
+                let sectorName = (sector && sector.length > 0) ?
+                    `${sector[0].origin} - ${sector[0].destination}` : "N/A";
+
+                result += `
+    <tr class="text-center">
+<td>
+  <a href="/flights/released_booking_details/${row[a].trace_id}" target="_blank"><button type="button" class="btn btn-warning">
+    <i class='fa fa-eye'></i>
+  </button></a>
+</td>
+        <td class="text-lg-center text-center">${a + 1}</td>
+        <td class="text-lg-center text-center">${row[a].booking_id}</td>
+        <td class="text-lg-center text-center">${row[a].trip_type}</td>
+        <td class="text-lg-center text-center">${row[a].total_no_of_pax}</td>
+        <td class="text-lg-center text-center" style="color : ${(row[a].ticket_status === 'Ticketed') ? 'green' : 'red'}">${row[a].ticket_status}</td>
+        <td class="text-lg-center text-center">${row[a].agent_amount}</td>
+        <td class="text-lg-center text-center">${passengerName}</td>
+        <td class="text-lg-center text-center">${sectorName}</td>
+        <td class="text-lg-center text-center">${PNR}</td>
+        <td class="text-lg-center text-center">${new Date(row[a].booking_date_time).toLocaleDateString('en-GB')} <br> ${new Date(row[a].booking_date_time).toLocaleTimeString('en-GB', { hour12: false })}</td>
+    </tr>
+`
+                console.log(result)
+            }
+
+
+            result += `</tbody></table>`;
+            document.getElementById("result").innerHTML = result
+
+            $('#ttable').DataTable( {
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'csv',
+                        text: 'Export To CSV',
+                        className: "btn btn-success"
+                    }
+                    ,
+                    {
+                        extend: 'excel',
+                        text: 'Export To Excel',
+                        className: "btn btn-success"
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        text: 'Export to PDF',
+                        filename: function(){
+
+                            return "test"
+                        },
+                        orientation: 'landscape',
+                        pageSize: 'LEGAL',
+                        className: 'btn btn-success',
+                        titleAttr: 'PDF'
+                    }
+                ],
+                order: [[2, 'desc']] // Default sort order set to descending on the first column
+            } );
+
+
+        }
+    }
+
+    async function showBookingDetails(id)
+    {
+        let bookingDetail = row[id];
+
+        let sector = JSON.parse(bookingDetail.SectorJson)
+
+        let pass = JSON.parse(bookingDetail.PassengerJson)
+
+        let segment = JSON.parse(bookingDetail.SegmentJson)
+
+        let ans = ``;
+
+        ans+=`
+<h5>Booking Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>TDO Reference Id</th>
+                <th>Booked On</th>
+                <th>Total Amount Paid</th>
+                <th>Platform Fees</th>
+                <th>Platform Tax</th>
+                <th>Ticket Status</th>
+                <th>Markup By Agent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>${row[id].booking_id}</td>
+                <td>${row[id].booking_date_time}</td>
+                <td>${row[id].agent_amount}</td>
+                <td>${row[id].platform_fee}</td>
+                <td>${row[id].platform_tax}</td>
+                <td>${row[id].ticket_status}</td>
+                <td>${row[id].agent_markup}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h5>Flight Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>Fare Type</th>
+                <th>Trip Type</th>
+                <th>Departing</th>
+                <th>Arriving</th>
+                <th>Departure Airport</th>
+                <th>Arrival Airport</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>`
+
+        for(let trip = 0; trip<sector.length; trip++)
+        {
+            let flight = sector[trip];
+            let airline = flight.airline_name;
+            let flight_number = flight.flight_number
+            let departure = flight.destination
+            let travel_date = flight.departure
+            let arrival = flight.arrival
+            let arrival_airport = flight.arrival_airport_name
+            let departure_airport = flight.departure_airport_name
+
+            ans+=`
+            <tr>
+<td>
+ <table style="width:75%;">
+        <tr>
+        <td>
+        <img src="https://content.airhex.com/content/logos/airlines_${flight.airline_code}_30_30_s.png"/>
+</td>
+<td>${flight.airline_name}(${flight.airline_code}-${flight.flight_number})</td>
+</tr>
+</table>
+</td>
+ <td class="col-lg-1 col-sm-1" style="word-wrap: break-word;" id="fareType">${flight.fare_type}</td>
+        <td  id="fare">${bookingDetail.trip_type}</td>
+        <td  id="departure">
+            ${flight.departure}
+        </td>
+        <td  id="arrival">
+            ${flight.arrival}
+        </td>
+        <td>
+${flight.departure_airport_name}
+</td>
+ <td>
+${flight.arrival_airport_name}
+</td>
+        <td  id="duration">${flight.duration}</td>
+</tr>
+            `
+        }
+        ans+=`</tbody>
+    </table>
+</div>
+
+<h5>Segment Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Departure</th>
+                <th>Arrival</th>
+                <th>Departure Airport</th>
+                <th>Arrival Airport</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+
+`
+        for(let seg = 0; seg<segment.length; seg++)
+        {
+            let singleSegment = segment[seg];
+
+            ans+=`
+           <tr style="text-align: center">
+<td>
+ <table style="width:75%;">
+        <tr>
+        <td>
+        <img src="https://content.airhex.com/content/logos/airlines_${singleSegment.airline_code}_30_30_s.png"/>
+</td>
+<td>${singleSegment.airline_name}(${singleSegment.airline_code}-${singleSegment.flight_number})</td>
+</tr>
+</table>
+</td>
+<td>${singleSegment.origin}</td>
+<td>${singleSegment.destination} </td>
+<td>${singleSegment.departure} </td>
+<td>${singleSegment.arrival}</td>
+<td>${singleSegment.departure_airport_name}</td>
+<td>${singleSegment.arrival_airport_name}</td>
+<td>${singleSegment.duration}</td>
+</tr>
+            `
+        }
+
+        ans+=`</tbody>
+    </table>
+</div>
+
+<h5>Passenger Details</h5>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>Name & FF</th>
+                <th>Pax Type</th>
+                <th>Ticket Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        `
+        for(let pax = 0; pax<pass.length; pax++)
+        {
+            let passenger = pass[pax];
+
+            ans+=`
+           <tr style="text-align: center">
+<td>${pax + 1}</td>
+<td>${passenger.salutation + " " + passenger.first_name + " " + passenger.last_name}</td>
+<td>${passenger.pax_type} </td>
+<td style="color: green">${passenger.passenger_booking_status} </td>
+
+</tr>
+            `
+        }
+        ans+=`</tbody>
+    </table>
+</div>`;
+document.getElementById("bResult").innerHTML = ans;
+    }
+
+</script>
+</body>
+</html>

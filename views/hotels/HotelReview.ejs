@@ -1,0 +1,2800 @@
+<html>
+<head>
+    <%- include('../partials/header2') %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-735HL7429H&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-40214028-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40214028-3');
+    </script>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDO:: Hotel Review</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="/GRNCSS/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css"> -->
+    <link rel="stylesheet" href="/GRNCSS/style.css">
+    <!--    <script src="/v4/components/jquery-3.3.1.min.js"></script>-->
+
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Add jQuery Validate Plugin -->
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+
+    <script src="/v4/js/common.dev.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            var dateToday = new Date();
+            var randomnumber = Math.floor(Math.random() * 1000000)
+
+            var url;
+
+            $(function () {
+                $('.datepicker').datepick({
+                    monthsToShow: 2,
+                    monthsOffset: 0,
+                    dateFormat: 'dd/mm/yyyy',
+                    monthsToStep: 1,
+
+                    minDate: dateToday,
+                    onSelect: function (selectedDate) {
+
+                        daydiffEx();
+                        filldate();
+
+                    }
+                });
+
+            });
+
+
+
+        });
+    </script>
+    <!-- CSS for Tab Menu #3 -->
+    <script type="text/javascript" src="/js/ddaccordion.js">
+        /***********************************************
+         * Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+         * Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+         * This notice must stay intact for legal use
+         ***********************************************/
+
+    </script>
+    <script type="text/javascript" src="/js/header.js"></script>
+    <script language="javascript" type="text/javascript">
+        function displayWindow(strWindow, strlocation) {
+            //			var url;
+            //			url='/p/handler.aspx?command=open&window=' + strWindow;
+            //			//$(".leftCol").load(url);
+            //
+            //			$.get(url,function(data) {
+            //				$('.leftCol').append(data);
+            //			});
+            //$("a.mylink").attr("href", "/GetHTMScreen.aspx?command=" + strWindow);
+            //$("#various3").trigger('click');
+
+            $("iframe.ifmcontent").attr("src", "/GetHTMScreen.aspx?command=" + strWindow);
+        }
+
+        function loadControl(strWindow, strlocation) {
+            var url;
+            url = '/p/handler.aspx?command=load&window=' + strWindow + '&ct=' + strlocation;
+            //$(".leftCol").load(url);
+
+            $.get(url, function (data) {
+                //alert(data);
+                $('#' + strlocation).html(data);
+            });
+
+        }
+
+        function loadControlEx(strWindow, strlocation) {
+            var url;
+            url = '/p/handler.aspx?command=load&window=' + strWindow + '&ct=' + strlocation;
+            //$(".leftCol").load(url);
+
+            $.get(url, function (data) {
+                //alert(data);
+                $('#' + strlocation + 'Box').html(data);
+            });
+
+        }
+
+        function addLoadEvent(applyOnSubmitToForms) {
+
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = applyOnSubmitToForms();
+            }
+            else {
+                window.onload = function () {
+                    oldonload();
+                    applyOnSubmitToForms();
+                }
+            }
+        }
+
+
+
+
+
+        function doUpdateForm(frmid, box) {
+            //var frmid=frm.form.id;
+            // alert("agent setup Header");
+            //addLoadEvent(applyOnSubmitToForms);
+
+            var str = $("#" + frmid).serialize();
+            //       alert(str);
+            $.post("/handler/post.aspx", str, function (data) {
+
+                var d = data.split(":", 2);
+
+                if (d[0] == 'success') {
+                    //alert(data)
+
+                    $('#results').html('<ul class="message success no-margin"><li>' + data.replace('success:', '') + '</li></ul>');
+
+                }
+                else {
+                    //$('#results').html('<ul class="message error no-margin"><li>' + data.replace('failed:','') + '</li></ul>');
+                    alert(data.replace('failed:', ''));
+                }
+
+            });
+            return false;
+        }
+
+        function doSubmitForm(frmid, box) {
+            //var frmid=frm.form.id;
+
+            //addLoadEvent(applyOnSubmitToForms);
+
+            var str = $("#" + frmid).serialize();
+            //       alert(str);
+            $.post("/handler/post.aspx", str, function (data) {
+
+                var d = data.split(":", 2);
+
+                if (d[0] == 'success') {
+                    //alert(data)
+
+                    $('#results').html('<ul class="message success no-margin"><li>' + data.replace('success:', '') + '</li></ul>');
+
+                    ClearForm(frmid);
+                }
+                else {
+                    //$('#results').html('<ul class="message error no-margin"><li>' + data.replace('failed:','') + '</li></ul>');
+                    alert(data.replace('failed:', ''));
+                }
+
+            });
+            return false;
+        }
+
+
+        function doExecuteCommand(val1, val2) {
+            //var frmid=frm.form.id;
+            //alert(val1)
+
+            $.post("/handler/post.aspx", { command: val1, param: val2 }, function (data) {
+
+                var d = data.split(":", 2);
+                //	alert(data)
+                if (d[0] == 'success') {
+                    //alert(data.replace('success:',''));
+
+                    //$('#results').html('<' + 'script' + '>alert(' + data.replace('success:','') + ')<' + '/script' + '>');
+                }
+                else {
+                    //alert(data.replace('failed:',''));
+                    // $('#results').html('<' + 'script' + '>alert(' + data.replace('failed:','') + ')<' + '/script' + '>');
+                }
+                window.location = '#top';
+            });
+            return false;
+        }
+
+        function doExecuteCommandandTransfer(val1, val2, val3) {
+            //var frmid=frm.form.id;
+            //alert(val1)
+
+            $.post("/handler/post.aspx", { command: val1, param: val2 }, function (data) {
+
+                var d = data.split(":", 2);
+                //	alert(data)
+                if (d[0] == 'success') {
+                    window.location = val3;
+
+                    //$('#results').html('<' + 'script' + '>alert(' + data.replace('success:','') + ')<' + '/script' + '>');
+                }
+                else {
+                    alert(data.replace('failed:', ''));
+                    // $('#results').html('<' + 'script' + '>alert(' + data.replace('failed:','') + ')<' + '/script' + '>');
+                }
+                window.location = '#top';
+            });
+            return false;
+        }
+
+
+        function doExecuteCommandEx(val1, val2) {
+            $.post("/handler/post.aspx", { command: val1, param: val2 }, function (data) {
+                var d = data.split(":", 2);
+                if (d[0] == 'success') {
+                    alert(data.replace('success:', ''));
+                    doSearch('frm', 'frm_box');
+                }
+                else {
+                    alert(data.replace('failed:', ''));
+                }
+            });
+            return false;
+        }
+
+        function doExecuteCommandExNoRefresh(val1, val2) {
+            $.post("/handler/post.aspx", { command: val1, param: val2 }, function (data) {
+                var d = data.split(":", 2);
+                if (d[0] == 'success') {
+                    alert(data.replace('success:', ''));
+                }
+                else {
+                    alert(data.replace('failed:', ''));
+                }
+            });
+            return false;
+        }
+
+    </script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            var dateToday = new Date();
+            var randomnumber = Math.floor(Math.random() * 1000000)
+
+            var url;
+
+            $(function () {
+                $('.datepicker').datepick({
+                    monthsToShow: 2,
+                    monthsOffset: 0,
+                    dateFormat: 'dd/mm/yyyy',
+                    monthsToStep: 1,
+
+                    minDate: dateToday,
+                    onSelect: function (selectedDate) {
+
+                        daydiffEx();
+                        filldate();
+
+                    }
+                });
+
+            });
+
+
+
+        });
+
+        // Demo modal
+        function openModal(src) {
+            $.modal({
+                content: '<iframe src="' + src + '" width="800" height="500" scrolling="yes" frameborder="0"></iframe>',
+                title: '',
+                width: 820,
+                height: 520,
+                buttons: {
+                    //'Open new modal': function(win) { openModal(); },
+                    //		'Close': function(win) { win.closeModal(); }
+                }
+            });
+        }
+        function openModalEx(src, width, height, iWidthEx, iHeightEx) {
+            $.modal({
+                content: '<iframe src="' + src + '" width="' + width + '" height="' + height + '" scrolling="no" frameborder="0"></iframe>',
+                title: '',
+                width: iWidthEx,
+                height: iHeightEx,
+                buttons: {
+                    //'Open new modal': function(win) { openModal(); },
+                    //					'Close': function(win) { win.closeModal(); }
+                }
+            });
+        }
+        function openModalWithScroll(src, width, height, iWidthEx, iHeightEx) {
+            $.modal({
+                content: '<iframe src="' + src + '" width="' + width + '" height="' + height + '" scrolling="yes" frameborder="0"></iframe>',
+                title: '',
+                width: iWidthEx,
+                height: iHeightEx,
+                buttons: {
+                    //'Open new modal': function(win) { openModal(); },
+                    //					'Close': function(win) { win.closeModal(); }
+                }
+            });
+        }
+
+        function openModalURL(src, width, height, iWidthEx, iHeightEx) {
+            $.modal({
+                //content: '<iframe src="' + src + '" width="' + width + '" height="' + height + '"  frameborder="0"></iframe>',
+                url: src,
+                //title: 'hello',
+                width: iWidthEx,
+                height: iHeightEx,
+                scrolling: true,
+                buttons: {
+                    //'Open new modal': function(win) { openModal(); },
+                    //					'Close': function(win) { win.closeModal(); }
+                }
+            });
+        }
+
+        function openModalURLEx(src, bookingid) {
+            $.modal({
+                content: '<iframe src="' + src + '" width="800" height="500" scrolling="yes" frameborder="0"></iframe>',
+                title: '',
+                width: 820,
+                height: 520,
+                onClose: function (win) {
+                    ArchiveUnfinishedBookings(bookingid);
+
+                },
+                buttons: {
+                    //'Open new modal': function(win) { openModal(); },
+                    //		'Close': function(win) { win.closeModal(); }
+                }
+            });
+        }
+        function ArchiveUnfinishedBookings(bookingid) {
+
+            doExecuteCommandEx('archiveunfinishedbookings', bookingid);
+
+            return false;
+        }
+    </script>
+    <script type="text/javascript">
+        ddaccordion.init({
+            headerclass: "submenuheader", //Shared CSS class name of headers group
+            contentclass: "submenu", //Shared CSS class name of contents group
+            revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+            mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+            collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+            defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+            onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+            animatedefault: false, //Should contents open by default be animated into view?
+            persiststate: true, //persist state of opened contents within browser session?
+            toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+            togglehtml: ["suffix", "<img src='/images/plus.gif' class='statusicon' />", "<img src='/images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+            animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+            oninit: function (headers, expandedindices) { //custom code to run when headers have initalized
+                //do nothing
+            },
+            onopenclose: function (header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+                //do nothing
+            }
+        })
+
+
+    </script>
+    <style type="text/css">
+        a.hiddenajaxlink{display: none}
+    </style>
+    <script src="/js/validate-controls.js?123"></script>
+
+    <!--My Own CSS-->
+    <link rel="icon" href="/v4/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <style>
+        [class^="icon-"], [class*=" icon-"] {
+            /* use !important to prevent issues with browser extensions that change fonts */
+            font-family: 'icomoon' !important;
+            speak: never;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+
+            /* Better Font Rendering =========== */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+    <style>
+        .refund-notes {
+            display: flex; /* Flexbox layout to place items in a single row */
+            gap: 20px; /* Add spacing between the two paragraphs */
+            align-items: center; /* Vertically align the items */
+        }
+
+        .refund-notes p {
+            margin: 0; /* Remove default margin to keep the items aligned */
+            display: inline-block; /* Make paragraphs behave like inline elements */
+        }
+    </style>
+
+    <link href="/hotels/assets/img/favicons/favicon.png" rel="icon"/>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="/hotels/assets2/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.11.0/sweetalert2.css" integrity="sha512-n1PBkhxQLVIma0hnm731gu/40gByOeBjlm5Z/PgwNxhJnyW1wYG8v7gPJDT6jpk0cMHfL8vUGUVjz3t4gXyZYQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.11.0/sweetalert2.min.js" integrity="sha512-Wi5Ms24b10EBwWI9JxF03xaAXdwg9nF51qFUDND/Vhibyqbelri3QqLL+cXCgNYGEgokr+GA2zaoYaypaSDHLg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .full-screen-swal {
+            width: 100vw; /* Full screen width */
+            height: 100vh; /* Full screen height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(211, 211, 211, 0.85) !important; /* Light gray background with opacity */
+            border-radius: 0;
+            padding: 0;
+            position: fixed; /* Ensures it covers the entire screen */
+            top: 0;
+            left: 0;
+            z-index: 9999; /* Ensures it's above other content */
+        }
+
+        .preloader-image {
+            max-width: 400px; /* Adjust size as needed */
+            width: 400px;
+            height: auto;
+        }
+
+        .loading-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+
+    <!--My Own CSS Ends-->
+
+
+</head>
+<body onload="fetchReview();" >
+<%-include('../partials/topNavbar.ejs')%>
+<div id="outer-wrapper">
+    <input type="hidden" id="roomType" value="<%= roomType %>"/>
+    <input type="hidden" id="hotel" value="<%= hotel %>"/>
+    <input type="hidden" id="rate" value="<%= rate %>"/>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <script type="text/javascript" src="/V4/tabs/tytabs1.jquery.min.js"></script>
+    <script type="text/javascript" src="/V4/js/jquery.autocomplete.js?ver=120"></script>
+    <script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+    <link href="/GRNCSS/myCss.css" rel="stylesheet">
+    <style>
+        .postpaid-top-message {
+            background: #ffecec;
+            border: 1px solid #f5aca6;
+            text-transform: uppercase;
+            font-size:11px!important;
+        }
+        .postpaid-condition2-message {
+            background: #e3f7fc;
+            border: 1px solid #8ed9f6;
+            text-transform: uppercase;
+        }
+        .postpaid-condition1-message {
+            background: #fff8c4;
+            border: 1px solid #f2c779;
+            text-transform: uppercase;
+        }
+        .postpaid-roe-message {
+            background: #e9ffd9;
+            border: 1px solid #a6ca8a;
+            text-transform: uppercase;
+            font-size: 10px;
+        }
+        .alert-box {
+            color: #555;
+            padding: 5px 5px 5px 5px!important;
+            margin-bottom:5px;
+        }
+        #thankyou .middle {
+            margin-top:50px;
+        }
+        #thankyou .middle h2 {
+            font-size:20px;
+            margin-bottom:20px;
+        }
+        #impNotesBoxNew {
+            margin-bottom:10px;}
+    </style>
+    <script type="text/javascript"></script>
+    <script>
+        function showNext(iCur) {
+            alert(iCur);
+            $("#tabz" + iCur).click();
+            return false;
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Corporate Pan Checkbox
+            $("#simple-optional-corporatep").click(function () {
+                if ($(this).is(":checked")) {
+                    $("#corporate_companyname").show();
+                    $("#simple-required-chkagreeLERMS").parents('tr').css("display", "none");
+                    $("#simple-required-chkindemnify").parents('tr').css("display", "none");
+                    $("#simple-required-chkagreeLERMS").prop('checked', false);
+                    $("#simple-required-chkindemnify").prop('checked', false);
+                    $("#simple-optional-companyname").attr('name', 'simple-optional-companyname');
+                } else {
+                    $("#corporate_companyname").hide();
+                    $("#simple-required-chkagreeLERMS").parents('tr').css("display", "table-row");
+                    $("#simple-required-chkindemnify").parents('tr').css("display", "table-row");
+                    $("#simple-optional-companyname").attr('name', 'simple-optional-companyname');
+                }
+            });
+            // new codeTimer Function
+            var pcodeval = "";
+            var statrttimeval = "";
+            var sidval = "";
+            var optioncodeval = "";
+            var timediff = "";
+            var ServiceUrl = "";
+            pcodeval = $("#pcode").val();
+            //To DO
+            if (pcodeval != "" && typeof pcodeval!=='undefined') {
+                ServiceUrl = $("#urlname").val();
+                //alert(pcodeval);
+                sidval = $("#sid").val();
+                statrttimeval = $("#starttime").val();
+                optioncodeval = $("#optioncode").val();
+                var paramval = pcodeval + "-" + sidval + "-" + statrttimeval + "-" + optioncodeval;
+                var url = "/api/providers/GRNConnect/GetActivityBookingRefInfo.aspx?param=" + paramval;
+                GetDataFrompage(url);
+
+            }
+            //TODO
+            function GetDataFrompage(url) {
+                $.ajax({
+                    url: url,
+                    type: "GET",
+                    success: function (data) {
+                        console.log("Page called successfully");
+                        // Handle the response data if needed
+                        var jdata = JSON.parse(data);
+                        //alert(jdata.bookingref);
+                        //alert(jdata.validuntil);
+                        //alert(jdata.timeElapsed);
+                        timestamp = jdata.validuntil;
+                        $('#brcode').val(jdata.bookingref);
+                        $('#valid').val(jdata.pricevaliduntil);
+                        $('#price').val(jdata.price);
+                        $('#remain').val(jdata.timeElapsed);
+                        var apiamount = $('#price').val();
+                        var sup_amount = $('#supplieramount').val();
+                        //var sup_amount = '100';
+                        //if (sup_amount1 > 100) {
+                        //    sup_amount = $('#supplieramount').val();
+                        //}
+                        //alert(sup_amount + "   db");
+                        //alert(apiamount);
+                        if (apiamount != '0.0' && typeof apiamount != 'undefined') {
+                            if (apiamount != sup_amount) {
+                                //alert("Price Changed")
+                                //triggerButton();
+                            }
+                        }
+                    },
+                    error: function (error) {
+                        console.error("Error calling page: " + error.statusText);
+                        //alert(error);
+                    }
+                });
+            }
+
+            //New Code End Optional
+            var a = $('#simple-required-agentname').autocomplete({
+                serviceUrl:'/api/Agents.aspx',
+                minChars:1,
+                delimiter: /(,|;)\s*/, // regex or character
+                maxHeight:400,
+                width:300,
+                zIndex: 9999,
+                deferRequestBy: 0, //miliseconds
+                params: { country:'Yes' }, //aditional parameters
+                noCache: true, //default is false, set to true to disable caching
+                // callback function:
+                onSelect: function(value, data){
+
+
+                    //	alert('You selected: ' + value + ', ' + data);
+                    $("#dfield_form1_Destination").val(data);
+                    //	alert($("#dfield_form1_Destination").val());
+                    //alert ("Load the value of Agent.")
+                    getHotelLatLong(data);
+                },
+                // local autosugest options:
+                //lookup: ['January', 'February', 'March', 'April', 'May'] //local lookup values
+            });
+            //new code start
+            if ($("#pickup_from").is(":checked")) {
+                $("#query_6").attr("name", "simple-optional-q_6");
+            }
+
+            $("#pickup_from").change(function () {
+
+                if ($(this).is(":checked")) {
+                    //alert("pickup");
+                    $("#pickuplist").addClass("show")
+                    $("#pickuplist").removeClass("hide");
+                    $("#entertext").addClass("hide")
+                    $("#entertext").removeClass("show");
+                    $("#query_6").attr("name", "simple-optional-q_6");
+                }
+
+
+            });
+            $('#allowcustom').change(function () {
+                if($(this).is(":checked")) {
+                    // alert("custom");
+                    $("#entertext").addClass("show")
+                    $("#entertext").removeClass("hide");
+                    $("#pickuplist").addClass("hide");
+                    $("#pickuplist").removeClass("show");
+                    $("#query_6").attr("name", "q_6")
+
+                }
+
+            });
+
+            $("#CSL").change(function () {
+                $("#pickuplist").addClass("hide");
+                $("#pickuplist").removeClass("show");
+                $("#entertext").addClass("hide")
+                $("#entertext").removeClass("show");
+                $("#query_6").attr("name", "simple-optional-q_6");
+                // alert("cls click");
+            });
+            // question append
+
+            var arrival = {
+                "air_7": "TRANSFER_AIR_ARRIVAL_AIRLINE", "air_8": "TRANSFER_AIR_ARRIVAL_FLIGHT_NO", "air_12": "TRANSFER_ARRIVAL_TIME", "air_11": "TRANSFER_ARRIVAL_DROP_OFF",
+                "rail_19": "TRANSFER_RAIL_ARRIVAL_LINE", "rail_20": "TRANSFER_RAIL_ARRIVAL_STATION", "rail_12": "TRANSFER_ARRIVAL_TIME", "rail_11": "TRANSFER_ARRIVAL_DROP_OFF",
+                "sea_16": "TRANSFER_PORT_ARRIVAL_TIME", "sea_17": "TRANSFER_PORT_CRUISE_SHIP", "sea_11": "TRANSFER_ARRIVAL_DROP_OFF"
+            };
+            var depature = {
+                "air_9": "TRANSFER_AIR_DEPARTURE_AIRLINE", "air_10": "TRANSFER_AIR_DEPARTURE_FLIGHT_NO", "air_13": "TRANSFER_DEPARTURE_DATE", "air_15": "TRANSFER_DEPARTURE_TIME", "air_14":"TRANSFER_DEPARTURE_PICKUP",
+                "rail_21": "TRANSFER_RAIL_DEPARTURE_LINE", "rail_22": "TRANSFER_RAIL_DEPARTURE_STATION", "rail_13": "TRANSFER_DEPARTURE_DATE", "rail_15": "TRANSFER_DEPARTURE_TIME", "rail_14": "TRANSFER_DEPARTURE_PICKUP",
+                "sea_17": "TRANSFER_PORT_CRUISE_SHIP", "sea_13": "TRANSFER_DEPARTURE_DATE", "sea_18": "TRANSFER_PORT_DEPARTURE_TIME", "sea_14": "TRANSFER_DEPARTURE_PICKUP"
+            };
+
+
+            function showandhideQuestion(arr1, arr2, displaymode) {
+                var newArray = [];
+                if (arr2.length > 0) {
+                    newArray = $.merge($(arr1).not(arr2).get(), $(arr2).not(arr1).get());
+                    console.log(newArray);
+                }
+                else {
+                    newArray = arr1;
+                }
+                if (displaymode == 'none') {
+                    $.each(newArray, function (index, value) {
+                        var id = "#query_" + value;
+                        //alert(id+"-"+"none");
+                        if ($(id).length > 0) {
+                            $('#query_' + value).parent('div').css('display', 'none');
+                            //$('#query_7').removeAttr('name');
+                            $('#query_' + value).attr('name', 'simple-optional-q_' + value);
+                            if (value == "11" || value == "14") {
+                                $('#unit_' + value).parent('div').css('display', 'none');
+                                //$('#query_7').removeAttr('name');
+                                $('#unit_' + value).attr('name', 'simple-optional-u_' + value);
+                            }
+                        }
+                    });
+
+                }
+                if (displaymode == 'block') {
+                    $.each(newArray, function (index, value) {
+                        var id = "#query_" + value;
+                        //alert(id + "-" + "block");
+                        if ($(id).length > 0) {
+                            $('#query_' + value).parent('div').css('display', 'block');
+                            //$('#query_16').removeAttr('name');
+                            $('#query_' + value).attr('name', 'q_' + value);
+                            if (value == "11" || value == "14") {
+                                $('#unit_' + value).parent('div').css('display', 'block');
+                                //$('#query_7').removeAttr('name');
+                                $('#unit_' + value).attr('name', 'u_' + value);
+                            }
+                        }
+                    });
+                }
+            }
+            var Arrival_airid = ["7", "8"];
+            var Arrival_portid = ["16", "17"];
+            var Arrival_trainid = ["19", "20"];
+            var ArrivalCommon_at = ["12"];
+            var Arrival_commonid = ["11"];
+
+            var Depature_airid = ["9", "10"];
+            var Depature_portid = ["17", "18"];
+            var Depature_trainid = ["21", "22"];
+            var DepatureCommon_at = ["15"];
+            var Depature_commonid = ["13", "14"];
+            $(".mode").change(function () {
+                /*alert("The text has been changed.");*/
+                var id = $(this).attr('id');
+                var selectedval = $(this).find(":selected").val().toLowerCase();
+                alert(selectedval);
+
+                if (id.indexOf("TRANSFER_ARRIVAL") != -1) {
+                    //console.log(arrival);
+
+
+
+                    if (selectedval == 'sea') {
+                        showandhideQuestion(Arrival_portid, "", "block");
+                        showandhideQuestion(Arrival_airid, Arrival_trainid, "none");
+                        showandhideQuestion(ArrivalCommon_at, "", "none");
+
+                        $('.PICKUP_POINT option').hide();
+                        $('.PICKUP_POINT option[data-type="PORT"]').show();
+                        $('.PICKUP_POINT option[data-type="OTHER"]').show();
+                        $('.PICKUP_POINT option').first().attr('selected', true);
+
+                    }
+                    else if (selectedval == 'air') {
+                        //$('#query_16').parent('div').remove();
+                        showandhideQuestion(Arrival_airid, ArrivalCommon_at, "block");
+                        showandhideQuestion(Arrival_portid, Arrival_trainid, "none");
+                        $('.PICKUP_POINT option').hide();
+                        $('.PICKUP_POINT option[data-type="AIRPORT"]').show();
+                        $('.PICKUP_POINT option[data-type="OTHER"]').show();
+                        $('.PICKUP_POINT option').first().attr('selected', true);
+
+                    }
+                    else if (selectedval=='rail') {
+                        showandhideQuestion(Arrival_trainid, ArrivalCommon_at, "block");
+                        showandhideQuestion(Arrival_portid, Arrival_airid, "none");
+                        $('.PICKUP_POINT option').hide();
+                        $('.PICKUP_POINT option[data-type="TRAIN"]').show();
+                        $('.PICKUP_POINT option[data-type="OTHER"]').show();
+                        $('.PICKUP_POINT option').first().attr('selected', true);
+                    }
+                    else if (selectedval == 'other') {
+
+                        // console.log("1ram==")
+                        $('.PICKUP_POINT option').show();
+                        $('.PICKUP_POINT option').first().attr('selected', true);
+
+                        var arr1 = $.merge($(Arrival_airid).not(Arrival_portid).get(), $(Arrival_portid).not(Arrival_airid).get());
+                        var arr2 = $.merge($(Arrival_trainid).not(Arrival_commonid).get(), $(Arrival_commonid).not(Arrival_trainid).get());
+                        var arr3 = $.merge($(arr2).not(ArrivalCommon_at).get(), $(ArrivalCommon_at).not(arr2).get());
+                        /*arrdata = $.merge($(arr1).not(arr2).get(), $(arr2).not(arr1).get());*/
+                        showandhideQuestion(arr1, arr3, "none");
+
+                    }
+                }
+                else {
+                    console.log(depature);
+
+
+                    if (selectedval == 'sea') {
+
+                        showandhideQuestion(Depature_airid, Depature_trainid, "none");
+                        showandhideQuestion(Depature_portid, "", "block");
+
+
+                    }
+                    else if (selectedval == 'air') {
+
+                        showandhideQuestion(Depature_portid, Depature_trainid, "none");
+                        showandhideQuestion(Depature_airid, DepatureCommon_at, "block");
+
+                    }
+                    else if (selectedval=='rail') {
+
+                        showandhideQuestion(Depature_portid, Depature_airid, "none");
+                        showandhideQuestion(Depature_trainid, DepatureCommon_at, "block");
+                    }
+                    else if (selectedval == 'other') {
+
+                        var arr1 = $.merge($(Depature_airid).not(Depature_portid).get(), $(Depature_portid).not(Depature_airid).get());
+                        var arr2 = $.merge($(Depature_trainid).not(Depature_commonid).get(), $(Depature_commonid).not(Depature_trainid).get());
+                        /*arrdata = $.merge($(arr1).not(arr2).get(), $(arr2).not(arr1).get());*/
+                        showandhideQuestion(arr1, arr2, "none");
+
+                        var numItems = $('.mode').length
+                        console.log(numItems);
+                    }
+                }
+
+
+
+
+            });
+
+            if ($('.mode').find(":selected").val() == "OTHER") {
+                // alert("modework")
+                $('.PICKUP_POINT option').show();
+                $('.PICKUP_POINT option').first().attr('selected', true);
+
+                var arr1 = $.merge($(Arrival_airid).not(Arrival_portid).get(), $(Arrival_portid).not(Arrival_airid).get());
+                var arr2 = $.merge($(Arrival_trainid).not(Arrival_commonid).get(), $(Arrival_commonid).not(Arrival_trainid).get());
+                var arr3 = $.merge($(arr2).not(ArrivalCommon_at).get(), $(ArrivalCommon_at).not(arr2).get());
+                showandhideQuestion(arr1, arr3, "none");
+                /*arrdata = $.merge($(arr1).not(arr2).get(), $(arr2).not(arr1).get());*/
+                var darr1 = $.merge($(Depature_airid).not(Depature_portid).get(), $(Depature_portid).not(Depature_airid).get());
+                var darr2 = $.merge($(Depature_trainid).not(Depature_commonid).get(), $(Depature_commonid).not(Depature_trainid).get());
+                var darr3 = $.merge($(darr2).not(DepatureCommon_at).get(), $(DepatureCommon_at).not(darr2).get());
+                showandhideQuestion(darr1,darr3, "none");
+            }
+            //$(".units").change(function () {
+            //    var $uname = $(this).attr("name");
+            //    var $uid = $(this).attr("id");
+            //    var $spiltid = $uid.split('_');
+            //    var $id = $spiltid[1];
+
+            //    var selectedval = $(this).find(":selected").val().toLowerCase().trim();
+            //    var selectedid = $(this).attr('id');
+            //    var arrval = selectedid.split('_');
+            //    var actualid = arrval[1];
+            //    alert(selectedval+"-"+arrval[1]);
+            //    if (selectedval == "freetext") {
+            //        alert("1");
+            //        $('#select_' + actualid).parent('div').css('display', 'none');
+            //        //
+            //        $('#select_' + actualid).removeAttr('name');
+            //        $('#select_' + actualid).attr('name', 'simple-optional-q_' + actualid);
+            //        $('#query_' + actualid).parent('div').css('display', 'block');
+            //        $('#query_' + actualid).removeAttr('name');
+            //        $('#query_' + actualid).attr('name', 'q_' + actualid);
+            //    }
+            //    else {
+            //        alert("2");
+            //        $('#select_'+ actualid).parent('div').css('display', 'block');
+            //        $('#select_'+ actualid).removeAttr('name');
+            //        $('#select_' + actualid).attr('name', 'q_' + actualid);
+            //        $('#query_'+ actualid).parent('div').css('display', 'none');
+            //        $('#query_'+ actualid).removeAttr('name');
+            //        $('#query_' + actualid).attr('name', 'simple-optional-q_' + actualid);
+            //    }
+
+            //});
+            //new code end
+            var p = $("input.simple-required-payathotel:[value=y]").length;
+            var n = $("input.timelimit:[value=n]").length;
+
+            if (p == 0) {
+                if (n > 0) {
+                    //alert('time limit option should go!');
+                    $(".timelimit-op").hide();
+                    $("#simple-required-paybycreditline").attr("checked", "checked");
+                }
+            }
+
+        });
+
+
+
+    </script>
+    <script>
+        var curbookingid='BID-3655718';
+        var sk='default';
+
+        function showProduct(product) {
+
+            var url;
+            switch (product) {
+                case 'hotel':
+                    url = '/user/?command=hotel#&tab-form1_box';
+                    break;
+                case 'transfers':
+                    url = '/user/?command=transfer#&tab-form3_box';
+                    break;
+                case 'sightseeing':
+                    url = '/user/?command=sightseeing#&tab-form2_box';
+                    break;
+                case 'apartments':
+                    url = '/travel/agents/apartments.aspx';
+                    break;
+                case 'raileurope':
+                    url = '/travel/agents/eurail.aspx';
+                    break;
+                default:
+
+            }
+            if (url == '#') {
+                alert('This product is currently not available. Please try again later.')
+                return false;
+            }
+            else {
+                return rediretToUrl(url);
+            }
+        }
+
+        function rediretToUrl(url) {
+            window.location = url;
+            return false;
+        }
+        function hideBooking() {
+
+            $("#TermsBox").hide();
+            $("#buttonBox").hide();
+            $("#PayOptionsBox").hide();
+        }
+
+        // cp function for PatAtHotel
+
+        function hideBookingPaymentoption() {
+            $("#PayOptionsBox").hide();
+            $('input:radio[name=simple-required-timelimit]')[3].checked = true;
+        }
+
+        function cancelBooking(strval)
+        {
+            if (confirm('Do you really wish to cancel this booking: ' + strval))
+            {
+                doExecuteCommandEx('cancelbooking',strval);
+            }
+
+            return false;
+        }
+
+
+        function cancelBooking2(strval) {
+            if (confirm('Do you really wish to cancel this booking: ' + strval)) {
+                $.post("/handler/post.aspx", { command: 'cancelbooking', param: strval }, function (data) {
+                    var d = data.split(":", 2);
+                    if (d[0] == 'success') {
+                        alert(data.replace('success:', ''));
+                        window.location = '/manage.aspx?command=bookings';
+                    }
+                    else {
+                        alert(data.replace('failed:', ''));
+                    }
+                });
+            }
+            return false;
+        }
+
+        function hideLastContinueButton(i) {
+
+            $("#contb_" + i).hide();
+        }
+
+
+    </script>
+    <script type="text/javascript" src="../../js/checkout.js?t=1201630wr3332eeesssee1eexyddee39"></script>
+    <div class="page booking-summary">
+        <div class="inner-wrapper">
+            <div class="inner-body panels">
+                <div class="left-panel grey-back">
+                    <div id="mainscreen">
+                        <!--                        <form id="frm" name="frm">-->
+                        <input type="hidden" name="command" value="checkout">
+                        <input type="hidden" id="simple-required-payathotel" class="simple-required-payathotel" value="n" name="simple-required-payathotel" style="margin-top:10px!important;">
+                        <input type="hidden" name="simple-required-transfers" id="simple-required-transfers" value="0"><input type="hidden" name="simple-required-sightseeings" id="simple-required-sightseeings" value="0">
+                        <div class="head">
+                            <h1>Booking Confirmation</h1>
+                        </div>
+                        <div id="contentz1 style=" display:="" block;"="">
+                        <div id="booking_1">
+                            <div class="banner-heading">Passenger Details</div>
+                            <section>
+
+                                <!--    Dynamically Created Form    -->
+                                <div id="travelerFormContainer"></div>
+
+                            </section>
+                            <div class="policy">
+                                <div id="policy">
+                                    <div class="title">Important Notes</div>
+                                    <div style="margin-top:10px;font-size: 13px;line-height:22px;text-align:justify;background-color:#f2f2f2;padding:10px;" class="impNoteText">
+                                        <div >
+                                            <div class="in_box_2">
+                                                <!-- The updated instructions content will be inserted here dynamically -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="cancelationpolicy" >
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="padding-bottom: 15px; padding-top: 15px" id="TermsBox">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td style="vertical-align: middle">
+                                    <input name="simple-required-chkagree" id="simple-required-chkagree" type="checkbox" value="y">
+                                </td>
+                                <td style="vertical-align: middle">&nbsp; I agree and understand the <span style="color: #0a53be">Terms and Conditions</span>, the important notes and the cancellation policy.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <fieldset id="buttonBox" style="margin-bottom:20px;">
+                        <div class="payment">
+                            <a id="submitCheckout" class="button" href="#" onclick="javascript:return doSubmitCheckOutForm('frm','frm_box');" style=" width:250px;">
+                                Submit For Confirmation
+                            </a>
+                            <a id="Abandon" href="#" class="button" onclick="javascript:return GoBackToSeachResultsNew(curbookingid);">
+                                Abandon Booking
+                            </a>
+                        </div>
+                    </fieldset>
+                    <div id="messageBox" style="display: none; font-size: 28px; width: 300px; text-align: center; margin: 0 auto; color: Green">
+                        Processing Please Wait
+                        <img src="/images/custom/star_loader.gif">
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-panel summary-panel ">
+                <!--<right-panel>-->
+                <div style="height: 800px;" >
+                    <style>
+                        .impNoteText h3
+                        {
+                            display:block;
+                            font-weight: bold;
+                            margin-top: 5px;
+                            font-size: 10px;
+                        }
+                        .postpaid-top-message {
+                            background: #f2f2f2;
+                            border: 1px solid #f2f2f2;
+                            text-transform: uppercase;
+                            font-size:11px!important;
+                        }
+                        .postpaid-condition2-message {
+                            background: #f2f2f2;
+                            border: 1px solid #f2f2f2;
+                            text-align: justify;
+                        }
+                        .postpaid-condition1-message {
+                            background: #f2f2f2;
+                            border: 1px solid #f2f2f2;
+                            text-align: justify;
+                        }
+                        .postpaid-roe-message {
+                            background: #f2f2f2;
+                            border: 1px solid #f2f2f2;
+                            text-align: justify;
+                            font-size: 10px;
+                        }
+                        .alert-box {
+                            color: #555;
+                            padding: 5px 5px 5px 5px!important;
+                            margin-bottom:5px;
+                        }
+                        .maindisplaymage
+                        {
+                            width:100%;
+                            height:160px;}
+                        .room span,.dates span
+                        {color:brown;padding-right:10px;}
+                        .dates div
+                        {margin-bottom:5px;}
+                    </style>
+                    <div class="photo"><img class="maindisplaymage" id="main-photo" src="https://images.grnconnect.com/2544680/a2f90e896a6c5bfd85ad271f788b14a4.jpg"></div>
+                    <div style="margin-bottom: 5px"  data-class="20240919-2311502395-41666-0-8e348a34-40ee-48b5-aa26-ed69f726a3f3">
+                        <span id="hotelname" class="sub-text">OYO Flagship P K Lodging and Boarding</span>
+                        <br>
+                        <span class="tour-card__rating"></span>
+                    </div>
+                    <label id="addressLabel" >Plot 1 Milap Nagar, Block 2, Sector 6, Kalyan-Dombivli, Kalyan 421201, Thane, Mumbai Metropolitan Region, IN</label>
+                    <div class="dates" style="background-color:#F2F2F2; font-size:13px;padding:10px;margin-top:10px;">
+                        <div id="checkin" ><span>CheckIn:</span> Friday, 20th Sep 2024</div>
+                        <div id="checkout"  ><span>Checkout:</span>Tuesday, 24th Sep 2024</div>
+                        <div id="nights" ><span>No. of Night(s): </span>2</div>
+                        <div id="optionselected" ><span>Room:</span>Classic Double or Twin Room</div>
+                        <div id="mealBasis" ><span>Meal Plan:</span>Bed and Breakfast for 4</div>
+                        <div id="noOfRooms" ><span>Room(s): </span>1</div>
+                        <div id="lblPaxCount" ><span>Total Pax(s): </span><span id="lblPaxCount" style="color:black!important">2 adult(s), 2 child(s)</span></div>
+                    </div>
+                    <div class="col price">
+                        <div>Total</div>
+                        <div  class="money" style="float:right">
+                            <span id="total" >
+<!--                              &nbsp;INR 4050.00-->
+                            </span>
+                        </div>
+                    </div>
+                    <span style="display: none" id="totalTravelAgentMArkup"  ></span>
+                    <span style="display: none" id="AfterMarkUp"  ></span>
+                    <div class="col price">
+                        <div>Platform Fee</div>
+                        <div  class="money" style="float:right">
+                            <span id="platformFee" >
+                              0
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col price">
+                        <div>Tax on Platform Fee</div>
+                        <div  class="money" style="float:right">
+                            <span id="taxOnPlatformFee" >
+                              0
+                            </span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col price">
+                        <div>Grand Total</div>
+                        <div  class="money" style="float:right">
+                            <span id="finalGrandTotal" >
+                              0
+                            </span>
+                        </div>
+                    </div>
+                    <div style="font-size:10px;"></div>
+                    <div id="impNotesBox" style="display: none;">
+                        <div class="title">Important Notes</div>
+                        <div style="margin-top:10px;font-size: 13px;line-height:22px;text-align:justify;background-color:#f2f2f2;padding:10px;" class="impNoteText">
+                            <!--                            <div id="policy">-->
+                            <!--                                <div class="in_box_2">-->
+                            <!--                                    &lt;!&ndash; The updated instructions content will be inserted here dynamically &ndash;&gt;-->
+                            <!--                                </div>-->
+                            <!--                            </div>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fancy-loading-checkout" class="modal with-shadow" style="background-color:#fff0;">
+                <div class="modal-content" style="width:25%;">
+                    <div class="modal-body">
+                        <div class="one-word" id="container" style="padding: 10px;">
+                            <img src="/v4/img/grn-loader.gif" alt="Loading..." style="width:50px; bottom:30%;/>
+                           </div>
+                           <div style=" text-align:center;position:absolute;top:75%;left:32%"="">
+                            Please wait a moment.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript" src="../../../js/jquery-1.6.2.min.js"></script>
+            <script src="../../../tabs/tytabs1.jquery.min.js"></script>
+            <script type="text/javascript" src="../../../js/jquery.autocomplete.js?ver=120"></script>
+            <script>
+                function beautifyActivityForm() {
+                    //alert('hello');
+                    $("div.banner-heading").each(function () {
+                        //if (this.id === '') $(this).html('no data available')
+                        var strTo = $(this).html();
+                        $(this).html(strTo.replaceAll(/-/g, ' '));
+                    })
+                    $("input").each(function () {
+                        //if (this.id === '') $(this).html('no data available')
+                        if ($(this).attr("placeholder") != undefined) {
+                            var newstr = '';
+                            switch ($(this).attr("placeholder")) {
+                                case "FULL_NAMES_FIRST":
+                                    newstr = "Please provide first name";
+                                    break;
+                                case "FULL_NAMES_LAST":
+                                    newstr = "Please provide last name";
+                                    break;
+                                case "SPECIAL_REQUIREMENTS":
+                                    newstr = "Please provide special requirement(s)";
+                                    break;
+                            }
+                            if (newstr != '') {
+                                $(this).attr("placeholder", newstr);
+                            }
+                        }
+                    })
+                }
+                beautifyActivityForm();
+                function GoBackToSeachResultsNoAbandon(bookingid) {
+                    window.location.href = '/pages/Au/view/Search/default.aspx?ts=20240919-2311502395-41666-0-8e348a34-40ee-48b5-aa26-ed69f726a3f3' ;
+
+                    return false;
+                }
+                function GoBackToSeachResultsNew(bookingid) {
+                    var val1 = 'archiveunfinishedbookings';
+                    if (confirm('Are you sure to abandon this booking?')) {
+                        $.post("/v4/handler/post.aspx", { command: val1, param: bookingid }, function (data) {
+                            var d = data.split(":", 2);
+                            if (d[0] == 'success') {
+
+                                let ts = $('#productDetail').attr('data-class');
+                                window.location.href = '/pages/Au/view/Search/' + sk + '.aspx?ts=' + ts;
+                            }
+                            else {
+                            }
+                        });
+                    }
+                    return false;
+                }
+                function stringToList(textContainer, listType) {
+                    var htmlList = "";
+                    var abc = $(textContainer).html();
+                    abc = abc.replaceAll("<bookingnote>", "");
+                    abc = abc.replaceAll("</bookingnote>", "");
+                    //abc = abc.replace("COMMENTS:", "");
+                    abc = abc.replace("e.g.", "for example");
+                    abc = abc.replaceAll("</h3>", "</h3>. ");
+                    abc = abc.replaceAll("&amp;lt;", "&lt;");
+                    abc = abc.replaceAll("&amp;gt;", "&gt;");
+                    abc = abc.replaceAll("&lt;b&gt;", " ");
+                    abc = abc.replaceAll("&lt;p&gt;", " ");
+                    abc = abc.replaceAll("&lt;li&gt;", " ");
+                    abc = abc.replaceAll("&lt;br /&gt;", ". ");
+                    abc = abc.replaceAll("&lt;br/&gt;", ". ");
+                    abc = abc.replaceAll("&lt;/b&gt;", " ");
+                    abc = abc.replaceAll("&lt;/p&gt;", ". ");
+                    abc = abc.replaceAll("&lt;/li&gt;", ". ");
+                    abc = abc.replaceAll("&lt;ul&gt;", " ");
+                    abc = abc.replaceAll("&lt;/ul&gt;", " ");
+                    abc = abc.replaceAll(": .", ":");
+                    abc = abc.replaceAll("..", ".");
+                    abc = abc.replaceAll("..", ".");
+                    abc = abc.replaceAll("..", ".");
+                    var abcd = abc.split(". ");
+                    for (i = 0; i < abcd.length; i++) {
+                        //alert(abcd[i]);
+                        if (abcd[i].trim() != "") {
+                            if (abcd[i].trim().includes("<h3>") == true) {
+                                var newabcd = abcd[i].split("<h3>");
+                                for (j = 0; j < newabcd.length; j++) {
+                                    //alert(newabcd[j]);
+                                    if (newabcd[j].trim().includes("</h3>") == true) {
+                                        htmlList = htmlList + "<h3>" + newabcd[j] + "";
+                                    }
+                                    else if (newabcd[j].trim() != ""){
+                                        htmlList = htmlList + "<li>" + newabcd[j] + "</li>";
+                                    }
+                                    else {
+                                        htmlList = htmlList + "" + newabcd[j] + "";
+                                    }
+                                }
+                            }
+                            else {
+                                htmlList = htmlList + "<li>" + abcd[i] + ".</li>";
+                            }
+                            //htmlList = htmlList.replaceAll("</h3>.</li>", "</h3></li>");
+                            //htmlList = htmlList.replaceAll("<li><h3>", "<h3>");
+                            //htmlList = htmlList.replaceAll("</h3></li>", "</h3>");
+                        }
+                        //alert(htmlList);
+                    }
+                    const cars = [
+                        "Child OR 3rd Adult will be sharing the same bedding unless extra bed is mentioned.",
+                        "Bedding Preferences are shared with Hotel",
+                        "If a child stays on existing bedding (free of charge), room benefits are not provided.",
+                        "Customer will have to pay for additional charge for the child to the hotel directly for example breakfast charges for child.",
+                        "Please note that the food inclusion might not always correspond to the number of people staying in the room."
+                    ];
+                    for (let i = 0; i < cars.length; i++) {
+                        htmlList = htmlList.replaceAll(cars[i], "<mark>" + cars[i] + "<mark>");
+                    }
+                    $(textContainer).html("<ul class=\"impNotesList\">" + htmlList + "</ul>");
+                }
+                $(document).ready(function () {
+                    $("#impNotesBoxNew").html($("#impNotesBox").html())
+                    $("#impNotesBox").hide();
+                    stringToList('#impNotesBoxNew div.impNoteText', 'ul');
+                });
+            </script>
+            <style>
+                ul.impNotesList {
+                    list-style-type: disc;
+                    padding: 20px;
+                }
+                ul.impNotesList li {
+                    font-size:13px;
+                    margin-left: 30px;
+                    text-align:justify;
+                    color:#000000;
+                }
+            </style>
+            <script>
+                window.onscroll = function () { myFunction() };
+
+                function myFunction() {
+                    //console.log('scrolling...');
+                    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                        $(".right-panel .info").addClass("sticky");
+                    } else {
+                        $(".right-panel .info").removeClass("sticky");
+                    }
+                }
+            </script>
+            <style>
+                .right-panel .info {
+                    width:300px!important;
+                }
+                .sticky {
+                    position:fixed;
+                    top:0;
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                    height: 600px;
+                }
+                #modalTemplateSmall{
+                    height:70%;
+                }
+            </style>
+            <script>
+                var intAdultCount = 0;
+                var intChildCount = 0;
+                $('input[type="text"]').each(function () {
+
+                    if ($(this).attr('name').indexOf("_firstname") > 0 && $(this).attr('name').indexOf("-PAX-") > 0) {
+                        intAdultCount = intAdultCount + 1;
+
+
+                    }
+                });
+                $('input[type="text"]').each(function () {
+                    if ($(this).attr('name').indexOf("_firstname") > 0 && $(this).attr('name').indexOf("-ChildPAX-") > 0) {
+                        intChildCount = intChildCount + 1;
+                    }
+                });
+                var paxString = "";
+                paxString = intAdultCount + ' adult(s)';
+                if (intChildCount > 0)
+                {
+                    paxString = paxString + ', ' + intChildCount + ' child(s)';
+                }
+                $("#lblPaxCount").html(paxString );
+            </script>
+            <script>
+                function openModalSmall(href, height) {
+                    $('#modalTemplateSmall').removeClass('big');
+                    $('#modalTemplateSmall').addClass('high');
+                    $('#modalTemplateSmall').find('.modalFrame').attr('src', href);
+                    $('#modalTemplateSmall').find('.modalFrame').css('height', height);
+                    //$('#modalTemplateSmall').attr('class', 'passportmodel');
+                    $('#modalTemplateSmall>.modal-content').attr('style', 'width:70%');
+                    $('#modalTemplateSmall .modal-body').attr('style', 'height:100%');
+                    showModal('#modalTemplateSmall');
+                }
+            </script>
+            <div id="modalTemplate" class="big modal with-shadow" style="background-color:#fff0">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a class="close"><span class="icon icon-error"></span></a>
+                        <h2 class="title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="modalFrame" src="about:blank"></iframe>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+            <!--</dashboard-wrapper>-->
+        </div>
+        <!--</inner_page>-->
+    </div>
+    <!--</page>-->
+    <br>
+</div>
+<br><br>
+<%-include('../partials/footer2.ejs')%>
+
+<!--outer-wrapper closed-->
+<script>
+    $(document).ready(function () {
+
+        var pageNav = new Navigation('.inner-nav-wrapper ', null, /*data-class=*/'pre-selected');
+        var report = new ReportActions('.page');
+        report.onSort = function(dataClassOfSortCol, ascending, onSortComplete) {
+            try {
+                alert('Field '+dataClassOfSortCol+' to be sorted in ascending='+ascending+' order !');
+                onSortComplete(); //Call after your AJAX call has been successful
+            }
+            catch(e) {
+                console.error(e);
+                //TODO: Any custom error handling you wish
+            }
+        };
+
+    });
+</script>
+<!-- The Modal(s) -->
+<div class="modal-shadow"></div>
+<div id="modalTemplate" class="big modal with-shadow" style="background-color:#fff0">
+    <div class="modal-content">
+        <div class="modal-header">
+            <a class="close"><span class="icon icon-error"></span></a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe class="modalFrame" src="about:blank"></iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplateSmall" class="big modal with-shadow" style="background-color:#fff0; z-index: 1000;top: 55%;">
+    <div class="modal-content" style="width:30%;">
+        <div class="modal-header">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe class="modalFrame" src="about:blank"></iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplateSmallSalesManager" class="big modal with-shadow" style="background-color: #fff0; z-index: 1000; top: 55%;">
+    <div class="modal-content" style="width: 60%;">
+        <div class="modal-header" style="padding:3px">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe class="modalFrame" src="about:blank"></iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplateSaudi" class="big modal with-shadow" style="background-color: #fff0; z-index: 1000; top: 50%;">
+    <div class="modal-content" style="width: 80%;">
+        <div class="modal-header" style="padding:3px">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe src="/htm/V4/san-francisco-new.html" style="height:600px"> </iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplatewashington" class="big modal with-shadow" style="background-color: #fff0; z-index: 1000; top: 50%;">
+    <div class="modal-content" style="width: 80%;">
+        <div class="modal-header" style="padding:3px">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe src="/htm/V4/washington-dc-new.html?123" style="height:600px"> </iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplateDomUAE" class="big modal with-shadow" style="background-color: #fff0; z-index: 1000; top: 50%;">
+    <div class="modal-content" style="width: 80%;">
+        <div class="modal-header" style="padding:3px">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe src="/htm/V4/calling-newpartner-new.html" style="height:600px"> </iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="modalTemplateIntUAE" class="big modal with-shadow" style="background-color: #fff0; z-index: 1000; top: 50%;">
+    <div class="modal-content" style="width: 80%;">
+        <div class="modal-header" style="padding:3px">
+            <a class="close">×</a>
+            <h2 class="title"></h2>
+        </div>
+        <div class="modal-body">
+            <iframe src="/htm/V4/jamaica-rewards-new.html" style="height:600px"> </iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="fancy-loading1" class="modal with-shadow" style="width:596px;padding:0;top:20vh;left:30vw">
+    <div class="modal-content" style="width:100%;height: 370px;">
+        <div class="modal-body" style="padding:0" id="loder1">
+            <img src="/v4/img/loaders/grey-map-2.png">
+            <img src="/v4/img/grn-loader.gif" alt="Loading..." style="position:absolute;bottom:32%;left:47%;width:40px">
+        </div>
+    </div>
+</div>
+<div id="fancy-loading-TCS" class="modal with-shadow">
+    <div class="modal-content" style="width: 45%">
+        <div class="modal-header">
+            <a class="close"><span class="icon icon-close"></span></a>
+        </div>
+        <div class="modal-body" id="boxtcs">
+            <style>
+                #fancy-loading-TCS h1 {
+                    color: #f62a74;
+                }
+                #fancy-loading-TCS.modal .modal-body {
+                    padding: 15px 40px !important;
+                }
+            </style>
+            <div>
+                <h1>One Time Declaration For TCS</h1>
+                <br>
+                <p style="font-size: 14px; margin-bottom: 10px;">Please fill the form and provide the declaration to be compliant with TCS rules and regulations.</p>
+                <p style="font-size: 14px; margin-bottom: 25px;"><b>Last date to submit your One Time TCS declaration is 31 Oct 2023.</b> </p>
+                <p style="font-size: 14px; margin-bottom: 25px;">Please click on Continue button to proceed.</p>
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col">
+                        <a type="submit" name="btnupload" id="btncontinew" class="button" onclick="javascript:window.location.href='/v4/legal/tcs-declaration-form.aspx';">Continue</a>
+                        <a type="submit" name="btnupload1" id="btnclose" class="button close">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fancy-loading-support" class="modal with-shadow">
+    <div class="modal-content" style="width:45%">
+        <div class="modal-header">
+            <a class="close"><span class="icon icon-close"></span></a>
+        </div>
+        <div class="modal-body" id="boxsupport">
+            <style>
+                #fancy-loading-support h3 {
+                    color: #f62a74;
+                }
+                #fancy-loading-support.modal .modal-body {
+                    padding: 15px 40px!important;
+                }
+            </style>
+            <div>
+                <h1>Support</h1>
+                <br>
+                <p style="font-size:14px;margin-bottom:10px;">Our experts are available for your assistance 24X7 (Monday – Sunday)</p>
+                <div class="grid standard">
+                    <div class="grid-cell top">
+                        <h3>Telephone</h3>
+                        <p class="spaced f-lato">
+                            +91 9910 411 117 <br>
+                        </p>
+                    </div>
+                    <div class="grid-cell top">
+                        <h3>Skype</h3>
+                        <p class="spaced">
+                            grnindia
+                        </p>
+                    </div>
+                    <div class="grid-cell top">
+                        <h3>Email</h3>
+                        <p class="spaced">
+                            <a href="mailto:customercare@grnconnect.com">customercare@grnconnect.com</a><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fancy-loading-payment" class="big modal with-shadow" style="background-color:#fff0; width:100%;">
+    <div class="modal-content" style="height:650px">
+        <div class="modal-header">
+            <a class="close"><span style="position:fixed; margin-left: -36px;" class="icon icon-close"></span></a>
+        </div>
+        <div class="modal-body">
+            <style>
+                #btnclose {
+                    color: #ffffff;
+                    position: unset!important;
+                    right: unset!important;
+                    font-size: unset!important;
+                }
+                #fancy-loading-payment .head {
+                    border-bottom: 1px solid #000;
+                }
+                #fancy-loading-payment .big.modal .modal-body {
+                    height: 95vh;
+                }
+                #fancy-loading-payment table {
+                    border: 1px solid #CCCCCC;
+                    padding: 10px;
+                    max-width:1000px;
+                    margin:auto;
+                    width:100%;
+                }
+                #fancy-loading-payment td {
+                    padding: 5px;
+                    text-align: center;
+                }
+                #fancy-loading-payment  th{
+                    padding-bottom:5px;
+                }
+                #fancy-loading-payment  .page .inner-wrapper section {
+                    padding:0px;
+                }
+                #fancy-loading-payment  h2 {
+                    padding:10px;
+                }
+                #fancy-loading-payment div.spaced {
+                    margin:auto;
+                    max-width:1000px;
+                    margin-bottom:20px;
+                }
+                #fancy-loading-payment .payment h3 {
+                    padding-bottom:0px;}
+                #fancy-loading-payment .payment h2 {
+                    padding:0px;
+                    margin-bottom:10px;
+                }
+                .f-lato {
+                    font-family:lato, sans-serif ;
+                }
+            </style>
+            <div class="payment">
+                <div class="head">
+                    <h1>Payment Options</h1>
+                </div>
+                <section class="policy">
+                    <h3>Credit Cards</h3>
+                    <p class="spaced">Easy Online payments can be made using American Express, Visa &amp; Master Card.</p>
+                    <h3>Floating Cash Deposit</h3>
+                    <p class="spaced">Cash Deposit which can be utilised for adjustments against the bookings created on regular basis.</p>
+                    <div class="standard">
+                        <h3>Credit Line</h3>
+                        <p class="spaced">A credit line can be opened for our partners against a Bank Guarantee.</p>
+                    </div>
+                    <div class="standard">
+                        <h3>Net Banking</h3>
+                        <p class="spaced">A facility  to make online payments through most of the banks.</p>
+                    </div>
+                    <div class="standard">
+                        <h3>Bank Transfer</h3>
+                        <p class="spaced">Facility to pay directly through your bank to our bank account.</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="standard">
+                        <h3>Bank Details - Indian Partners</h3>
+                    </div>
+                </section>
+                <section class="border box">
+                    <div class="spaced">
+                        <h3>Yes Bank Ltd</h3>
+                        Ground and Mezzanine Floor, 56, Janpath, Alps Bldg, Next to Pizza Hut, Connaught Place - 110001
+                        <br>
+                        IFSC Code: YESB0000136<br>
+                        Beneficiary Name: Aman Travels Limited<br>
+                        Beneficiary Account Number: 013684600000335<br>
+                    </div>
+                    <div class="spaced">
+                        <h3>ICICI Bank Ltd</h3>
+                        W-57,  Greater Kailash PART- I<br>
+                        New Delhi 110048<br>
+                        IFSC Code: ICIC0000029<br>
+                        Beneficiary Name: Aman Travels Limited<br>
+                        Beneficiary Account Number: 002905018582<br>
+                    </div>
+                    <div class="spaced">
+                        <h3>HSBC Bank Ltd</h3>
+                        25, BARAKHAMBA ROAD, <br>
+                        NEW DELHI – 110001<br>
+                        IFSC Code: HSBC0110002<br>
+                        Beneficiary Name: Aman Travels Limited<br>
+                        Beneficiary Account Number: 166-428854-001<br>
+                    </div>
+                </section>
+                <section>
+                    <div class="standard">
+                        <h3>Bank Details - United States Partners</h3>
+                    </div>
+                </section>
+                <section class="border box">
+                    <div class="spaced">
+                        <h3>GRNCONNECT INC</h3>
+                        Bank Name: JP MORGAN CHASE BANK N.A <br>
+                        Branch Name: 4 NEW YORK PLAZA FLOOR 15, NEW YORK NY <br>
+                        SWIFT Code: CHASUS33 <br>
+                        Account Number: 925692268 <br>
+                        ABA/Routing Number: 021000021 <br>
+                        Chase Ach Transit No. 044000037
+                    </div>
+                </section>
+                <section>
+                    <div class="standard">
+                        <!--<h3>Bank Details - Australian Partners</h3>
+                           </div>
+                                </section>
+                           <section class="border box">
+
+                           <div class="spaced">
+                                   <h3>WestPac</h3>
+                                   BSB: 033686<br/>
+                                   Account Number: 536571<br/>
+                                   Beneficiary Name: Exodus Travel Agency Pty Ltd.
+                           </div>
+                           </section>
+                                 <section>
+                           <div class="standard">-->
+                        <h3>Bank Details - International Partners</h3>
+                    </div>
+                </section>
+                <section class="border box">
+                    <div class="spaced">
+                        <h3>GRNconnect DMCC</h3>
+                        Austria Business Centre,                      Office No. 305-24, 310 Jumeirah Bay,
+                        X2 Tower, Plot No. Jlt - PH2 X2A, Jumeirah Lake Towers, Dubai-126732, UAE.
+                        <br>
+                    </div>
+                    <div class="spaced">
+                        <h3>MASHREQ BANK</h3>
+                        Umniyati ST, AL Asayel Street 345, Dubai, United Arab Emirates
+                        <br>
+                        SWIFT Code: BOMLAEAD<br>
+                        Account Name: GRNCONNECT DMCC<br><br>
+                        IBAN  Number (AED): AE170330000019101447429<br>
+                        Account Number (AED): 019101447429<br><br>
+                        IBAN  Number (AUD): AE280330000019101464982<br>
+                        Account Number (AUD): 019101464982<br><br>
+                        IBAN Number (GBP): AE330330000019101447432<br>
+                        Account Number (GBP): 019101447432<br><br>
+                        IBAN Number (EUR): AE600330000019101447431<br>
+                        Account Number (EUR): 019101447431<br><br>
+                        IBAN Number (USD): AE870330000019101447430<br>
+                        Account Number (USD): 019101447430<br><br>
+                        <h3>CITIBANK N.A</h3>
+                        PO BOX 749, Oud Metha Road,                      Dubai, United Arab Emirates
+                        <br>
+                        SWIFT Code: CITIAEAD<br>
+                        Account Name: GRNCONNECT DMCC<br><br>
+                        IBAN  Number (AED): AE150211000000203037007<br>
+                        Account Number (AED): 0203037007<br><br>
+                        IBAN  Number (USD): AE900211000000203037015<br>
+                        Account Number (USD): 0203037015<br><br>
+                        IBAN  Number (EUR): AE680211000000203037023<br>
+                        Account Number (EUR): 0203037023<br><br>
+                        IBAN  Number (GBP): AE460211000000203037031<br>
+                        Account Number (GBP): 0203037031<br>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fancy-loading" class="modal with-shadow" style="width:596px;padding:0;left:30vw">
+    <div class="modal-content" style="width:100%;">
+        <div class="modal-body" style="padding:0" id="loder">
+            <div id="container" style="width:596px;height:371px"><img style="width: 95%;margin-top: -10px;margin-left: 10px;" src="/v4/img/backgrounds/grey-map-no-borders.png"></div>
+            <img src="/v4/img/grn-loader.gif" alt="Loading..." style="position:absolute;bottom:52%;left:32%;width:55px">
+            <img class="logo" src="/v4/img/common/grn-logo-1.png" alt="Loading..." style="position:absolute;bottom:53%;left:41%;width:170px;background-color:#fff">
+        </div>
+    </div>
+</div>
+<div id="msgBoxDialog" class="modal with-shadow" style="width:596px;padding:0;left:30vw">
+    <div class="modal-content" style="width:100%;">
+        <div class="modal-body" style="padding:30px">
+            <div class="msg"></div>
+        </div>
+    </div>
+</div>
+<div id="ErrormsgBoxDialog" class="modal with-shadow" style="width:596px;padding:0;left:30vw">
+    <div class="modal-content" style="width:100%;">
+        <a class="close">x</a>
+        <div class="modal-body" style="padding:30px">
+            <div class="msg" style="text-align:justify"></div>
+        </div>
+    </div>
+</div>
+<div id="GSTForm" class="modal with-shadow">
+    <div class="modal-content">
+        <div class="modal-header">
+            <a class="close">×</a>
+        </div>
+        <div class="modal-body">
+            <iframe src="/travel/agents/update_GST.aspx" style="height:300px"> </iframe>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<div id="popup-newprovider" class="big modal with-shadow" style="background-color:#fff0; width:650px;left:25vw">
+    <div class="modal-content" style="height:650px">
+        <div class="modal-header">
+            <a class="close"><span style="position:fixed; margin-left: -36px;" class="icon icon-close"></span></a>
+        </div>
+        <div class="modal-body">
+            <img src="/v4/img/GRN-PartneringWithBooking.png?123" style="width:500px;">
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<!-----------------Sales Manager------------------>
+<div id="popup-newamadeus" class="big modal with-shadow" style="background-color:#fff0; width:650px;left:25vw">
+    <div class="modal-content" style="height:650px">
+        <!-- salesbutton Side Button-->
+        <div class="modal-header">
+            <!--<button id = "salesbutton" Class="fixed">Your Sales Manager</button>-->
+            <!--Feedback Side button Css-->
+            <a class="close"><span style="position:fixed; margin-left: -36px;" class="icon icon-close"></span></a>
+        </div>
+        <div class="modal-body">
+            <img src="/v4/img/GRN_AmadeusLive.png" style="width:500px;">
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+</div>
+<link href="/v4/css/print.css" rel="stylesheet" type="text/css" media="print">
+<!-- old -->
+<script type="text/javascript" src="/v4/js/footer.js?x=1x"></script>
+<!-- Custom styles lib -->
+<script type="text/javascript" src="/js/form.js"></script>
+<!-- old -->
+</div>
+<div id="AutocompleteContainter_4228e" style="position: absolute; z-index: 9999; top: 0px; left: 0px;">
+    <div class="autocomplete-w1">
+        <div class="autocomplete" id="Autocomplete_4228e" style="display: none; width: 300px; max-height: 400px;"></div>
+    </div>
+</div>
+
+<input type="hidden" id="bookingId" name="bookingId"/>
+
+<script>
+    var gTotal;
+    var bookingID;
+    var correlationId;
+    let originalTotal = 0; // Add this to store the original total amount
+    var markType = "";
+    var markValue = 0;
+    var applyOn = "";
+    var travelAgentTripType = "";
+    var travelAgentMarkupType = "";
+    var travelAgentMarkupAmount= "";
+    var platformFee = 0;
+    var taxOnPlatformFee = 0;
+    let cancellationCharges = [];
+    let RoomData = [];
+    let AllData = [];
+
+    function formatDate2(dateString) {
+        const date = new Date(dateString);
+        return date.toLocaleDateString('en-GB', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+        }).replace(',', ' at');
+    }
+
+    function formatDate(dateStr) {
+        const date = new Date(dateStr);
+        const day = date.getDate();
+        const month = date.toLocaleString('default', {month: 'long'});
+        const year = date.getFullYear();
+
+        // Adding ordinal suffix to the day
+        const dayWithSuffix = day + (day > 3 && day < 21 ? 'th' : ['th', 'st', 'nd', 'rd'][day % 10] || 'th');
+
+        return `${dayWithSuffix} ${month} ${year}`;
+    }
+
+    function calculateNights(checkInDate, checkOutDate) {
+        const checkIn = new Date(checkInDate);
+        const checkOut = new Date(checkOutDate);
+        const oneDay = 24 * 60 * 60 * 1000; // Milliseconds in one day
+        const differenceInTime = checkOut - checkIn;
+        const differenceInDays = Math.round(differenceInTime / oneDay);
+        return differenceInDays;
+    }
+
+    function generateTravelerForm(roomInfo, ipm, isPAN) {
+        console.log("is passport mandatory " + ipm);
+
+        let formHTML = '';
+
+        formHTML += ' <form id="travelerForm" class="contact-form ajax-contact" > <div class="page-form">';
+
+        if(isPAN){
+            formHTML += `
+<div class="row" style="margin-bottom: 17px; margin-top:13px">
+<div class="col">
+        <label style="font-size: 16px; color: black;">Pan Name :</label>
+    <input type="text" style="height: 30px;width: 206px;" class="alpha" name="panName" id="panName" placeholder="Name as per on Pan" required>
+</div>
+<div class="col">
+        <label style="font-size: 16px; color: black;">Pan Number :</label>
+    <input type="text" style="height: 30px;width: 206px;" class="alpha" name="pan" id="pan" placeholder="PAN" maxlength="10" minlength="10" required>
+    <span id="panError" style="color: red; font-size: 14px;"></span><br>
+<label style="color: #ec3e3e" >(if you wish to enter customer PAN please enter correct PAN)</label>
+</div>
+</div>
+
+    <hr>`;
+        }
+
+        roomInfo.forEach((room, roomIndex) => {
+            formHTML += `<div style="margin-top: 10px;" class="head"><span>Occupants of Room ${roomIndex + 1}</span></div>`;
+            formHTML += `<div id="room_${roomIndex + 1}"><div class="form-table"><div class="basic room">`;
+
+            // Add adults' info
+            for (let i = 0; i < room.occupancies[0].numOfAdults; i++) {
+                formHTML += `
+        <div class="row">
+    <div class="one-word" style="width: 80px;height: 30px">
+        Adult ${i + 1}:
+    </div>
+    <div class="col">
+        <select id="adultTitle${roomIndex}_${i}" style="border: none;height: 30px" name="adultTitle${roomIndex}_${i}" required>
+            <option value="Mr">Mr</option>
+            <option value="Ms">Ms</option>
+        </select>
+    </div>
+    <div class="col">
+        <input style="height: 30px" class="alpha" placeholder="First Name" type="text" name="adultFirstName${roomIndex}_${i}" id="adultFirstName${roomIndex}_${i}" value="" minlength="2" required>
+    </div>
+    <div class="col">
+        <input style="height: 30px" class="alpha" placeholder="Last Name" type="text" name="adultLastName${roomIndex}_${i}" id="adultLastName${roomIndex}_${i}" value="" minlength="2" required>
+    </div>
+</div>`;
+
+                // Conditionally add passport number field
+                if (ipm) {
+                    formHTML += `
+            <div class="row">
+                <div style="width: 90px;height: 30px" class="one-word">
+                    Passport ${i + 1}:
+                </div>
+                <div class="col">
+                    <label class="label" for="simple-required-room-${roomIndex + 1}-PAX-${i + 1}_passport">Passport Number</label>
+                    <input style="height: 30px" class="alpha" placeholder="Passport Number" type="text" name="adultPassport${roomIndex}_${i}" id="adultPassport${roomIndex}_${i}" value="">
+                </div>
+            </div>`;
+                }
+            }
+
+            // Add children's info
+            for (let j = 0; j < room.occupancies[0].numOfChildren; j++) {
+                formHTML += `
+        <div class="row">
+            <div style="width: 80px" class="one-word">
+                Child ${j + 1}: <br> Age(${room.occupancies[0].childAges[j]})
+            </div>
+            <div class="col">
+                <label class="label" for="simple-required-room-${roomIndex + 1}-ChildPAX-${j + 1}_firstname">First Name</label>
+                <input style="height: 30px" type="text" name="childFirstName${roomIndex}_${j}" id="childFirstName${roomIndex}_${j}" placeholder="First Name of Child ${j + 1}" minlength="2" required>
+            </div>
+            <div class="col">
+                <label class="label" for="simple-required-room-${roomIndex + 1}-ChildPAX-${j + 1}_lastname">Last Name</label>
+                <input style="height: 30px" type="text" name="childLastName${roomIndex}_${j}" id="childLastName${roomIndex}_${j}" placeholder="Last Name of Child ${j + 1}" minlength="2" required>
+                <input type="hidden" name="childTitle${roomIndex}_${j}" value="">
+            </div>
+        </div>`;
+            }
+
+            formHTML += `</div></div>`;
+
+            // Add <hr> tag only if not the last room
+            if (roomIndex < roomInfo.length - 1) {
+                formHTML += '<hr>';
+            }
+        });
+
+        formHTML += '</div> </form>';
+
+        return formHTML;
+    }
+
+    function test(roomInfo) {
+        roomInfo.forEach((room, roomIndex) => {
+
+            for (let i = 0; i < room.adults; i++) {
+                applyRegex("adultFirstName", `${roomIndex}`, `${i}`)
+                applyRegex("adultLastName", `${roomIndex}`, `${i}`)
+            }
+
+
+            for (let j = 0; j < room.children; j++) {
+                applyRegex("childFirstName", `${roomIndex}`, `${j}`)
+                applyRegex("childLastName", `${roomIndex}`, `${j}`)
+            }
+
+
+        });
+    }
+
+    function renderHTML(ans) {
+        var searchResult;
+        try {
+            searchResult = ans;
+            console.log("Response form server ");
+        }
+        catch (e) {
+            console.error("Invalid JSON response", e);
+            Swal.fire({
+                icon: 'error',
+                title: `An error occurred while processing the response.`
+            })
+            return;
+        }
+        console.log("Error")
+        console.log(searchResult);
+        let rooms = JSON.parse(searchResult.search_data.data.roominfo)
+        console.log(rooms)
+        if(!rooms[0].roomId){
+            rooms = rooms.map(room => ({
+                adults: room.numberOfAdults || 0,
+                children: room.numberOfChild || 0
+            }));
+        }
+        // var isPAN = true
+        var isPAN = searchResult.room_rate_data.hotel.rates[0].IsPANMandatory
+        var travelerFormHTML = generateTravelerForm(searchResult?.room_rate_data?.hotel.rates, searchResult?.room_rate_data?.hotel.rates[0].IsPassportMandatory, isPAN);
+        document.getElementById("travelerFormContainer").innerHTML = travelerFormHTML;
+
+        // var isBA =  searchResult.conditions.isBA;
+        var isBA =  false;
+
+        // Get the payment div to insert buttons
+        var paymentDiv = document.querySelector('.payment');
+
+// Clear any existing buttons in the payment div (optional)
+        paymentDiv.innerHTML = '';
+
+// Add buttons based on isBA condition
+        if (isBA) {
+            paymentDiv.innerHTML += `
+        <a   class="button"  onclick="holdBooking()" style="width:250px;">
+            Hold this Property
+        </a>
+        <a   class="button" onclick="submitForm()">
+            Book Hotel Now
+        </a>
+    `;
+        }
+        else {
+            paymentDiv.innerHTML += `
+        <button class="button" style="width:250px;"
+            onclick='submitForm()'>
+            Book Hotel Now
+        </button>
+    `;
+        }
+
+
+        let staticContent = JSON.parse(searchResult.search_data.data.staticContent)
+        console.log("static content",staticContent)
+        var mainPhoto = staticContent.staticContent.heroImage ?? "";
+        if (mainPhoto) {
+            document.getElementById("main-photo").src = mainPhoto;
+        }
+
+        var hotelName = staticContent.staticContent?.name ?? "Unknown Hotel";
+        document.getElementById("hotelname").innerHTML = hotelName;
+
+        // Check if rating exists
+        var rating = staticContent.staticContent?.starRating;
+        var rt = '';
+
+// Build the HTML for the stars
+        if (rating) {
+            // Add stars based on the rating
+            for (var j = 0; j < rating; j++) {
+                rt += `<i class="fas fa-star" style="color: #f99e00;"></i>`;
+            }
+            // Add empty stars if rating is less than 5
+            for (var k = rating; k < 5; k++) {
+                rt += `<i class="fas fa-star" style="color: lightgray;"></i>`;
+            }
+        }
+        else {
+            rt = `<p>No rating available</p>`;
+        }
+
+// Update all elements with the class 'tour-card__rating'
+        const ratingElements = document.querySelectorAll('.tour-card__rating');
+        ratingElements.forEach(element => {
+            element.innerHTML = rt;
+        });
+
+        // Sample address data
+        var addressData = staticContent.staticContent?.contact?.address?? {};
+
+// Construct the address string dynamically
+        var addressParts = [];
+
+        if (addressData.line1) addressParts.push(addressData.line1);
+        if (addressData.line2) addressParts.push(addressData.line2);
+        if (addressData.city?.name) addressParts.push(addressData.city.name);
+        if (addressData.state?.name) addressParts.push(addressData.state.name);
+        if (addressData.postalCode) addressParts.push(addressData.postalCode);
+        if (addressData.country?.name) addressParts.push(addressData.country.name);
+
+// Join the address parts with commas and trim any extra spaces
+        var addressString = addressParts.join(', ');
+
+// Display the address in the label element
+        document.getElementById("addressLabel").innerHTML = addressString;
+
+// Get the check-in date from the search result
+        var checkInDate = searchResult?.search_data?.data?.checkin ?? "";
+        var formattedCheckInDate = checkInDate ? formatDate(checkInDate) : "N/A";
+
+// Set the inner HTML of the checkin element
+        document.getElementById("checkin").innerHTML = `<span>Check-In: </span>${formattedCheckInDate}`;
+
+        var checkoutDate = searchResult?.search_data?.data?.checkout ?? "";
+        var formattedCheckoutDate = checkoutDate ? formatDate(checkoutDate) : "N/A";
+        document.getElementById("checkout").innerHTML = `<span> Check-Out: </span>${formattedCheckoutDate}`;
+
+
+        // Calculate the number of nights
+        var numberOfNights = checkInDate && checkoutDate ? calculateNights(checkInDate, checkoutDate) : "N/A";
+        document.getElementById("nights").innerHTML = `<span>No. of Night(s): </span>${numberOfNights}`;
+
+        // Option Selected
+        var optionselected = searchResult?.room_rate_data?.hotel?.rooms[0].name ?? "N/A";
+        document.getElementById("optionselected").innerHTML = `<span>Room: </span>${optionselected}` ;
+
+        // Option Selected
+        var mealBasis = searchResult?.room_rate_data?.hotel?.rates[0].boardBasis?.type ?? "N/A";
+        document.getElementById("mealBasis").innerHTML = `<span>Meal Plan: </span>${mealBasis}` ;
+
+
+        // Option Selected
+        var noOfRooms = rooms.length ?? "N/A";
+        document.getElementById("noOfRooms").innerHTML = `<span>Room(s): </span>${noOfRooms}` ;
+
+        // Calculate total adults and children across all rooms
+        let totalAdults = 0;
+        let totalChildren = 0;
+        rooms.forEach(room => {
+            totalAdults += room.adults;
+            totalChildren += room.children;
+        });
+
+
+        // Prepare the formatted string for display
+        const paxText = `<span>Total Pax(s): </span>${totalAdults} adult(s), ${totalChildren} child(s)`;
+        // Update the DOM element with the calculated total adults and children
+        document.getElementById("lblPaxCount").innerHTML = paxText;
+
+        let grandTotal = 0;
+
+// Assuming markType, markValue, and applyOn have been set via fetchHotelDetails
+        let numberOfRooms = rooms?.length ?? 0;
+
+        let TotalTravelAgentMarkup = 0;
+        let TotalAfterMarkup = 0;
+        for (let i = 0; i < numberOfRooms; i++) {
+
+
+            let roomMarkup = 0;
+            let roomTotalPrice = searchResult.room_rate_data.hotel.rates[0].Rateinfo.amount_afterMarkup;
+            let travelAgentMarkup = searchResult.room_rate_data.hotel.rates[0].Rateinfo.markup_amount;
+
+            //console.log(roomTotalPrice)
+            let roomPrice =  searchResult.room_rate_data.hotel.rates[0].Rateinfo.totalRate ;
+
+            TotalTravelAgentMarkup += travelAgentMarkup
+            TotalAfterMarkup += roomTotalPrice
+            grandTotal += roomTotalPrice;
+            //console.log(grandTotal)
+            originalTotal += roomPrice
+
+        }
+        TotalTravelAgentMarkup = parseFloat(TotalTravelAgentMarkup)
+        TotalAfterMarkup = parseFloat(TotalAfterMarkup)
+        console.log("Total Travel Agent Markup ",TotalTravelAgentMarkup)
+        console.log("Total ",grandTotal)
+        // Update the DOM with calculated totals
+        grandTotal = parseFloat(grandTotal) || 0; // Converts to number, defaults to 0 if invalid
+
+        document.getElementById("total").innerHTML = `<span>&nbsp;Aed ${grandTotal.toFixed(2)}</span>`;
+        document.getElementById("totalTravelAgentMArkup").innerHTML = TotalTravelAgentMarkup;
+        document.getElementById("AfterMarkUp").innerHTML = TotalAfterMarkup;
+        document.getElementById("platformFee").innerHTML = `<span>&nbsp;Aed ${platformFee}</span>`;
+        document.getElementById("taxOnPlatformFee").innerHTML = `<span>&nbsp;Aed ${taxOnPlatformFee}</span>`;
+
+// Add platform fee and tax to the grand total
+        let finalGrandTotal = grandTotal + platformFee + taxOnPlatformFee;
+
+        document.getElementById("finalGrandTotal").innerHTML = `<span>&nbsp;Aed ${(finalGrandTotal).toFixed(2)}</span>`;
+
+// Check if instructions exist
+        var instructions = searchResult.room_rate_data.hotel.rates[0].policies;
+
+// Create the outer structure
+        var inst = `
+    <div id="impNotesBoxNew">
+        <div class="title">Important Notes</div>
+        <div style="margin-top:10px;font-size: 13px;line-height:22px;text-align:justify;background-color:#f2f2f2;padding:10px;" class="impNoteText">
+            <ul class="impNotesList">
+`;
+
+// Check if there are any instructions
+        if (instructions && instructions.length > 0) {
+            // Iterate over each instruction
+// Iterate over each policy
+            for (var i = 0; i < instructions.length; i++) {
+                if (instructions[i].type === "Optional Fee" || instructions[i].type === "Booking Policy") {
+                    continue; // Skip these types
+                }
+
+                inst += `<h3>${instructions[i].type}:</h3>`; // Add the policy type as a heading
+                inst += `<p>${instructions[i].text}</p>`; // Directly use the 'text' field since it may contain HTML
+            }
+
+
+            inst += `
+        <p style="color: black; font-size:16px;">
+            <input type="checkbox" class="simple-required-Impnote" id="simple-required-Impnote" name="simple-required-Impnote" style="margin-right:10px;">
+            I agree and understand the important notes.
+        </p>
+    `;
+
+        }
+        else {
+            // If no instructions exist, show a message
+            inst += `
+            <h5>No specific instructions available</h5>
+        </div>
+    </div>
+    `;
+        }
+
+// Insert the constructed HTML into the container
+        var container = document.getElementById("policy");
+        if (container) {
+            container.innerHTML = inst; // Replace existing content with the new structure
+        } else {
+            console.error("Element with ID 'policy' not found.");
+        }
+
+        gTotal = grandTotal; // Update the grand total with markup included
+        test(rooms);
+    }
+
+    function getCancellationCharges(ans) {
+        var searchResult;
+        try {
+            searchResult = ans;
+            console.log("Response from server");
+        }
+        catch (e) {
+            console.error("Invalid JSON response", e);
+            Swal.fire({
+                icon: 'error',
+                title: `An error occurred while processing the response.`
+            }).then(() => {
+                window.location.href = "/hotels/hotel-details/" + correlationId;
+            });
+            return;
+        }
+
+        // Get cancellation policy details from the search result
+        var cnp = searchResult?.room_rate_data?.hotel?.CancellationPolicy?.[0] ?? {};
+        var ifra = cnp.refundable ? "Refund is allowed" : "Non-refundable";
+
+        var cancellationPolicyHTML = ""; // Initialize before conditions
+
+        if (cnp.refundable) {
+            var notes = cnp.text && cnp.text.trim() !== "" ? cnp.text : "No specific notes available.";
+            var pd = cnp.rules ? cnp.rules : [];
+
+            cancellationPolicyHTML = `
+        <div class="title">Cancellation Policies</div>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <thead>
+                <tr>
+                    <td><p>From Date</p></td>
+                    <td><p>To Date</p></td>
+                    <td><p>Charge Amount</p></td>
+                </tr>
+            </thead>
+            <tbody>`;
+
+            pd.forEach(penalty => {
+                let fromDate = penalty.start ? formatDate2(penalty.start) : "Current Date";
+                let toDate = penalty.end ? formatDate2(penalty.end) : "N/A";
+                let amount = penalty.estimatedValue || '0';
+                //console.log(amount)
+                //console.log(penalty.estimatedValue)
+                cancellationPolicyHTML += `
+            <tr>
+                <td><p>${fromDate}</p></td>
+                <td><p>${toDate}</p></td>
+                <td><p>Aed ${amount}</p></td>
+            </tr>`;
+            });
+
+            cancellationPolicyHTML += `
+        </tbody>
+    </table>
+    <div class="refund-notes">
+        <div>${notes}</div>
+    </div>`;
+        } else {
+            var text = cnp.text && cnp.text.trim() !== "" ? cnp.text : "No specific notes available.";
+
+            cancellationPolicyHTML = `<div class="title">Cancellation Policies</div>
+    <div class="refund-notes">
+        <div>${text}</div>
+    </div>`;
+        }
+
+
+
+        document.getElementById("cancelationpolicy").innerHTML = cancellationPolicyHTML;
+
+    };
+
+    async function fetchReview() {
+        console.log("Loader Start");
+
+        // Show loading popup
+        Swal.fire({
+            html: `
+        <div class="loading-container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <img src="/images/new.gif" class="img-fluid preloader-image" />
+        </div>
+        `,
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            background: 'rgba(0, 0, 0, 0.3)', // Slight dim background
+            customClass: { popup: 'full-screen-swal' }
+        });
+
+        try {
+            // Validate if elements exist before accessing values
+            let roomTypeElem = document.getElementById("roomType");
+            let hotelElem = document.getElementById("hotel");
+            let rateElem = document.getElementById("rate");
+
+            if (!roomTypeElem || !hotelElem || !rateElem) {
+                throw new Error("One or more required fields are missing.");
+            }
+
+            let hotelUniqueId = hotelElem.value;
+            correlationId = hotelUniqueId;
+            let optionId = roomTypeElem.value;
+            let rate = rateElem.value;
+
+            console.log(hotelUniqueId, optionId);
+
+            let formdata = new FormData();
+            formdata.append("hotelUniqueId", hotelUniqueId);
+            formdata.append("optionId", optionId);
+            formdata.append("rate", rate);
+
+            let url = "/hotels/getHotelReview";
+            let response = await fetch(url, { method: "POST", body: formdata });
+
+            if (!response.ok) {
+                let errorText;
+                try {
+                    errorText = await response.text(); // Try getting backend error message
+                } catch {
+                    errorText = "Unknown error"; // Fallback if response is not readable
+                }
+
+                // Redirect before throwing the error
+                window.location.href = `/hotels/hotel-details/` + hotelUniqueId;
+
+                throw new Error(`HTTP error! Status: ${response.status}, Message: ${errorText}`);
+            }
+
+
+            let ans = await response.json();
+            console.log("ANS",ans);
+
+            if(ans.room_rate_data.error === true){
+              return  Swal.fire({icon:'error',title:ans.room_rate_data.message}).then(()=>{
+                    window.location.href = `/hotels/hotelResults`
+                });
+            }
+            if(ans.search_data.error === true){
+                return  Swal.fire({icon:'error',title:ans.search_data.message}).then(()=>{
+                    window.location.href = `/hotels/hotelResults`
+                });
+            }
+
+            if(ans.priceChangeAlert){
+                Swal.fire({icon:'warning',title:ans.priceChangeAlert}).then(()=>{
+                    renderHTML(ans);
+                    getCancellationCharges(ans);
+                    RoomData = ans.room_rate_data
+                    AllData = ans.search_data
+                    console.log("All-Data",AllData)
+                })
+            }else{
+                Swal.close(); // Close loader
+                renderHTML(ans);
+                getCancellationCharges(ans);
+                RoomData = ans.room_rate_data
+                AllData = ans.search_data
+                console.log("All-Data",AllData)
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            Swal.close(); // Ensure loader is closed in case of failure
+            Swal.fire("Error", error.message || "Failed to fetch reviews. Please try again.", "error");
+        }
+    }
+
+    function generateBookingID() {
+        const prefix = "RIYA";
+        const date = new Date();
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0'); // Ensure 2-digit month
+        const day = String(date.getDate()).padStart(2, '0'); // Ensure 2-digit day
+        const randomNum = Math.floor(100000 + Math.random() * 900000); // 6-digit random number
+
+        return `${prefix}${year}${month}${day}${randomNum}`;
+    }
+
+
+    async function submitForm() {
+        if ($("#travelerForm").valid()) {
+            const form = document.getElementById('travelerForm');
+
+            const firstNames = new Set();
+            // Check for important notes acceptance
+            if (document.getElementById("simple-required-Impnote") && !document.getElementById("simple-required-Impnote").checked) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please Accept the important notes !!'
+                });
+                return false;
+            }
+
+            // Check for terms and conditions acceptance
+            if (document.getElementById("simple-required-chkagree") && !document.getElementById("simple-required-chkagree").checked) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please Accept the terms and conditions !!'
+                });
+                return false;
+            }
+
+            // Add the rest of your form submission logic here...
+            const grandTotal = gTotal
+
+            const formdata = new FormData(form);
+            const bookingData = {
+                bookingId: generateBookingID(),
+                roomTravellerInfo: [],
+            };
+            const rooms = document.querySelectorAll('.room');
+            for (let roomIndex = 0; roomIndex < rooms.length; roomIndex++) {
+                const roomElement = rooms[roomIndex];
+                const room = { travellerInfo: [] };
+
+                // Collect information for adults
+                const numberOfAdults = roomElement.querySelectorAll(`[name^="adultTitle${roomIndex}_"]`).length;
+
+                for (let i = 0; i < numberOfAdults; i++) {
+                    const firstName = formdata.get(`adultFirstName${roomIndex}_${i}`);
+
+                    firstNames.add(firstName); // Add unique first name
+
+                    const adult = {
+                        ti: formdata.get(`adultTitle${roomIndex}_${i}`),
+                        fN: firstName,
+                        lN: formdata.get(`adultLastName${roomIndex}_${i}`),
+                        pt: "ADULT",
+                        pan: formdata.get("pan"),
+                        panName: formdata.get("panName")
+                    };
+
+                    const adultPassportNumber = formdata.get(`adultPassport${roomIndex}_${i}`);
+                    if (adultPassportNumber) {
+                        adult.pNum = adultPassportNumber;
+                    }
+
+                    room.travellerInfo.push(adult);
+                }
+
+                // Collect information for children
+                const numberOfChildren = roomElement.querySelectorAll(`[name^="childFirstName${roomIndex}_"]`).length;
+
+                for (let j = 0; j < numberOfChildren; j++) {
+                    const firstName = formdata.get(`childFirstName${roomIndex}_${j}`);
+
+                    firstNames.add(firstName); // Add unique first name
+
+                    const child = {
+                        ti: "Master",
+                        fN: firstName,
+                        lN: formdata.get(`childLastName${roomIndex}_${j}`),
+                        pt: "CHILD",
+                        pan: formdata.get("pan")
+                    };
+
+                    const childPassportNumber = formdata.get(`childPassport${roomIndex}_${j}`);
+                    if (childPassportNumber) {
+                        child.pNum = childPassportNumber;
+                    }
+
+                    room.travellerInfo.push(child);
+                }
+
+                bookingData.roomTravellerInfo.push(room);
+            }
+            let TAMarkup = document.getElementById("totalTravelAgentMArkup").innerHTML;
+            let AfMarkup = document.getElementById("AfterMarkUp").innerHTML;
+            console.log("MM",TAMarkup)
+            console.log("MA",AfMarkup)
+            const formData = new FormData();
+            formData.append("bookingData", JSON.stringify(bookingData));
+            formData.append("SearchData", JSON.stringify(RoomData));
+            formData.append("SearchingData", JSON.stringify(AllData));
+            formData.append("CorrelationId", correlationId);
+            formData.append("Amount", grandTotal);
+            formData.append("TravelAgentMarkup", TAMarkup);
+            formData.append("AfterMarkup", AfMarkup);
+
+            Swal.fire({
+                title: "Are you sure you want to make the payment?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, Continue!"
+            }).then(async (result) => {
+                if (result.isConfirmed) {
+                    try {
+                        const url = "/hotels/goToCheckout";
+                        let res = await fetch(url, {
+                            method: "POST",
+                            body: formData
+                        });
+
+                        let response = await res.json();
+                        if (response.success) {
+                            console.log(response)
+                            let bookingId = response.bookingId;
+                            window.location.href = `/hotels/hotelCheckout/${bookingId}/${originalTotal}`;
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Problem submitting the form'
+                            });
+                        }
+                    } catch (error) {
+                        console.error("Error submitting form: ", error);
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Submission failed!',
+                            text: 'Please try again later.'
+                        });
+                    }
+                }
+            });
+        } else {
+            const invalidFields = $("#travelerForm").find(":input").filter(function() {
+                return !this.validity.valid;
+            });
+
+            if (invalidFields.length > 0) {
+                invalidFields.first().focus();
+            }
+        }
+    }
+
+    async function holdBooking() {
+        if ($("#travelerForm").valid()) {
+            const form = document.getElementById('travelerForm');
+
+            // Initialize a Set to track all unique first names
+            const firstNames = new Set();
+
+            // Check for important notes acceptance
+            if (document.getElementById("simple-required-Impnote") && !document.getElementById("simple-required-Impnote").checked) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please Accept the important notes !!'
+                });
+                return false;
+            }
+
+            // Check for terms and conditions acceptance
+            if (document.getElementById("simple-required-chkagree") && !document.getElementById("simple-required-chkagree").checked) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please Accept the terms and conditions !!'
+                });
+                return false;
+            }
+
+            const formData = new FormData(form);
+            const bookingData = {
+                bookingId: bookingID,
+                roomTravellerInfo: [],
+                deliveryInfo: {
+                    emails: [formData.get("email")],
+                    contacts: [formData.get("contact")],
+                    code: ["+91"]
+                },
+                type: "HOTEL"
+            };
+
+            const rooms = document.querySelectorAll('.room');
+            for (let roomIndex = 0; roomIndex < rooms.length; roomIndex++) {
+                const roomElement = rooms[roomIndex];
+                const room = { travellerInfo: [] };
+
+                // Collect information for adults
+                const numberOfAdults = roomElement.querySelectorAll(`[name^="adultTitle${roomIndex}_"]`).length;
+
+                for (let i = 0; i < numberOfAdults; i++) {
+                    const firstName = formData.get(`adultFirstName${roomIndex}_${i}`);
+
+                    // Check for duplicate first names
+                    if (firstNames.has(firstName)) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Duplicate First Name',
+                            text: `First name "${firstName}" has been used for multiple passengers. Please enter unique first names for all passengers.`
+                        });
+                        return false;
+                    }
+
+                    firstNames.add(firstName); // Add unique first name
+
+                    const adult = {
+                        ti: formData.get(`adultTitle${roomIndex}_${i}`),
+                        fN: firstName,
+                        lN: formData.get(`adultLastName${roomIndex}_${i}`),
+                        pt: "ADULT",
+                        pan: formData.get("pan")
+                    };
+
+                    const adultPassportNumber = formData.get(`adultPassport${roomIndex}_${i}`);
+                    if (adultPassportNumber) {
+                        adult.pNum = adultPassportNumber;
+                    }
+
+                    room.travellerInfo.push(adult);
+                }
+
+                // Collect information for children
+                const numberOfChildren = roomElement.querySelectorAll(`[name^="childFirstName${roomIndex}_"]`).length;
+
+                for (let j = 0; j < numberOfChildren; j++) {
+                    const firstName = formData.get(`childFirstName${roomIndex}_${j}`);
+
+                    // Check for duplicate first names
+                    if (firstNames.has(firstName)) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Duplicate First Name',
+                            text: `First name "${firstName}" has been used for multiple passengers. Please enter unique first names for all passengers.`
+                        });
+                        return false;
+                    }
+
+                    firstNames.add(firstName); // Add unique first name
+
+                    const child = {
+                        ti: "Master",
+                        fN: firstName,
+                        lN: formData.get(`childLastName${roomIndex}_${j}`),
+                        pt: "CHILD",
+                        pan: formData.get("pan")
+                    };
+
+                    const childPassportNumber = formData.get(`childPassport${roomIndex}_${j}`);
+                    if (childPassportNumber) {
+                        child.pNum = childPassportNumber;
+                    }
+
+                    room.travellerInfo.push(child);
+                }
+
+                bookingData.roomTravellerInfo.push(room);
+            }
+
+            console.log("Booking Data: ", bookingData);
+
+            let TAMarkup = document.getElementById("totalTravelAgentMArkup").innerHTML;
+            let AfMarkup = document.getElementById("AfterMarkUp").innerHTML;
+            const grandTotal = gTotal + platformFee + taxOnPlatformFee - TAMarkup;
+
+            var formdata = new FormData();
+            formdata.append("bookingData", JSON.stringify(bookingData));
+            formdata.append("GrandTotal", grandTotal);
+            formdata.append("PlatformFee", platformFee);
+            formdata.append("TaxOnPlatformFee", taxOnPlatformFee);
+            formdata.append("originalTotal", originalTotal);
+            formdata.append("TravelAgentMarkup", TAMarkup);
+            formdata.append("AfterMarkup", AfMarkup);
+
+            var bookingId = document.getElementById("bookingId").value;
+            formdata.append("bookingId", bookingId);
+            formdata.append("MDCancelChargesJson",JSON.stringify( cancellationCharges));
+
+
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, Continue!"
+            }).then(async (result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        html: `
+                    <div class="loading-container" style="background-color: #d3d3d3d9!important;opacity: 0.5;">
+                        <img src="/images/new.gif" class="img-fluid preloader-image" />
+                    </div>
+                `,
+                        allowOutsideClick: false,
+                        showConfirmButton: false,
+                        background: 'transparent',
+                        customClass: {
+                            popup: 'full-screen-swal'
+                        }
+                    });
+
+                    const url = "/hotel/holdBooking";
+                    let res = await fetch(url, {
+                        method: "POST",
+                        body: formdata
+                    });
+
+                    if (res.ok) {
+                        Swal.close();
+                        window.location.href = '/hotel/hold-processing-page/' + bookingId;
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Problem'
+                        });
+                    }
+                }
+            });
+        } else {
+            const invalidFields = $("#travelerForm").find(":input").filter(function() {
+                return !this.validity.valid;
+            });
+
+            if (invalidFields.length > 0) {
+                invalidFields.first().focus(); // Focus on the first invalid field
+            }
+        }
+    }
+
+    function applyRegex(prefix, index, i) {
+
+        $(`#${prefix}${index}_${i}`).on('input', function () {
+            var inputValue = $(this).val();
+            var sanitizedValue = inputValue.replace(/[^a-zA-Z]/g, '');
+            // Remove special characters and spaces
+            $(this).val(sanitizedValue); // Set the sanitized value back to the input field
+        });
+    }
+
+</script>
+
+<script>
+    document.addEventListener("input", function(event) {
+        console.log("ok")
+        if (event.target && event.target.id === "pan") {
+            console.log("ok ok")
+            var panInput = event.target.value.toUpperCase(); // Convert to uppercase
+            event.target.value = panInput; // Ensure uppercase is maintained
+
+            var panRegex = /^[A-Z]{5}[0-9]{4}[A-Z]{1}$/; // PAN pattern
+            var errorSpan = document.getElementById("panError");
+
+            if (panRegex.test(panInput)) {
+                errorSpan.textContent = ""; // Valid PAN, clear error
+            } else {
+                errorSpan.textContent = "Invalid PAN format (e.g., GAWPP5665K)";
+            }
+
+            console.log("PAN Input Changed:", panInput); // Debugging
+        }
+    });
+</script>
+</body>
+</html>

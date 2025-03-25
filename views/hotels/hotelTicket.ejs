@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PAGE TITLE HERE -->
+    <title>TDO :: Ticketed Bookings</title>
+    <%- include('../partials/header2') %>
+    <style>
+        .rounded-modal {
+            border-radius: 15px; /* Adjust value as needed */
+            overflow: hidden;    /* Prevents content from spilling over rounded corners */
+        }
+        body
+        {
+            background-color: white !important;
+        }
+        .transaction-details p {
+            margin-bottom: 0; /* Ensure paragraphs are inline */
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        .table {
+            width: 100%;
+            table-layout: auto; /* Changed from fixed to auto for more flexibility */
+            border-collapse: collapse;
+            white-space: nowrap; /* Prevent wrapping in table cells by default */
+        }
+
+        .table th, .table td {
+            padding: 5px 5px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 11px;
+            border: 2px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-all; /* Breaks long words without spaces */
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* Set specific widths for columns with typically longer text */
+        .table td:nth-child(1), /* TDO Reference Id */
+        .table td:nth-child(2), /* Total Amount Paid */
+        .table td:nth-child(3), /* Ticket Status */
+        .table td:nth-child(4), /* Markup By Agent */
+        .table td:nth-child(5), /* Departure Airport */
+        .table td:nth-child(6), /* Departure Airport */
+        .table td:nth-child(7), /* Departure Airport */
+        .table td:nth-child(8),
+        .table td:nth-child(9)/* Arrival Airport */ {
+            min-width: 100px;
+            max-width: 100px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+
+        .table th:nth-child(1), /* TDO Reference Id */
+        .table th:nth-child(2), /* Total Amount Paid */
+        .table th:nth-child(3), /* Ticket Status */
+        .table th:nth-child(4), /* Markup By Agent */
+        .table th:nth-child(5), /* Departure Airport */
+        .table th:nth-child(6), /* Departure Airport */
+        .table th:nth-child(7), /* Departure Airport */
+        .table th:nth-child(8),  /* Arrival Airport */
+        .table td:nth-child(9) {
+            min-width: 100px;
+            max-width: 100px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+
+        .table td img {
+            max-width: 30px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+
+        .table1 th, .table1 td {
+            padding: 5px 5px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 11px;
+            border: 2px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-all; /* Breaks long words without spaces */
+        }
+
+        .table1 th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* Set specific widths for columns with typically longer text */
+        .table1 td:nth-child(1), /* TDO Reference Id */
+        .table1 td:nth-child(2)
+        {
+            min-width: 30px;
+            max-width: 30px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+        .table1 td:nth-child(3), /* Ticket Status */
+        .table1 td:nth-child(4), /* Markup By Agent */
+        .table1 td:nth-child(5), /* Departure Airport */
+        .table1 td:nth-child(6), /* Departure Airport */
+        .table1 td:nth-child(7), /* Departure Airport */
+        .table1 td:nth-child(8),
+        .table1 td:nth-child(9)/* Arrival Airport */ {
+            min-width: 100px;
+            max-width: 100px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+
+        .table1 th:nth-child(1), /* TDO Reference Id */
+        .table1 th:nth-child(2)
+        {
+            min-width: 30px;
+            max-width: 30px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+        .table1 th:nth-child(3), /* Ticket Status */
+        .table1 th:nth-child(4), /* Markup By Agent */
+        .table1 th:nth-child(5), /* Departure Airport */
+        .table1 th:nth-child(6), /* Departure Airport */
+        .table1 th:nth-child(7), /* Departure Airport */
+        .table1 th:nth-child(8),  /* Arrival Airport */
+        .table1 td:nth-child(9) {
+            min-width: 100px;
+            max-width: 100px;
+            white-space: normal; /* Allow wrapping for longer text */
+        }
+        .table1 td img {
+            max-width: 30px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+
+        @media (max-width: 768px) {
+            .table th, .table td {
+                font-size: 6px;
+                padding: 6px;
+            }
+            .table td:nth-child(1), .table td:nth-child(3),
+            .table td:nth-child(6), .table td:nth-child(7) {
+                min-width: 80px;
+                max-width: 120px;
+            }
+        }
+
+        /* Styling the table title */
+        h5 {
+            background-color: #ec3e3e;
+            border-radius: 12px;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        @page {
+            size: portrait;
+            margin: 25px;
+        }
+
+        @media print {
+
+            /* Reset body padding and margin for better fit */
+            body {
+                margin: 40px !important;
+                padding: 0;
+                font-size: 10px !important; /* Default font size for print */
+            }
+
+
+
+            .container-fluid {
+                width: 100%;               /* Set width to 90% */
+                /* Set a maximum width for the content */
+                margin: 0 auto;           /* Center the container horizontally */
+                padding: 5px;            /* Add padding around the content */
+            }
+
+            /* Apply uniform margins to the entire page */
+
+
+            /* Adjust font size for ticket content */
+            .ticket-content {
+                font-size: 10px; /* Adjust ticket content font size */
+                line-height: 1.4; /* Improve line spacing for readability */
+            }
+
+            /* Table adjustments for print */
+            .table {
+                width: 100%;
+                table-layout: fixed; /* Ensure tables fit */
+                font-size: 10px !important; /* Adjust table text size */
+                margin-bottom: 20px; /* Ensure tables don't overflow */
+
+            }
+
+            .table th, .table td {
+                padding: 8px; /* Decrease padding to save space */
+                text-align: left;
+                font-size: 10px !important;
+                vertical-align: middle;
+                border: 1px solid #ddd;
+            }
+
+            .table1 {
+                width: 100%;
+
+                font-size: 10px !important; /* Adjust table text size */
+                margin-bottom: 20px; /* Ensure tables don't overflow */
+
+            }
+
+            .table1 th:nth-child(1)
+            {
+                min-width: 80px;
+                max-width: 80px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 td:nth-child(1)
+            {
+                min-width: 80px;
+                max-width: 80px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 th:nth-child(2)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 td:nth-child(2)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 th:nth-child(3)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 td:nth-child(3)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 th:nth-child(4)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+            .table1 td:nth-child(4)
+            {
+                min-width: 60px;
+                max-width: 60px;
+                white-space: normal; /* Allow wrapping for longer text */
+            }
+
+
+
+
+            /* Page breaks for large content */
+            /* Ensure body has no padding or margin */
+
+
+            /* Adjust container styles to fit within the print margins */
+
+
+            /* Set uniform padding for rows */
+            .row {
+                margin: 0;
+                padding: 0;
+            }
+
+
+
+            /* Ensure images and logos fit within the page */
+            img {
+                max-width: 100%; /* Ensure images scale down */
+                height: auto;
+            }
+
+            /* Hide unnecessary elements like buttons and modals during print */
+            .print-button, .modal, .footer {
+                display: none;
+            }
+
+            /* Optional: adjust page margins for print */
+        }
+        .row {
+            display: flex;
+            /*flex-wrap: wrap;*/
+        }
+        ol li {
+            text-align: left;
+            margin-bottom: 1px;
+            font-size: 10px;
+        }
+
+        ol {
+            margin-bottom: 0.5em;
+        }
+
+        .icon-flights {
+            width: 40px;
+            margin: auto;
+            float: left;
+            color: red;
+        }
+
+        .icon-flights-green {
+            width: 40px;
+            margin: auto;
+            float: left;
+            color: green;
+        }
+        .hotel-details {
+            padding: 15px;
+            max-width: 100%;
+        }
+
+        .detail-item {
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body onload="showBookingDetails(`<%=id%>`, `<%=type%>`)">
+<div class="container-fluid">
+    <div class="row mb-2">
+        <div class="col-lg-6 col-sm-6" id="logo">
+
+        </div>
+        <div class="col-lg-6 col-sm-6" id="agentDetails">
+        </div>
+    </div>
+    <div id="result">
+        <i class="spinner-grow"></i>
+    </div>
+</div>
+
+<div class="">
+    <!-- Your content -->
+    <div class="footer out-footer">
+        <div class="copyright">
+            <p>Copyright
+                <script>document.write(new Date().getFullYear())</script>
+                © Developed by <a href="https://veenusmindmedia.com/" target="_blank">Veenus Mind Media</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg bg-white rounded-modal">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h6 class="modal-title" id="staticBackdropLabel">Select Types Of Ticket</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body table-container" id="myans">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Required vendors -->
+<script>
+    let row = [];
+    let Agent = [];
+    let Airlines=[];
+
+    function formatDuration(duration) {
+        let [hours, minutes] = duration.split(":").map(Number);
+        let formattedDuration = `${hours > 0 ? hours + " hrs " : ""}${minutes > 0 ? minutes + " mins" : ""}`.trim();
+        return formattedDuration || "0 mins";
+    }
+
+    async function showBookingDetails(id, type) {
+            if (type === 'ai' || type === 'ae') {
+                fetchAgDetails(`<%= agentEmail %>`);
+            }
+            let formData = new FormData();
+            formData.append("bookingId", id);
+
+            let res = await fetch('/hotels/getHotelTicketDetails', {
+                method: "POST",
+                body: formData
+            });
+
+            res = await res.json();
+            console.log(res);
+            let row = res.recordset[0];
+            let info = res.info[0];
+        const checkInDate = new Date(row.checkIN);
+        const checkOutDate = new Date(row.checkOut);
+        const totalNights = Math.round((checkOutDate - checkInDate) / (1000 * 60 * 60 * 24));
+        const addressString = row.hotel_address
+        const address = JSON.parse(addressString);
+
+// Extract values
+        const line1 = address.line1 || "";
+        const line2 = address.line2 ? `${address.line2}, ` : "";
+        const city = address.city?.name || "";
+        const state = address.state?.name || ""; // Assuming state name might be missing
+        const country = address.country?.name || "";
+        const postalCode = address.postalCode || "";
+        const formattedAddress = `${line1}, ${line2}${city}, ${state} ${postalCode}, ${country}`.replace(/,\s+/g, ', ').trim();
+
+        // Sample meal_basics JSON string
+        const meal_basics = row.meal_basics || `${row.meal_basics}`;
+
+// Parse the JSON string into an object
+        const data = JSON.parse(meal_basics);
+
+// Define possible meal types
+        const mealOptions = ["RoomOnly", "BedAndBreakfast", "HalfBoard", "FullBoard", "AllInclusive"];
+
+// Extract the meal type(s) that are true
+        const mealType = mealOptions.filter(meal => data[meal] === true);
+
+        console.log(mealType); // Output: ["RoomOnly"]
+
+
+        let ans = ``;
+
+        ans += `
+<h5>Hotel Details</h5>
+<div class="hotel-details">
+    <div class="detail-item">
+        <strong>Booking Code:</strong> ${row.api_booking_id}
+    </div>
+<br>
+    <div class="detail-item">
+        <strong>Hotel Name:</strong> ${row.hotelName}
+    </div>
+<br>
+    <div class="detail-item row">
+        <div class="col">
+            <strong>Check-IN:</strong><br>
+            ${new Date(row.checkIN).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+        </div>
+        <div class="col">
+            <strong>Check-OUT:</strong><br>
+            ${new Date(row.checkOut).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+        </div>
+        <div class="col">
+            <strong>Total Nights:</strong><br>
+            ${totalNights}
+        </div>
+    </div><br>
+
+<div class="detail-item">
+        <strong>Address:</strong> ${formattedAddress}
+    </div><br>
+
+<div class="detail-item">
+        <strong>Hotel Telephone No.:</strong>+ ${row.hotel_phone}
+    </div>
+</div>
+<h5>Guest Details</h5>
+<div class="hotel-details">
+`;
+
+        for (let i = 0; i < info.roomTravellerInfo.length; i++) {
+            let passengerNames = info.roomTravellerInfo[i].travellerInfo
+                .map(guest => `${guest.ti} ${guest.fN} ${guest.lN}`)
+                .join(', ');  // Combine passenger names with commas if multiple
+
+            ans += `<div class="detail-item row">
+        <div class="col">
+            <strong>Room No.</strong><br>
+            ${i + 1}
+        </div>
+        <div class="col">
+            <strong>Passenger(s) Name</strong><br>
+            ${passengerNames}
+        </div>
+        <div class="col">
+            <strong>Room Type</strong><br>
+            ${info.searchData.hotel.rooms[0].name}
+        </div>
+        <div class="col">
+            <strong>Meal Plan</strong><br>
+            ${mealType}
+        </div>
+    </div>`;
+        }
+
+        if (type === 'ai' || type === 'wi') {
+            ans += `<div class="detail-item">
+        <strong>Contact No. </strong> ${row.user_phoneNumber}
+    </div><div class="detail-item">
+        <strong>No. of Adult/Child</strong> ${row.totalAdult}/${row.totalChild}
+    </div><div class="detail-item">
+        <strong>No. of Rooms</strong> ${info.roomTravellerInfo.length}
+    </div></div>
+<h5>Price BreakUp</h5>
+<div class="hotel-details">
+    <div class="detail-item">
+        <strong>Hotel Rate:</strong> ${row.after_markupAddedByAgent_amount}
+    </div>
+    <div class="detail-item">
+        <strong>Hotel Taxes:</strong> 0 (AED)
+    </div>
+    <div class="detail-item">
+        <strong>Total Price:</strong> ${row.after_markupAddedByAgent_amount}
+    </div>
+</div>
+
+<h5>Additional Charges</h5>
+<div class="hotel-details">
+    <div class="detail-item">
+        <strong>Description </strong> TAX
+    </div>
+    <div class="detail-item">
+        <strong>Amount</strong> ${row.totalTaxes}
+    </div>
+</div>
+
+<h5>Booking Terms and Conditions</h5>
+<div class="row border-bottom border-black p-2 mb-4">
+    <div class="col-lg-12 col-sm-12">
+        <ol>`;
+
+            // Loop through the booking terms JSON and format them as points
+            info.searchData.hotel.rates[0].policies.forEach(term => {
+                ans += `<li>${term.text}</li>`;
+            });
+
+            ans += `</ol>
+    </div>
+</div>
+
+<h5>Cancellation Policy</h5>
+<div class="hotel-details">
+    <div>${info.searchData.hotel.CancellationPolicy[0].text}</div>
+</div>`;
+        }
+
+        document.getElementById("result").innerHTML = ans;
+
+            // Use setTimeout to ensure the content is fully rendered before printing
+            setTimeout(() => {
+                window.print();
+            }, 500); // Adjust the delay as needed
+    }
+
+    const fetchAgDetails = (agent) => {
+        fetch(`/flights/agentDetails/${agent}`)
+            .then(res => res.json())
+            .then(res => {
+                if (!res.response || res.response.length === 0) {
+                    console.error("No agent details found.");
+                    return;
+                }
+
+                let ans = res.response[0];
+                Agent = res.response[0]
+                console.log(ans);
+
+                let agentDetails = `
+                <span class="fw-bold text-uppercase fs-2" style="font-size: 14px !important;">
+                    ${ans.establishment_name || "N/A"}
+                </span><br/>
+                <span class="fs-4" style="font-size: 10px !important;">
+                    Email: ${ans.email || "Not available"} <br/>
+                    +${ans.mobile || "Not available"}<br/>
+                    ${ans.address || "Address not provided"}
+                </span>`;
+
+                document.getElementById("agentDetails").innerHTML = agentDetails;
+
+                // Show logo only if it exists, otherwise clear the logo div
+                document.getElementById("logo").innerHTML = ans.logo && ans.logo.trim()
+                    ? `<img src='/${ans.logo}' class='img-fluid' style="height:100px;width:100px" alt="Logo"/>`
+                    : "";
+            })
+            .catch(error => console.error("Error fetching agent details:", error));
+    };
+
+
+    async function triggerPrint() {
+        window.print();
+    }
+
+    function formatDate(dateTimeString) {
+        let date = new Date(dateTimeString);
+
+        // Use UTC methods to avoid timezone conversion
+        let day = String(date.getUTCDate()).padStart(2, '0');
+        let month = String(date.getUTCMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+        let year = date.getUTCFullYear();
+
+        let hours = String(date.getUTCHours()).padStart(2, '0');
+        let minutes = String(date.getUTCMinutes()).padStart(2, '0');
+        let seconds = String(date.getUTCSeconds()).padStart(2, '0');
+
+        // Combine date and time in dd/mm/yyyy hh:mm:ss format
+        return `${day}/${month}/${year} <br> ${hours}:${minutes}:${seconds}`;
+    }
+
+    function formatDateTime(dateTimeString) {
+        let date = new Date(dateTimeString);
+
+        // Extract date components using local time methods
+        let day = String(date.getDate()).padStart(2, '0');
+        let month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+        let year = date.getFullYear();
+
+        // Extract time components using local time methods
+        let hours = String(date.getHours()).padStart(2, '0');
+        let minutes = String(date.getMinutes()).padStart(2, '0');
+        let seconds = String(date.getSeconds()).padStart(2, '0');
+
+        // Combine date and time in the desired format
+        return `${day}/${month}/${year} <br> ${hours}:${minutes}:${seconds}`;
+    }
+</script>
+</body>
+</html>

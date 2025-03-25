@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TDO DXB | Hotels </title>
+    <%- include('../partials/header2') %>
+
+    <style>
+        .paginate_button.previous  {
+            /*font-size: 12px !important;*/
+            width: 85px !important;
+        }
+    </style>
+</head>
+<body onload="fetchAllBookings()">
+<div id="preloader">
+    <div class="loader">
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--text"></div>
+    </div>
+</div>
+<div id="main-wrapper">
+    <%- include('../partials/navbar2') %>
+    <%- include('../partials/sidebar2') %>
+    <div class=" content-body default-height">
+        <!-- row -->
+        <div class="container-fluid">
+            <!--            <div class="row page-titles">-->
+            <!--                <ol class="breadcrumb">-->
+            <!--                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Logs</a></li>-->
+            <!--                </ol>-->
+            <!--            </div>-->
+            <div class="col-12">
+                <div class="card">
+                    <card class="card-header">
+                        <h3>Success Bookings</h3>
+                    </card>
+                    <!--                    <div class="card-header">-->
+                    <!--                        <h3 class="card-title">Logs</h3>-->
+                    <!--                    </div>-->
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <div id="result" class="table-responsive">
+                                <i class="spinner-grow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('../partials/footer2') %>
+</div>
+<div class="modal fade" id="detailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog bg-white modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">View Booking Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body table-responsive" id="bResult" >
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary mt-2" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let row = [];
+    async function fetchAllBookings()
+    {
+        let res = await fetch('/hotels/all-success-bookings',{
+            method : 'POST'
+        });
+
+        res = await res.json();
+
+        console.log(res)
+
+        if(res.error === false)
+        {
+            row = res.recordset;
+
+            console.log(row)
+
+            let result = `<table class="hover" id="ttable">
+<thead>
+<tr class="text-center">
+<th>Details</th>
+<th>Serial No.</th>
+<th>Booking Id</th>
+<th>Total No. of Guest</th>
+<th>Booking Status</th>
+<th>Amount Paid</th>
+<th>Check-In</th>
+<th>Check-Out</th>
+<th>Agent Markup</th>
+<th>Booked On</th>
+</tr>
+</thead><tbody>`;
+
+            for(let a = 0; a<row.length; a++)
+            {
+
+                result += `
+    <tr class="text-center">
+<td>
+  <a href="/hotels/success-bookings-details/${row[a].api_booking_id}" target="_blank"><button type="button" class="btn btn-warning">
+    <i class='fa fa-eye'></i>
+  </button></a>
+</td>
+        <td class="text-lg-center text-center">${a + 1}</td>
+        <td class="text-lg-center text-center">${row[a].api_booking_id}</td>
+        <td class="text-lg-center text-center">${row[a].totalPax}</td>
+        <td class="text-lg-center text-center" style="color : ${(row[a].booking_status === 'Confirmed') ? 'green' : 'red'}">${row[a].booking_status}</td>
+        <td class="text-lg-center text-center">${row[a].after_markupAddedByAgent_amount}</td>
+        <td class="text-lg-center text-center">${new Date(row[a].checkIN).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</td>
+        <td class="text-lg-center text-center">${new Date(row[a].checkOut).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</td>
+        <td class="text-lg-center text-center">${row[a].markupAddedByAgent}</td>
+<td class="text-lg-center text-center">
+  ${new Date(row[a].booking_DateTime).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+  ${new Date(row[a].booking_DateTime).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false })}
+</td>
+    </tr>
+`
+                //console.log(result)
+            }
+
+
+            result += `</tbody></table>`;
+            document.getElementById("result").innerHTML = result
+
+            $('#ttable').DataTable( {
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'csv',
+                        text: 'Export To CSV',
+                        className: "btn btn-success"
+                    }
+                    ,
+                    {
+                        extend: 'excel',
+                        text: 'Export To Excel',
+                        className: "btn btn-success"
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        text: 'Export to PDF',
+                        filename: function(){
+
+                            return "test"
+                        },
+                        orientation: 'landscape',
+                        pageSize: 'LEGAL',
+                        className: 'btn btn-success',
+                        titleAttr: 'PDF'
+                    }
+                ],
+                order: [[2, 'desc']] // Default sort order set to descending on the first column
+            } );
+
+
+        }
+    }
+
+</script>
+</body>
+</html>

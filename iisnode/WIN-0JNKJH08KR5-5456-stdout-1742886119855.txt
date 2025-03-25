@@ -1,0 +1,2785 @@
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+[0mGET / [32m200[0m 15.548 ms - 32382[0m
+[0mPOST /hotels/search-hotels [32m200[0m 22928.257 ms - 14364271[0m
+[0mGET /hotels/assets/img/dummy-hotel.jpg [32m200[0m 6.838 ms - 507435[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+formData1: {"cityName":"New Delhi, National Capital Territory of Delhi, India","cityId":"227760","country":"IN","correlationId":"772010-1742886031653","checkIn":"2025-11-11","checkOut":"2025-11-12","guests":"Guests (Rooms: 1, Adults: 1, Children: 0)","LocationID":"227760","destinationCountryCode":"IN","rooms":[{"roomId":"room1","adults":1,"children":0,"childrenAges":[]}]}
+formData2: {"searchQuery":{"checkinDate":"2025-11-11","checkoutDate":"2025-11-12","roomInfo":[{"numberOfAdults":1,"numberOfChild":0}],"searchCriteria":{"city":"227760","currency":"INR","nationality":"106"},"searchPreferences":{"ratings":[0,1,2,3,4,5],"fsc":true}},"destinationCountryCode":"IN","correlationId":"772010-1742886031653","sync":true}
+{
+  success: true,
+  message: 'Hotel searching session inserted successfully.',
+  insertedId: 122
+}
+[0mPOST /hotels/insertSearchingSession [32m200[0m 72.491 ms - 55[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/hotel-details/772010-1742886031653 [32m200[0m 124.496 ms - 432679[0m
+[0mGET /EaseMyTripCSS/all.css [32m200[0m 4.542 ms - 71491[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.css.map [33m404[0m 2.956 ms - 212[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css.map [33m404[0m 2.424 ms - 189[0m
+[0mGET /assets2/css/style.css.map [36m304[0m 1.550 ms - -[0m
+[0mGET /EaseMyTripCSS/default.css [32m200[0m 4.178 ms - 9278[0m
+[0mGET /EaseMyTripCSS/hotelDetail-style.css [32m200[0m 4.245 ms - 37602[0m
+[0mGET /EaseMyTripCSS/detail-style.css [32m200[0m 3.934 ms - 18816[0m
+[0mGET /EaseMyTripCSS/fotorama.css [32m200[0m 2.455 ms - 17616[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-brands-400.woff2 [32m200[0m 2.158 ms - 104544[0m
+[0mGET /EaseMyTripImg/map-marker.svg [32m200[0m 2.195 ms - 395[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mHEAD /hotels/hotel-details/772010-1742886031653 [32m200[0m 118.189 ms - 432679[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mHEAD /hotels/hotel-details/772010-1742886031653 [32m200[0m 102.231 ms - 432679[0m
+[0mGET /GRNCSS/global.css.map [33m404[0m 2.861 ms - 160[0m
+[0mGET /assets2/flights/js/lightbox.min.map [33m404[0m 2.807 ms - 174[0m
+[0mGET /assets2/vendor/global/metisMenu.min.js.map [33m404[0m 2.845 ms - 181[0m
+[0mGET /assets2/vendor/chartjs/chart.umd.js.map [33m404[0m 7.180 ms - 178[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mHEAD /hotels/hotel-details/772010-1742886031653 [32m200[0m 122.807 ms - 432679[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mHEAD /hotels/hotel-details/772010-1742886031653 [32m200[0m 122.099 ms - 432679[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mHEAD /hotels/hotel-details/772010-1742886031653 [32m200[0m 120.682 ms - 432679[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 33.763 ms - -[0m
+[0mGET /getAgentData [36m304[0m 48.704 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+Connected to MySQL database
+Fetched session data: {
+  searchingSessionId: 122,
+  cityid: 227760,
+  checkin: '2025-11-11',
+  checkout: '2025-11-12',
+  roominfo: '[{"numberOfAdults":1,"numberOfChild":0}]',
+  correlationId: '772010-1742886031653',
+  destinationCountryCode: 'IN',
+  searchToken: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  hotelid: '55298684',
+  current_date_time: 2025-03-25T07:02:25.000Z,
+  client_ip: '115.246.85.86',
+  agentId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  staticContent: `{"CancellationPolicy":[{"rules":[{"estimatedValue":0,"start":"2025-03-25T12:31:53.154427+05:30","end":"2025-11-08T17:59:00"}],"refundable":true,"currency":"INR","refundability":"Refundable","text":"<p>Refundable Booking :</p> <p>The latest deadline to cancel the booking without charges is 08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Late amendment charges may apply</p><p>100 % charges will be applicable if cancelled after  08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Failure to arrive at the property will be treated as No-Show, and relevant charges will be applied.</p><p>The reservation price does not cover additional costs for adults or children, such as extra beds, unless specified in the hotel's policies.</p>"}],"id":"55298684","relevanceScore":"0","rate":{"Rateinfo":{"dailyRates":[],"totalRate":498.96,"publishedRate":498.96,"baseRate":445.5,"taxes":53.46,"fees":0,"discounts":0,"FinalPrice":467.4763636363636,"markup_amount":"10.000","amount_afterMarkup":"508.960"},"agentCommission":{"SupplierCommission":31.483636363636368,"TDSDeductedAmount":0,"Discounts":0},"providerId":"rt-ean-package-test","providerName":"ExpediaPackage","distributionType":"Unknown","distributionChannel":"Any","type":"Published","payAtHotel":false,"currency":"INR","BookingPayLaterDate":null,"allowedCreditCards":null,"additionalInformation":null},"isRecommended":false,"options":{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false},"staticContent":{"id":"55298684","name":"Roomshala 124 Royal inn Rohini","relevanceScore":"0","providerId":"EAN","providerName":"ean","geoCode":{"lat":"28.73363","long":"77.12277"},"neighbourhoods":null,"contact":{"address":{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"},"phones":["91-8810468622"],"fax":null},"chainName":"Independent","type":"Hotel","descriptions":[{"type":"business_amenities","text":"Free self parking is available onsite."},{"type":"rooms","text":"Treat yourself to a stay in one of the 53 guestrooms, featuring fireplaces. Complimentary wireless internet access is available to keep you connected."},{"type":"attractions","text":"Distances are displayed to the nearest 0.1 mile and kilometer. <br /> <p>Adventure Island - 1.8 km / 1.1 mi <br /> Metro Walk Mall - 2.6 km / 1.6 mi <br /> Ambedkar Auditorium - 2.6 km / 1.6 mi <br /> Rajiv Gandhi Cancer Institute & Research Centre - 3.3 km / 2.1 mi <br /> New Delhi City Center Mall - 3.3 km / 2.1 mi <br /> Mangalam Place Mall - 5.8 km / 3.6 mi <br /> Sector 32 - 6.3 km / 3.9 mi <br /> Bhalswa Golf Course - 6.8 km / 4.2 mi <br /> Pitampura TV Tower - 7.4 km / 4.6 mi <br /> Coronation Park - 10.2 km / 6.3 mi <br /> Bawana Industrial Area - 10.7 km / 6.7 mi <br /> Splash Water Park - 10.8 km / 6.7 mi <br /> Gurudwara Nanak Piao Sahib - 11.3 km / 7 mi <br /> ISKCON Temple Punjabi Bagh - 12 km / 7.4 mi <br /> University of Delhi - 12.5 km / 7.7 mi <br /> </p><p>The nearest major airport is Indira Gandhi International Airport (DEL) - 34 km / 21.1 mi</p>"},{"type":"location","text":"With a stay at Roomshala 124 Royal inn Rohini in New Delhi (Alipur), you'll be within a 15-minute drive of Majnu-ka-tilla and Janakpuri District Centre.  This hotel is 10.8 mi (17.3 km) from Chandni Chowk and 13.7 mi (22.1 km) from India Gate."},{"type":"headline","text":"In New Delhi (Alipur)"},{"type":"spoken_languages","text":"Hindi, English"},{"type":"onsite_payments","text":"Debit cards, Cash, Mastercard"}],"category":"Hotel","starRating":"2","facilities":[{"id":null,"groupId":null,"name":"Covered parking"},{"id":null,"groupId":null,"name":"Secured parking"},{"id":null,"groupId":null,"name":"Uncovered parking"},{"id":null,"groupId":null,"name":"Smoke-free property"},{"id":null,"groupId":null,"name":"Wheelchair accessible – no"},{"id":null,"groupId":null,"name":"No accessible shuttle"},{"id":null,"groupId":null,"name":"Free self parking"},{"id":null,"groupId":null,"name":"24-hour front desk"},{"id":null,"groupId":null,"name":"Free WiFi"}],"facilityGroups":[{"id":"74","name":"Transportation","culture":"en-us","type":"Hotel"},{"id":"1","name":"Parking","culture":"en-us","type":"Hotel"},{"id":"80","name":"Conveniences","culture":"en-us","type":"Hotel"},{"id":"10","name":"Non Smoking","culture":"en-us","type":"Hotel"},{"id":"16","name":"Internet","culture":"en-us","type":"Room"},{"id":"64","name":"Wheelchair accessible","culture":"en-us","type":"Hotel"}],"nearByAttractions":null,"images":[{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_z.jpg"}],"caption":"Front of property","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_z.jpg"}],"caption":"Exterior","category":null,"roomCodes":[]}],"policies":[],"fees":[],"reviews":[],"checkinInfo":{"beginTime":"11:00 AM","minAge":"18"},"checkoutInfo":null,"heroImage":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg","distance":"15.75","imageCount":null,"rooms":null}}`,
+  formData1: '"{\\"cityName\\":\\"New Delhi, National Capital Territory of Delhi, India\\",\\"cityId\\":\\"227760\\",\\"country\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"checkIn\\":\\"2025-11-11\\",\\"checkOut\\":\\"2025-11-12\\",\\"guests\\":\\"Guests (Rooms: 1, Adults: 1, Children: 0)\\",\\"LocationID\\":\\"227760\\",\\"destinationCountryCode\\":\\"IN\\",\\"rooms\\":[{\\"roomId\\":\\"room1\\",\\"adults\\":1,\\"children\\":0,\\"childrenAges\\":[]}]}"',
+  formData2: '"{\\"searchQuery\\":{\\"checkinDate\\":\\"2025-11-11\\",\\"checkoutDate\\":\\"2025-11-12\\",\\"roomInfo\\":[{\\"numberOfAdults\\":1,\\"numberOfChild\\":0}],\\"searchCriteria\\":{\\"city\\":\\"227760\\",\\"currency\\":\\"INR\\",\\"nationality\\":\\"106\\"},\\"searchPreferences\\":{\\"ratings\\":[0,1,2,3,4,5],\\"fsc\\":true}},\\"destinationCountryCode\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"sync\\":true}"'
+}
+[0mGET /serviceworker.js [33m404[0m 3.214 ms - 155[0m
+Hotel Room & Rate Response: {
+  token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  currency: 'INR',
+  hotel: {
+    CancellationPolicy: [ [Object] ],
+    id: '55298684',
+    rooms: [ [Object], [Object] ],
+    rates: [ [Object], [Object] ],
+    recommendations: [ [Object] ],
+    standardizedRooms: [ [Object] ]
+  },
+  error: null
+}
+----
+498.96
+[0mPOST /hotels/fetch-hotel-info [32m200[0m 5121.788 ms - 15464[0m
+[0mGET /icons/Hotels/hotel-ring.png [32m200[0m 5.770 ms - 30858[0m
+[0mGET /EaseMyTripImg/feather-plus.svg [32m200[0m 2.839 ms - 598[0m
+[0mGET /icons/Hotels/tower.png [32m200[0m 4.271 ms - 10900[0m
+[0mGET /icons/Hotels/money-exchange.png [32m200[0m 5.489 ms - 29927[0m
+[0mGET /icons/Hotels/placeholder.png [32m200[0m 4.507 ms - 30852[0m
+[0mGET /icons/Hotels/wallet.png [32m200[0m 2.958 ms - 20995[0m
+[0mGET /icons/Hotels/news.png [32m200[0m 4.481 ms - 21249[0m
+[0mGET /icons/Hotels/language-diversity.png [32m200[0m 4.077 ms - 45628[0m
+[0mGET / [32m200[0m 15.331 ms - 32382[0m
+[0mGET / [32m200[0m 9.978 ms - 32382[0m
+[0mGET / [32m200[0m 12.207 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/hotel-review/41da1617-f970-4932-a7d6-761b697fbc0a/772010-1742886031653/508.96 [32m200[0m 49.433 ms - 139025[0m
+[0mGET /GRNCSS/style.css [32m200[0m 2.584 ms - 6709[0m
+[0mGET /js/header.js [33m404[0m 3.426 ms - 151[0m
+[0mGET /v4/js/common.dev.js [33m404[0m 3.345 ms - 158[0m
+[0mGET /js/validate-controls.js?123 [33m404[0m 3.464 ms - 162[0m
+[0mGET /V4/tabs/tytabs1.jquery.min.js [33m404[0m 3.274 ms - 168[0m
+[0mGET /V4/js/jquery.autocomplete.js?ver=120 [33m404[0m 3.346 ms - 167[0m
+[0mGET /assets2/css/style.css.map [36m304[0m 1.272 ms - -[0m
+[0mGET /hotels/js/jquery-1.6.2.min.js [33m404[0m 7.626 ms - 168[0m
+[0mGET /hotels/tabs/tytabs1.jquery.min.js [33m404[0m 9.764 ms - 172[0m
+[0mGET /images/custom/star_loader.gif [33m404[0m 9.145 ms - 168[0m
+[0mGET /hotels/hotel-review/js/checkout.js?t=1201630wr3332eeesssee1eexyddee39 [33m404[0m 8.927 ms - 173[0m
+[0mGET /js/jquery-1.6.2.min.js [33m404[0m 7.427 ms - 161[0m
+[0mGET /hotels/js/jquery.autocomplete.js?ver=120 [33m404[0m 6.286 ms - 171[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css.map [33m404[0m 3.258 ms - 189[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.css.map [33m404[0m 4.514 ms - 212[0m
+[0mGET /GRNCSS/global.css.map [33m404[0m 3.114 ms - 160[0m
+[0mGET /assets2/flights/js/lightbox.min.map [33m404[0m 3.212 ms - 174[0m
+[0mGET /assets2/vendor/global/metisMenu.min.js.map [33m404[0m 3.234 ms - 181[0m
+[0mGET /assets2/vendor/chartjs/chart.umd.js.map [33m404[0m 3.310 ms - 178[0m
+[0mGET /htm/V4/jamaica-rewards-new.html [33m404[0m 6.070 ms - 170[0m
+[0mGET /htm/V4/calling-newpartner-new.html [33m404[0m 9.632 ms - 173[0m
+[0mGET /htm/V4/washington-dc-new.html?123 [33m404[0m 9.592 ms - 168[0m
+[0mGET /htm/V4/san-francisco-new.html [33m404[0m 5.865 ms - 168[0m
+[0mGET /travel/agents/update_GST.aspx [33m404[0m 3.296 ms - 168[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 18.406 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 23.123 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+Connected to MySQL database
+Fetched session data: {
+  searchingSessionId: 122,
+  cityid: 227760,
+  checkin: '2025-11-11',
+  checkout: '2025-11-12',
+  roominfo: '[{"numberOfAdults":1,"numberOfChild":0}]',
+  correlationId: '772010-1742886031653',
+  destinationCountryCode: 'IN',
+  searchToken: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  hotelid: '55298684',
+  current_date_time: 2025-03-25T07:02:25.000Z,
+  client_ip: '115.246.85.86',
+  agentId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  staticContent: `{"CancellationPolicy":[{"rules":[{"estimatedValue":0,"start":"2025-03-25T12:31:53.154427+05:30","end":"2025-11-08T17:59:00"}],"refundable":true,"currency":"INR","refundability":"Refundable","text":"<p>Refundable Booking :</p> <p>The latest deadline to cancel the booking without charges is 08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Late amendment charges may apply</p><p>100 % charges will be applicable if cancelled after  08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Failure to arrive at the property will be treated as No-Show, and relevant charges will be applied.</p><p>The reservation price does not cover additional costs for adults or children, such as extra beds, unless specified in the hotel's policies.</p>"}],"id":"55298684","relevanceScore":"0","rate":{"Rateinfo":{"dailyRates":[],"totalRate":498.96,"publishedRate":498.96,"baseRate":445.5,"taxes":53.46,"fees":0,"discounts":0,"FinalPrice":467.4763636363636,"markup_amount":"10.000","amount_afterMarkup":"508.960"},"agentCommission":{"SupplierCommission":31.483636363636368,"TDSDeductedAmount":0,"Discounts":0},"providerId":"rt-ean-package-test","providerName":"ExpediaPackage","distributionType":"Unknown","distributionChannel":"Any","type":"Published","payAtHotel":false,"currency":"INR","BookingPayLaterDate":null,"allowedCreditCards":null,"additionalInformation":null},"isRecommended":false,"options":{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false},"staticContent":{"id":"55298684","name":"Roomshala 124 Royal inn Rohini","relevanceScore":"0","providerId":"EAN","providerName":"ean","geoCode":{"lat":"28.73363","long":"77.12277"},"neighbourhoods":null,"contact":{"address":{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"},"phones":["91-8810468622"],"fax":null},"chainName":"Independent","type":"Hotel","descriptions":[{"type":"business_amenities","text":"Free self parking is available onsite."},{"type":"rooms","text":"Treat yourself to a stay in one of the 53 guestrooms, featuring fireplaces. Complimentary wireless internet access is available to keep you connected."},{"type":"attractions","text":"Distances are displayed to the nearest 0.1 mile and kilometer. <br /> <p>Adventure Island - 1.8 km / 1.1 mi <br /> Metro Walk Mall - 2.6 km / 1.6 mi <br /> Ambedkar Auditorium - 2.6 km / 1.6 mi <br /> Rajiv Gandhi Cancer Institute & Research Centre - 3.3 km / 2.1 mi <br /> New Delhi City Center Mall - 3.3 km / 2.1 mi <br /> Mangalam Place Mall - 5.8 km / 3.6 mi <br /> Sector 32 - 6.3 km / 3.9 mi <br /> Bhalswa Golf Course - 6.8 km / 4.2 mi <br /> Pitampura TV Tower - 7.4 km / 4.6 mi <br /> Coronation Park - 10.2 km / 6.3 mi <br /> Bawana Industrial Area - 10.7 km / 6.7 mi <br /> Splash Water Park - 10.8 km / 6.7 mi <br /> Gurudwara Nanak Piao Sahib - 11.3 km / 7 mi <br /> ISKCON Temple Punjabi Bagh - 12 km / 7.4 mi <br /> University of Delhi - 12.5 km / 7.7 mi <br /> </p><p>The nearest major airport is Indira Gandhi International Airport (DEL) - 34 km / 21.1 mi</p>"},{"type":"location","text":"With a stay at Roomshala 124 Royal inn Rohini in New Delhi (Alipur), you'll be within a 15-minute drive of Majnu-ka-tilla and Janakpuri District Centre.  This hotel is 10.8 mi (17.3 km) from Chandni Chowk and 13.7 mi (22.1 km) from India Gate."},{"type":"headline","text":"In New Delhi (Alipur)"},{"type":"spoken_languages","text":"Hindi, English"},{"type":"onsite_payments","text":"Debit cards, Cash, Mastercard"}],"category":"Hotel","starRating":"2","facilities":[{"id":null,"groupId":null,"name":"Covered parking"},{"id":null,"groupId":null,"name":"Secured parking"},{"id":null,"groupId":null,"name":"Uncovered parking"},{"id":null,"groupId":null,"name":"Smoke-free property"},{"id":null,"groupId":null,"name":"Wheelchair accessible – no"},{"id":null,"groupId":null,"name":"No accessible shuttle"},{"id":null,"groupId":null,"name":"Free self parking"},{"id":null,"groupId":null,"name":"24-hour front desk"},{"id":null,"groupId":null,"name":"Free WiFi"}],"facilityGroups":[{"id":"74","name":"Transportation","culture":"en-us","type":"Hotel"},{"id":"1","name":"Parking","culture":"en-us","type":"Hotel"},{"id":"80","name":"Conveniences","culture":"en-us","type":"Hotel"},{"id":"10","name":"Non Smoking","culture":"en-us","type":"Hotel"},{"id":"16","name":"Internet","culture":"en-us","type":"Room"},{"id":"64","name":"Wheelchair accessible","culture":"en-us","type":"Hotel"}],"nearByAttractions":null,"images":[{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_z.jpg"}],"caption":"Front of property","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_z.jpg"}],"caption":"Exterior","category":null,"roomCodes":[]}],"policies":[],"fees":[],"reviews":[],"checkinInfo":{"beginTime":"11:00 AM","minAge":"18"},"checkoutInfo":null,"heroImage":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg","distance":"15.75","imageCount":null,"rooms":null}}`,
+  formData1: '"{\\"cityName\\":\\"New Delhi, National Capital Territory of Delhi, India\\",\\"cityId\\":\\"227760\\",\\"country\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"checkIn\\":\\"2025-11-11\\",\\"checkOut\\":\\"2025-11-12\\",\\"guests\\":\\"Guests (Rooms: 1, Adults: 1, Children: 0)\\",\\"LocationID\\":\\"227760\\",\\"destinationCountryCode\\":\\"IN\\",\\"rooms\\":[{\\"roomId\\":\\"room1\\",\\"adults\\":1,\\"children\\":0,\\"childrenAges\\":[]}]}"',
+  formData2: '"{\\"searchQuery\\":{\\"checkinDate\\":\\"2025-11-11\\",\\"checkoutDate\\":\\"2025-11-12\\",\\"roomInfo\\":[{\\"numberOfAdults\\":1,\\"numberOfChild\\":0}],\\"searchCriteria\\":{\\"city\\":\\"227760\\",\\"currency\\":\\"INR\\",\\"nationality\\":\\"106\\"},\\"searchPreferences\\":{\\"ratings\\":[0,1,2,3,4,5],\\"fsc\\":true}},\\"destinationCountryCode\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"sync\\":true}"'
+}
+-------------------------------------------------------------------------------------------------
+[0mGET /hotels/assets/img/favicons/favicon.png [32m200[0m 2.751 ms - 5327[0m
+Hotel Room & Rate Response: {
+  token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  currency: 'INR',
+  hotel: {
+    CancellationPolicy: [ [Object] ],
+    id: '55298684',
+    hotelName: null,
+    rooms: [ [Object] ],
+    rates: [ [Object] ]
+  },
+  error: null
+}
+[
+  {
+    IsGSTMandatory: false,
+    Rateinfo: {
+      dailyRates: [Array],
+      totalRate: 498.96,
+      publishedRate: 498.96,
+      baseRate: 445.5,
+      taxes: [Array],
+      fees: 0,
+      discounts: 0,
+      FinalPrice: 467.4763636363636
+    },
+    agentCommission: {
+      SupplierCommission: 31.483636363636368,
+      TDSDeductedAmount: 0,
+      Discounts: 0
+    },
+    id: '0f6d4c9b-11aa-45d2-be46-2983bda8a528',
+    availability: '1',
+    isPackageRate: true,
+    needsPriceCheck: true,
+    providerId: 'rt-ean-package-test',
+    providerName: 'ExpediaPackage',
+    isContractedRate: false,
+    occupancies: [ [Object] ],
+    type: 'Published',
+    currency: 'INR',
+    dailyRates: [ [Object] ],
+    refundable: true,
+    refundability: 'Refundable',
+    allGuestsInfoRequired: false,
+    onlineCancellable: false,
+    specialRequestSupported: false,
+    payAtHotel: false,
+    cardRequired: false,
+    policies: [ [Object], [Object], [Object], [Object], [Object] ],
+    boardBasis: { description: 'Room Only', type: 'RoomOnly' },
+    offers: [],
+    includes: [ 'Free self parking', 'Free WiFi' ],
+    depositRequired: false,
+    guaranteeRequired: false,
+    distributionType: 'Unknown',
+    distributionChannel: 'Any',
+    IsPassportMandatory: false,
+    additionalCharges: null,
+    discounts: null,
+    IsPANMandatory: false,
+    providerHotelId: '101218517',
+    conversionRate: null,
+    BookingPayLaterDate: null,
+    allowedCreditCards: null,
+    additionalInformation: null
+  }
+]
+{
+  id: 180,
+  travel_agent_id: 220,
+  plan_type: 'Hotel',
+  fare_type: null,
+  trip_type: 'All',
+  markup_type: 'Fixed',
+  markup_amount: 10,
+  airline: null,
+  created_by: 'parasmarwaha246@gmail.com',
+  created_on: 2025-03-24T05:43:19.000Z
+}
+[0mPOST /hotels/getHotelReview [32m200[0m 1448.631 ms - 13887[0m
+[0mPOST /boaform/admin/formLogin [33m404[0m 3.968 ms - 163[0m
+[0mGET / [32m200[0m 12.308 ms - 32382[0m
+[0mGET / [32m200[0m 10.563 ms - 32382[0m
+[0mGET / [32m200[0m 12.018 ms - 32382[0m
+[0mGET / [32m200[0m 12.011 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+{
+  success: true,
+  data: {
+    searchingSessionId: 122,
+    cityid: 227760,
+    checkin: '2025-11-11',
+    checkout: '2025-11-12',
+    roominfo: '[{"numberOfAdults":1,"numberOfChild":0}]',
+    correlationId: '772010-1742886031653',
+    destinationCountryCode: 'IN',
+    searchToken: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+    hotelid: '55298684',
+    current_date_time: '2025-03-25T07:02:25.000Z',
+    client_ip: '115.246.85.86',
+    agentId: 220,
+    agentEmail: 'parasmarwaha246@gmail.com',
+    staticContent: `{"CancellationPolicy":[{"rules":[{"estimatedValue":0,"start":"2025-03-25T12:31:53.154427+05:30","end":"2025-11-08T17:59:00"}],"refundable":true,"currency":"INR","refundability":"Refundable","text":"<p>Refundable Booking :</p> <p>The latest deadline to cancel the booking without charges is 08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Late amendment charges may apply</p><p>100 % charges will be applicable if cancelled after  08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Failure to arrive at the property will be treated as No-Show, and relevant charges will be applied.</p><p>The reservation price does not cover additional costs for adults or children, such as extra beds, unless specified in the hotel's policies.</p>"}],"id":"55298684","relevanceScore":"0","rate":{"Rateinfo":{"dailyRates":[],"totalRate":498.96,"publishedRate":498.96,"baseRate":445.5,"taxes":53.46,"fees":0,"discounts":0,"FinalPrice":467.4763636363636,"markup_amount":"10.000","amount_afterMarkup":"508.960"},"agentCommission":{"SupplierCommission":31.483636363636368,"TDSDeductedAmount":0,"Discounts":0},"providerId":"rt-ean-package-test","providerName":"ExpediaPackage","distributionType":"Unknown","distributionChannel":"Any","type":"Published","payAtHotel":false,"currency":"INR","BookingPayLaterDate":null,"allowedCreditCards":null,"additionalInformation":null},"isRecommended":false,"options":{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false},"staticContent":{"id":"55298684","name":"Roomshala 124 Royal inn Rohini","relevanceScore":"0","providerId":"EAN","providerName":"ean","geoCode":{"lat":"28.73363","long":"77.12277"},"neighbourhoods":null,"contact":{"address":{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"},"phones":["91-8810468622"],"fax":null},"chainName":"Independent","type":"Hotel","descriptions":[{"type":"business_amenities","text":"Free self parking is available onsite."},{"type":"rooms","text":"Treat yourself to a stay in one of the 53 guestrooms, featuring fireplaces. Complimentary wireless internet access is available to keep you connected."},{"type":"attractions","text":"Distances are displayed to the nearest 0.1 mile and kilometer. <br /> <p>Adventure Island - 1.8 km / 1.1 mi <br /> Metro Walk Mall - 2.6 km / 1.6 mi <br /> Ambedkar Auditorium - 2.6 km / 1.6 mi <br /> Rajiv Gandhi Cancer Institute & Research Centre - 3.3 km / 2.1 mi <br /> New Delhi City Center Mall - 3.3 km / 2.1 mi <br /> Mangalam Place Mall - 5.8 km / 3.6 mi <br /> Sector 32 - 6.3 km / 3.9 mi <br /> Bhalswa Golf Course - 6.8 km / 4.2 mi <br /> Pitampura TV Tower - 7.4 km / 4.6 mi <br /> Coronation Park - 10.2 km / 6.3 mi <br /> Bawana Industrial Area - 10.7 km / 6.7 mi <br /> Splash Water Park - 10.8 km / 6.7 mi <br /> Gurudwara Nanak Piao Sahib - 11.3 km / 7 mi <br /> ISKCON Temple Punjabi Bagh - 12 km / 7.4 mi <br /> University of Delhi - 12.5 km / 7.7 mi <br /> </p><p>The nearest major airport is Indira Gandhi International Airport (DEL) - 34 km / 21.1 mi</p>"},{"type":"location","text":"With a stay at Roomshala 124 Royal inn Rohini in New Delhi (Alipur), you'll be within a 15-minute drive of Majnu-ka-tilla and Janakpuri District Centre.  This hotel is 10.8 mi (17.3 km) from Chandni Chowk and 13.7 mi (22.1 km) from India Gate."},{"type":"headline","text":"In New Delhi (Alipur)"},{"type":"spoken_languages","text":"Hindi, English"},{"type":"onsite_payments","text":"Debit cards, Cash, Mastercard"}],"category":"Hotel","starRating":"2","facilities":[{"id":null,"groupId":null,"name":"Covered parking"},{"id":null,"groupId":null,"name":"Secured parking"},{"id":null,"groupId":null,"name":"Uncovered parking"},{"id":null,"groupId":null,"name":"Smoke-free property"},{"id":null,"groupId":null,"name":"Wheelchair accessible – no"},{"id":null,"groupId":null,"name":"No accessible shuttle"},{"id":null,"groupId":null,"name":"Free self parking"},{"id":null,"groupId":null,"name":"24-hour front desk"},{"id":null,"groupId":null,"name":"Free WiFi"}],"facilityGroups":[{"id":"74","name":"Transportation","culture":"en-us","type":"Hotel"},{"id":"1","name":"Parking","culture":"en-us","type":"Hotel"},{"id":"80","name":"Conveniences","culture":"en-us","type":"Hotel"},{"id":"10","name":"Non Smoking","culture":"en-us","type":"Hotel"},{"id":"16","name":"Internet","culture":"en-us","type":"Room"},{"id":"64","name":"Wheelchair accessible","culture":"en-us","type":"Hotel"}],"nearByAttractions":null,"images":[{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_z.jpg"}],"caption":"Front of property","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_z.jpg"}],"caption":"Exterior","category":null,"roomCodes":[]}],"policies":[],"fees":[],"reviews":[],"checkinInfo":{"beginTime":"11:00 AM","minAge":"18"},"checkoutInfo":null,"heroImage":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg","distance":"15.75","imageCount":null,"rooms":null}}`,
+    formData1: '"{\\"cityName\\":\\"New Delhi, National Capital Territory of Delhi, India\\",\\"cityId\\":\\"227760\\",\\"country\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"checkIn\\":\\"2025-11-11\\",\\"checkOut\\":\\"2025-11-12\\",\\"guests\\":\\"Guests (Rooms: 1, Adults: 1, Children: 0)\\",\\"LocationID\\":\\"227760\\",\\"destinationCountryCode\\":\\"IN\\",\\"rooms\\":[{\\"roomId\\":\\"room1\\",\\"adults\\":1,\\"children\\":0,\\"childrenAges\\":[]}]}"',
+    formData2: '"{\\"searchQuery\\":{\\"checkinDate\\":\\"2025-11-11\\",\\"checkoutDate\\":\\"2025-11-12\\",\\"roomInfo\\":[{\\"numberOfAdults\\":1,\\"numberOfChild\\":0}],\\"searchCriteria\\":{\\"city\\":\\"227760\\",\\"currency\\":\\"INR\\",\\"nationality\\":\\"106\\"},\\"searchPreferences\\":{\\"ratings\\":[0,1,2,3,4,5],\\"fsc\\":true}},\\"destinationCountryCode\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"sync\\":true}"'
+  }
+}
+RIYA20250325970373 -------
+[0mPOST /hotels/goToCheckout [32m200[0m 53.624 ms - 49[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/hotelCheckout/RIYA20250325970373/498.96 [32m200[0m 19.617 ms - 25555[0m
+[0mGET /vendor/bootstrap-select/dist/css/bootstrap-select.min.css [32m200[0m 2.176 ms - 11120[0m
+[0mGET /form-wizard/style.css [32m200[0m 3.446 ms - 5040[0m
+[0mGET /css/loader.css [32m200[0m 6.577 ms - 1858[0m
+[0mGET /vendor/jquery-smartwizard/dist/css/smart_wizard.min.css [32m200[0m 6.061 ms - 3396[0m
+[0mGET /form-wizard/travellers-style.css [32m200[0m 2.404 ms - 9114[0m
+[0mGET /css/style.css [32m200[0m 4.831 ms - 1209339[0m
+[0mGET /vendor/jquery-validation/jquery.validate.min.js [32m200[0m 2.806 ms - 34777[0m
+[0mGET /vendor/global/global.min.js [32m200[0m 3.482 ms - 240148[0m
+[0mGET /js/custom.js [32m200[0m 3.462 ms - 19789[0m
+[0mGET /js/plugins-init/jquery.validate-init.js [32m200[0m 4.244 ms - 502[0m
+[0mGET /vendor/jquery-steps/build/jquery.steps.min.js [32m200[0m 1.939 ms - 13862[0m
+[0mGET /form-wizard/script.js [32m200[0m 2.125 ms - 97530[0m
+[0mGET /vendor/bootstrap-select/dist/js/bootstrap-select.min.js [32m200[0m 2.226 ms - 57695[0m
+[0mGET /vendor/jquery-smartwizard/dist/js/jquery.smartWizard.js [32m200[0m 2.055 ms - 30912[0m
+[0mGET /js/deznav-init.js [32m200[0m 3.214 ms - 1336[0m
+[0mGET /js/table2excel/jquery.table2excel.js [32m200[0m 2.716 ms - 9994[0m
+[0mGET /js/demo.js [32m200[0m 2.363 ms - 6261[0m
+[0mGET /js/dashboard/dashboard-1.js [32m200[0m 6.135 ms - 17705[0m
+[0mGET /form-wizard/travellers-script.js [32m200[0m 3.843 ms - 10678[0m
+[0mGET /vendor/apexchart/apexchart.js [32m200[0m 3.356 ms - 1075602[0m
+[0mGET /vendor/swiper/js/swiper-bundle.min.js [32m200[0m 4.933 ms - 140596[0m
+[0mGET /vendor/chart.js/Chart.bundle.min.js [32m200[0m 2.642 ms - 210031[0m
+[0mGET /protected/razorpay.js [32m200[0m 1.934 ms - 3496[0m
+[0mGET /vendor/perfect-scrollbar/css/perfect-scrollbar.css [32m200[0m 2.101 ms - 2714[0m
+[0mGET /images/icons/simple-line-icons/css/simple-line-icons.css [33m404[0m 3.340 ms - 195[0m
+[0mGET /images/icons/bootstrap-icons/font/bootstrap-icons.css [33m404[0m 12.175 ms - 192[0m
+[0mGET /images/icons/flaticon/flaticon.css [33m404[0m 18.170 ms - 173[0m
+[0mGET /images/icons/flaticon_1/flaticon_1.css [33m404[0m 13.698 ms - 177[0m
+[0mGET /images/icons/fontawesome/css/all.min.css [33m404[0m 27.219 ms - 179[0m
+[0mGET /images/icons/icomoon/icomoon.css [33m404[0m 27.361 ms - 171[0m
+[0mGET /images/icons/avasta/css/style.css [33m404[0m 27.539 ms - 172[0m
+[0mGET /images/icons/material-design-iconic-font/css/materialdesignicons.min.css [33m404[0m 27.633 ms - 211[0m
+[0mGET /images/icons/fontawesome6/css/all.min.css [33m404[0m 24.894 ms - 180[0m
+[0mGET /images/icons/line-awesome/css/line-awesome.min.css [33m404[0m 29.480 ms - 189[0m
+[0mGET /vendor/metismenu/css/metisMenu.min.css [32m200[0m 20.557 ms - 2146[0m
+[0mGET /vendor/animate/animate.min.css [32m200[0m 17.169 ms - 57997[0m
+[0mGET /vendor/aos/css/aos.min.css [32m200[0m 16.775 ms - 28765[0m
+[0mGET /images/icons/themify-icons/css/themify-icons.css [33m404[0m 16.343 ms - 187[0m
+[0mGET /images/weblet-animation.gif [32m200[0m 2.247 ms - 2777498[0m
+[0mGET /fetchAgentDetails [33m404[0m 3.411 ms - 156[0m
+[0mPOST /agent/fetch-wallet-balance [33m404[0m 4.434 ms - 166[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 27.219 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  CompanyId: '',
+  paymentMethod: 'wallet',
+  finalAmt: '498.96',
+  gCharge: '0',
+  agentEmail: '',
+  agName: '',
+  payType: '',
+  agPhone: '',
+  insId: '1',
+  bookingId: 'RIYA20250325970373'
+}
+oye
+{
+  CompanyId: '',
+  paymentMethod: 'wallet',
+  finalAmt: '498.96',
+  gCharge: '0',
+  agentEmail: '',
+  agName: '',
+  payType: '',
+  agPhone: '',
+  insId: '1',
+  bookingId: 'RIYA20250325970373'
+}
+Connected to MySQL database
+[0mPOST /hotels/razorpay-options [36m302[0m 61.817 ms - 186[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  insId: '1',
+  tx: '1742886411745',
+  payType: 'wallet',
+  gCharge: '0',
+  bookingId: 'RIYA20250325970373'
+}
+Connected to MySQL database
+RIYA20250325970373 -------
+data {
+  id: 75,
+  bookingId: 'RIYA20250325970373',
+  correlationId: '772010-1742886031653',
+  bookingData: '0',
+  searchData: {
+    error: null,
+    hotel: {
+      id: '55298684',
+      rates: [Array],
+      rooms: [Array],
+      hotelName: null,
+      CancellationPolicy: [Array]
+    },
+    token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+    currency: 'INR'
+  },
+  paymentStatus: 'Success',
+  bookingStatus: 'Pending',
+  roomTravellerInfo: [ { travellerInfo: [Array] } ],
+  amount: '508.96',
+  booking_response: null,
+  payment_response: null,
+  searchingData: {
+    data: {
+      cityid: 227760,
+      agentId: 220,
+      checkin: '2025-11-11',
+      hotelid: '55298684',
+      checkout: '2025-11-12',
+      roominfo: '[{"numberOfAdults":1,"numberOfChild":0}]',
+      client_ip: '115.246.85.86',
+      formData1: '"{\\"cityName\\":\\"New Delhi, National Capital Territory of Delhi, India\\",\\"cityId\\":\\"227760\\",\\"country\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"checkIn\\":\\"2025-11-11\\",\\"checkOut\\":\\"2025-11-12\\",\\"guests\\":\\"Guests (Rooms: 1, Adults: 1, Children: 0)\\",\\"LocationID\\":\\"227760\\",\\"destinationCountryCode\\":\\"IN\\",\\"rooms\\":[{\\"roomId\\":\\"room1\\",\\"adults\\":1,\\"children\\":0,\\"childrenAges\\":[]}]}"',
+      formData2: '"{\\"searchQuery\\":{\\"checkinDate\\":\\"2025-11-11\\",\\"checkoutDate\\":\\"2025-11-12\\",\\"roomInfo\\":[{\\"numberOfAdults\\":1,\\"numberOfChild\\":0}],\\"searchCriteria\\":{\\"city\\":\\"227760\\",\\"currency\\":\\"INR\\",\\"nationality\\":\\"106\\"},\\"searchPreferences\\":{\\"ratings\\":[0,1,2,3,4,5],\\"fsc\\":true}},\\"destinationCountryCode\\":\\"IN\\",\\"correlationId\\":\\"772010-1742886031653\\",\\"sync\\":true}"',
+      agentEmail: 'parasmarwaha246@gmail.com',
+      searchToken: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+      correlationId: '772010-1742886031653',
+      staticContent: `{"CancellationPolicy":[{"rules":[{"estimatedValue":0,"start":"2025-03-25T12:31:53.154427+05:30","end":"2025-11-08T17:59:00"}],"refundable":true,"currency":"INR","refundability":"Refundable","text":"<p>Refundable Booking :</p> <p>The latest deadline to cancel the booking without charges is 08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Late amendment charges may apply</p><p>100 % charges will be applicable if cancelled after  08-Nov-2025 05:59:00 PM (Local Hotel Time).</p><p>Failure to arrive at the property will be treated as No-Show, and relevant charges will be applied.</p><p>The reservation price does not cover additional costs for adults or children, such as extra beds, unless specified in the hotel's policies.</p>"}],"id":"55298684","relevanceScore":"0","rate":{"Rateinfo":{"dailyRates":[],"totalRate":498.96,"publishedRate":498.96,"baseRate":445.5,"taxes":53.46,"fees":0,"discounts":0,"FinalPrice":467.4763636363636,"markup_amount":"10.000","amount_afterMarkup":"508.960"},"agentCommission":{"SupplierCommission":31.483636363636368,"TDSDeductedAmount":0,"Discounts":0},"providerId":"rt-ean-package-test","providerName":"ExpediaPackage","distributionType":"Unknown","distributionChannel":"Any","type":"Published","payAtHotel":false,"currency":"INR","BookingPayLaterDate":null,"allowedCreditCards":null,"additionalInformation":null},"isRecommended":false,"options":{"freeCancellation":false,"Refundability":true,"payAtHotel":false,"contractedRateExists":false,"IsPanMandatory":false,"IsGSTMandatory":false,"RoomOnly":true,"BedAndBreakfast":false,"HalfBoard":false,"FullBoard":false,"AllInclusive":false,"depositRequired":false},"staticContent":{"id":"55298684","name":"Roomshala 124 Royal inn Rohini","relevanceScore":"0","providerId":"EAN","providerName":"ean","geoCode":{"lat":"28.73363","long":"77.12277"},"neighbourhoods":null,"contact":{"address":{"line1":"4 Pocket 5 Sector 16 Rohini","line2":null,"destinationCode":null,"city":{"code":null,"name":"New Delhi"},"state":{},"country":{"code":"IN","name":"India"},"postalCode":"110089"},"phones":["91-8810468622"],"fax":null},"chainName":"Independent","type":"Hotel","descriptions":[{"type":"business_amenities","text":"Free self parking is available onsite."},{"type":"rooms","text":"Treat yourself to a stay in one of the 53 guestrooms, featuring fireplaces. Complimentary wireless internet access is available to keep you connected."},{"type":"attractions","text":"Distances are displayed to the nearest 0.1 mile and kilometer. <br /> <p>Adventure Island - 1.8 km / 1.1 mi <br /> Metro Walk Mall - 2.6 km / 1.6 mi <br /> Ambedkar Auditorium - 2.6 km / 1.6 mi <br /> Rajiv Gandhi Cancer Institute & Research Centre - 3.3 km / 2.1 mi <br /> New Delhi City Center Mall - 3.3 km / 2.1 mi <br /> Mangalam Place Mall - 5.8 km / 3.6 mi <br /> Sector 32 - 6.3 km / 3.9 mi <br /> Bhalswa Golf Course - 6.8 km / 4.2 mi <br /> Pitampura TV Tower - 7.4 km / 4.6 mi <br /> Coronation Park - 10.2 km / 6.3 mi <br /> Bawana Industrial Area - 10.7 km / 6.7 mi <br /> Splash Water Park - 10.8 km / 6.7 mi <br /> Gurudwara Nanak Piao Sahib - 11.3 km / 7 mi <br /> ISKCON Temple Punjabi Bagh - 12 km / 7.4 mi <br /> University of Delhi - 12.5 km / 7.7 mi <br /> </p><p>The nearest major airport is Indira Gandhi International Airport (DEL) - 34 km / 21.1 mi</p>"},{"type":"location","text":"With a stay at Roomshala 124 Royal inn Rohini in New Delhi (Alipur), you'll be within a 15-minute drive of Majnu-ka-tilla and Janakpuri District Centre.  This hotel is 10.8 mi (17.3 km) from Chandni Chowk and 13.7 mi (22.1 km) from India Gate."},{"type":"headline","text":"In New Delhi (Alipur)"},{"type":"spoken_languages","text":"Hindi, English"},{"type":"onsite_payments","text":"Debit cards, Cash, Mastercard"}],"category":"Hotel","starRating":"2","facilities":[{"id":null,"groupId":null,"name":"Covered parking"},{"id":null,"groupId":null,"name":"Secured parking"},{"id":null,"groupId":null,"name":"Uncovered parking"},{"id":null,"groupId":null,"name":"Smoke-free property"},{"id":null,"groupId":null,"name":"Wheelchair accessible – no"},{"id":null,"groupId":null,"name":"No accessible shuttle"},{"id":null,"groupId":null,"name":"Free self parking"},{"id":null,"groupId":null,"name":"24-hour front desk"},{"id":null,"groupId":null,"name":"Free WiFi"}],"facilityGroups":[{"id":"74","name":"Transportation","culture":"en-us","type":"Hotel"},{"id":"1","name":"Parking","culture":"en-us","type":"Hotel"},{"id":"80","name":"Conveniences","culture":"en-us","type":"Hotel"},{"id":"10","name":"Non Smoking","culture":"en-us","type":"Hotel"},{"id":"16","name":"Internet","culture":"en-us","type":"Room"},{"id":"64","name":"Wheelchair accessible","culture":"en-us","type":"Hotel"}],"nearByAttractions":null,"images":[{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/caec59ad_z.jpg"}],"caption":"Reception","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/bac64883_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/00d02ee6_z.jpg"}],"caption":"Room","category":null,"roomCodes":["323982058"]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/3cee0eeb_z.jpg"}],"caption":"Front of property","category":null,"roomCodes":[]},{"links":[{"size":"Standard","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_b.jpg"},{"size":"XXL","url":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4132c571_z.jpg"}],"caption":"Exterior","category":null,"roomCodes":[]}],"policies":[],"fees":[],"reviews":[],"checkinInfo":{"beginTime":"11:00 AM","minAge":"18"},"checkoutInfo":null,"heroImage":"https://i.travelapi.com/lodging/102000000/101220000/101218600/101218517/4774e129_b.jpg","distance":"15.75","imageCount":null,"rooms":null}}`,
+      current_date_time: '2025-03-25T07:02:25.000Z',
+      searchingSessionId: 122,
+      destinationCountryCode: 'IN'
+    },
+    success: true
+  },
+  markupAddedByAgent: '10',
+  aftermarkupAddedByAgent_amount: '508.96'
+}
+[0mGET /hotels/hotelPaymentSuccess/1/1742886411745/wallet/0/RIYA20250325970373 [32m200[0m 80.224 ms - 75432[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 15.303 ms - -[0m
+[0mGET /getBalance [32m200[0m 32.670 ms - 169[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+totalChildAge:-  [ { roomId: 'room1', adults: 1, children: 0, childrenAges: [] } ]
+Extracted Child Ages:  []
+0
+Final Formatted Response: {
+  "rateIds": [
+    "0f6d4c9b-11aa-45d2-be46-2983bda8a528"
+  ],
+  "specialRequests": [],
+  "roomsAllocations": [
+    {
+      "roomId": "fa816828-8ec4-4f0d-9bad-27999109703c",
+      "rateId": "0f6d4c9b-11aa-45d2-be46-2983bda8a528",
+      "guests": [
+        {
+          "type": "ADULT",
+          "title": "Mr",
+          "firstName": "PARAS",
+          "lastName": "Test",
+          "middleName": null,
+          "suffix": null,
+          "age": 0,
+          "email": null,
+          "panCardNumber": null,
+          "panCardName": null,
+          "Passport": null,
+          "PhoneNumber": null,
+          "IsLeadPax": false,
+          "IsPanCardRequired": false
+        }
+      ]
+    }
+  ],
+  "ClientBookingId": "DYK-20250325070653-9292",
+  "HotelId": "55298684",
+  "token": "8a00f100-c20d-40d6-8f46-1012ed20579c"
+}
+772010-1742886031653
+{
+  "rateIds": [
+    "0f6d4c9b-11aa-45d2-be46-2983bda8a528"
+  ],
+  "specialRequests": [],
+  "roomsAllocations": [
+    {
+      "roomId": "fa816828-8ec4-4f0d-9bad-27999109703c",
+      "rateId": "0f6d4c9b-11aa-45d2-be46-2983bda8a528",
+      "guests": [
+        {
+          "type": "ADULT",
+          "title": "Mr",
+          "firstName": "PARAS",
+          "lastName": "Test",
+          "middleName": null,
+          "suffix": null,
+          "age": 0,
+          "email": null,
+          "panCardNumber": null,
+          "panCardName": null,
+          "Passport": null,
+          "PhoneNumber": null,
+          "IsLeadPax": false,
+          "IsPanCardRequired": false
+        }
+      ]
+    }
+  ],
+  "ClientBookingId": "DYK-20250325070653-9292",
+  "HotelId": "55298684",
+  "token": "8a00f100-c20d-40d6-8f46-1012ed20579c"
+}
+Hotel Booking Response: {
+  token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  bookingStatus: 'Confirmed',
+  bookingId: 'TNHAPI00005402',
+  providerConfirmationNumber: '7845489979717',
+  hotelConfirmationNumber: null,
+  cancellationToken: 'VE5IQVBJMDAwMDU0MDJ8',
+  roomConfirmation: [
+    {
+      rateId: '0f6d4c9b-11aa-45d2-be46-2983bda8a528',
+      roomId: 'fa816828-8ec4-4f0d-9bad-27999109703c',
+      providerConfirmationNumber: '397001848894013',
+      hotelConfirmationNumber: null,
+      cancellationToken: null
+    }
+  ],
+  ClientBookingId: 'DYK-20250325070653-9292',
+  additionalInformation: null,
+  error: null
+}
+pratham
+{
+  error: false,
+  data: {
+    token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+    bookingStatus: 'Confirmed',
+    bookingId: 'TNHAPI00005402',
+    providerConfirmationNumber: '7845489979717',
+    hotelConfirmationNumber: null,
+    cancellationToken: 'VE5IQVBJMDAwMDU0MDJ8',
+    roomConfirmation: [ [Object] ],
+    ClientBookingId: 'DYK-20250325070653-9292',
+    additionalInformation: null,
+    error: null
+  }
+}
+api_booking_id: TNHAPI00005402
+responseJSON: {
+  token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+  bookingStatus: 'Confirmed',
+  bookingId: 'TNHAPI00005402',
+  providerConfirmationNumber: '7845489979717',
+  hotelConfirmationNumber: null,
+  cancellationToken: 'VE5IQVBJMDAwMDU0MDJ8',
+  roomConfirmation: [
+    {
+      rateId: '0f6d4c9b-11aa-45d2-be46-2983bda8a528',
+      roomId: 'fa816828-8ec4-4f0d-9bad-27999109703c',
+      providerConfirmationNumber: '397001848894013',
+      hotelConfirmationNumber: null,
+      cancellationToken: null
+    }
+  ],
+  ClientBookingId: 'DYK-20250325070653-9292',
+  additionalInformation: null,
+  error: null
+}
+booking_status: Confirmed
+booking_id: 205
+SQL Execution Result: ResultSetHeader {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  info: 'Rows matched: 1  Changed: 1  Warnings: 0',
+  serverStatus: 2,
+  warningStatus: 0,
+  changedRows: 1
+}
+Booking updated successfully: 205
+Updating hotel booking session: {
+  bookingId: 'TNHAPI00005402',
+  bookingStatus: 'Confirmed',
+  booking_response: {
+    token: '8a00f100-c20d-40d6-8f46-1012ed20579c',
+    bookingStatus: 'Confirmed',
+    bookingId: 'TNHAPI00005402',
+    providerConfirmationNumber: '7845489979717',
+    hotelConfirmationNumber: null,
+    cancellationToken: 'VE5IQVBJMDAwMDU0MDJ8',
+    roomConfirmation: [ [Object] ],
+    ClientBookingId: 'DYK-20250325070653-9292',
+    additionalInformation: null,
+    error: null
+  },
+  Id: 75
+}
+SQL Execution Result: ResultSetHeader {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  info: 'Rows matched: 1  Changed: 1  Warnings: 0',
+  serverStatus: 2,
+  warningStatus: 0,
+  changedRows: 1
+}
+Booking session updated successfully: TNHAPI00005402
+[0mPOST /hotels/hotel-booking [32m200[0m 6518.007 ms - 14323[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/success-bookings/ [32m200[0m 23.491 ms - 34561[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742883358,
+  exp: 1742969758
+}
+[0mGET /getBalance [36m304[0m 41.433 ms - -[0m
+[0mGET /getAgentData [36m304[0m 54.428 ms - -[0m
+Connected to MySQL database
+[0mPOST /hotels/all-success-bookings [32m200[0m 66.612 ms - 9253[0m
+[0mGET / [32m200[0m 12.628 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/success-bookings-details/TNHAPI00005402 [32m200[0m 33.155 ms - 91649[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 19.082 ms - -[0m
+[0mGET /getBalance [36m304[0m 38.283 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{ bookingId: 'TNHAPI00005402' }
+Connected to MySQL database
+[0mPOST /hotels/getHotelTicketDetails [32m200[0m 90.765 ms - 17186[0m
+[0mGET / [32m200[0m 12.104 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{ id: 'TNHAPI00005402' }
+[0mGET /hotels/print-ticket/TNHAPI00005402 [32m200[0m 15.215 ms - 22438[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{ bookingId: 'TNHAPI00005402' }
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+[0mPOST /hotels/getHotelTicketDetails [32m200[0m 49.088 ms - 17186[0m
+[0mGET /flights/agentDetails/parasmarwaha246@gmail.com [32m200[0m 72.173 ms - 2496[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/success-bookings-details/TNHAPI00005402 [32m200[0m 35.905 ms - 91649[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 21.653 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 40.693 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{ bookingId: 'TNHAPI00005402' }
+Connected to MySQL database
+[0mPOST /hotels/getHotelTicketDetails [32m200[0m 41.270 ms - 17186[0m
+[0mGET / [32m200[0m 12.644 ms - 32382[0m
+[0mGET / [32m200[0m 11.705 ms - 32382[0m
+[0mGET /admin/login [32m200[0m 5.523 ms - 1464[0m
+[0mGET /assets/index-vCdQ22I_.js [33m404[0m 3.294 ms - 163[0m
+[0mGET /assets/index-BISASkG-.css [32m200[0m 3.047 ms - 1817237[0m
+[0mGET /admin/login [32m200[0m 5.019 ms - 1464[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+TNHAPI00005402
+772010-1742886031653
+TNHAPI00005402
+772010-1742886031653
+{
+  correlationId: '772010-1742886031653',
+  AccountId: 'riya-test-account',
+  APIKEY: 'fcd2592db7660190c9ff635290b6c2654e08bedc21015',
+  'Content-Type': 'application/json'
+}
+Hotel Booking Response: {
+  bookingStatus: 'Cancelled',
+  bookingId: 'TNHAPI00005402',
+  providerCancellationNumber: '7845489979717',
+  hotelCancellationNumber: 'VE5IQVBJMDAwMDU0MDJ8',
+  roomCancellation: [
+    {
+      providerConfirmationNumber: '397001848894013',
+      hotelConfirmationNumber: null,
+      providerCancellationNumber: '397001848894013',
+      hotelCancellationNumber: null
+    }
+  ],
+  Message: null,
+  error: null
+}
+{
+  bookingStatus: 'Cancelled',
+  bookingId: 'TNHAPI00005402',
+  providerCancellationNumber: '7845489979717',
+  hotelCancellationNumber: 'VE5IQVBJMDAwMDU0MDJ8',
+  roomCancellation: [
+    {
+      providerConfirmationNumber: '397001848894013',
+      hotelConfirmationNumber: null,
+      providerCancellationNumber: '397001848894013',
+      hotelCancellationNumber: null
+    }
+  ],
+  Message: null,
+  error: null
+}
+Executing SQL: 
+            UPDATE hotel_booking 
+            SET cancellationResponse = ?, booking_status = ?
+            WHERE api_booking_id = ?
+        
+With Values: [
+  '{"bookingStatus":"Cancelled","bookingId":"TNHAPI00005402","providerCancellationNumber":"7845489979717","hotelCancellationNumber":"VE5IQVBJMDAwMDU0MDJ8","roomCancellation":[{"providerConfirmationNumber":"397001848894013","hotelConfirmationNumber":null,"providerCancellationNumber":"397001848894013","hotelCancellationNumber":null}],"Message":null,"error":null}',
+  'Cancelled',
+  'TNHAPI00005402'
+]
+Booking updated successfully: TNHAPI00005402
+[0mGET /hotels/cancel-hotel-ticket/TNHAPI00005402 [32m200[0m 2678.523 ms - 59[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/cancelled-bookings [32m200[0m 23.481 ms - 34564[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 20.231 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+28
+[0mGET /getBalance [36m304[0m 36.761 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742883358,
+  exp: 1742969758
+}
+Connected to MySQL database
+[0mPOST /hotels/all-cancelled-bookings [32m200[0m 31.129 ms - 39376[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/cancel-bookings-details/TNHAPI00005402 [32m200[0m 33.575 ms - 91531[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+Connected to MySQL database
+28
+[0mGET /getAgentData [36m304[0m 38.637 ms - -[0m
+[0mGET /getBalance [36m304[0m 64.859 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{ bookingId: 'TNHAPI00005402' }
+Connected to MySQL database
+[0mPOST /hotels/getHotelTicketDetails [32m200[0m 55.251 ms - 17541[0m
+[0mGET / [32m200[0m 9.998 ms - 32382[0m
+[0mGET / [32m200[0m 10.586 ms - 32382[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /hotels/cancelled-bookings [32m200[0m 19.441 ms - 34564[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+[0mGET /getAgentData [36m304[0m 25.907 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyMCwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTI0NkBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIyMCwiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTc0Mjg4MzM1OCwiZXhwIjoxNzQyOTY5NzU4fQ.Fvr9SeTIp6i20wdXwQvLXFRmP9tgf-25u4ssNuaVXWE
+{
+  userId: 220,
+  agentEmail: 'parasmarwaha246@gmail.com',
+  userType: 'Travel agent',
+  agentId: 220,
+  agentName: 'PARAS MARWAHA',
+  iat: 1742883358,
+  exp: 1742969758
+}
+Connected to MySQL database
+Connected to MySQL database
+[0mPOST /hotels/all-cancelled-bookings [32m200[0m 25.001 ms - 39376[0m
+28
+[0mGET /getBalance [36m304[0m 76.868 ms - -[0m
+[0mGET /.env.bak [33m404[0m 3.115 ms - 147[0m
+[0mGET / [32m200[0m 13.011 ms - 32382[0m
+[0mGET / [32m200[0m 12.301 ms - 32382[0m
+[0mGET / [32m200[0m 10.148 ms - 32382[0m
+[0mGET / [32m200[0m 10.622 ms - 32382[0m
+[0mGET / [32m200[0m 12.434 ms - 32382[0m
+[0mGET / [32m200[0m 17.549 ms - 32382[0m
+[0mGET / [32m200[0m 10.593 ms - 32382[0m
+[0mGET / [32m200[0m 12.463 ms - 32382[0m
+[0mGET / [32m200[0m 12.309 ms - 32382[0m
+[0mGET / [32m200[0m 11.827 ms - 32382[0m
+[0mGET /login.rsp [33m404[0m 2.380 ms - 148[0m
+[0mGET / [32m200[0m 9.696 ms - 32382[0m
+[0mGET / [32m200[0m 10.496 ms - 32382[0m
+[0mGET / [32m200[0m 14.429 ms - 32382[0m
+[0mGET / [32m200[0m 12.208 ms - 32382[0m
+[0mGET / [32m200[0m 11.705 ms - 32382[0m
+[0mGET / [32m200[0m 10.723 ms - 32382[0m
+[0mGET /assets/img/img_1.png [32m200[0m 2.484 ms - 4486[0m
+[0mGET / [32m200[0m 23.796 ms - 32382[0m
+[0mGET / [32m200[0m 12.391 ms - 32382[0m
