@@ -5707,6 +5707,7 @@ FROM
     catch(err)
     {
         console.log(err)
+        console.log("error")
         res.json({error: true, response: err.message});
     }
     finally {
