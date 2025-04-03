@@ -1,0 +1,150 @@
+Server is running on port:  \\.\pipe\d562439e-6fa0-4850-a65d-f2e432230bc2
+[0mGET / [32m200[0m 65.795 ms - 32369[0m
+[0mGET / [32m200[0m 20.678 ms - 32369[0m
+[0mGET / [32m200[0m 15.263 ms - 32369[0m
+[0mGET / [32m200[0m 50.793 ms - 32369[0m
+[0mGET / [32m200[0m 11.992 ms - 32369[0m
+[0mGET / [32m200[0m 13.647 ms - 32369[0m
+[0mGET / [32m200[0m 13.492 ms - 32369[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights/viewTicketedBookings [36m304[0m 42.444 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 5.643 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 3.567 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.151 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.392 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.135 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.250 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 2.728 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.635 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.189 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.506 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 4.045 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 3.224 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.826 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 7.443 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 5.142 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.060 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.112 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.862 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.467 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.036 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 2.332 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.892 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.135 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.254 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.661 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.078 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 2.175 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.610 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.140 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.974 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.519 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.089 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.062 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.547 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.099 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.983 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+Connected to MySQL database
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 165.696 ms - -[0m
+[0mGET /getBalance [36m304[0m 195.040 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.024 ms - -[0m
+[0mPOST /flights/ticketedBookings [32m200[0m 541.089 ms - 1292707[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{ id: '20250129122747102068_1613f488-e20d-490e-bf8a-01a2c4ad4a94' }
+[0mGET /flights/ticket_booking_details/20250129122747102068_1613f488-e20d-490e-bf8a-01a2c4ad4a94 [32m200[0m 46.396 ms - 101266[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.363 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 2.533 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.869 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 5.175 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.700 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.794 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.107 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.066 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 7.109 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 6.916 ms - -[0m
+[0mGET /assets/visa.png [33m404[0m 13.193 ms - 154[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 4.219 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.312 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.005 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.150 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.082 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.546 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.814 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.492 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.006 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.103 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.154 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.081 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.515 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 2.513 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.007 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 2.054 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.573 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.046 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.012 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.029 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.983 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.105 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.984 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.872 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.498 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-brands-400.woff2 [36m304[0m 1.200 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.956 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 43.849 ms - -[0m
+[0mPOST /flights/getTicketDetails [32m200[0m 56.837 ms - 22011[0m
+[0mGET /getBalance [36m304[0m 81.236 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.131 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  id: '20250129122747102068_1613f488-e20d-490e-bf8a-01a2c4ad4a94',
+  type: 'ai'
+}
+[0mGET /flights/ticket/20250129122747102068_1613f488-e20d-490e-bf8a-01a2c4ad4a94/ai [32m200[0m 19.605 ms - 39207[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.228 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.035 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.789 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 5.234 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 5.178 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 4.759 ms - -[0m
+[0mGET /images/icons/lighter.svg [32m200[0m 14.306 ms - 1117[0m
+[0mGET /images/icons/flammableLiquid.png [32m200[0m 9.259 ms - 4958[0m
+[0mGET /images/icons/toxic.webp [32m200[0m 2.288 ms - 5190[0m
+[0mGET /images/icons/bleach.svg [32m200[0m 2.397 ms - 1507[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 2.103 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.588 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.033 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.977 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 3.617 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.045 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.901 ms - -[0m
+[0mGET /images/icons/explosive.svg [32m200[0m 3.868 ms - 2685[0m
+[0mGET /images/icons/virus.svg [32m200[0m 2.258 ms - 3664[0m
+[0mGET /images/icons/pepper-spray.webp [32m200[0m 4.878 ms - 44872[0m
+[0mGET /images/icons/radioactive.svg [32m200[0m 5.022 ms - 1628[0m
+[0mGET /images/icons/flammableGas.png [32m200[0m 2.352 ms - 68992[0m
+[0mGET /images/icons/corrosive.png [32m200[0m 4.388 ms - 336329[0m
+[0mGET /images/icons/powerbank.jpg [32m200[0m 2.427 ms - 15076[0m
+[0mGET /images/icons/lithiumBattery.svg [32m200[0m 1.952 ms - 794[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.113 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /fetchAgentDetails [33m404[0m 7.566 ms - 156[0m
+[0mPOST /flights/getTicketDetails [32m200[0m 34.956 ms - 22011[0m
+[0mGET /images/1.png [32m200[0m 3.213 ms - 1903[0m
+[0mGET /images/2.png [32m200[0m 4.501 ms - 1970[0m
+[0mGET / [32m200[0m 11.741 ms - 32369[0m
+[0mGET / [32m200[0m 12.974 ms - 32369[0m
+[0mGET /assets/img/img_1.png [32m200[0m 2.393 ms - 4486[0m

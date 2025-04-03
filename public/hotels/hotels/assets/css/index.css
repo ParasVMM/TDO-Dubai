@@ -1,0 +1,168 @@
+
+#showresults {
+    position: relative;
+}
+
+#preloader1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 9999;
+    padding-top: 20px; /* Adjust as needed to control vertical positioning */
+}
+
+.spinner1 {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+#results-container {
+    position: relative;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.border-left-column {
+    border-left: 1px solid black;
+    padding-left: 15px; /* Adjust as necessary for spacing */
+}
+
+.skeleton-loader {
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 80%
+        ),
+        lightgray;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+}
+@keyframes shine {
+    to {
+        background-position: 100% 0, /* move highlight to right */ 0 0;
+    }
+}
+
+.room-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100% /* Increased width */
+}
+.room-header-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure spacing between elements */
+}
+.room-header-inline > span {
+    flex-shrink: 0; /* Prevent the room header from shrinking */
+    margin-right: 20px; /* Add some space between the header and dropdowns */
+}
+.form-group-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; /* Ensure it takes available space */
+}
+.form-group {
+    /* Remove width and add flex-grow to allow the form group to expand */
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.form-select {
+    width: 100%; /* Make dropdown full width of parent */
+}
+/*            .room-sub-section {
+                margin-left: 20px;
+                margin-top: 10px;
+            }*/
+
+.room-sub-section {
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as necessary for spacing between elements */
+}
+
+.children-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as necessary for spacing between elements */
+    flex-direction: row; /* Ensure the child dropdowns are aligned in a row */
+}
+
+.children-container .child-age-dropdown {
+    flex: 1 1 auto; /* Ensure the dropdowns take available space and wrap if needed */
+    margin-right: 10px; /* Add some space between the dropdowns */
+}
+
+.form-group-inline .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#roomsContainer {
+    position: absolute;
+    top: 80%;
+    right: 5px;
+    width: 31%;
+    background: #fff;
+    z-index: 10; /* Ensures it overlaps correctly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+}
+
+.search-box {
+    position: relative; /* Ensure the container is relatively positioned */
+}
+
+.children-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Optional: Adjust spacing between elements */
+}
+
+.children-inline .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.child-age-select {
+    width: 100%; /* Set a smaller width for the child age dropdowns */
+}
+
+/* New style for the small button */
+.small-btn {
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    margin-left: auto; /* Shift button to the right */
+}
+
+
+

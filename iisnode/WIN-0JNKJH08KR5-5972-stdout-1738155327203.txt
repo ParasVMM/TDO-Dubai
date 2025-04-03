@@ -1,0 +1,4022 @@
+Server is running on port:  \\.\pipe\76bff5c4-7b10-45c4-bfc6-d3cc8030a822
+[0mGET / [32m200[0m 66.007 ms - 32369[0m
+[0mGET / [32m200[0m 20.605 ms - 32369[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200[0m 15.038 ms - 32369[0m
+[0mGET / [32m200[0m 14.763 ms - 32369[0m
+[0mGET / [32m200[0m 49.434 ms - 32369[0m
+[0mGET / [32m200[0m 12.372 ms - 32369[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-dashboard [36m304[0m 40.863 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 4.643 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 3.634 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 5.231 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 3.915 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 9.825 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 9.177 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 4.549 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 3.686 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.424 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.999 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.560 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 6.824 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 6.210 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 4.019 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.240 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 4.144 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.619 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.085 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.518 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 3.892 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.017 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 2.528 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.666 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.973 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.513 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 2.033 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.500 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 3.900 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.590 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 4.165 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.390 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.648 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.061 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 2.078 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.562 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.224 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+Connected to MySQL database
+Connected to MySQL database
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 375.355 ms - -[0m
+[0mGET /getBalance [36m304[0m 396.777 ms - -[0m
+[0mGET /flight-search [32m200[0m 361.432 ms - 148[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.970 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+[0mGET /flights [36m304[0m 31.272 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.228 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.182 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.190 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.914 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.511 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [36m304[0m 1.194 ms - -[0m
+[0mGET /assets2/flights/css/animation.css [36m304[0m 1.026 ms - -[0m
+[0mGET /assets2/flights/css/dropzone.min.css [36m304[0m 1.161 ms - -[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [36m304[0m 1.052 ms - -[0m
+[0mGET /assets2/flights/css/flickity.min.css [36m304[0m 1.037 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/flights/css/lightbox.min.css [36m304[0m 1.017 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [36m304[0m 1.134 ms - -[0m
+[0mGET /assets2/flights/css/select2.min.css [36m304[0m 2.238 ms - -[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [36m304[0m 1.119 ms - -[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 1.077 ms - -[0m
+[0mGET /assets2/flights/css/fontawesome.css [36m304[0m 1.923 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [36m304[0m 1.424 ms - -[0m
+[0mGET /assets2/flights/css/style.css [36m304[0m 1.048 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.088 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 0.974 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.133 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.243 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.329 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.038 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.874 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.426 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.082 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.012 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.385 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.135 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.115 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.153 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 2.059 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.554 ms - -[0m
+[0mGET /assets2/img_2.png [36m304[0m 0.999 ms - -[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [36m304[0m 2.095 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.531 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 2.101 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 3.207 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 2.357 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.041 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.123 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.015 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.099 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.188 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.572 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 3.927 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.026 ms - -[0m
+[0mGET /assets2/flights/images/next.png [33m404[0m 10.250 ms - 170[0m
+[0mGET /assets2/flights/images/loading.gif [36m304[0m 2.672 ms - -[0m
+[0mGET /assets2/flights/images/close.png [33m404[0m 6.020 ms - 171[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 6.905 ms - 170[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+Connected to MySQL database
+35
+[0mGET /getBalance [36m304[0m 54.800 ms - -[0m
+[0mGET /getAgentData [36m304[0m 86.801 ms - -[0m
+[0mGET /assets2/flights/img/favicon.png [36m304[0m 2.596 ms - -[0m
+[0mGET /upload/agent-profile-logo/227_TOD%20Logo%20Open%20FIle.png [36m304[0m 1.130 ms - -[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Downtown Arpt',
+    AirportCode: 'AHD',
+    CityName: 'Ardmore'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Akola Airport',
+    AirportCode: 'AKD',
+    CityName: 'Akola'
+  },
+  {
+    AirportName: 'Sardar Vallabh Bhai Patel Intl Arpt',
+    AirportCode: 'AMD',
+    CityName: 'Ahmedabad'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Andros Town Arpt',
+    AirportCode: 'ASD',
+    CityName: 'Andros Town'
+  },
+  {
+    AirportName: 'Dhmokritos Arpt',
+    AirportCode: 'AXD',
+    CityName: 'Alexandroupolis'
+  },
+  { AirportName: 'Yazd Arpt', AirportCode: 'AZD', CityName: 'Yazd' },
+  {
+    AirportName: 'Barksdale Air Force Base',
+    AirportCode: 'BAD',
+    CityName: 'Shreveport'
+  },
+  {
+    AirportName: 'Bacolod Arpt',
+    AirportCode: 'BCD',
+    CityName: 'Bacolod'
+  },
+  {
+    AirportName: 'Bermuda International',
+    AirportCode: 'BDA',
+    CityName: 'Bermuda'
+  },
+  {
+    AirportName: 'Bundaberg Arpt',
+    AirportCode: 'BDB',
+    CityName: 'Bundaberg'
+  },
+  {
+    AirportName: 'Badu Island Arpt',
+    AirportCode: 'BDD',
+    CityName: 'Badu Island'
+  },
+  {
+    AirportName: 'Sjamsudin Noor Arpt',
+    AirportCode: 'BDJ',
+    CityName: 'Banjarmasin'
+  },
+  {
+    AirportName: 'Bradley Intl Arpt',
+    AirportCode: 'BDL',
+    CityName: 'Hartford'
+  },
+  {
+    AirportName: 'Husein Sastranegara Arpt',
+    AirportCode: 'BDO',
+    CityName: 'Bandung'
+  },
+  {
+    AirportName: 'Bhadrapur Airport',
+    AirportCode: 'BDP',
+    CityName: 'Bhadrapur'
+  },
+  {
+    AirportName: 'Vadodara Arpt',
+    AirportCode: 'BDQ',
+    CityName: 'Vadodara'
+  },
+  {
+    AirportName: 'Sikorsky Memorial Arpt',
+    AirportCode: 'BDR',
+    CityName: 'Bridgeport'
+  },
+  {
+    AirportName: 'Papola Casale Arpt',
+    AirportCode: 'BDS',
+    CityName: 'Brindisi'
+  },
+  {
+    AirportName: 'Bardufoss Arpt',
+    AirportCode: 'BDU',
+    CityName: 'Bardufoss'
+  },
+  {
+    AirportName: 'Bedford Arpt',
+    AirportCode: 'BED',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Bradford Regional Arpt',
+    AirportCode: 'BFD',
+    CityName: 'Bradford'
+  },
+  {
+    AirportName: 'Belfast City Arpt',
+    AirportCode: 'BHD',
+    CityName: 'Belfast'
+  },
+  {
+    AirportName: 'Block Island Municipal',
+    AirportCode: 'BID',
+    CityName: 'Block Island'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Bandar Abbas Intl Airport',
+    AirportCode: 'BND',
+    CityName: 'Bandar Abbas'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Crowwing Cty Arpt',
+    AirportCode: 'BRD',
+    CityName: 'Brainerd'
+  },
+  {
+    AirportName: 'Baoshan Arpt',
+    AirportCode: 'BSD',
+    CityName: 'Baoshan'
+  },
+  {
+    AirportName: 'Liszt Ferenc Arpt',
+    AirportCode: 'BUD',
+    CityName: 'Budapest'
+  },
+  {
+    AirportName: 'Brownwood Municipal Arpt',
+    AirportCode: 'BWD',
+    CityName: 'Brownwood'
+  },
+  {
+    AirportName: 'Wexford County Arpt',
+    AirportCode: 'CAD',
+    CityName: 'Cadillac'
+  },
+  {
+    AirportName: 'Car Nicobar Air Force Base',
+    AirportCode: 'CBD',
+    CityName: 'Car Nicobar'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cooinda Airport',
+    AirportCode: 'CDA',
+    CityName: 'Cooinda'
+  },
+  {
+    AirportName: 'Cedar City Municipal',
+    AirportCode: 'CDC',
+    CityName: 'Cedar City'
+  },
+  {
+    AirportName: 'Cauquira Arpt',
+    AirportCode: 'CDD',
+    CityName: 'Cauquira'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Candle Arpt',
+    AirportCode: 'CDL',
+    CityName: 'Candle'
+  },
+  {
+    AirportName: 'Cuddapah Airport',
+    AirportCode: 'CDP',
+    CityName: 'Cuddapah'
+  },
+  {
+    AirportName: 'Chadron Arpt',
+    AirportCode: 'CDR',
+    CityName: 'Chadron'
+  },
+  {
+    AirportName: 'Mudhole Smith Arpt',
+    AirportCode: 'CDV',
+    CityName: 'Cordova'
+  },
+  {
+    AirportName: 'Caldwell Wright Arpt',
+    AirportCode: 'CDW',
+    CityName: 'Caldwell'
+  },
+  {
+    AirportName: 'Ceduna Arpt',
+    AirportCode: 'CED',
+    CityName: 'Ceduna'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Williams AFB',
+    AirportCode: 'CHD',
+    CityName: 'Chandler'
+  },
+  {
+    AirportName: 'Cedar Rapids Municipal Arpt',
+    AirportCode: 'CID',
+    CityName: 'Cedar Rapids'
+  },
+  {
+    AirportName: 'Crooked Creek Arpt',
+    AirportCode: 'CKD',
+    CityName: 'Crooked Creek'
+  },
+  {
+    AirportName: 'Carlsbad Arpt',
+    AirportCode: 'CLD',
+    CityName: 'San Diego'
+  },
+  {
+    AirportName: 'Kogalniceanu Arpt',
+    AirportCode: 'CND',
+    CityName: 'Constanta'
+  },
+  {
+    AirportName: 'Yellowstone Regional Arpt',
+    AirportCode: 'COD',
+    CityName: 'Cody'
+  },
+  {
+    AirportName: 'Coober Pedy Arpt',
+    AirportCode: 'CPD',
+    CityName: 'Coober Pedy'
+  },
+  {
+    AirportName: 'Shahre Kord Arpt',
+    AirportCode: 'CQD',
+    CityName: 'Shahre Kord'
+  },
+  {
+    AirportName: 'Comodoro Rivadavia Arpt',
+    AirportCode: 'CRD',
+    CityName: 'Comodoro Rivadavia'
+  },
+  {
+    AirportName: 'Chitre Airfield',
+    AirportCode: 'CTD',
+    CityName: 'Chitre'
+  },
+  {
+    AirportName: 'Danville Municipal',
+    AirportCode: 'DA',
+    CityName: 'Danville'
+  },
+  {
+    AirportName: 'Daytona Beach Regional Arpt',
+    AirportCode: 'DAB',
+    CityName: 'Daytona Beach'
+  },
+  {
+    AirportName: 'Hazrat Shahjalal Intl Arpt',
+    AirportCode: 'DAC',
+    CityName: 'Dhaka'
+  },
+  {
+    AirportName: 'Da Nang Arpt',
+    AirportCode: 'DAD',
+    CityName: 'Da Nang'
+  },
+  {
+    AirportName: 'Daparizo Airport',
+    AirportCode: 'DAE',
+    CityName: 'Daparizo'
+  },
+  {
+    AirportName: 'Barstow Daggett Airport',
+    AirportCode: 'DAG',
+    CityName: 'Daggett'
+  },
+  {
+    AirportName: 'Dakhla Arpt',
+    AirportCode: 'DAK',
+    CityName: 'Dakhla Oasis'
+  },
+  { AirportName: 'Love Field', AirportCode: 'DAL', CityName: 'Dallas' },
+  {
+    AirportName: 'Damascus Intl',
+    AirportCode: 'DAM',
+    CityName: 'Damascus'
+  },
+  {
+    AirportName: 'Es Salaam Intl',
+    AirportCode: 'DAR',
+    CityName: 'Dar Es Salaam'
+  },
+  {
+    AirportName: 'Datong Arpt',
+    AirportCode: 'DAT',
+    CityName: 'Datong'
+  },
+  { AirportName: 'Daru Airport', AirportCode: 'DAU', CityName: 'Daru' },
+  {
+    AirportName: 'Enrique Malek Arpt',
+    AirportCode: 'DAV',
+    CityName: 'David'
+  },
+  { AirportName: 'Heshi', AirportCode: 'DAX', CityName: 'Dazhou' },
+  {
+    AirportName: 'Dayton International Airport',
+    AirportCode: 'DAY',
+    CityName: 'Dayton'
+  },
+  {
+    AirportName: 'Dublin Municipal Arpt',
+    AirportCode: 'DB',
+    CityName: 'Dublin'
+  },
+  { AirportName: 'Dubbo Arpt', AirportCode: 'DBO', CityName: 'Dubbo' },
+  {
+    AirportName: 'Dubuque Municipal Arpt',
+    AirportCode: 'DBQ',
+    CityName: 'Dubuque'
+  },
+  {
+    AirportName: 'Darbhanga Airport',
+    AirportCode: 'DBR',
+    CityName: 'Darbhanga'
+  },
+  {
+    AirportName: 'Dubrovnik Arpt',
+    AirportCode: 'DBV',
+    CityName: 'Dubrovnik'
+  },
+  { AirportName: 'Dalby', AirportCode: 'DBY', CityName: 'Dalby' },
+  { AirportName: 'Curtain Arpt', AirportCode: 'DC', CityName: 'Derby' },
+  {
+    AirportName: 'Ronald Reagan National Arpt',
+    AirportCode: 'DCA',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Canefield Arpt',
+    AirportCode: 'DCF',
+    CityName: 'Dominica'
+  },
+  {
+    AirportName: 'Mazamet Arpt',
+    AirportCode: 'DCM',
+    CityName: 'Castres'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Dodge City Municipal Arpt',
+    AirportCode: 'DDC',
+    CityName: 'Dodge City'
+  },
+  {
+    AirportName: 'Dandong Arpt',
+    AirportCode: 'DDG',
+    CityName: 'Dandong'
+  },
+  {
+    AirportName: 'Daydream Island Arpt',
+    AirportCode: 'DDI',
+    CityName: 'Daydream Island'
+  },
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'Dallas Ft Worth Intl',
+    AirportCode: 'DFW',
+    CityName: 'Dallas'
+  },
+  {
+    AirportName: 'Mudgee Arpt',
+    AirportCode: 'DGE',
+    CityName: 'Mudgee'
+  },
+  ... 536 more items
+]
+[0mPOST /flights/allCities [32m200[0m 52.747 ms - 50780[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Edenton Municipal Arpt',
+    AirportCode: 'EDE',
+    CityName: 'Edenton'
+  },
+  {
+    AirportName: 'Bringeland Arpt',
+    AirportCode: 'FDE',
+    CityName: 'Forde'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Andenes Arpt',
+    AirportCode: 'ANX',
+    CityName: 'Andenes'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'El Eden Arpt',
+    AirportCode: 'AXM',
+    CityName: 'Armenia'
+  },
+  {
+    AirportName: 'Bader Field',
+    AirportCode: 'AIY',
+    CityName: 'Atlantic City'
+  },
+  {
+    AirportName: 'Bahia De Los Angeles Arpt',
+    AirportCode: 'BHL',
+    CityName: 'Bahia De Los Angeles'
+  },
+  {
+    AirportName: 'Battle Mountain Airport (Lander County Airport)',
+    AirportCode: 'BAM',
+    CityName: 'Battle Mountain'
+  },
+  {
+    AirportName: 'English Madeira Arpt',
+    AirportCode: 'BCH',
+    CityName: 'Baucau'
+  },
+  {
+    AirportName: 'Val De Cans Arpt',
+    AirportCode: 'BEL',
+    CityName: 'Belem'
+  },
+  {
+    AirportName: 'Belgrade Beograd Arpt',
+    AirportCode: 'BEG',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Berlin Brandenburg Airport',
+    AirportCode: 'BER',
+    CityName: 'Berlin'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Burbank Glendale Pasadena Arpt',
+    AirportCode: 'BUR',
+    CityName: 'Burbank'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cape Girardeau Municipal Arpt',
+    AirportCode: 'CGI',
+    CityName: 'Cape Girardeau'
+  },
+  {
+    AirportName: 'Casa Grande Arpt',
+    AirportCode: 'CGZ',
+    CityName: 'Casa Grande'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'USAF Academy',
+    AirportCode: 'AFF',
+    CityName: 'Colorado Springs'
+  },
+  {
+    AirportName: 'Golden Arpt',
+    AirportCode: 'GTR',
+    CityName: 'Columbus'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'Aeropuerto Intl De Cozumel',
+    AirportCode: 'CZM',
+    CityName: 'Cozumel'
+  },
+  {
+    AirportName: 'Fedl De Bachigualato Arpt',
+    AirportCode: 'CUL',
+    CityName: 'Culiacan'
+  },
+  {
+    AirportName: 'Antonio Jose De Sucre',
+    AirportCode: 'CUM',
+    CityName: 'Cumana'
+  },
+  {
+    AirportName: 'Death Valley Arpt',
+    AirportCode: 'DTH',
+    CityName: 'Death Valley'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Denham Arpt',
+    AirportCode: 'DNM',
+    CityName: 'Denham'
+  },
+  {
+    AirportName: 'Denilinquin Arpt',
+    AirportCode: 'DNQ',
+    CityName: 'Deniliquin'
+  },
+  {
+    AirportName: 'Derby Airport',
+    AirportCode: 'DRB',
+    CityName: 'Derby'
+  },
+  {
+    AirportName: 'Des Moines Municipal Airport',
+    AirportCode: 'DSM',
+    CityName: 'Des Moines'
+  },
+  {
+    AirportName: 'Destin Arpt',
+    AirportCode: 'DSI',
+    CityName: 'Destin'
+  },
+  {
+    AirportName: 'Detroit Metro Wayne Cnty Arpt',
+    AirportCode: 'DTW',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Devils Lake Arpt',
+    AirportCode: 'DVL',
+    CityName: 'Devils Lake'
+  },
+  {
+    AirportName: 'Devonport Arpt',
+    AirportCode: 'DPO',
+    CityName: 'Devonport'
+  },
+  {
+    AirportName: 'Presidente Nicolau Lobato Intl Arpt',
+    AirportCode: 'DIL',
+    CityName: 'Dili'
+  },
+  {
+    AirportName: 'Wickede Dortmund Arpt',
+    AirportCode: 'DTM',
+    CityName: 'Dortmund'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Dresden Arpt',
+    AirportCode: 'DRS',
+    CityName: 'Dresden'
+  },
+  {
+    AirportName: 'Riverside Park Arpt',
+    AirportCode: 'DND',
+    CityName: 'Dundee'
+  },
+  { AirportName: 'Emden Arpt', AirportCode: 'EME', CityName: 'Emden' },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Fernando De Noronha Arpt',
+    AirportCode: 'FE',
+    CityName: 'Fernando De Noronha'
+  },
+  {
+    AirportName: 'Frederick Municipal',
+    AirportCode: 'FDK',
+    CityName: 'Frederick'
+  },
+  {
+    AirportName: 'Ft Lauderdale Hollywood Intl Arpt',
+    AirportCode: 'FLL',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Ft Lauderdale Excutive',
+    AirportCode: 'FXE',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Madeira Arpt',
+    AirportCode: 'FNC',
+    CityName: 'Funchal'
+  },
+  {
+    AirportName: 'Gadsden Municipal',
+    AirportCode: 'GAD',
+    CityName: 'Gadsden'
+  },
+  {
+    AirportName: 'Garden City Municipal',
+    AirportCode: 'GCK',
+    CityName: 'Garden City'
+  },
+  {
+    AirportName: 'Eelde Arpt',
+    AirportCode: 'GRQ',
+    CityName: 'Groningen'
+  },
+  {
+    AirportName: 'Kozhikode Arpt',
+    AirportCode: 'CCJ',
+    CityName: 'Kozhikode'
+  },
+  {
+    AirportName: 'La Desirade Arpt',
+    AirportCode: 'DSD',
+    CityName: 'La Desirade'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Magdeburg Cochstedt  Airport',
+    AirportCode: 'CSO',
+    CityName: 'Magdeburg Cochstedt'
+  },
+  {
+    AirportName: 'Mildenhall NAF',
+    AirportCode: 'GXH',
+    CityName: 'Mildenhall'
+  },
+  {
+    AirportName: 'Domodedovo Arpt',
+    AirportCode: 'DME',
+    CityName: 'Moscow'
+  },
+  {
+    AirportName: 'Neubrandenburg Arpt',
+    AirportCode: 'FNB',
+    CityName: 'Neubrandenburg'
+  },
+  {
+    AirportName: 'Kadena AFB',
+    AirportCode: 'DNA',
+    CityName: 'Okinawa'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Paso De Los Libres Arpt',
+    AirportCode: 'AOL',
+    CityName: 'Paso De Los Libres'
+  },
+  {
+    AirportName: 'Deer Valley',
+    AirportCode: 'DVT',
+    CityName: 'Phoenix'
+  },
+  {
+    AirportName: 'San Carlos De Bariloche Intl Arpt',
+    AirportCode: 'BRC',
+    CityName: 'San Carlos Bariloche'
+  },
+  {
+    AirportName: 'Embarcadero',
+    AirportCode: 'EMB',
+    CityName: 'San Francisco'
+  },
+  {
+    AirportName: 'Talladega Arpt',
+    AirportCode: 'AS',
+    CityName: 'Talladega'
+  },
+  {
+    AirportName: 'Kortdoorn Arpt',
+    AirportCode: 'ALJ',
+    CityName: 'Alexander Bay'
+  },
+  {
+    AirportName: 'Thomas C Russell Field',
+    AirportCode: 'ALX',
+    CityName: 'Alexander City'
+  },
+  {
+    AirportName: 'Basongo Airport',
+    AirportCode: 'BA',
+    CityName: 'Basongo, Democratic Republic of the Congo'
+  },
+  {
+    AirportName: 'Bauru Airport',
+    AirportCode: 'BAU',
+    CityName: 'Bauru Old Code'
+  },
+  {
+    AirportName: 'Batajnica Arpt',
+    AirportCode: 'BJY',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Joao Suassuana Arpt',
+    AirportCode: 'CPV',
+    CityName: 'Campina Grande'
+  },
+  {
+    AirportName: 'Internacional',
+    AirportCode: 'CGR',
+    CityName: 'Campogrande'
+  },
+  {
+    AirportName: 'Maximo Gomez Arpt',
+    AirportCode: 'AVI',
+    CityName: 'Ciego De Avila'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Saint Gatien Arpt',
+    AirportCode: 'DOL',
+    CityName: 'Deauville'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Cardak Arpt',
+    AirportCode: 'DNZ',
+    CityName: 'Denizli'
+  },
+  {
+    AirportName: 'Ngurah Rai Arpt',
+    AirportCode: 'DPS',
+    CityName: 'Denpasar Bali'
+  },
+  {
+    AirportName: 'Centennial Arpt',
+    AirportCode: 'APA',
+    CityName: 'Denver'
+  },
+  ... 14 more items
+]
+[0mPOST /flights/allCities [32m200[0m 28.684 ms - 9314[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Enrique Olaya Herrara',
+    AirportCode: 'EOH',
+    CityName: 'Medellin'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia'
+  },
+  {
+    AirportName: 'Fuerteventura Arpt',
+    AirportCode: 'FUE',
+    CityName: 'Puerto Del Rosario'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 16.176 ms - 1535[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Downtown Arpt',
+    AirportCode: 'AHD',
+    CityName: 'Ardmore'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Akola Airport',
+    AirportCode: 'AKD',
+    CityName: 'Akola'
+  },
+  {
+    AirportName: 'Sardar Vallabh Bhai Patel Intl Arpt',
+    AirportCode: 'AMD',
+    CityName: 'Ahmedabad'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Andros Town Arpt',
+    AirportCode: 'ASD',
+    CityName: 'Andros Town'
+  },
+  {
+    AirportName: 'Dhmokritos Arpt',
+    AirportCode: 'AXD',
+    CityName: 'Alexandroupolis'
+  },
+  { AirportName: 'Yazd Arpt', AirportCode: 'AZD', CityName: 'Yazd' },
+  {
+    AirportName: 'Barksdale Air Force Base',
+    AirportCode: 'BAD',
+    CityName: 'Shreveport'
+  },
+  {
+    AirportName: 'Bacolod Arpt',
+    AirportCode: 'BCD',
+    CityName: 'Bacolod'
+  },
+  {
+    AirportName: 'Bermuda International',
+    AirportCode: 'BDA',
+    CityName: 'Bermuda'
+  },
+  {
+    AirportName: 'Bundaberg Arpt',
+    AirportCode: 'BDB',
+    CityName: 'Bundaberg'
+  },
+  {
+    AirportName: 'Badu Island Arpt',
+    AirportCode: 'BDD',
+    CityName: 'Badu Island'
+  },
+  {
+    AirportName: 'Sjamsudin Noor Arpt',
+    AirportCode: 'BDJ',
+    CityName: 'Banjarmasin'
+  },
+  {
+    AirportName: 'Bradley Intl Arpt',
+    AirportCode: 'BDL',
+    CityName: 'Hartford'
+  },
+  {
+    AirportName: 'Husein Sastranegara Arpt',
+    AirportCode: 'BDO',
+    CityName: 'Bandung'
+  },
+  {
+    AirportName: 'Bhadrapur Airport',
+    AirportCode: 'BDP',
+    CityName: 'Bhadrapur'
+  },
+  {
+    AirportName: 'Vadodara Arpt',
+    AirportCode: 'BDQ',
+    CityName: 'Vadodara'
+  },
+  {
+    AirportName: 'Sikorsky Memorial Arpt',
+    AirportCode: 'BDR',
+    CityName: 'Bridgeport'
+  },
+  {
+    AirportName: 'Papola Casale Arpt',
+    AirportCode: 'BDS',
+    CityName: 'Brindisi'
+  },
+  {
+    AirportName: 'Bardufoss Arpt',
+    AirportCode: 'BDU',
+    CityName: 'Bardufoss'
+  },
+  {
+    AirportName: 'Bedford Arpt',
+    AirportCode: 'BED',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Bradford Regional Arpt',
+    AirportCode: 'BFD',
+    CityName: 'Bradford'
+  },
+  {
+    AirportName: 'Belfast City Arpt',
+    AirportCode: 'BHD',
+    CityName: 'Belfast'
+  },
+  {
+    AirportName: 'Block Island Municipal',
+    AirportCode: 'BID',
+    CityName: 'Block Island'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Bandar Abbas Intl Airport',
+    AirportCode: 'BND',
+    CityName: 'Bandar Abbas'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Crowwing Cty Arpt',
+    AirportCode: 'BRD',
+    CityName: 'Brainerd'
+  },
+  {
+    AirportName: 'Baoshan Arpt',
+    AirportCode: 'BSD',
+    CityName: 'Baoshan'
+  },
+  {
+    AirportName: 'Liszt Ferenc Arpt',
+    AirportCode: 'BUD',
+    CityName: 'Budapest'
+  },
+  {
+    AirportName: 'Brownwood Municipal Arpt',
+    AirportCode: 'BWD',
+    CityName: 'Brownwood'
+  },
+  {
+    AirportName: 'Wexford County Arpt',
+    AirportCode: 'CAD',
+    CityName: 'Cadillac'
+  },
+  {
+    AirportName: 'Car Nicobar Air Force Base',
+    AirportCode: 'CBD',
+    CityName: 'Car Nicobar'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cooinda Airport',
+    AirportCode: 'CDA',
+    CityName: 'Cooinda'
+  },
+  {
+    AirportName: 'Cedar City Municipal',
+    AirportCode: 'CDC',
+    CityName: 'Cedar City'
+  },
+  {
+    AirportName: 'Cauquira Arpt',
+    AirportCode: 'CDD',
+    CityName: 'Cauquira'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Candle Arpt',
+    AirportCode: 'CDL',
+    CityName: 'Candle'
+  },
+  {
+    AirportName: 'Cuddapah Airport',
+    AirportCode: 'CDP',
+    CityName: 'Cuddapah'
+  },
+  {
+    AirportName: 'Chadron Arpt',
+    AirportCode: 'CDR',
+    CityName: 'Chadron'
+  },
+  {
+    AirportName: 'Mudhole Smith Arpt',
+    AirportCode: 'CDV',
+    CityName: 'Cordova'
+  },
+  {
+    AirportName: 'Caldwell Wright Arpt',
+    AirportCode: 'CDW',
+    CityName: 'Caldwell'
+  },
+  {
+    AirportName: 'Ceduna Arpt',
+    AirportCode: 'CED',
+    CityName: 'Ceduna'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Williams AFB',
+    AirportCode: 'CHD',
+    CityName: 'Chandler'
+  },
+  {
+    AirportName: 'Cedar Rapids Municipal Arpt',
+    AirportCode: 'CID',
+    CityName: 'Cedar Rapids'
+  },
+  {
+    AirportName: 'Crooked Creek Arpt',
+    AirportCode: 'CKD',
+    CityName: 'Crooked Creek'
+  },
+  {
+    AirportName: 'Carlsbad Arpt',
+    AirportCode: 'CLD',
+    CityName: 'San Diego'
+  },
+  {
+    AirportName: 'Kogalniceanu Arpt',
+    AirportCode: 'CND',
+    CityName: 'Constanta'
+  },
+  {
+    AirportName: 'Yellowstone Regional Arpt',
+    AirportCode: 'COD',
+    CityName: 'Cody'
+  },
+  {
+    AirportName: 'Coober Pedy Arpt',
+    AirportCode: 'CPD',
+    CityName: 'Coober Pedy'
+  },
+  {
+    AirportName: 'Shahre Kord Arpt',
+    AirportCode: 'CQD',
+    CityName: 'Shahre Kord'
+  },
+  {
+    AirportName: 'Comodoro Rivadavia Arpt',
+    AirportCode: 'CRD',
+    CityName: 'Comodoro Rivadavia'
+  },
+  {
+    AirportName: 'Chitre Airfield',
+    AirportCode: 'CTD',
+    CityName: 'Chitre'
+  },
+  {
+    AirportName: 'Danville Municipal',
+    AirportCode: 'DA',
+    CityName: 'Danville'
+  },
+  {
+    AirportName: 'Daytona Beach Regional Arpt',
+    AirportCode: 'DAB',
+    CityName: 'Daytona Beach'
+  },
+  {
+    AirportName: 'Hazrat Shahjalal Intl Arpt',
+    AirportCode: 'DAC',
+    CityName: 'Dhaka'
+  },
+  {
+    AirportName: 'Da Nang Arpt',
+    AirportCode: 'DAD',
+    CityName: 'Da Nang'
+  },
+  {
+    AirportName: 'Daparizo Airport',
+    AirportCode: 'DAE',
+    CityName: 'Daparizo'
+  },
+  {
+    AirportName: 'Barstow Daggett Airport',
+    AirportCode: 'DAG',
+    CityName: 'Daggett'
+  },
+  {
+    AirportName: 'Dakhla Arpt',
+    AirportCode: 'DAK',
+    CityName: 'Dakhla Oasis'
+  },
+  { AirportName: 'Love Field', AirportCode: 'DAL', CityName: 'Dallas' },
+  {
+    AirportName: 'Damascus Intl',
+    AirportCode: 'DAM',
+    CityName: 'Damascus'
+  },
+  {
+    AirportName: 'Es Salaam Intl',
+    AirportCode: 'DAR',
+    CityName: 'Dar Es Salaam'
+  },
+  {
+    AirportName: 'Datong Arpt',
+    AirportCode: 'DAT',
+    CityName: 'Datong'
+  },
+  { AirportName: 'Daru Airport', AirportCode: 'DAU', CityName: 'Daru' },
+  {
+    AirportName: 'Enrique Malek Arpt',
+    AirportCode: 'DAV',
+    CityName: 'David'
+  },
+  { AirportName: 'Heshi', AirportCode: 'DAX', CityName: 'Dazhou' },
+  {
+    AirportName: 'Dayton International Airport',
+    AirportCode: 'DAY',
+    CityName: 'Dayton'
+  },
+  {
+    AirportName: 'Dublin Municipal Arpt',
+    AirportCode: 'DB',
+    CityName: 'Dublin'
+  },
+  { AirportName: 'Dubbo Arpt', AirportCode: 'DBO', CityName: 'Dubbo' },
+  {
+    AirportName: 'Dubuque Municipal Arpt',
+    AirportCode: 'DBQ',
+    CityName: 'Dubuque'
+  },
+  {
+    AirportName: 'Darbhanga Airport',
+    AirportCode: 'DBR',
+    CityName: 'Darbhanga'
+  },
+  {
+    AirportName: 'Dubrovnik Arpt',
+    AirportCode: 'DBV',
+    CityName: 'Dubrovnik'
+  },
+  { AirportName: 'Dalby', AirportCode: 'DBY', CityName: 'Dalby' },
+  { AirportName: 'Curtain Arpt', AirportCode: 'DC', CityName: 'Derby' },
+  {
+    AirportName: 'Ronald Reagan National Arpt',
+    AirportCode: 'DCA',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Canefield Arpt',
+    AirportCode: 'DCF',
+    CityName: 'Dominica'
+  },
+  {
+    AirportName: 'Mazamet Arpt',
+    AirportCode: 'DCM',
+    CityName: 'Castres'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Dodge City Municipal Arpt',
+    AirportCode: 'DDC',
+    CityName: 'Dodge City'
+  },
+  {
+    AirportName: 'Dandong Arpt',
+    AirportCode: 'DDG',
+    CityName: 'Dandong'
+  },
+  {
+    AirportName: 'Daydream Island Arpt',
+    AirportCode: 'DDI',
+    CityName: 'Daydream Island'
+  },
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'Dallas Ft Worth Intl',
+    AirportCode: 'DFW',
+    CityName: 'Dallas'
+  },
+  {
+    AirportName: 'Mudgee Arpt',
+    AirportCode: 'DGE',
+    CityName: 'Mudgee'
+  },
+  ... 536 more items
+]
+[0mPOST /flights/allCities [32m200[0m 84.920 ms - 50780[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  },
+  {
+    AirportName: 'Danbury Municipal Arpt',
+    AirportCode: 'DXR',
+    CityName: 'Danbury'
+  },
+  {
+    AirportName: 'Magadan Arpt',
+    AirportCode: 'GDX',
+    CityName: 'Magadan'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 15.308 ms - 237[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 13.438 ms - 83[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+{
+  from: 'DEL',
+  to: 'DXB',
+  adult: 1,
+  child: 0,
+  infant: 0,
+  travel_date: '2025-01-31',
+  return_date: '',
+  fare_type: '2'
+}
+Connected to MySQL database
+[0mPOST /flights/addFlightSearchData [32m200[0m 47.427 ms - 153[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+[0mGET /flights/flightResults [36m304[0m 235.555 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.613 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 3.022 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.955 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 5.255 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.162 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.684 ms - -[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 1.089 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.250 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 3.109 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 6.258 ms - 166[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.096 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.543 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.096 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.520 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.584 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 2.455 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.224 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.295 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.035 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 5.413 ms - 166[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.976 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.497 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.107 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.008 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.157 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 2.067 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 4.446 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 3.613 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.542 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 3.674 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.236 ms - -[0m
+[0mGET /flightWorthCSS/images/sunrise.svg [36m304[0m 1.152 ms - -[0m
+[0mGET /flightWorthCSS/images/afternoon_sun.svg [36m304[0m 4.031 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 3.471 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 3.028 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.526 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.151 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.081 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.020 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.089 ms - -[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 2.137 ms - -[0m
+[0mGET /assets1/js/select2.min.js [33m404[0m 4.619 ms - 164[0m
+[0mGET /flightWorthCSS/images/evening_time.svg [36m304[0m 1.035 ms - -[0m
+[0mGET /flightWorthCSS/images/night_time.svg [36m304[0m 1.151 ms - -[0m
+{
+  adults: '1',
+  child: '0',
+  infants: '0',
+  ResultFareType: 'Regular Fare',
+  data: 'undefined',
+  platform: '""',
+  from: 'DEL',
+  to: 'DXB',
+  travelDate: '2025-01-31',
+  fare_type: '2'
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+Connected to MySQL database
+[0mGET /favicon.ico [33m404[0m 21.690 ms - 150[0m
+35
+[0mGET /getBalance [36m304[0m 35.709 ms - -[0m
+[0mGET /getAgentData [36m304[0m 69.827 ms - -[0m
+[0mGET /upload/agent-profile-logo/227_TOD%20Logo%20Open%20FIle.png [36m304[0m 1.129 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-dashboard [36m304[0m 22.355 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.238 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 3.675 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 6.281 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 5.153 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 4.613 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 4.960 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.030 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.063 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 0.977 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.793 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.949 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.958 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.534 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.394 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.756 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.331 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.976 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.910 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.422 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.642 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 2.208 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.826 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 0.946 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.088 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.644 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 4.427 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 2.473 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 3.048 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 4.292 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 2.140 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.942 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.119 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.460 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 2.371 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.500 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.042 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 35.515 ms - -[0m
+[0mGET /assets/img/img_1.png [36m304[0m 6.753 ms - -[0m
+[0mGET /getBalance [36m304[0m 33.218 ms - -[0m
+[0mGET /flight-search [36m304[0m 47.378 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.158 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-profile [36m304[0m 28.883 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 3.514 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 5.850 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 4.928 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 4.506 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.095 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 6.567 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.158 ms - -[0m
+[0mGET /assets2/images/profile/profile_dubai.png [36m304[0m 2.185 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 2.763 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 4.160 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 3.390 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.642 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.004 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.267 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.961 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.818 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.415 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 3.234 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.284 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.887 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.422 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.881 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.441 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 3.108 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.281 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 2.014 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 3.297 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 3.701 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 3.253 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 2.838 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.401 ms - -[0m
+[0mGET /assets2/images/profile/cover.jpg [36m304[0m 1.122 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.045 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.938 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.435 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 3.124 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 4.366 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 2.011 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.461 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 16.154 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 20.776 ms - -[0m
+[0mGET /getBalance [36m304[0m 43.559 ms - -[0m
+[0mPOST /flights/getAllFlights [32m200[0m 28827.751 ms - 605960[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-dashboard [36m304[0m 19.637 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.790 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.023 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 3.644 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.222 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 2.886 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 6.455 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.097 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.894 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.312 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 3.047 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 5.313 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.730 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.097 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 3.765 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 3.201 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.778 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.370 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.614 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.024 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 4.206 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 3.674 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 3.030 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.556 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 4.949 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 2.312 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 0.934 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.899 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.827 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.402 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.931 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.904 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.966 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.182 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.103 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 0.912 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.970 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 21.585 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+Connected to MySQL database
+[0mGET /getBalance [36m304[0m 38.750 ms - -[0m
+[0mGET /flight-search [36m304[0m 31.880 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.095 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights [36m304[0m 26.831 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.877 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 5.788 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 4.973 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.507 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.411 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.311 ms - -[0m
+[0mGET /assets2/flights/css/animation.css [36m304[0m 1.081 ms - -[0m
+[0mGET /assets2/flights/css/lightbox.min.css [36m304[0m 4.375 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [36m304[0m 3.441 ms - -[0m
+[0mGET /assets2/flights/css/dropzone.min.css [36m304[0m 2.923 ms - -[0m
+[0mGET /assets2/flights/css/flickity.min.css [36m304[0m 3.548 ms - -[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [36m304[0m 5.690 ms - -[0m
+[0mGET /assets2/flights/css/select2.min.css [36m304[0m 0.904 ms - -[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [36m304[0m 1.862 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [36m304[0m 3.175 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [36m304[0m 4.339 ms - -[0m
+[0mGET /assets2/flights/css/fontawesome.css [36m304[0m 2.380 ms - -[0m
+[0mGET /assets2/flights/css/style.css [36m304[0m 2.995 ms - -[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 4.241 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 0.911 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.175 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.934 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.409 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.018 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.504 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.018 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.025 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.914 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.503 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 7.118 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.562 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.053 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.008 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.928 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.472 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.981 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.577 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 3.701 ms - -[0m
+[0mGET /assets2/img_2.png [36m304[0m 1.009 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 3.233 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 2.667 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 5.519 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 3.837 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 3.422 ms - -[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [36m304[0m 1.151 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.905 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.932 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 3.475 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.389 ms - -[0m
+[0mGET /assets2/flights/images/loading.gif [36m304[0m 3.547 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /assets2/flights/images/close.png [33m404[0m 10.823 ms - 171[0m
+[0mGET /assets2/flights/images/next.png [33m404[0m 11.671 ms - 170[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 12.350 ms - 170[0m
+25
+[0mGET /getAgentData [36m304[0m 33.970 ms - -[0m
+[0mGET /getBalance [36m304[0m 41.449 ms - -[0m
+[0mGET /assets2/flights/img/favicon.png [36m304[0m 1.027 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.036 ms - -[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Muehlhausen Arpt',
+    AirportCode: 'AGB',
+    CityName: 'Augsburg'
+  },
+  { AirportName: 'Abha Airport', AirportCode: 'AHB', CityName: 'Abha' },
+  {
+    AirportName: 'Anita Bay Arpt',
+    AirportCode: 'AIB',
+    CityName: 'Anita Bay'
+  },
+  { AirportName: 'Atka Arpt', AirportCode: 'AKB', CityName: 'Atka' },
+  {
+    AirportName: 'Albany Cty Arpt',
+    AirportCode: 'ALB',
+    CityName: 'Albany'
+  },
+  {
+    AirportName: 'Anniston Municipal Arpt',
+    AirportCode: 'ANB',
+    CityName: 'Anniston'
+  },
+  {
+    AirportName: 'Ann Arbor Municipal',
+    AirportCode: 'ARB',
+    CityName: 'Ann Arbor'
+  },
+  {
+    AirportName: 'Ashgabat Arpt',
+    AirportCode: 'ASB',
+    CityName: 'Ashgabat'
+  },
+  {
+    AirportName: 'Aviano Airbase',
+    AirportCode: 'AVB',
+    CityName: 'Aviano'
+  },
+  {
+    AirportName: 'AWABA AIRPORT',
+    AirportCode: 'AWB',
+    CityName: 'AWABA'
+  },
+  {
+    AirportName: 'Basongo Airport',
+    AirportCode: 'BA',
+    CityName: 'Basongo, Democratic Republic of the Congo'
+  },
+  {
+    AirportName: 'Beale AFB',
+    AirportCode: 'BAB',
+    CityName: 'Marysville'
+  },
+  {
+    AirportName: 'Barksdale Air Force Base',
+    AirportCode: 'BAD',
+    CityName: 'Shreveport'
+  },
+  {
+    AirportName: 'Westfield-Barnes Regional Airport',
+    AirportCode: 'BAF',
+    CityName: 'Westfield'
+  },
+  {
+    AirportName: 'Loakan Arpt',
+    AirportCode: 'BAG',
+    CityName: 'Baguio'
+  },
+  {
+    AirportName: 'Bahrain Intl Arpt',
+    AirportCode: 'BAH',
+    CityName: 'Muharraq'
+  },
+  { AirportName: null, AirportCode: 'BAK', CityName: 'Baku' },
+  {
+    AirportName: 'Batman Arpt',
+    AirportCode: 'BAL',
+    CityName: 'Batman'
+  },
+  {
+    AirportName: 'Battle Mountain Airport (Lander County Airport)',
+    AirportCode: 'BAM',
+    CityName: 'Battle Mountain'
+  },
+  {
+    AirportName: 'Udorn Arpt',
+    AirportCode: 'BAO',
+    CityName: 'Ban Mak Khaen'
+  },
+  {
+    AirportName: 'E Cortissoz Arpt',
+    AirportCode: 'BAQ',
+    CityName: 'Barranquilla'
+  },
+  {
+    AirportName: 'Balalae Arpt',
+    AirportCode: 'BAS',
+    CityName: 'Balalae'
+  },
+  {
+    AirportName: 'Barretos Arpt',
+    AirportCode: 'BAT',
+    CityName: 'Barretos'
+  },
+  {
+    AirportName: 'Bauru Airport',
+    AirportCode: 'BAU',
+    CityName: 'Bauru Old Code'
+  },
+  {
+    AirportName: 'Baotou Arpt',
+    AirportCode: 'BAV',
+    CityName: 'Baotou'
+  },
+  {
+    AirportName: 'Barnaul Arpt',
+    AirportCode: 'BAX',
+    CityName: 'Barnaul'
+  },
+  {
+    AirportName: 'Baia Mare Arpt',
+    AirportCode: 'BAY',
+    CityName: 'Baia Mare'
+  },
+  {
+    AirportName: 'BARBELOS AIRPORT',
+    AirportCode: 'BAZ',
+    CityName: 'Barbelos'
+  },
+  { AirportName: 'Bario Arpt', AirportCode: 'BB', CityName: 'Bario' },
+  {
+    AirportName: 'Teniente Vidal Airport',
+    AirportCode: 'BBA',
+    CityName: 'Balmaceda'
+  },
+  { AirportName: 'Barth Arpt', AirportCode: 'BBH', CityName: 'Barth' },
+  {
+    AirportName: 'Biju Patnaik Arpt',
+    AirportCode: 'BBI',
+    CityName: 'Bhubaneswar'
+  },
+  {
+    AirportName: 'Bitburg Air Base',
+    AirportCode: 'BBJ',
+    CityName: 'Bitburg'
+  },
+  {
+    AirportName: 'Kasane Arpt',
+    AirportCode: 'BBK',
+    CityName: 'Kasane'
+  },
+  {
+    AirportName: 'Berbera Arpt',
+    AirportCode: 'BBO',
+    CityName: 'Berbera'
+  },
+  {
+    AirportName: 'Baillif Arpt',
+    AirportCode: 'BBR',
+    CityName: 'Basse Terre'
+  },
+  {
+    AirportName: 'Blackbushe',
+    AirportCode: 'BBS',
+    CityName: 'Blackbushe'
+  },
+  {
+    AirportName: 'Baneasa Airport',
+    AirportCode: 'BBU',
+    CityName: 'Bucharest'
+  },
+  {
+    AirportName: 'Broken Bow Municipal',
+    AirportCode: 'BBW',
+    CityName: 'Broken Bow'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia'
+  },
+  {
+    AirportName: 'Barcelona Arpt',
+    AirportCode: 'BC',
+    CityName: 'Barcelona'
+  },
+  {
+    AirportName: 'Virginia Tech Arpt',
+    AirportCode: 'BCB',
+    CityName: 'Blacksburg'
+  },
+  {
+    AirportName: 'Bacolod Arpt',
+    AirportCode: 'BCD',
+    CityName: 'Bacolod'
+  },
+  { AirportName: 'Bryce Arpt', AirportCode: 'BCE', CityName: 'Bryce' },
+  {
+    AirportName: 'English Madeira Arpt',
+    AirportCode: 'BCH',
+    CityName: 'Baucau'
+  },
+  {
+    AirportName: 'Barcaldine Arpt',
+    AirportCode: 'BCI',
+    CityName: 'Barcaldine'
+  },
+  { AirportName: 'Bacau Arpt', AirportCode: 'BCM', CityName: 'Bacau' },
+  {
+    AirportName: 'Boca Raton Public',
+    AirportCode: 'BCT',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Bermuda International',
+    AirportCode: 'BDA',
+    CityName: 'Bermuda'
+  },
+  {
+    AirportName: 'Bundaberg Arpt',
+    AirportCode: 'BDB',
+    CityName: 'Bundaberg'
+  },
+  {
+    AirportName: 'Badu Island Arpt',
+    AirportCode: 'BDD',
+    CityName: 'Badu Island'
+  },
+  {
+    AirportName: 'Sjamsudin Noor Arpt',
+    AirportCode: 'BDJ',
+    CityName: 'Banjarmasin'
+  },
+  {
+    AirportName: 'Bradley Intl Arpt',
+    AirportCode: 'BDL',
+    CityName: 'Hartford'
+  },
+  {
+    AirportName: 'Husein Sastranegara Arpt',
+    AirportCode: 'BDO',
+    CityName: 'Bandung'
+  },
+  {
+    AirportName: 'Bhadrapur Airport',
+    AirportCode: 'BDP',
+    CityName: 'Bhadrapur'
+  },
+  {
+    AirportName: 'Vadodara Arpt',
+    AirportCode: 'BDQ',
+    CityName: 'Vadodara'
+  },
+  {
+    AirportName: 'Sikorsky Memorial Arpt',
+    AirportCode: 'BDR',
+    CityName: 'Bridgeport'
+  },
+  {
+    AirportName: 'Papola Casale Arpt',
+    AirportCode: 'BDS',
+    CityName: 'Brindisi'
+  },
+  {
+    AirportName: 'Bardufoss Arpt',
+    AirportCode: 'BDU',
+    CityName: 'Bardufoss'
+  },
+  {
+    AirportName: 'Benina Intl Arpt',
+    AirportCode: 'BE',
+    CityName: 'Benghazi'
+  },
+  {
+    AirportName: 'Benbecula Arpt',
+    AirportCode: 'BEB',
+    CityName: 'Benbecula'
+  },
+  {
+    AirportName: 'Beech Arprt',
+    AirportCode: 'BEC',
+    CityName: 'Wichita'
+  },
+  {
+    AirportName: 'Bedford Arpt',
+    AirportCode: 'BED',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Belgrade Beograd Arpt',
+    AirportCode: 'BEG',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Ross Field',
+    AirportCode: 'BEH',
+    CityName: 'Benton Harbor'
+  },
+  {
+    AirportName: 'Sri Sathya Sai Airport',
+    AirportCode: 'BEK',
+    CityName: 'Rae Bareli'
+  },
+  {
+    AirportName: 'Val De Cans Arpt',
+    AirportCode: 'BEL',
+    CityName: 'Belem'
+  },
+  {
+    AirportName: 'Belmont Arpt',
+    AirportCode: 'BEO',
+    CityName: 'Newcastle'
+  },
+  {
+    AirportName: 'Bellary Airport',
+    AirportCode: 'BEP',
+    CityName: 'Bellary'
+  },
+  {
+    AirportName: 'Honington Arpt',
+    AirportCode: 'BEQ',
+    CityName: 'Bury St Edmunds'
+  },
+  {
+    AirportName: 'Berlin Brandenburg Airport',
+    AirportCode: 'BER',
+    CityName: 'Berlin'
+  },
+  {
+    AirportName: 'Guipavas Arpt',
+    AirportCode: 'BES',
+    CityName: 'Brest'
+  },
+  {
+    AirportName: 'Bethel Airport',
+    AirportCode: 'BET',
+    CityName: 'Bethel'
+  },
+  {
+    AirportName: 'Bedourie Arpt',
+    AirportCode: 'BEU',
+    CityName: 'Bedourie'
+  },
+  { AirportName: 'Beira Arpt', AirportCode: 'BEW', CityName: 'Beira' },
+  {
+    AirportName: 'Beirut Intl Arpt',
+    AirportCode: 'BEY',
+    CityName: 'Beirut'
+  },
+  { AirportName: 'Beru Arpt', AirportCode: 'BEZ', CityName: 'Beru' },
+  {
+    AirportName: 'Bloemfontein International',
+    AirportCode: 'BF',
+    CityName: 'Bloemfontein'
+  },
+  {
+    AirportName: 'Blue Fox Bay Arpt',
+    AirportCode: 'BFB',
+    CityName: 'Blue Fox Bay'
+  },
+  {
+    AirportName: 'Bradford Regional Arpt',
+    AirportCode: 'BFD',
+    CityName: 'Bradford'
+  },
+  {
+    AirportName: 'Bielefeld Arpt',
+    AirportCode: 'BFE',
+    CityName: 'Bielefeld'
+  },
+  {
+    AirportName: 'Scottsbluff Municipal',
+    AirportCode: 'BFF',
+    CityName: 'Scottsbluff'
+  },
+  {
+    AirportName: 'Bullfrog Basin Arpt',
+    AirportCode: 'BFG',
+    CityName: 'Bullfrog Basin'
+  },
+  {
+    AirportName: 'Bacacheri Arpt',
+    AirportCode: 'BFH',
+    CityName: 'Curitiba'
+  },
+  {
+    AirportName: 'Seattle Boeing Field',
+    AirportCode: 'BFI',
+    CityName: 'Seattle'
+  },
+  { AirportName: 'Ba Arpt', AirportCode: 'BFJ', CityName: 'Ba City' },
+  {
+    AirportName: 'Buckley Air National Guard Base',
+    AirportCode: 'BFK',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Meadows Field',
+    AirportCode: 'BFL',
+    CityName: 'Bakersfield'
+  },
+  {
+    AirportName: 'Brookley Arpt',
+    AirportCode: 'BFM',
+    CityName: 'Mobile'
+  },
+  {
+    AirportName: 'Beaver Falls Arpt',
+    AirportCode: 'BFP',
+    CityName: 'Beaver Falls'
+  },
+  {
+    AirportName: 'Virgil I Grissom Municipal',
+    AirportCode: 'BFR',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Belfast Intl Arpt',
+    AirportCode: 'BFS',
+    CityName: 'Belfast'
+  },
+  {
+    AirportName: 'Beaufort County Arpt',
+    AirportCode: 'BFT',
+    CityName: 'Beaufort'
+  },
+  {
+    AirportName: 'Buri Ram Arpt',
+    AirportCode: 'BFV',
+    CityName: 'Buri Ram'
+  },
+  {
+    AirportName: 'Palo Negro Arpt',
+    AirportCode: 'BGA',
+    CityName: 'Bucaramanga'
+  },
+  {
+    AirportName: 'Bangui Airport',
+    AirportCode: 'BGF',
+    CityName: 'Bangui'
+  },
+  {
+    AirportName: 'Bingol Airport',
+    AirportCode: 'BGG',
+    CityName: 'Bingol, Turkey'
+  },
+  {
+    AirportName: 'Grantley Adams Intl Arpt',
+    AirportCode: 'BGI',
+    CityName: 'Bridgetown'
+  },
+  {
+    AirportName: 'Edwin A Link Field',
+    AirportCode: 'BGM',
+    CityName: 'Binghamton'
+  },
+  {
+    AirportName: 'Flesland Airport',
+    AirportCode: 'BGO',
+    CityName: 'Bergen'
+  },
+  ... 553 more items
+]
+[0mPOST /flights/allCities [32m200[0m 37.553 ms - 51324[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Berbera Arpt',
+    AirportCode: 'BBO',
+    CityName: 'Berbera'
+  },
+  {
+    AirportName: 'Flamingo Field',
+    AirportCode: 'BO',
+    CityName: 'Bonaire'
+  },
+  {
+    AirportName: 'Motu Mute Arpt',
+    AirportCode: 'BOB',
+    CityName: 'Bora Bora'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Bolling Airforce Base',
+    AirportCode: 'BOF',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Eldorado Airport',
+    AirportCode: 'BOG',
+    CityName: 'Bogota'
+  },
+  {
+    AirportName: 'Bournemouth Intl Arpt',
+    AirportCode: 'BOH',
+    CityName: 'Bournemouth'
+  },
+  {
+    AirportName: 'Boise Municipal Arpt Gowen Field',
+    AirportCode: 'BOI',
+    CityName: 'Boise'
+  },
+  {
+    AirportName: 'Bourgas Arpt',
+    AirportCode: 'BOJ',
+    CityName: 'Bourgas'
+  },
+  {
+    AirportName: 'Chhatrapati Shivaji',
+    AirportCode: 'BOM',
+    CityName: 'Mumbai'
+  },
+  { AirportName: 'Bodo Arpt', AirportCode: 'BOO', CityName: 'Bodo' },
+  {
+    AirportName: 'Logan Intl Arpt',
+    AirportCode: 'BOS',
+    CityName: 'Boston'
+  },
+  {
+    AirportName: 'BOSSET AIRPORT',
+    AirportCode: 'BOT',
+    CityName: 'BOSSET'
+  },
+  {
+    AirportName: 'Bourges Arpt',
+    AirportCode: 'BOU',
+    CityName: 'Bourges'
+  },
+  {
+    AirportName: 'Bartow Arpt',
+    AirportCode: 'BOW',
+    CityName: 'Bartow'
+  },
+  {
+    AirportName: 'Borroloola Arpt',
+    AirportCode: 'BOX',
+    CityName: 'Borroloola'
+  },
+  {
+    AirportName: 'Borgo Arpt',
+    AirportCode: 'BOY',
+    CityName: 'Bobo Dioulasso'
+  },
+  {
+    AirportName: 'Awang Arpt',
+    AirportCode: 'CBO',
+    CityName: 'Cotabato'
+  },
+  { AirportName: 'Dubbo Arpt', AirportCode: 'DBO', CityName: 'Dubbo' },
+  { AirportName: 'Ebon Arpt', AirportCode: 'EBO', CityName: 'Ebon' },
+  {
+    AirportName: 'Baltimore Greenbelt Arpt',
+    AirportCode: 'GBO',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Borinquen Municipal Arpt',
+    AirportCode: 'BQ',
+    CityName: 'Aguadilla'
+  },
+  {
+    AirportName: 'Houari Boumedienne Arpt',
+    AirportCode: 'ALG',
+    CityName: 'Algiers'
+  },
+  {
+    AirportName: 'Angelholm Helsingborg Arpt',
+    AirportCode: 'AGH',
+    CityName: 'Angelholm'
+  },
+  {
+    AirportName: 'Esenboga Arpt',
+    AirportCode: 'ESB',
+    CityName: 'Ankara'
+  },
+  {
+    AirportName: 'Ann Arbor Municipal',
+    AirportCode: 'ARB',
+    CityName: 'Ann Arbor'
+  },
+  {
+    AirportName: 'Bonito Airport',
+    AirportCode: 'BYO',
+    CityName: 'Barreiras'
+  },
+  {
+    AirportName: 'Marlboro County Jetport',
+    AirportCode: 'BT',
+    CityName: 'Bennettsville'
+  },
+  {
+    AirportName: 'Woodbourne Arpt',
+    AirportCode: 'BHE',
+    CityName: 'Blenheim'
+  },
+  {
+    AirportName: 'Boa Vista Arpt',
+    AirportCode: 'BVB',
+    CityName: 'Boa Vista'
+  },
+  {
+    AirportName: 'Boigu Island Arpt',
+    AirportCode: 'GIC',
+    CityName: 'Boigu Island'
+  },
+  {
+    AirportName: 'Bolzano Arpt',
+    AirportCode: 'BZO',
+    CityName: 'Bolzano'
+  },
+  {
+    AirportName: 'Bonn Railroad Station',
+    AirportCode: 'BNJ',
+    CityName: 'Bonn'
+  },
+  {
+    AirportName: 'Borg El Arab Arpt',
+    AirportCode: 'HBE',
+    CityName: 'Borg El Arab'
+  },
+  {
+    AirportName: 'Borrego Valley Arpt',
+    AirportCode: 'BXS',
+    CityName: 'Borrego Springs'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Boulia Arpt',
+    AirportCode: 'BQL',
+    CityName: 'Boulia'
+  },
+  {
+    AirportName: 'Bourke Airport',
+    AirportCode: 'BRK',
+    CityName: 'Bourke'
+  },
+  {
+    AirportName: 'Broken Bow Municipal',
+    AirportCode: 'BBW',
+    CityName: 'Broken Bow'
+  },
+  {
+    AirportName: 'Cabo Frio Arpt',
+    AirportCode: 'CFB',
+    CityName: 'Cabo Frio'
+  },
+  {
+    AirportName: 'Cabo Rojo Airport',
+    AirportCode: 'CBJ',
+    CityName: 'Cabo Rojo'
+  },
+  {
+    AirportName: 'Alfonso Bonilla Aragon Arpt',
+    AirportCode: 'CLO',
+    CityName: 'Cali'
+  },
+  {
+    AirportName: 'Simon Bolivar Arpt',
+    AirportCode: 'CCS',
+    CityName: 'Caracas'
+  },
+  {
+    AirportName: 'Caribou Municipal Arpt',
+    AirportCode: 'CAR',
+    CityName: 'Caribou'
+  },
+  {
+    AirportName: 'Cheboksary',
+    AirportCode: 'CSY',
+    CityName: 'Cheboksary'
+  },
+  {
+    AirportName: 'Ciudad Bolivar Arpt',
+    AirportCode: 'CBL',
+    CityName: 'Ciudad Bolivar'
+  },
+  {
+    AirportName: 'Coffs Harbour Arpt',
+    AirportCode: 'CFS',
+    CityName: 'Coffs Harbour'
+  },
+  {
+    AirportName: 'Koeln Bonn Arpt',
+    AirportCode: 'CG',
+    CityName: 'Cologne'
+  },
+  {
+    AirportName: 'Dubois Jefferson Cty Arpt',
+    AirportCode: 'DUJ',
+    CityName: 'Dubois'
+  },
+  {
+    AirportName: 'El Bolson Arpt',
+    AirportCode: 'EHL',
+    CityName: 'El Bolson'
+  },
+  {
+    AirportName: 'Farnborough Arpt',
+    AirportCode: 'FAB',
+    CityName: 'Farnborough Hampshire'
+  },
+  {
+    AirportName: 'Friday Harbor Airport',
+    AirportCode: 'FRD',
+    CityName: 'Friday Harbor'
+  },
+  {
+    AirportName: 'Boca Raton Public',
+    AirportCode: 'BCT',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Gaborone Arpt',
+    AirportCode: 'GBE',
+    CityName: 'Gaborone'
+  },
+  {
+    AirportName: 'Christoforo Colombo',
+    AirportCode: 'GOA',
+    CityName: 'Genoa'
+  },
+  {
+    AirportName: 'Gisborne Arpt',
+    AirportCode: 'GIS',
+    CityName: 'Gisborne'
+  },
+  {
+    AirportName: 'Dabolim Arpt',
+    AirportCode: 'GOI',
+    CityName: 'Goa In'
+  },
+  {
+    AirportName: 'Governors Harbour Municipal Arpt',
+    AirportCode: 'GHB',
+    CityName: 'Governor S Harbour'
+  },
+  {
+    AirportName: 'Simon Bolivar Airport',
+    AirportCode: 'GYE',
+    CityName: 'Guayaquil'
+  },
+  {
+    AirportName: 'Lokpriya Gopinath Bordoloi Intl Arpt',
+    AirportCode: 'GAU',
+    CityName: 'Guwahati'
+  },
+  {
+    AirportName: 'Harbour Island Arpt',
+    AirportCode: 'HBI',
+    CityName: 'Harbour Island'
+  },
+  {
+    AirportName: 'Bobby L Chain Municipal',
+    AirportCode: 'HBG',
+    CityName: 'Hattiesburg'
+  },
+  {
+    AirportName: 'Netaji Subhas Chandra Bose Intl',
+    AirportCode: 'CCU',
+    CityName: 'Kolkata'
+  },
+  {
+    AirportName: 'Hatbox Field Arpt',
+    AirportCode: 'HAX',
+    CityName: 'Muskogee'
+  },
+  {
+    AirportName: 'Boire Field Arpt',
+    AirportCode: 'ASH',
+    CityName: 'Nashua'
+  },
+  {
+    AirportName: 'Seattle Boeing Field',
+    AirportCode: 'BFI',
+    CityName: 'Seattle'
+  },
+  {
+    AirportName: 'Boutheon Arpt',
+    AirportCode: 'EBU',
+    CityName: 'St Etienne'
+  },
+  {
+    AirportName: 'Coal Harbor Sea Plane Arpt',
+    AirportCode: 'CXH',
+    CityName: 'Vancouver'
+  },
+  {
+    AirportName: 'Pangborn Memorial Fld',
+    AirportCode: 'EAT',
+    CityName: 'Wenatchee'
+  },
+  {
+    AirportName: 'Pattimura Arpt',
+    AirportCode: 'AMQ',
+    CityName: 'Ambon'
+  },
+  {
+    AirportName: 'Hancock County',
+    AirportCode: 'BHB',
+    CityName: 'Bar Harbor'
+  },
+  {
+    AirportName: 'Ross Field',
+    AirportCode: 'BEH',
+    CityName: 'Benton Harbor'
+  },
+  {
+    AirportName: 'Rabil Arpt',
+    AirportCode: 'BVC',
+    CityName: 'Boa Vista'
+  },
+  { AirportName: 'Imsik Arpt', AirportCode: 'BX', CityName: 'Bodrum' },
+  { AirportName: 'Milas Arpt', AirportCode: 'BJV', CityName: 'Bodrum' },
+  { AirportName: 'Alashankou', AirportCode: 'BPL', CityName: 'Bole' },
+  {
+    AirportName: 'Guglielmo Marconi',
+    AirportCode: 'BLQ',
+    CityName: 'Bologna'
+  },
+  {
+    AirportName: 'Dala Airport',
+    AirportCode: 'BLE',
+    CityName: 'Borlange'
+  },
+  {
+    AirportName: 'Cherepovets Airport',
+    AirportCode: 'CEE',
+    CityName: 'Botovo'
+  },
+  {
+    AirportName: 'Warren Cty Arpt',
+    AirportCode: 'BWG',
+    CityName: 'Bowling Green'
+  },
+  {
+    AirportName: 'Gallatin Field',
+    AirportCode: 'BZ',
+    CityName: 'Bozeman'
+  },
+  {
+    AirportName: 'Maupertius Arpt',
+    AirportCode: 'CER',
+    CityName: 'Cherbourg'
+  },
+  {
+    AirportName: 'Penggung Arpt',
+    AirportCode: 'CB',
+    CityName: 'Cirebon'
+  },
+  {
+    AirportName: 'Bandaranaike Intl Arpt',
+    AirportCode: 'CMB',
+    CityName: 'Colombo'
+  },
+  {
+    AirportName: 'Emergency Field',
+    AirportCode: 'DUT',
+    CityName: 'Dutch Harbor'
+  },
+  {
+    AirportName: 'Seymour Johnson AFB',
+    AirportCode: 'GSB',
+    CityName: 'Goldsboro'
+  },
+  {
+    AirportName: 'Piedmont Triad Intl',
+    AirportCode: 'GSO',
+    CityName: 'Greensboro'
+  },
+  {
+    AirportName: 'Avalon Arpt',
+    AirportCode: 'AVV',
+    CityName: 'Melbourne'
+  },
+  {
+    AirportName: 'Silangit',
+    AirportCode: 'DTB',
+    CityName: 'Siborong-Borong'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 16.895 ms - 7100[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Chhatrapati Shivaji',
+    AirportCode: 'BOM',
+    CityName: 'Mumbai'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 13.611 ms - 88[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Edenton Municipal Arpt',
+    AirportCode: 'EDE',
+    CityName: 'Edenton'
+  },
+  {
+    AirportName: 'Bringeland Arpt',
+    AirportCode: 'FDE',
+    CityName: 'Forde'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Andenes Arpt',
+    AirportCode: 'ANX',
+    CityName: 'Andenes'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'El Eden Arpt',
+    AirportCode: 'AXM',
+    CityName: 'Armenia'
+  },
+  {
+    AirportName: 'Bader Field',
+    AirportCode: 'AIY',
+    CityName: 'Atlantic City'
+  },
+  {
+    AirportName: 'Bahia De Los Angeles Arpt',
+    AirportCode: 'BHL',
+    CityName: 'Bahia De Los Angeles'
+  },
+  {
+    AirportName: 'Battle Mountain Airport (Lander County Airport)',
+    AirportCode: 'BAM',
+    CityName: 'Battle Mountain'
+  },
+  {
+    AirportName: 'English Madeira Arpt',
+    AirportCode: 'BCH',
+    CityName: 'Baucau'
+  },
+  {
+    AirportName: 'Val De Cans Arpt',
+    AirportCode: 'BEL',
+    CityName: 'Belem'
+  },
+  {
+    AirportName: 'Belgrade Beograd Arpt',
+    AirportCode: 'BEG',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Berlin Brandenburg Airport',
+    AirportCode: 'BER',
+    CityName: 'Berlin'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Burbank Glendale Pasadena Arpt',
+    AirportCode: 'BUR',
+    CityName: 'Burbank'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cape Girardeau Municipal Arpt',
+    AirportCode: 'CGI',
+    CityName: 'Cape Girardeau'
+  },
+  {
+    AirportName: 'Casa Grande Arpt',
+    AirportCode: 'CGZ',
+    CityName: 'Casa Grande'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'USAF Academy',
+    AirportCode: 'AFF',
+    CityName: 'Colorado Springs'
+  },
+  {
+    AirportName: 'Golden Arpt',
+    AirportCode: 'GTR',
+    CityName: 'Columbus'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'Aeropuerto Intl De Cozumel',
+    AirportCode: 'CZM',
+    CityName: 'Cozumel'
+  },
+  {
+    AirportName: 'Fedl De Bachigualato Arpt',
+    AirportCode: 'CUL',
+    CityName: 'Culiacan'
+  },
+  {
+    AirportName: 'Antonio Jose De Sucre',
+    AirportCode: 'CUM',
+    CityName: 'Cumana'
+  },
+  {
+    AirportName: 'Death Valley Arpt',
+    AirportCode: 'DTH',
+    CityName: 'Death Valley'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Denham Arpt',
+    AirportCode: 'DNM',
+    CityName: 'Denham'
+  },
+  {
+    AirportName: 'Denilinquin Arpt',
+    AirportCode: 'DNQ',
+    CityName: 'Deniliquin'
+  },
+  {
+    AirportName: 'Derby Airport',
+    AirportCode: 'DRB',
+    CityName: 'Derby'
+  },
+  {
+    AirportName: 'Des Moines Municipal Airport',
+    AirportCode: 'DSM',
+    CityName: 'Des Moines'
+  },
+  {
+    AirportName: 'Destin Arpt',
+    AirportCode: 'DSI',
+    CityName: 'Destin'
+  },
+  {
+    AirportName: 'Detroit Metro Wayne Cnty Arpt',
+    AirportCode: 'DTW',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Devils Lake Arpt',
+    AirportCode: 'DVL',
+    CityName: 'Devils Lake'
+  },
+  {
+    AirportName: 'Devonport Arpt',
+    AirportCode: 'DPO',
+    CityName: 'Devonport'
+  },
+  {
+    AirportName: 'Presidente Nicolau Lobato Intl Arpt',
+    AirportCode: 'DIL',
+    CityName: 'Dili'
+  },
+  {
+    AirportName: 'Wickede Dortmund Arpt',
+    AirportCode: 'DTM',
+    CityName: 'Dortmund'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Dresden Arpt',
+    AirportCode: 'DRS',
+    CityName: 'Dresden'
+  },
+  {
+    AirportName: 'Riverside Park Arpt',
+    AirportCode: 'DND',
+    CityName: 'Dundee'
+  },
+  { AirportName: 'Emden Arpt', AirportCode: 'EME', CityName: 'Emden' },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Fernando De Noronha Arpt',
+    AirportCode: 'FE',
+    CityName: 'Fernando De Noronha'
+  },
+  {
+    AirportName: 'Frederick Municipal',
+    AirportCode: 'FDK',
+    CityName: 'Frederick'
+  },
+  {
+    AirportName: 'Ft Lauderdale Hollywood Intl Arpt',
+    AirportCode: 'FLL',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Ft Lauderdale Excutive',
+    AirportCode: 'FXE',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Madeira Arpt',
+    AirportCode: 'FNC',
+    CityName: 'Funchal'
+  },
+  {
+    AirportName: 'Gadsden Municipal',
+    AirportCode: 'GAD',
+    CityName: 'Gadsden'
+  },
+  {
+    AirportName: 'Garden City Municipal',
+    AirportCode: 'GCK',
+    CityName: 'Garden City'
+  },
+  {
+    AirportName: 'Eelde Arpt',
+    AirportCode: 'GRQ',
+    CityName: 'Groningen'
+  },
+  {
+    AirportName: 'Kozhikode Arpt',
+    AirportCode: 'CCJ',
+    CityName: 'Kozhikode'
+  },
+  {
+    AirportName: 'La Desirade Arpt',
+    AirportCode: 'DSD',
+    CityName: 'La Desirade'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Magdeburg Cochstedt  Airport',
+    AirportCode: 'CSO',
+    CityName: 'Magdeburg Cochstedt'
+  },
+  {
+    AirportName: 'Mildenhall NAF',
+    AirportCode: 'GXH',
+    CityName: 'Mildenhall'
+  },
+  {
+    AirportName: 'Domodedovo Arpt',
+    AirportCode: 'DME',
+    CityName: 'Moscow'
+  },
+  {
+    AirportName: 'Neubrandenburg Arpt',
+    AirportCode: 'FNB',
+    CityName: 'Neubrandenburg'
+  },
+  {
+    AirportName: 'Kadena AFB',
+    AirportCode: 'DNA',
+    CityName: 'Okinawa'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Paso De Los Libres Arpt',
+    AirportCode: 'AOL',
+    CityName: 'Paso De Los Libres'
+  },
+  {
+    AirportName: 'Deer Valley',
+    AirportCode: 'DVT',
+    CityName: 'Phoenix'
+  },
+  {
+    AirportName: 'San Carlos De Bariloche Intl Arpt',
+    AirportCode: 'BRC',
+    CityName: 'San Carlos Bariloche'
+  },
+  {
+    AirportName: 'Embarcadero',
+    AirportCode: 'EMB',
+    CityName: 'San Francisco'
+  },
+  {
+    AirportName: 'Talladega Arpt',
+    AirportCode: 'AS',
+    CityName: 'Talladega'
+  },
+  {
+    AirportName: 'Kortdoorn Arpt',
+    AirportCode: 'ALJ',
+    CityName: 'Alexander Bay'
+  },
+  {
+    AirportName: 'Thomas C Russell Field',
+    AirportCode: 'ALX',
+    CityName: 'Alexander City'
+  },
+  {
+    AirportName: 'Basongo Airport',
+    AirportCode: 'BA',
+    CityName: 'Basongo, Democratic Republic of the Congo'
+  },
+  {
+    AirportName: 'Bauru Airport',
+    AirportCode: 'BAU',
+    CityName: 'Bauru Old Code'
+  },
+  {
+    AirportName: 'Batajnica Arpt',
+    AirportCode: 'BJY',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Joao Suassuana Arpt',
+    AirportCode: 'CPV',
+    CityName: 'Campina Grande'
+  },
+  {
+    AirportName: 'Internacional',
+    AirportCode: 'CGR',
+    CityName: 'Campogrande'
+  },
+  {
+    AirportName: 'Maximo Gomez Arpt',
+    AirportCode: 'AVI',
+    CityName: 'Ciego De Avila'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Saint Gatien Arpt',
+    AirportCode: 'DOL',
+    CityName: 'Deauville'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Cardak Arpt',
+    AirportCode: 'DNZ',
+    CityName: 'Denizli'
+  },
+  {
+    AirportName: 'Ngurah Rai Arpt',
+    AirportCode: 'DPS',
+    CityName: 'Denpasar Bali'
+  },
+  {
+    AirportName: 'Centennial Arpt',
+    AirportCode: 'APA',
+    CityName: 'Denver'
+  },
+  ... 14 more items
+]
+[0mPOST /flights/allCities [32m200[0m 16.398 ms - 9314[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Enrique Olaya Herrara',
+    AirportCode: 'EOH',
+    CityName: 'Medellin'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia'
+  },
+  {
+    AirportName: 'Fuerteventura Arpt',
+    AirportCode: 'FUE',
+    CityName: 'Puerto Del Rosario'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 13.579 ms - 1535[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  from: 'BOM',
+  to: 'DEL',
+  adult: 1,
+  child: 0,
+  infant: 0,
+  travel_date: '2025-03-21',
+  return_date: '',
+  fare_type: '2'
+}
+Connected to MySQL database
+[0mPOST /flights/addFlightSearchData [32m200[0m 24.993 ms - 153[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights/flightResults [36m304[0m 287.410 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 3.285 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 5.976 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 5.613 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 5.259 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 4.707 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.293 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 2.929 ms - 166[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 1.136 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 2.428 ms - -[0m
+[0mGET /flightWorthCSS/images/sunrise.svg [36m304[0m 1.004 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.697 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 2.229 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 3.737 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.102 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 4.680 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 4.984 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.988 ms - -[0m
+[0mGET /flightWorthCSS/images/afternoon_sun.svg [36m304[0m 2.196 ms - -[0m
+[0mGET /flightWorthCSS/images/evening_time.svg [36m304[0m 0.947 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 2.637 ms - 166[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 3.805 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 3.477 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.985 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 4.512 ms - -[0m
+[0mGET /flightWorthCSS/images/night_time.svg [36m304[0m 2.204 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 6.283 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.157 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.062 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 3.488 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 3.323 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.148 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 3.303 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.101 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.005 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.678 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.048 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 2.526 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.757 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.916 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.444 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.046 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.215 ms - -[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 2.318 ms - -[0m
+[0mGET /assets1/js/select2.min.js [33m404[0m 3.908 ms - 164[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+{
+  adults: '1',
+  child: '0',
+  infants: '0',
+  ResultFareType: 'Regular Fare',
+  data: 'undefined',
+  platform: '""',
+  from: 'BOM',
+  to: 'DEL',
+  travelDate: '2025-03-21',
+  fare_type: '2'
+}
+25
+[0mGET /getAgentData [36m304[0m 24.966 ms - -[0m
+[0mGET /getBalance [36m304[0m 43.709 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.103 ms - -[0m
+[0mGET /flightWorthCSS/images/flight-details-line.svg [36m304[0m 1.123 ms - -[0m
+[0mGET /images/others/baggage-vector.svg [33m404[0m 3.091 ms - 171[0m
+[0mPOST /flights/getAllFlights [32m200[0m 14615.933 ms - 891340[0m
+[0mGET /images/new.gif [36m304[0m 1.079 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+[0mGET /flights/book [36m304[0m 62.098 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+[0mGET /flights/bookbook [36m304[0m 64.847 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.016 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.674 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.757 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.312 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.067 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 2.109 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.090 ms - -[0m
+[0mGET /flightWorthCSS/images/Seat.png [36m304[0m 0.944 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.829 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.394 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.988 ms - -[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 3.026 ms - -[0m
+[0mGET /style.css [36m304[0m 2.162 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.661 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.420 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.561 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.013 ms - -[0m
+[0mGET /flightWorthCSS/images/Meal.png [36m304[0m 1.132 ms - -[0m
+[0mGET /flightWorthCSS/images/Baggage1.png [36m304[0m 1.111 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.022 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.663 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 4.880 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 4.800 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.195 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 0.979 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.740 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.378 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.081 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.096 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.855 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.637 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.393 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.861 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.642 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.329 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.752 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.422 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.838 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.864 ms - -[0m
+[0mGET /flights_india/flightBooking.js [36m304[0m 0.879 ms - -[0m
+[0mGET /flights_india/common.js [36m304[0m 0.846 ms - -[0m
+[0mGET /flightWorthCSS/images/cockpit.svg [36m304[0m 0.841 ms - -[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 0.849 ms - -[0m
+[0mGET /static/js/main.c9d5cbec.js [33m404[0m 4.414 ms - 165[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /images/new.gif [36m304[0m 1.967 ms - -[0m
+25
+[0mGET /getBalance [36m304[0m 24.432 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /flightWorthCSS/images/flight-details-line.svg [36m304[0m 1.018 ms - -[0m
+[0mGET /getAgentData [36m304[0m 17.750 ms - -[0m
+{
+  traceId: '20250129190416325018_407fb429-0b99-43e4-a6b5-d629bcbfa116',
+  flightKey: '6E_BOM_DEL_1ADT_0CHD_0INF_5318_2258_202501291904182651_14977a02-ceb4-46f8-915b-033c3429fc64_$MR_TVJPVEkwMTg=',
+  adult: '1',
+  child: '0',
+  infant: '0',
+  flight: '[{"departure":"BOM","arrival":"DEL","departureDateTime":"2025-03-21T10:00:00","BasicFare":133.342209,"GrossFare":157.497441,"segments":[{"departure":"BOM","arrival":"HYD","departureDateTime":"2025-03-21T10:00:00","arrivalDateTime":"2025-03-21T11:25:00","flightNumber":"5318"},{"departure":"HYD","arrival":"DEL","departureDateTime":"2025-03-21T13:45:00","arrivalDateTime":"2025-03-21T16:05:00","flightNumber":"2258"}]}]'
+}
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.075 ms - -[0m
+{
+  status: 200,
+  statusText: 'OK',
+  headers: Object [AxiosHeaders] {
+    'cache-control': 'no-store, no-cache',
+    pragma: 'no-cache',
+    'content-length': '30167',
+    'content-type': 'text/plain; charset=utf-8',
+    expires: '-1',
+    vary: 'Accept-Encoding',
+    server: 'Microsoft-IIS/10.0',
+    'set-cookie': [
+      '.AspNetCore.Session=CfDJ8BmNHwHehP1GmZhxYugthm0TSC1DjtoJ8RpPOP%2FjIpt7xbjalqbYaW0nNbqSHyMFLCETRE1V6sRlQl2VX2YMKkCufP9LYV%2B%2BAlUWp8brOvWF3yWalqP%2F%2FFrH6nuQS5ffIr8JVmgp7h4rosbAm96yapkf0sfFjoBDPRIqTiriqIt0; path=/; samesite=lax; httponly'
+    ],
+    'x-powered-by': 'ASP.NET, ASP.NET',
+    date: 'Wed, 29 Jan 2025 13:34:55 GMT'
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      ApiKey: 'VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==',
+      'User-Agent': 'axios/1.7.4',
+      'Content-Length': '675',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+    data: '{"trackID":"20250129190416325018_407fb429-0b99-43e4-a6b5-d629bcbfa116","flightKeys":["6E_BOM_DEL_1ADT_0CHD_0INF_5318_2258_202501291904182651_14977a02-ceb4-46f8-915b-033c3429fc64_$MR_TVJPVEkwMTg="],"paxType":{"adult":"1","child":"0","infant":"0"},"flights":[{"departure":"BOM","arrival":"DEL","departureDateTime":"2025-03-21T10:00:00","BasicFare":133.342209,"GrossFare":157.497441,"segments":[{"departure":"BOM","arrival":"HYD","departureDateTime":"2025-03-21T10:00:00","arrivalDateTime":"2025-03-21T11:25:00","flightNumber":"5318"},{"departure":"HYD","arrival":"DEL","departureDateTime":"2025-03-21T13:45:00","arrivalDateTime":"2025-03-21T16:05:00","flightNumber":"2258"}]}]}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '675',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'trvlnxtgateway.parikshan.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 2368622,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 6168,
+        [Symbol(triggerId)]: 6165
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'POST /api/AirSell HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'ApiKey: VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==\r\n' +
+      'User-Agent: axios/1.7.4\r\n' +
+      'Content-Length: 675\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: trvlnxtgateway.parikshan.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/AirSell',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'trvlnxtgateway.parikshan.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 675,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      apikey: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: {
+    ResponseStatusType: {
+      Id: '1',
+      Success: true,
+      Message: '',
+      RequestTimeStamp: '2025-01-29 19:04:43:9965',
+      ResponseTimeStamp: '2025-01-29 19:04:55:1772'
+    },
+    SellKey: 'S20250129190453576832_8d870b2b-329e-4579-834a-862b03f72a55',
+    TrackID: '20250129190416325018_407fb429-0b99-43e4-a6b5-d629bcbfa116',
+    HoldAvailable: false,
+    Isfarerevised: false,
+    SessionTimeOut: 10,
+    Flights: [ [Object] ]
+  }
+}
+[0mPOST /flights/AirSell [32m200[0m 11699.464 ms - 151759[0m
+[0mGET /flightWorthCSS/images/alaram-clock.svg [36m304[0m 1.126 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+{
+  userId: 227,
+  agentEmail: 'tcvarghesetdo@gmail.com',
+  userType: 'Travel agent',
+  agentId: 227,
+  agentName: 'Noble Enterprises',
+  iat: 1738135862,
+  exp: 1738222262
+}
+[0mGET /flights/book [36m304[0m 53.269 ms - -[0m
+[0mGET /images/new.gif [36m304[0m 2.154 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+{
+  userId: 227,
+  agentEmail: 'tcvarghesetdo@gmail.com',
+  userType: 'Travel agent',
+  agentId: 227,
+  agentName: 'Noble Enterprises',
+  iat: 1738135862,
+  exp: 1738222262
+}
+[0mGET /flights/bookbook [36m304[0m 51.646 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.331 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.154 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 0.980 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.982 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.533 ms - -[0m
+[0mGET /style.css [36m304[0m 1.659 ms - -[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 1.339 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.855 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.405 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 0.986 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.838 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.478 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.991 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.294 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.055 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 2.269 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.148 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.138 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 3.079 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.446 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 2.388 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 2.307 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 2.004 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.103 ms - -[0m
+[0mGET /flightWorthCSS/images/Seat.png [36m304[0m 1.082 ms - -[0m
+[0mGET /flightWorthCSS/images/Meal.png [36m304[0m 1.880 ms - -[0m
+[0mGET /flightWorthCSS/images/Baggage1.png [36m304[0m 2.358 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 3.357 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 2.045 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 2.396 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.118 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.169 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.420 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.173 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.085 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 2.746 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.347 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 2.946 ms - -[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 4.578 ms - -[0m
+[0mGET /flights_india/flightBooking.js [36m304[0m 3.059 ms - -[0m
+[0mGET /flights_india/common.js [36m304[0m 1.507 ms - -[0m
+[0mGET /flightWorthCSS/images/cockpit.svg [36m304[0m 1.920 ms - -[0m
+[0mGET /static/js/main.c9d5cbec.js [33m404[0m 4.916 ms - 165[0m
+[0mGET /images/new.gif [36m304[0m 1.146 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTM1ODYyLCJleHAiOjE3MzgyMjIyNjJ9.NizcIi6tFGJx0q80MMGEjPBD4UiWr2Fwmim642ToUp4

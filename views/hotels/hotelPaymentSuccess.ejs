@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TDO DXB | Hotels </title>
+    <%- include('../partials/header2') %>
+    <style>
+        .top-padding {
+            padding-top: -3px; /* Adjust the value as needed */
+            width: 30px;
+            height: 30px;
+
+        }
+        canvas {
+            overflow-y: hidden;
+            overflow-x: hidden;
+            width: 100%;
+            margin: 0;
+        }
+        /* Make the modal backdrop fully transparent */
+        #popper .modal-backdrop {
+            background-color: transparent !important;
+        }
+
+        /* Make the modal content transparent */
+        #popper .modal-content {
+            background-color: transparent !important;
+            border: none; /* Optional: remove the border if you want a clean transparent look */
+        }
+
+        /* Optional: Adjust the modal dialog to make it fully transparent */
+        #popper .modal-dialog {
+            background-color: transparent !important;
+            border: none; /* Optional: remove the border */
+        }
+
+        /* Optional: Add custom styles for modal content if needed */
+        #popper .modal-body {
+            background-color: transparent !important;
+        }
+
+    </style>
+</head>
+<body onload="issueTicket()">
+<input type="hidden" value="<%= insId %>" id="insuranceId" /> <input type="hidden" value="<%= tx %>" id="transactionId" /> <input type="hidden" value="<%= payType %>" id="payType" /> <input type="hidden" value="<%=test1%>"> <input type="hidden" value="<%=gCharge%>" id="gCharge">
+<div id="preloader">
+    <div class="loader">
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--dot"></div>
+        <div class="loader--text"></div>
+    </div>
+</div>
+<div id="main-wrapper">
+    <%- include('../partials/navbar2') %>
+    <%- include('../partials/sidebar2') %>
+    <div class=" content-body default-height">
+        <div id="response">
+
+        </div>
+    </div>
+    <%- include('../partials/footer2') %>
+</div>
+<div class="modal fade" id="popper" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen bg-white rounded-modal">
+        <div class="modal-content ">
+
+            <div class="modal-body table-container" id="myans">
+                <canvas id="canvas"></canvas>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    document.getElementById("myHeading").innerText = "Dashboard"
+
+    async function total_flight_search() {
+
+        let url = "/flight-search"
+        let response = await fetch(url, {
+            headers: {"Content-Type": "application/json"}  // Convert to JSON string
+        });
+        response = await response.json()
+        console.log(response)
+        console.log(response.data[0])
+        let x = response.data[0];
+        let searchCount = x.search_count;
+        let bookCount = x.book_count;
+
+        // Ensure that searchCount is not 0 to avoid division by zero
+        let ratio = searchCount > 0 ? (bookCount / searchCount * 100).toFixed(2) : 0;
+        let value = `${searchCount}/${bookCount} (${ratio}%)`;
+
+        document.getElementById("totalFlightSearch").innerText = searchCount;
+        document.getElementById("totalFlightBook").innerText = bookCount;
+        document.getElementById("totalFlightBookRatio").innerText = value;
+
+    }
+
+    async function issueTicket() {
+        try {
+            let rs = `
+        <div class="loader">
+            <div class="plane">
+                <img src="https://zupimages.net/up/19/34/4820.gif" class="plane-img">
+            </div>
+            <div class="earth-wrapper">
+                <div class="earth"></div>
+            </div>
+        </div>
+        `;
+            document.getElementById("response").innerHTML = rs;
+
+            let url = "/hotels/hotel-booking"; // API endpoint
+
+            // Ensure test1 is valid JSON (EJS variable)
+            let requestBody = <%- JSON.stringify(test1) %>;
+
+            let response = await fetch(url, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: requestBody
+            });
+
+            let result = await response.json();
+            console.log(result);
+
+            if(result.success === true){
+                console.log("message")
+                partyPopper()
+            }
+
+        } catch (e) {
+            console.log(e);
+            let timerInterval;
+            Swal.fire({
+                title: "Booking Failed",
+                icon: "error",
+                html: `<h2 style="color: red">Error Occurred</h2> <br> <b></b> milliseconds.`,
+                timer: 4000,
+                timerProgressBar: true,
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                    const timer = Swal.getPopup().querySelector("b");
+                    timerInterval = setInterval(() => {
+                        timer.textContent = `${Swal.getTimerLeft()}`;
+                    }, 100);
+                },
+                willClose: () => {
+                    clearInterval(timerInterval);
+                }
+            }).then((result) => {
+                if (result.dismiss === Swal.DismissReason.timer) {
+                    // window.location.href = "/FailedBookings";
+                }
+            });
+        }
+    }
+
+    function partyPopper() {
+        // Hide the modal if it's already open
+        $('#modals').modal('hide');
+
+        // Window dimensions
+        let W = window.innerWidth;
+        let H = window.innerHeight;
+
+        // Get the canvas and context for drawing confetti
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+        const maxConfettis = 150;
+        const particles = [];
+
+        // Array of possible confetti colors
+        const possibleColors = [
+            "DodgerBlue", "OliveDrab", "Gold", "Pink", "SlateBlue", "LightBlue",
+            "Gold", "Violet", "PaleGreen", "SteelBlue", "SandyBrown", "Chocolate",
+            "Crimson"
+        ];
+
+        // Helper function to generate random numbers between a range
+        function randomFromTo(from, to) {
+            return Math.floor(Math.random() * (to - from + 1) + from);
+        }
+
+        // Particle class for confetti
+        function confettiParticle() {
+            this.x = Math.random() * W; // x
+            this.y = Math.random() * H - H; // y
+            this.r = randomFromTo(11, 33); // radius
+            this.d = Math.random() * maxConfettis + 11;
+            this.color = possibleColors[Math.floor(Math.random() * possibleColors.length)];
+            this.tilt = Math.floor(Math.random() * 33) - 11;
+            this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
+            this.tiltAngle = 0;
+
+            this.draw = function() {
+                context.beginPath();
+                context.lineWidth = this.r / 2;
+                context.strokeStyle = this.color;
+                context.moveTo(this.x + this.tilt + this.r / 3, this.y);
+                context.lineTo(this.x + this.tilt, this.y + this.tilt + this.r / 5);
+                return context.stroke();
+            };
+        }
+
+        // Draw confetti particles on the canvas
+        function Draw() {
+            const results = [];
+
+            // Request animation frame to keep the animation going
+            requestAnimationFrame(Draw);
+
+            // Clear the canvas and draw each confetti particle
+            context.clearRect(0, 0, W, window.innerHeight);
+
+            for (let i = 0; i < maxConfettis; i++) {
+                results.push(particles[i].draw());
+            }
+
+            let particle = {};
+            let remainingFlakes = 0;
+
+            // Update the position of each particle
+            for (let i = 0; i < maxConfettis; i++) {
+                particle = particles[i];
+
+                // Animate confetti
+                particle.tiltAngle += particle.tiltAngleIncremental;
+                particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
+                particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+
+                // Count how many confetti particles are still visible
+                if (particle.y <= H) remainingFlakes++;
+
+                // Reset particle when it goes out of view
+                if (particle.x > W + 30 || particle.x < -30 || particle.y > H) {
+                    particle.x = Math.random() * W;
+                    particle.y = -30;
+                    particle.tilt = Math.floor(Math.random() * 10) - 20;
+                }
+            }
+
+            return results;
+        }
+
+        // Resize event to update canvas size dynamically
+        window.addEventListener(
+            "resize", function() {
+                W = window.innerWidth;
+                H = window.innerHeight;
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            },
+            false
+        );
+
+        // Create confetti particles
+        for (let i = 0; i < maxConfettis; i++) {
+            particles.push(new confettiParticle());
+        }
+
+        // Initialize the canvas size and start the animation
+        canvas.width = W;
+        canvas.height = H;
+        Draw();
+
+        // Show the modal with the success message and OK button
+        $('#popper').modal('show');
+
+        // Add custom HTML for success message and OK button
+        $('body').append(`
+        <div id="successMessage" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 2rem; z-index: 9999;">
+            <div style="margin-bottom: 20px; font-weight: bold; font-size: 2.5rem;"><span style='font-size:100px;'>&#9992;</span><br>Ticket has been Successfully Created!</div>
+            <p>Press Button To View Ticket Summary</p>
+            <button id="okButton" style="padding: 10px 20px; font-size: 1rem; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">View Ticket</button>
+        </div>
+    `);
+
+        // Ensure the canvas is behind all other elements by explicitly setting its z-index
+        canvas.style.position = "absolute";
+        canvas.style.top = "0";
+        canvas.style.left = "0";
+        canvas.style.zIndex = "1";  // Canvas stays behind the modal and success message
+
+
+        // Button click handler to close the modal and reset the background
+        $('#okButton').on('click', function() {
+            $('#popper').modal('hide');
+            $('#successMessage').remove();
+            context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+            window.location.href = "/hotels/success-bookings/"
+        });
+    }
+
+</script>
+
+</html>

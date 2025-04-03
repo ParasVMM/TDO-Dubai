@@ -1,0 +1,3130 @@
+[0mPOST /flights/allCities [32m200[0m 21.271 ms - 1535[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Downtown Arpt',
+    AirportCode: 'AHD',
+    CityName: 'Ardmore'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Akola Airport',
+    AirportCode: 'AKD',
+    CityName: 'Akola'
+  },
+  {
+    AirportName: 'Sardar Vallabh Bhai Patel Intl Arpt',
+    AirportCode: 'AMD',
+    CityName: 'Ahmedabad'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Andros Town Arpt',
+    AirportCode: 'ASD',
+    CityName: 'Andros Town'
+  },
+  {
+    AirportName: 'Dhmokritos Arpt',
+    AirportCode: 'AXD',
+    CityName: 'Alexandroupolis'
+  },
+  { AirportName: 'Yazd Arpt', AirportCode: 'AZD', CityName: 'Yazd' },
+  {
+    AirportName: 'Barksdale Air Force Base',
+    AirportCode: 'BAD',
+    CityName: 'Shreveport'
+  },
+  {
+    AirportName: 'Bacolod Arpt',
+    AirportCode: 'BCD',
+    CityName: 'Bacolod'
+  },
+  {
+    AirportName: 'Bermuda International',
+    AirportCode: 'BDA',
+    CityName: 'Bermuda'
+  },
+  {
+    AirportName: 'Bundaberg Arpt',
+    AirportCode: 'BDB',
+    CityName: 'Bundaberg'
+  },
+  {
+    AirportName: 'Badu Island Arpt',
+    AirportCode: 'BDD',
+    CityName: 'Badu Island'
+  },
+  {
+    AirportName: 'Sjamsudin Noor Arpt',
+    AirportCode: 'BDJ',
+    CityName: 'Banjarmasin'
+  },
+  {
+    AirportName: 'Bradley Intl Arpt',
+    AirportCode: 'BDL',
+    CityName: 'Hartford'
+  },
+  {
+    AirportName: 'Husein Sastranegara Arpt',
+    AirportCode: 'BDO',
+    CityName: 'Bandung'
+  },
+  {
+    AirportName: 'Bhadrapur Airport',
+    AirportCode: 'BDP',
+    CityName: 'Bhadrapur'
+  },
+  {
+    AirportName: 'Vadodara Arpt',
+    AirportCode: 'BDQ',
+    CityName: 'Vadodara'
+  },
+  {
+    AirportName: 'Sikorsky Memorial Arpt',
+    AirportCode: 'BDR',
+    CityName: 'Bridgeport'
+  },
+  {
+    AirportName: 'Papola Casale Arpt',
+    AirportCode: 'BDS',
+    CityName: 'Brindisi'
+  },
+  {
+    AirportName: 'Bardufoss Arpt',
+    AirportCode: 'BDU',
+    CityName: 'Bardufoss'
+  },
+  {
+    AirportName: 'Bedford Arpt',
+    AirportCode: 'BED',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Bradford Regional Arpt',
+    AirportCode: 'BFD',
+    CityName: 'Bradford'
+  },
+  {
+    AirportName: 'Belfast City Arpt',
+    AirportCode: 'BHD',
+    CityName: 'Belfast'
+  },
+  {
+    AirportName: 'Block Island Municipal',
+    AirportCode: 'BID',
+    CityName: 'Block Island'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Bandar Abbas Intl Airport',
+    AirportCode: 'BND',
+    CityName: 'Bandar Abbas'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Crowwing Cty Arpt',
+    AirportCode: 'BRD',
+    CityName: 'Brainerd'
+  },
+  {
+    AirportName: 'Baoshan Arpt',
+    AirportCode: 'BSD',
+    CityName: 'Baoshan'
+  },
+  {
+    AirportName: 'Liszt Ferenc Arpt',
+    AirportCode: 'BUD',
+    CityName: 'Budapest'
+  },
+  {
+    AirportName: 'Brownwood Municipal Arpt',
+    AirportCode: 'BWD',
+    CityName: 'Brownwood'
+  },
+  {
+    AirportName: 'Wexford County Arpt',
+    AirportCode: 'CAD',
+    CityName: 'Cadillac'
+  },
+  {
+    AirportName: 'Car Nicobar Air Force Base',
+    AirportCode: 'CBD',
+    CityName: 'Car Nicobar'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cooinda Airport',
+    AirportCode: 'CDA',
+    CityName: 'Cooinda'
+  },
+  {
+    AirportName: 'Cedar City Municipal',
+    AirportCode: 'CDC',
+    CityName: 'Cedar City'
+  },
+  {
+    AirportName: 'Cauquira Arpt',
+    AirportCode: 'CDD',
+    CityName: 'Cauquira'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Candle Arpt',
+    AirportCode: 'CDL',
+    CityName: 'Candle'
+  },
+  {
+    AirportName: 'Cuddapah Airport',
+    AirportCode: 'CDP',
+    CityName: 'Cuddapah'
+  },
+  {
+    AirportName: 'Chadron Arpt',
+    AirportCode: 'CDR',
+    CityName: 'Chadron'
+  },
+  {
+    AirportName: 'Mudhole Smith Arpt',
+    AirportCode: 'CDV',
+    CityName: 'Cordova'
+  },
+  {
+    AirportName: 'Caldwell Wright Arpt',
+    AirportCode: 'CDW',
+    CityName: 'Caldwell'
+  },
+  {
+    AirportName: 'Ceduna Arpt',
+    AirportCode: 'CED',
+    CityName: 'Ceduna'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Williams AFB',
+    AirportCode: 'CHD',
+    CityName: 'Chandler'
+  },
+  {
+    AirportName: 'Cedar Rapids Municipal Arpt',
+    AirportCode: 'CID',
+    CityName: 'Cedar Rapids'
+  },
+  {
+    AirportName: 'Crooked Creek Arpt',
+    AirportCode: 'CKD',
+    CityName: 'Crooked Creek'
+  },
+  {
+    AirportName: 'Carlsbad Arpt',
+    AirportCode: 'CLD',
+    CityName: 'San Diego'
+  },
+  {
+    AirportName: 'Kogalniceanu Arpt',
+    AirportCode: 'CND',
+    CityName: 'Constanta'
+  },
+  {
+    AirportName: 'Yellowstone Regional Arpt',
+    AirportCode: 'COD',
+    CityName: 'Cody'
+  },
+  {
+    AirportName: 'Coober Pedy Arpt',
+    AirportCode: 'CPD',
+    CityName: 'Coober Pedy'
+  },
+  {
+    AirportName: 'Shahre Kord Arpt',
+    AirportCode: 'CQD',
+    CityName: 'Shahre Kord'
+  },
+  {
+    AirportName: 'Comodoro Rivadavia Arpt',
+    AirportCode: 'CRD',
+    CityName: 'Comodoro Rivadavia'
+  },
+  {
+    AirportName: 'Chitre Airfield',
+    AirportCode: 'CTD',
+    CityName: 'Chitre'
+  },
+  {
+    AirportName: 'Danville Municipal',
+    AirportCode: 'DA',
+    CityName: 'Danville'
+  },
+  {
+    AirportName: 'Daytona Beach Regional Arpt',
+    AirportCode: 'DAB',
+    CityName: 'Daytona Beach'
+  },
+  {
+    AirportName: 'Hazrat Shahjalal Intl Arpt',
+    AirportCode: 'DAC',
+    CityName: 'Dhaka'
+  },
+  {
+    AirportName: 'Da Nang Arpt',
+    AirportCode: 'DAD',
+    CityName: 'Da Nang'
+  },
+  {
+    AirportName: 'Daparizo Airport',
+    AirportCode: 'DAE',
+    CityName: 'Daparizo'
+  },
+  {
+    AirportName: 'Barstow Daggett Airport',
+    AirportCode: 'DAG',
+    CityName: 'Daggett'
+  },
+  {
+    AirportName: 'Dakhla Arpt',
+    AirportCode: 'DAK',
+    CityName: 'Dakhla Oasis'
+  },
+  { AirportName: 'Love Field', AirportCode: 'DAL', CityName: 'Dallas' },
+  {
+    AirportName: 'Damascus Intl',
+    AirportCode: 'DAM',
+    CityName: 'Damascus'
+  },
+  {
+    AirportName: 'Es Salaam Intl',
+    AirportCode: 'DAR',
+    CityName: 'Dar Es Salaam'
+  },
+  {
+    AirportName: 'Datong Arpt',
+    AirportCode: 'DAT',
+    CityName: 'Datong'
+  },
+  { AirportName: 'Daru Airport', AirportCode: 'DAU', CityName: 'Daru' },
+  {
+    AirportName: 'Enrique Malek Arpt',
+    AirportCode: 'DAV',
+    CityName: 'David'
+  },
+  { AirportName: 'Heshi', AirportCode: 'DAX', CityName: 'Dazhou' },
+  {
+    AirportName: 'Dayton International Airport',
+    AirportCode: 'DAY',
+    CityName: 'Dayton'
+  },
+  {
+    AirportName: 'Dublin Municipal Arpt',
+    AirportCode: 'DB',
+    CityName: 'Dublin'
+  },
+  { AirportName: 'Dubbo Arpt', AirportCode: 'DBO', CityName: 'Dubbo' },
+  {
+    AirportName: 'Dubuque Municipal Arpt',
+    AirportCode: 'DBQ',
+    CityName: 'Dubuque'
+  },
+  {
+    AirportName: 'Darbhanga Airport',
+    AirportCode: 'DBR',
+    CityName: 'Darbhanga'
+  },
+  {
+    AirportName: 'Dubrovnik Arpt',
+    AirportCode: 'DBV',
+    CityName: 'Dubrovnik'
+  },
+  { AirportName: 'Dalby', AirportCode: 'DBY', CityName: 'Dalby' },
+  { AirportName: 'Curtain Arpt', AirportCode: 'DC', CityName: 'Derby' },
+  {
+    AirportName: 'Ronald Reagan National Arpt',
+    AirportCode: 'DCA',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Canefield Arpt',
+    AirportCode: 'DCF',
+    CityName: 'Dominica'
+  },
+  {
+    AirportName: 'Mazamet Arpt',
+    AirportCode: 'DCM',
+    CityName: 'Castres'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Dodge City Municipal Arpt',
+    AirportCode: 'DDC',
+    CityName: 'Dodge City'
+  },
+  {
+    AirportName: 'Dandong Arpt',
+    AirportCode: 'DDG',
+    CityName: 'Dandong'
+  },
+  {
+    AirportName: 'Daydream Island Arpt',
+    AirportCode: 'DDI',
+    CityName: 'Daydream Island'
+  },
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'Dallas Ft Worth Intl',
+    AirportCode: 'DFW',
+    CityName: 'Dallas'
+  },
+  {
+    AirportName: 'Mudgee Arpt',
+    AirportCode: 'DGE',
+    CityName: 'Mudgee'
+  },
+  ... 536 more items
+]
+[0mPOST /flights/allCities [32m200[0m 27.721 ms - 50780[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  },
+  {
+    AirportName: 'Danbury Municipal Arpt',
+    AirportCode: 'DXR',
+    CityName: 'Danbury'
+  },
+  {
+    AirportName: 'Magadan Arpt',
+    AirportCode: 'GDX',
+    CityName: 'Magadan'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 15.223 ms - 237[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 14.022 ms - 83[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTI2NzY4LCJleHAiOjE3MzgyMTMxNjh9.bVrN5g6tMwSY3hTE1U1duw41Tx6KeiwelERoU6vQjcM
+{
+  from: 'DEL',
+  to: 'DXB',
+  travel_date: '2025-02-11',
+  return_date: '2025-02-21',
+  fare_type: '2',
+  adult: 1,
+  child: 0,
+  infant: 0
+}
+Connected to MySQL database
+[0mPOST /flights/addFlightSearchData [32m200[0m 26.189 ms - 153[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTI2NzY4LCJleHAiOjE3MzgyMTMxNjh9.bVrN5g6tMwSY3hTE1U1duw41Tx6KeiwelERoU6vQjcM
+[0mGET /flights/roundFlightResults [36m304[0m 37.678 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.043 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.294 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.110 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.790 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.386 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 0.897 ms - -[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 1.023 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.645 ms - -[0m
+[0mGET /flightWorthCSS/images/sunrise.svg [36m304[0m 1.244 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.396 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.964 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.672 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 3.658 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.899 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.619 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.981 ms - -[0m
+[0mGET /flightWorthCSS/images/afternoon_sun.svg [36m304[0m 1.524 ms - -[0m
+[0mGET /flightWorthCSS/images/evening_time.svg [36m304[0m 1.196 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.856 ms - -[0m
+[0mGET /flightWorthCSS/images/night_time.svg [36m304[0m 2.943 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.868 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 6.167 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 5.925 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 3.213 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.086 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.606 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.267 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.313 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 2.117 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.018 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.129 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.894 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.072 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.043 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.885 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.889 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.916 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.095 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 2.132 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.031 ms - -[0m
+[0mGET /flights_india/roundFlightCards.js [36m304[0m 0.895 ms - -[0m
+[0mGET /flights_india/roundFixedCard.js [36m304[0m 1.932 ms - -[0m
+{
+  from: 'DEL',
+  to: 'DXB',
+  travelDate: '2025-02-11',
+  travelReturnDate: '2025-02-21',
+  fare_type: '2',
+  adults: '1',
+  child: '0',
+  infants: '0',
+  ResultFareType: 'Regular Fare'
+}
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTI2NzY4LCJleHAiOjE3MzgyMTMxNjh9.bVrN5g6tMwSY3hTE1U1duw41Tx6KeiwelERoU6vQjcM
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIyNywiYWdlbnRFbWFpbCI6InRjdmFyZ2hlc2V0ZG9AZ21haWwuY29tIiwidXNlclR5cGUiOiJUcmF2ZWwgYWdlbnQiLCJhZ2VudElkIjoyMjcsImFnZW50TmFtZSI6Ik5vYmxlIEVudGVycHJpc2VzIiwiaWF0IjoxNzM4MTI2NzY4LCJleHAiOjE3MzgyMTMxNjh9.bVrN5g6tMwSY3hTE1U1duw41Tx6KeiwelERoU6vQjcM
+Connected to MySQL database
+Region [ { JourneyType: 'I' } ]
+I
+Request Data: {
+  "Departure": "DEL",
+  "Arrival": "DXB",
+  "departureDate": "2025-02-11T00:00:00",
+  "arrivalDate": "2025-02-21T00:00:00",
+  "cabin": "Y",
+  "tripType": "R",
+  "preferredAirline": "",
+  "paxType": {
+    "adult": "1",
+    "child": "0",
+    "infant": "0"
+  },
+  "stop": {
+    "oneStop": false,
+    "twoStop": false,
+    "nonStop": false
+  }
+}
+Request Headers: {
+  'Accept-Encoding': 'gzip, deflate',
+  ApiKey: 'VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==',
+  'Content-Type': 'application/json'
+}
+35
+[0mGET /getAgentData [36m304[0m 37.492 ms - -[0m
+[0mGET /getBalance [36m304[0m 62.355 ms - -[0m
+[0mGET /upload/agent-profile-logo/227_TOD%20Logo%20Open%20FIle.png [36m304[0m 1.112 ms - -[0m
+undefined
+[0mGET /subUser_changePassword [36m302[0m 6.086 ms - 23[0m
+[0mGET / [32m200[0m 13.509 ms - 32369[0m
+{
+  status: 'fulfilled',
+  value: {
+    status: 200,
+    statusText: 'OK',
+    headers: Object [AxiosHeaders] {
+      'cache-control': 'no-store, no-cache',
+      pragma: 'no-cache',
+      'content-length': '108238',
+      'content-type': 'text/plain; charset=utf-8',
+      expires: '-1',
+      vary: 'Accept-Encoding',
+      server: 'Microsoft-IIS/10.0',
+      'set-cookie': [Array],
+      'x-powered-by': 'ASP.NET, ASP.NET',
+      date: 'Wed, 29 Jan 2025 06:13:20 GMT'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'post',
+      url: 'http://trvlnxtgateway.parikshan.net/api/Availability',
+      data: '{"Departure":"DEL","Arrival":"DXB","departureDate":"2025-02-11T00:00:00","arrivalDate":"2025-02-21T00:00:00","cabin":"Y","tripType":"R","preferredAirline":"","paxType":{"adult":"1","child":"0","infant":"0"},"stop":{"oneStop":false,"twoStop":false,"nonStop":false}}'
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '264',
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'POST /api/Availability HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'ApiKey: VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==\r\n' +
+        'User-Agent: axios/1.7.4\r\n' +
+        'Content-Length: 264\r\n' +
+        'Host: trvlnxtgateway.parikshan.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/Availability',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'trvlnxtgateway.parikshan.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      ResponseStatusType: [Object],
+      TrackID: '20250129114229690452_5dd9ad0f-637b-4e75-9555-c43490f81a20',
+      Journeys: [Array]
+    }
+  }
+}
+[0mPOST /flights/getAllFlightsRound [32m200[0m 52657.931 ms - 1267165[0m
+[0mGET / [32m200[0m 12.326 ms - 32369[0m
+[0mHEAD / [32m200[0m 12.569 ms - 32369[0m
+[0mGET / [32m200[0m 11.886 ms - 32369[0m
+[0mGET /assets/css/fontawesome.min.css [32m200[0m 3.045 ms - 103012[0m
+[0mGET /assets/css/bootstrap.min.css [32m200[0m 4.160 ms - 299045[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [32m200[0m 5.611 ms - 15734[0m
+[0mGET /assets/css/boxicons.min.css [32m200[0m 6.242 ms - 84759[0m
+[0mGET /assets/css/nice-select.css [32m200[0m 7.776 ms - 3070[0m
+[0mGET /assets/css/animate.min.css [32m200[0m 7.877 ms - 71764[0m
+[0mGET /assets/css/magnific-popup.min.css [32m200[0m 2.011 ms - 5235[0m
+[0mGET /assets/css/owl.carousel.min.css [32m200[0m 1.802 ms - 3353[0m
+[0mGET /assets/css/style.css [32m200[0m 3.005 ms - 124545[0m
+[0mGET /assets/css/meanmenu.min.css [32m200[0m 3.726 ms - 2309[0m
+[0mGET /assets/css/style1.css [32m200[0m 2.234 ms - 2046[0m
+[0mGET /assets/css/responsive.css [32m200[0m 3.698 ms - 16523[0m
+[0mGET /assets/css/registerAgent.css [32m200[0m 3.304 ms - 20308[0m
+[0mGET /assets/css/theme-dark.css [32m200[0m 3.017 ms - 7831[0m
+[0mGET /assets/img/TDO_DUBAI.png [32m200[0m 3.047 ms - 388600[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 0.963 ms - -[0m
+[0mGET /assets/images/flights.png [32m200[0m 2.012 ms - 62486[0m
+[0mGET /assets/images/hotels.png [32m200[0m 1.950 ms - 42233[0m
+[0mGET /assets/images/travel-insurance.png [32m200[0m 4.796 ms - 38063[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [32m200[0m 7.673 ms - 33871[0m
+[0mGET /assets/js/jquery.min.js [32m200[0m 7.663 ms - 87532[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [32m200[0m 9.348 ms - 80672[0m
+[0mGET /assets/js/jquery.nice-select.min.js [32m200[0m 5.596 ms - 2942[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [32m200[0m 1.960 ms - 20216[0m
+[0mGET /assets/js/jquery.filterizr.min.js [32m200[0m 2.631 ms - 49179[0m
+[0mGET /assets/js/owl.carousel.min.js [32m200[0m 1.820 ms - 44342[0m
+[0mGET /assets/js/meanmenu.min.js [32m200[0m 1.958 ms - 5351[0m
+[0mGET /assets/images/bg1.jpg [32m200[0m 2.390 ms - 282103[0m
+[0mGET /assets/js/form-validator.min.js [32m200[0m 3.348 ms - 7729[0m
+[0mGET /assets/fonts/boxicons.woff2 [32m200[0m 4.040 ms - 117788[0m
+[0mGET /assets/js/contact-form-script.js [32m200[0m 1.980 ms - 1256[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [32m200[0m 5.909 ms - 2381[0m
+[0mGET /assets/js/script.js [32m200[0m 3.354 ms - 7050[0m
+[0mGET /assets/images/visa.png [32m200[0m 2.665 ms - 4221[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [32m200[0m 2.295 ms - 129992[0m
+[0mGET /assets/img/img_1.png [36m304[0m 1.036 ms - -[0m
+[0mGET / [32m200[0m 11.886 ms - 32369[0m
+[0mGET /assets/css/bootstrap.min.css [32m200[0m 1.994 ms - 299045[0m
+[0mGET /assets/css/fontawesome.min.css [32m200[0m 1.932 ms - 103012[0m
+[0mGET /assets/css/animate.min.css [32m200[0m 4.668 ms - 71764[0m
+[0mGET /assets/css/boxicons.min.css [32m200[0m 4.903 ms - 84759[0m
+[0mGET /assets/css/nice-select.css [32m200[0m 6.118 ms - 3070[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [32m200[0m 6.460 ms - 15734[0m
+[0mGET /assets/css/owl.carousel.min.css [32m200[0m 1.933 ms - 3353[0m
+[0mGET /assets/css/meanmenu.min.css [32m200[0m 1.919 ms - 2309[0m
+[0mGET /assets/css/responsive.css [32m200[0m 4.783 ms - 16523[0m
+[0mGET /assets/css/style.css [32m200[0m 5.080 ms - 124545[0m
+[0mGET /assets/css/theme-dark.css [32m200[0m 4.423 ms - 7831[0m
+[0mGET /assets/css/style1.css [32m200[0m 4.185 ms - 2046[0m
+[0mGET /assets/css/registerAgent.css [32m200[0m 1.993 ms - 20308[0m
+[0mGET /assets/img/TDO_DUBAI.png [32m200[0m 4.470 ms - 388600[0m
+[0mGET /assets/img/TDO_logo1.png [32m200[0m 2.838 ms - 391964[0m
+[0mGET /assets/css/magnific-popup.min.css [32m200[0m 2.064 ms - 5235[0m
+[0mGET /assets/images/flights.png [32m200[0m 2.001 ms - 62486[0m
+[0mGET /assets/images/hotels.png [32m200[0m 1.981 ms - 42233[0m
+[0mGET /assets/images/travel-insurance.png [32m200[0m 2.295 ms - 38063[0m
+[0mGET /assets/js/jquery.min.js [32m200[0m 2.542 ms - 87532[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [32m200[0m 1.961 ms - 80672[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [32m200[0m 1.967 ms - 33871[0m
+[0mGET /assets/js/jquery.nice-select.min.js [32m200[0m 1.897 ms - 2942[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [32m200[0m 1.910 ms - 20216[0m
+[0mGET /assets/js/jquery.filterizr.min.js [32m200[0m 2.080 ms - 49179[0m
+[0mGET /assets/js/owl.carousel.min.js [32m200[0m 1.999 ms - 44342[0m
+[0mGET /assets/js/meanmenu.min.js [32m200[0m 1.962 ms - 5351[0m
+[0mGET /assets/js/form-validator.min.js [32m200[0m 1.981 ms - 7729[0m
+[0mGET /assets/js/contact-form-script.js [32m200[0m 1.742 ms - 1256[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [32m200[0m 1.958 ms - 2381[0m
+[0mGET /assets/js/script.js [32m200[0m 1.734 ms - 7050[0m
+[0mGET /assets/images/visa.png [32m200[0m 1.937 ms - 4221[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [32m200[0m 2.001 ms - 129992[0m
+[0mGET /assets/images/bg1.jpg [32m200[0m 2.072 ms - 282103[0m
+[0mGET /assets/fonts/boxicons.woff2 [32m200[0m 2.080 ms - 117788[0m
+Connected to MySQL database
+{ Email: 'parasmarwaha369@gmail.com', Password: 'Paras85560@' }
+[0mPOST /agent-login [32m200[0m 370.752 ms - 454[0m
+[0mGET /assets/img/img_1.png [32m200[0m 1.933 ms - 4486[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+[0mGET /agent-dashboard [32m200[0m 19.632 ms - 36098[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.748 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.716 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.848 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 5.105 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.279 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.682 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.045 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.141 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 3.299 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 0.978 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.017 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 0.988 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.010 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.625 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.410 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.931 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 0.871 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.044 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.063 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.594 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.238 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 2.298 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.182 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 3.588 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.058 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.666 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.251 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.916 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.016 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.924 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.979 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.361 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.069 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.054 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 0.964 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+{
+  userId: 217,
+  agentEmail: 'parasmarwaha369@gmail.com',
+  userType: 'Travel agent',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  iat: 1738132068,
+  exp: 1738218468
+}
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 30.311 ms - -[0m
+[0mGET /getBalance [32m200[0m 78.139 ms - 170[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 2.075 ms - -[0m
+[0mGET /flight-search [32m200[0m 77.520 ms - 148[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+[0mGET /manage-subUser [32m200[0m 22.754 ms - 49092[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 0.999 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.822 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.524 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 4.750 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.829 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.554 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 0.998 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 0.978 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.003 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.000 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.406 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.175 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 0.993 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.196 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.812 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.757 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.712 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 2.417 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.908 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 0.919 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.665 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.262 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.456 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.190 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.179 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.922 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.708 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.277 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.941 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.075 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.172 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.942 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.197 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.945 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.037 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.918 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+25
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 26.503 ms - -[0m
+[0mGET /read-users [32m200[0m 36.395 ms - 1208[0m
+[0mGET /getBalance [36m304[0m 53.449 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.007 ms - -[0m
+[0mGET /agentRegister [32m200[0m 41.741 ms - 142696[0m
+[0mGET /forgotPasswordPage [32m200[0m 11.291 ms - 30419[0m
+[0mGET /assets/css/bootstrap.min.css [32m200[0m 2.161 ms - 299045[0m
+[0mGET /assets/css/fontawesome.min.css [32m200[0m 2.012 ms - 103012[0m
+[0mGET /assets/css/boxicons.min.css [32m200[0m 4.469 ms - 84759[0m
+[0mGET /assets/css/nice-select.css [32m200[0m 4.819 ms - 3070[0m
+[0mGET /assets/css/animate.min.css [32m200[0m 7.148 ms - 71764[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [32m200[0m 6.333 ms - 15734[0m
+[0mGET /assets/css/magnific-popup.min.css [32m200[0m 6.741 ms - 5235[0m
+[0mGET /assets/css/owl.carousel.min.css [32m200[0m 5.921 ms - 3353[0m
+[0mGET /assets/css/style.css [32m200[0m 1.984 ms - 124545[0m
+[0mGET /assets/css/responsive.css [32m200[0m 5.242 ms - 16523[0m
+[0mGET /assets/css/meanmenu.min.css [32m200[0m 5.535 ms - 2309[0m
+[0mGET /assets/css/theme-dark.css [32m200[0m 4.402 ms - 7831[0m
+[0mGET /assets/css/magnific-popup.min.css [36m304[0m 4.740 ms - -[0m
+[0mGET /assets/css/owl.carousel.min.css [36m304[0m 2.527 ms - -[0m
+[0mGET /assets/css/bootstrap.min.css [36m304[0m 2.094 ms - -[0m
+[0mGET /assets/css/registerAgent.css [32m200[0m 10.699 ms - 20308[0m
+[0mGET /assets/css/fontawesome.min.css [36m304[0m 3.815 ms - -[0m
+[0mGET /assets/css/style1.css [32m200[0m 11.390 ms - 2046[0m
+[0mGET /assets/css/nice-select.css [36m304[0m 1.061 ms - -[0m
+[0mGET /assets/css/boxicons.min.css [36m304[0m 3.789 ms - -[0m
+[0mGET /assets/css/animate.min.css [36m304[0m 3.371 ms - -[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [36m304[0m 3.062 ms - -[0m
+[0mGET /assets/css/meanmenu.min.css [36m304[0m 2.762 ms - -[0m
+[0mGET /assets/css/theme-dark.css [36m304[0m 2.467 ms - -[0m
+[0mGET /assets/css/responsive.css [36m304[0m 1.268 ms - -[0m
+[0mGET /assets/css/style.css [36m304[0m 1.610 ms - -[0m
+[0mGET /assets/css/registerAgent.css [36m304[0m 1.272 ms - -[0m
+[0mGET /assets/img/TDO_DUBAI.png [32m200[0m 3.823 ms - 388600[0m
+[0mGET /assets/img/TDO_logo1.png [32m200[0m 3.515 ms - 391964[0m
+[0mGET /assets/img/page-title-area/register.jpg [32m200[0m 3.163 ms - 514338[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.708 ms - -[0m
+[0mGET /assets/img/TDO_DUBAI.png [36m304[0m 1.259 ms - -[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [32m200[0m 6.689 ms - 33871[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [32m200[0m 6.429 ms - 20216[0m
+[0mGET /assets/js/jquery.min.js [32m200[0m 7.358 ms - 87532[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [32m200[0m 7.091 ms - 129992[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [32m200[0m 6.888 ms - 80672[0m
+[0mGET /assets/js/jquery.nice-select.min.js [32m200[0m 4.783 ms - 2942[0m
+[0mGET /assets/js/owl.carousel.min.js [32m200[0m 5.465 ms - 44342[0m
+[0mGET /assets/js/jquery.filterizr.min.js [32m200[0m 8.524 ms - 49179[0m
+[0mGET /assets/js/meanmenu.min.js [32m200[0m 6.239 ms - 5351[0m
+[0mGET /assets/js/form-validator.min.js [32m200[0m 8.165 ms - 7729[0m
+[0mGET /assets/img/page-title-area/login.jpg [32m200[0m 6.818 ms - 382540[0m
+[0mGET /assets/js/contact-form-script.js [32m200[0m 7.147 ms - 1256[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [36m304[0m 1.034 ms - -[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [32m200[0m 2.750 ms - 2381[0m
+[0mGET /assets/js/script.js [32m200[0m 2.249 ms - 7050[0m
+[0mGET /assets/js/jquery.min.js [36m304[0m 1.558 ms - -[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [36m304[0m 1.229 ms - -[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [36m304[0m 1.034 ms - -[0m
+[0mGET /assets/js/jquery.nice-select.min.js [36m304[0m 2.047 ms - -[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [36m304[0m 1.575 ms - -[0m
+[0mGET /assets/js/jquery.filterizr.min.js [36m304[0m 1.279 ms - -[0m
+[0mGET /assets/js/meanmenu.min.js [36m304[0m 1.043 ms - -[0m
+[0mGET /assets/js/form-validator.min.js [36m304[0m 1.055 ms - -[0m
+[0mGET /assets/js/contact-form-script.js [36m304[0m 1.041 ms - -[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [36m304[0m 1.014 ms - -[0m
+[0mGET /assets/js/script.js [36m304[0m 1.003 ms - -[0m
+[0mGET /assets/js/owl.carousel.min.js [36m304[0m 1.202 ms - -[0m
+[0mGET /assets/fonts/boxicons.woff2 [32m200[0m 2.000 ms - 117788[0m
+[0mGET /assets/fonts/boxicons.woff2 [36m304[0m 1.018 ms - -[0m
+[0mGET /assets/img/img_1.png [32m200[0m 1.898 ms - 4486[0m
+[0mGET /assets/img/img_1.png [36m304[0m 0.984 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxNywiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJ1c2VyVHlwZSI6IlRyYXZlbCBhZ2VudCIsImFnZW50SWQiOjIxNywiYWdlbnROYW1lIjoiUEFSQVMgTUFSV0FIQSIsImlhdCI6MTczODEzMjA2OCwiZXhwIjoxNzM4MjE4NDY4fQ.5bUfmMJcBKdsgP6KPFMvLn5ohdrrEdxIcdxeGMcANkc
+Connected to MySQL database
+undefined
+[0mGET /logout [36m302[0m 31.881 ms - 46[0m
+[0mGET / [36m304[0m 11.521 ms - -[0m
+[0mGET /assets/css/animate.min.css [36m304[0m 1.850 ms - -[0m
+[0mGET /assets/css/bootstrap.min.css [36m304[0m 4.536 ms - -[0m
+[0mGET /assets/css/fontawesome.min.css [36m304[0m 3.972 ms - -[0m
+[0mGET /assets/css/boxicons.min.css [36m304[0m 3.699 ms - -[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [36m304[0m 2.762 ms - -[0m
+[0mGET /assets/css/nice-select.css [36m304[0m 4.638 ms - -[0m
+[0mGET /assets/css/magnific-popup.min.css [36m304[0m 2.170 ms - -[0m
+[0mGET /assets/css/owl.carousel.min.css [36m304[0m 0.895 ms - -[0m
+[0mGET /assets/css/style.css [36m304[0m 2.736 ms - -[0m
+[0mGET /assets/css/style1.css [36m304[0m 2.452 ms - -[0m
+[0mGET /assets/css/meanmenu.min.css [36m304[0m 2.177 ms - -[0m
+[0mGET /assets/css/responsive.css [36m304[0m 1.916 ms - -[0m
+[0mGET /assets/css/theme-dark.css [36m304[0m 1.013 ms - -[0m
+[0mGET /assets/css/registerAgent.css [36m304[0m 0.997 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.443 ms - -[0m
+[0mGET /assets/img/TDO_DUBAI.png [36m304[0m 1.106 ms - -[0m
+[0mGET /assets/images/hotels.png [36m304[0m 1.087 ms - -[0m
+[0mGET /assets/js/jquery.min.js [36m304[0m 5.200 ms - -[0m
+[0mGET /assets/images/flights.png [36m304[0m 4.697 ms - -[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [36m304[0m 4.406 ms - -[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [36m304[0m 4.133 ms - -[0m
+[0mGET /assets/images/travel-insurance.png [36m304[0m 2.364 ms - -[0m
+[0mGET /assets/fonts/boxicons.woff2 [36m304[0m 2.343 ms - -[0m
+[0mGET /assets/images/bg1.jpg [36m304[0m 1.056 ms - -[0m
+[0mGET /assets/js/jquery.nice-select.min.js [36m304[0m 1.619 ms - -[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [36m304[0m 1.354 ms - -[0m
+[0mGET /assets/js/owl.carousel.min.js [36m304[0m 1.471 ms - -[0m
+[0mGET /assets/js/jquery.filterizr.min.js [36m304[0m 1.192 ms - -[0m
+[0mGET /assets/js/meanmenu.min.js [36m304[0m 1.070 ms - -[0m
+[0mGET /assets/js/form-validator.min.js [36m304[0m 1.071 ms - -[0m
+[0mGET /assets/js/contact-form-script.js [36m304[0m 1.665 ms - -[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [36m304[0m 1.328 ms - -[0m
+[0mGET /assets/js/script.js [36m304[0m 4.264 ms - -[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [36m304[0m 2.006 ms - -[0m
+[0mGET /assets/images/visa.png [36m304[0m 2.413 ms - -[0m
+Connected to MySQL database
+{ Email: 'mohandass.tdo@gmail.com', Password: 'Tdo@9853' }
+[0mPOST /agent-login [32m200[0m 360.885 ms - 579[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+[0mGET /agent-dashboard [32m200[0m 18.937 ms - 36094[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.163 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 2.378 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.056 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 4.633 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 4.348 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 4.064 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.018 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.045 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.449 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.059 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.665 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 3.183 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 3.103 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.012 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.879 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.108 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 2.028 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.955 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.011 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.251 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.137 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.513 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.177 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 0.861 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 0.873 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.987 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.013 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.702 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.904 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 4.030 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 2.763 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.917 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.028 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.776 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.547 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.917 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 22.265 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132154,
+  exp: 1738218554
+}
+Connected to MySQL database
+[0mGET /getBalance [36m304[0m 44.912 ms - -[0m
+[0mGET /flight-search [36m304[0m 28.604 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.033 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+[0mGET /flights/viewReleasedBookings [32m200[0m 19.972 ms - 39595[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.279 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 2.103 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.190 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.972 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.653 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.697 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.724 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.177 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.034 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.123 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.467 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.180 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 0.900 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.954 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.006 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.507 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.158 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.871 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.868 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 0.783 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.793 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.775 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 0.784 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.330 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.063 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.801 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 0.787 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 2.546 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.832 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.517 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.184 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 0.839 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.892 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 0.817 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.824 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.896 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 31.438 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.357 ms - -[0m
+[0mPOST /flights/releasedBookings [32m200[0m 72.048 ms - 142777[0m
+[0mGET /getBalance [36m304[0m 88.730 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+[0mGET /flights/viewHoldBookings [32m200[0m 21.516 ms - 39587[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.048 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 0.910 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.037 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 2.001 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.558 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.982 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.984 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.444 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.032 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.462 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.019 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.652 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 3.841 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 3.214 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.036 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.744 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.300 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.985 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.938 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.955 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 2.145 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.600 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.238 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 0.900 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.027 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 2.968 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.179 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.440 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.922 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.957 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.910 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 1.655 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.397 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.573 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.595 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.870 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+25
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+[0mPOST /flights/holdBookings [32m200[0m 28.825 ms - 36354[0m
+[0mGET /getAgentData [36m304[0m 38.337 ms - -[0m
+[0mGET /getBalance [36m304[0m 54.271 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.993 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+{ id: '20250107163609153172_36d42945-c69b-4c44-bf2f-235bbc5aed34' }
+[0mGET /flights/hold_booking_details/20250107163609153172_36d42945-c69b-4c44-bf2f-235bbc5aed34 [32m200[0m 28.128 ms - 75459[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.044 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.514 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 3.541 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 3.240 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.645 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.050 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.044 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.429 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.982 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.691 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 3.260 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.881 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.041 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.686 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.247 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 3.327 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.502 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.221 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.915 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.021 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.643 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.231 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.483 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.141 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.893 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.900 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.291 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.909 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 2.217 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.825 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.522 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.961 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.610 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.177 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.852 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.981 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+25
+[0mGET /getAgentData [36m304[0m 20.691 ms - -[0m
+[0mPOST /flights/getTicketDetails [32m200[0m 30.448 ms - 12533[0m
+[0mGET /getBalance [36m304[0m 53.987 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.009 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+[0mGET /flights [36m304[0m 25.792 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.480 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.108 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.637 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.241 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.072 ms - -[0m
+[0mGET /assets2/flights/css/animation.css [36m304[0m 1.671 ms - -[0m
+[0mGET /assets2/flights/css/dropzone.min.css [36m304[0m 3.755 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.931 ms - -[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [36m304[0m 1.009 ms - -[0m
+[0mGET /assets2/flights/css/flickity.min.css [36m304[0m 0.894 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [36m304[0m 1.598 ms - -[0m
+[0mGET /assets2/flights/css/lightbox.min.css [36m304[0m 1.268 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [36m304[0m 0.896 ms - -[0m
+[0mGET /assets2/flights/css/select2.min.css [36m304[0m 0.895 ms - -[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 0.868 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [36m304[0m 0.860 ms - -[0m
+[0mGET /assets2/flights/css/style.css [36m304[0m 1.400 ms - -[0m
+[0mGET /assets2/flights/css/fontawesome.css [36m304[0m 1.102 ms - -[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [36m304[0m 0.762 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 0.835 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 0.795 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.765 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.508 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.120 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.767 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.797 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 0.815 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 0.781 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.354 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.093 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 0.820 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 0.814 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 0.888 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 0.808 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.813 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.609 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.255 ms - -[0m
+[0mGET /assets2/img_2.png [36m304[0m 1.654 ms - -[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [36m304[0m 1.249 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.019 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.175 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.019 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.092 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.106 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.016 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.220 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.903 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.594 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.903 ms - -[0m
+[0mGET /assets2/flights/images/loading.gif [36m304[0m 3.210 ms - -[0m
+[0mGET /assets2/flights/images/next.png [33m404[0m 6.387 ms - 170[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 6.513 ms - 170[0m
+[0mGET /assets2/flights/images/close.png [33m404[0m 8.864 ms - 171[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 22.422 ms - -[0m
+25
+[0mGET /assets2/flights/img/favicon.png [36m304[0m 0.972 ms - -[0m
+[0mGET /getBalance [36m304[0m 56.975 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.898 ms - -[0m
+[0mGET / [32m200[0m 10.557 ms - 32369[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+[0mGET /agent-profile [32m200[0m 24.426 ms - 66106[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.863 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 4.544 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 4.243 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 3.943 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.070 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.029 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 0.994 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 3.845 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 2.126 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 4.103 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 3.061 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.001 ms - -[0m
+[0mGET /assets2/images/profile/profile_dubai.png [32m200[0m 9.231 ms - 1913559[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 1.502 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.155 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.065 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 0.888 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.803 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.805 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 0.805 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.713 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.742 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 3.124 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.844 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 0.981 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.457 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.160 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.819 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.996 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 0.976 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.481 ms - -[0m
+[0mGET /assets2/images/profile/cover.jpg [32m200[0m 3.415 ms - 17228[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.861 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.846 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 3.102 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.847 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 2.383 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.009 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.631 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 13.985 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+25
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+[0mGET /getBalance [36m304[0m 30.136 ms - -[0m
+[0mGET /getAgentData [36m304[0m 15.018 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzIxNTQsImV4cCI6MTczODIxODU1NH0.kCESZYYKEk8AkbG6DkHpphCnVTcyt2RIhHneBvfJDdQ
+Connected to MySQL database
+undefined
+[0mGET /logout [36m302[0m 28.095 ms - 46[0m
+[0mGET / [36m304[0m 10.816 ms - -[0m
+[0mGET /assets/css/fontawesome.min.css [36m304[0m 2.016 ms - -[0m
+[0mGET /assets/css/animate.min.css [36m304[0m 4.658 ms - -[0m
+[0mGET /assets/css/nice-select.css [36m304[0m 4.387 ms - -[0m
+[0mGET /assets/css/boxicons.min.css [36m304[0m 4.150 ms - -[0m
+[0mGET /assets/css/bootstrap-datepicker.min.css [36m304[0m 3.781 ms - -[0m
+[0mGET /assets/css/bootstrap.min.css [36m304[0m 5.788 ms - -[0m
+[0mGET /assets/css/magnific-popup.min.css [36m304[0m 1.000 ms - -[0m
+[0mGET /assets/css/style1.css [36m304[0m 3.036 ms - -[0m
+[0mGET /assets/css/meanmenu.min.css [36m304[0m 2.649 ms - -[0m
+[0mGET /assets/css/owl.carousel.min.css [36m304[0m 2.316 ms - -[0m
+[0mGET /assets/css/style.css [36m304[0m 2.011 ms - -[0m
+[0mGET /assets/css/responsive.css [36m304[0m 0.891 ms - -[0m
+[0mGET /assets/css/theme-dark.css [36m304[0m 0.995 ms - -[0m
+[0mGET /assets/css/registerAgent.css [36m304[0m 0.998 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.527 ms - -[0m
+[0mGET /assets/img/TDO_DUBAI.png [36m304[0m 1.238 ms - -[0m
+[0mGET /assets/images/flights.png [36m304[0m 1.032 ms - -[0m
+[0mGET /assets/images/hotels.png [36m304[0m 1.430 ms - -[0m
+[0mGET /assets/images/travel-insurance.png [36m304[0m 1.150 ms - -[0m
+[0mGET /assets/js/jquery.min.js [36m304[0m 2.025 ms - -[0m
+[0mGET /assets/js/bootstrap.bundle.min.js [36m304[0m 1.718 ms - -[0m
+[0mGET /assets/js/bootstrap-datepicker.min.js [36m304[0m 1.458 ms - -[0m
+[0mGET /assets/images/bg1.jpg [36m304[0m 0.974 ms - -[0m
+[0mGET /assets/fonts/boxicons.woff2 [36m304[0m 1.053 ms - -[0m
+[0mGET /assets/js/jquery.magnific-popup.min.js [36m304[0m 2.854 ms - -[0m
+[0mGET /assets/js/jquery.nice-select.min.js [36m304[0m 2.489 ms - -[0m
+[0mGET /assets/js/owl.carousel.min.js [36m304[0m 2.190 ms - -[0m
+[0mGET /assets/js/jquery.filterizr.min.js [36m304[0m 1.917 ms - -[0m
+[0mGET /assets/js/meanmenu.min.js [36m304[0m 0.974 ms - -[0m
+[0mGET /assets/js/jquery.ajaxchimp.min.js [36m304[0m 1.487 ms - -[0m
+[0mGET /assets/js/form-validator.min.js [36m304[0m 1.287 ms - -[0m
+[0mGET /assets/js/contact-form-script.js [36m304[0m 3.432 ms - -[0m
+[0mGET /assets/images/visa.png [36m304[0m 1.873 ms - -[0m
+[0mGET /assets/js/script.js [36m304[0m 1.568 ms - -[0m
+[0mGET /assets/img/TDO_FooterLogo.jpeg [36m304[0m 1.007 ms - -[0m
+Connected to MySQL database
+{ Email: 'mohandass.tdo@gmail.com', Password: 'Tdo@9853' }
+[0mPOST /agent-login [32m200[0m 341.168 ms - 579[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-dashboard [36m304[0m 19.647 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.051 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 0.903 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 0.954 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.496 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.169 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.497 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 3.250 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 0.939 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 0.937 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.713 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.226 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.668 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 0.978 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.921 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 0.954 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.751 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 2.086 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.498 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.922 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 0.947 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.873 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.897 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 2.008 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 2.908 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.093 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.859 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 0.893 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.872 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.058 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.751 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.497 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.970 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 0.912 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.857 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 0.933 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.981 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+25
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 42.907 ms - -[0m
+[0mGET /getBalance [36m304[0m 58.994 ms - -[0m
+[0mGET /flight-search [36m304[0m 41.384 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.090 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights [36m304[0m 31.011 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 0.991 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 0.914 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.463 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.053 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 2.318 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [36m304[0m 1.424 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.962 ms - -[0m
+[0mGET /assets2/flights/css/animation.css [36m304[0m 1.152 ms - -[0m
+[0mGET /assets2/flights/css/dropzone.min.css [36m304[0m 0.994 ms - -[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [36m304[0m 0.874 ms - -[0m
+[0mGET /assets2/flights/css/lightbox.min.css [36m304[0m 1.411 ms - -[0m
+[0mGET /assets2/flights/css/flickity.min.css [36m304[0m 1.099 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [36m304[0m 1.598 ms - -[0m
+[0mGET /assets2/flights/css/select2.min.css [36m304[0m 1.196 ms - -[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [36m304[0m 1.001 ms - -[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 0.990 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [36m304[0m 1.445 ms - -[0m
+[0mGET /assets2/flights/css/fontawesome.css [36m304[0m 1.150 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.777 ms - -[0m
+[0mGET /assets2/flights/css/style.css [36m304[0m 1.170 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 0.907 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.995 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.311 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.050 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.974 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.904 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.865 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.107 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.793 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 3.375 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.512 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.961 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.564 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.011 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.383 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.093 ms - -[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [36m304[0m 1.607 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.217 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.885 ms - -[0m
+[0mGET /assets2/img_2.png [36m304[0m 0.993 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.556 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.197 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 1.032 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 2.997 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 2.447 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.041 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.554 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.192 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.893 ms - -[0m
+[0mGET /assets2/flights/images/loading.gif [36m304[0m 2.243 ms - -[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 7.547 ms - 170[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /assets2/flights/images/close.png [33m404[0m 9.507 ms - 171[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /assets2/flights/images/next.png [33m404[0m 11.577 ms - 170[0m
+[0mGET /getAgentData [36m304[0m 26.349 ms - -[0m
+25
+[0mGET /getBalance [36m304[0m 37.203 ms - -[0m
+[0mGET /assets2/flights/img/favicon.png [36m304[0m 0.970 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.971 ms - -[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Enrique Olaya Herrara',
+    AirportCode: 'EOH',
+    CityName: 'Medellin'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia'
+  },
+  {
+    AirportName: 'Fuerteventura Arpt',
+    AirportCode: 'FUE',
+    CityName: 'Puerto Del Rosario'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 15.771 ms - 1535[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Downtown Arpt',
+    AirportCode: 'AHD',
+    CityName: 'Ardmore'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Akola Airport',
+    AirportCode: 'AKD',
+    CityName: 'Akola'
+  },
+  {
+    AirportName: 'Sardar Vallabh Bhai Patel Intl Arpt',
+    AirportCode: 'AMD',
+    CityName: 'Ahmedabad'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Andros Town Arpt',
+    AirportCode: 'ASD',
+    CityName: 'Andros Town'
+  },
+  {
+    AirportName: 'Dhmokritos Arpt',
+    AirportCode: 'AXD',
+    CityName: 'Alexandroupolis'
+  },
+  { AirportName: 'Yazd Arpt', AirportCode: 'AZD', CityName: 'Yazd' },
+  {
+    AirportName: 'Barksdale Air Force Base',
+    AirportCode: 'BAD',
+    CityName: 'Shreveport'
+  },
+  {
+    AirportName: 'Bacolod Arpt',
+    AirportCode: 'BCD',
+    CityName: 'Bacolod'
+  },
+  {
+    AirportName: 'Bermuda International',
+    AirportCode: 'BDA',
+    CityName: 'Bermuda'
+  },
+  {
+    AirportName: 'Bundaberg Arpt',
+    AirportCode: 'BDB',
+    CityName: 'Bundaberg'
+  },
+  {
+    AirportName: 'Badu Island Arpt',
+    AirportCode: 'BDD',
+    CityName: 'Badu Island'
+  },
+  {
+    AirportName: 'Sjamsudin Noor Arpt',
+    AirportCode: 'BDJ',
+    CityName: 'Banjarmasin'
+  },
+  {
+    AirportName: 'Bradley Intl Arpt',
+    AirportCode: 'BDL',
+    CityName: 'Hartford'
+  },
+  {
+    AirportName: 'Husein Sastranegara Arpt',
+    AirportCode: 'BDO',
+    CityName: 'Bandung'
+  },
+  {
+    AirportName: 'Bhadrapur Airport',
+    AirportCode: 'BDP',
+    CityName: 'Bhadrapur'
+  },
+  {
+    AirportName: 'Vadodara Arpt',
+    AirportCode: 'BDQ',
+    CityName: 'Vadodara'
+  },
+  {
+    AirportName: 'Sikorsky Memorial Arpt',
+    AirportCode: 'BDR',
+    CityName: 'Bridgeport'
+  },
+  {
+    AirportName: 'Papola Casale Arpt',
+    AirportCode: 'BDS',
+    CityName: 'Brindisi'
+  },
+  {
+    AirportName: 'Bardufoss Arpt',
+    AirportCode: 'BDU',
+    CityName: 'Bardufoss'
+  },
+  {
+    AirportName: 'Bedford Arpt',
+    AirportCode: 'BED',
+    CityName: 'Bedford'
+  },
+  {
+    AirportName: 'Bradford Regional Arpt',
+    AirportCode: 'BFD',
+    CityName: 'Bradford'
+  },
+  {
+    AirportName: 'Belfast City Arpt',
+    AirportCode: 'BHD',
+    CityName: 'Belfast'
+  },
+  {
+    AirportName: 'Block Island Municipal',
+    AirportCode: 'BID',
+    CityName: 'Block Island'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Bandar Abbas Intl Airport',
+    AirportCode: 'BND',
+    CityName: 'Bandar Abbas'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Crowwing Cty Arpt',
+    AirportCode: 'BRD',
+    CityName: 'Brainerd'
+  },
+  {
+    AirportName: 'Baoshan Arpt',
+    AirportCode: 'BSD',
+    CityName: 'Baoshan'
+  },
+  {
+    AirportName: 'Liszt Ferenc Arpt',
+    AirportCode: 'BUD',
+    CityName: 'Budapest'
+  },
+  {
+    AirportName: 'Brownwood Municipal Arpt',
+    AirportCode: 'BWD',
+    CityName: 'Brownwood'
+  },
+  {
+    AirportName: 'Wexford County Arpt',
+    AirportCode: 'CAD',
+    CityName: 'Cadillac'
+  },
+  {
+    AirportName: 'Car Nicobar Air Force Base',
+    AirportCode: 'CBD',
+    CityName: 'Car Nicobar'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cooinda Airport',
+    AirportCode: 'CDA',
+    CityName: 'Cooinda'
+  },
+  {
+    AirportName: 'Cedar City Municipal',
+    AirportCode: 'CDC',
+    CityName: 'Cedar City'
+  },
+  {
+    AirportName: 'Cauquira Arpt',
+    AirportCode: 'CDD',
+    CityName: 'Cauquira'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Candle Arpt',
+    AirportCode: 'CDL',
+    CityName: 'Candle'
+  },
+  {
+    AirportName: 'Cuddapah Airport',
+    AirportCode: 'CDP',
+    CityName: 'Cuddapah'
+  },
+  {
+    AirportName: 'Chadron Arpt',
+    AirportCode: 'CDR',
+    CityName: 'Chadron'
+  },
+  {
+    AirportName: 'Mudhole Smith Arpt',
+    AirportCode: 'CDV',
+    CityName: 'Cordova'
+  },
+  {
+    AirportName: 'Caldwell Wright Arpt',
+    AirportCode: 'CDW',
+    CityName: 'Caldwell'
+  },
+  {
+    AirportName: 'Ceduna Arpt',
+    AirportCode: 'CED',
+    CityName: 'Ceduna'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Williams AFB',
+    AirportCode: 'CHD',
+    CityName: 'Chandler'
+  },
+  {
+    AirportName: 'Cedar Rapids Municipal Arpt',
+    AirportCode: 'CID',
+    CityName: 'Cedar Rapids'
+  },
+  {
+    AirportName: 'Crooked Creek Arpt',
+    AirportCode: 'CKD',
+    CityName: 'Crooked Creek'
+  },
+  {
+    AirportName: 'Carlsbad Arpt',
+    AirportCode: 'CLD',
+    CityName: 'San Diego'
+  },
+  {
+    AirportName: 'Kogalniceanu Arpt',
+    AirportCode: 'CND',
+    CityName: 'Constanta'
+  },
+  {
+    AirportName: 'Yellowstone Regional Arpt',
+    AirportCode: 'COD',
+    CityName: 'Cody'
+  },
+  {
+    AirportName: 'Coober Pedy Arpt',
+    AirportCode: 'CPD',
+    CityName: 'Coober Pedy'
+  },
+  {
+    AirportName: 'Shahre Kord Arpt',
+    AirportCode: 'CQD',
+    CityName: 'Shahre Kord'
+  },
+  {
+    AirportName: 'Comodoro Rivadavia Arpt',
+    AirportCode: 'CRD',
+    CityName: 'Comodoro Rivadavia'
+  },
+  {
+    AirportName: 'Chitre Airfield',
+    AirportCode: 'CTD',
+    CityName: 'Chitre'
+  },
+  {
+    AirportName: 'Danville Municipal',
+    AirportCode: 'DA',
+    CityName: 'Danville'
+  },
+  {
+    AirportName: 'Daytona Beach Regional Arpt',
+    AirportCode: 'DAB',
+    CityName: 'Daytona Beach'
+  },
+  {
+    AirportName: 'Hazrat Shahjalal Intl Arpt',
+    AirportCode: 'DAC',
+    CityName: 'Dhaka'
+  },
+  {
+    AirportName: 'Da Nang Arpt',
+    AirportCode: 'DAD',
+    CityName: 'Da Nang'
+  },
+  {
+    AirportName: 'Daparizo Airport',
+    AirportCode: 'DAE',
+    CityName: 'Daparizo'
+  },
+  {
+    AirportName: 'Barstow Daggett Airport',
+    AirportCode: 'DAG',
+    CityName: 'Daggett'
+  },
+  {
+    AirportName: 'Dakhla Arpt',
+    AirportCode: 'DAK',
+    CityName: 'Dakhla Oasis'
+  },
+  { AirportName: 'Love Field', AirportCode: 'DAL', CityName: 'Dallas' },
+  {
+    AirportName: 'Damascus Intl',
+    AirportCode: 'DAM',
+    CityName: 'Damascus'
+  },
+  {
+    AirportName: 'Es Salaam Intl',
+    AirportCode: 'DAR',
+    CityName: 'Dar Es Salaam'
+  },
+  {
+    AirportName: 'Datong Arpt',
+    AirportCode: 'DAT',
+    CityName: 'Datong'
+  },
+  { AirportName: 'Daru Airport', AirportCode: 'DAU', CityName: 'Daru' },
+  {
+    AirportName: 'Enrique Malek Arpt',
+    AirportCode: 'DAV',
+    CityName: 'David'
+  },
+  { AirportName: 'Heshi', AirportCode: 'DAX', CityName: 'Dazhou' },
+  {
+    AirportName: 'Dayton International Airport',
+    AirportCode: 'DAY',
+    CityName: 'Dayton'
+  },
+  {
+    AirportName: 'Dublin Municipal Arpt',
+    AirportCode: 'DB',
+    CityName: 'Dublin'
+  },
+  { AirportName: 'Dubbo Arpt', AirportCode: 'DBO', CityName: 'Dubbo' },
+  {
+    AirportName: 'Dubuque Municipal Arpt',
+    AirportCode: 'DBQ',
+    CityName: 'Dubuque'
+  },
+  {
+    AirportName: 'Darbhanga Airport',
+    AirportCode: 'DBR',
+    CityName: 'Darbhanga'
+  },
+  {
+    AirportName: 'Dubrovnik Arpt',
+    AirportCode: 'DBV',
+    CityName: 'Dubrovnik'
+  },
+  { AirportName: 'Dalby', AirportCode: 'DBY', CityName: 'Dalby' },
+  { AirportName: 'Curtain Arpt', AirportCode: 'DC', CityName: 'Derby' },
+  {
+    AirportName: 'Ronald Reagan National Arpt',
+    AirportCode: 'DCA',
+    CityName: 'Washington'
+  },
+  {
+    AirportName: 'Canefield Arpt',
+    AirportCode: 'DCF',
+    CityName: 'Dominica'
+  },
+  {
+    AirportName: 'Mazamet Arpt',
+    AirportCode: 'DCM',
+    CityName: 'Castres'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Dodge City Municipal Arpt',
+    AirportCode: 'DDC',
+    CityName: 'Dodge City'
+  },
+  {
+    AirportName: 'Dandong Arpt',
+    AirportCode: 'DDG',
+    CityName: 'Dandong'
+  },
+  {
+    AirportName: 'Daydream Island Arpt',
+    AirportCode: 'DDI',
+    CityName: 'Daydream Island'
+  },
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'Dallas Ft Worth Intl',
+    AirportCode: 'DFW',
+    CityName: 'Dallas'
+  },
+  {
+    AirportName: 'Mudgee Arpt',
+    AirportCode: 'DGE',
+    CityName: 'Mudgee'
+  },
+  ... 536 more items
+]
+[0mPOST /flights/allCities [32m200[0m 28.346 ms - 50780[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  },
+  {
+    AirportName: 'Danbury Municipal Arpt',
+    AirportCode: 'DXR',
+    CityName: 'Danbury'
+  },
+  {
+    AirportName: 'Magadan Arpt',
+    AirportCode: 'GDX',
+    CityName: 'Magadan'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 13.742 ms - 237[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Dubai Intl Arpt',
+    AirportCode: 'DXB',
+    CityName: 'Dubai'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 11.358 ms - 83[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Denver Intl Arpt',
+    AirportCode: 'DE',
+    CityName: 'Denver'
+  },
+  {
+    AirportName: 'Debrecen Arpt',
+    AirportCode: 'DEB',
+    CityName: 'Debrecen'
+  },
+  {
+    AirportName: 'Decatur Municipal',
+    AirportCode: 'DEC',
+    CityName: 'Decatur'
+  },
+  {
+    AirportName: 'Jolly Grant Airport',
+    AirportCode: 'DED',
+    CityName: 'Dehra Dun'
+  },
+  {
+    AirportName: 'Decorah Municipal',
+    AirportCode: 'DEH',
+    CityName: 'Decorah'
+  },
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Dembidolo Airport',
+    AirportCode: 'DEM',
+    CityName: 'Dembidolo, Ethiopia'
+  },
+  {
+    AirportName: 'Detroit City Apt',
+    AirportCode: 'DET',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Al Jafrah Arpt',
+    AirportCode: 'DEZ',
+    CityName: 'Deirezzor'
+  },
+  {
+    AirportName: 'Edenton Municipal Arpt',
+    AirportCode: 'EDE',
+    CityName: 'Edenton'
+  },
+  {
+    AirportName: 'Bringeland Arpt',
+    AirportCode: 'FDE',
+    CityName: 'Forde'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Andenes Arpt',
+    AirportCode: 'ANX',
+    CityName: 'Andenes'
+  },
+  {
+    AirportName: 'Anderson Municipal Arpt',
+    AirportCode: 'AID',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'Anderson Arpt',
+    AirportCode: 'AND',
+    CityName: 'Anderson'
+  },
+  {
+    AirportName: 'El Eden Arpt',
+    AirportCode: 'AXM',
+    CityName: 'Armenia'
+  },
+  {
+    AirportName: 'Bader Field',
+    AirportCode: 'AIY',
+    CityName: 'Atlantic City'
+  },
+  {
+    AirportName: 'Bahia De Los Angeles Arpt',
+    AirportCode: 'BHL',
+    CityName: 'Bahia De Los Angeles'
+  },
+  {
+    AirportName: 'Battle Mountain Airport (Lander County Airport)',
+    AirportCode: 'BAM',
+    CityName: 'Battle Mountain'
+  },
+  {
+    AirportName: 'English Madeira Arpt',
+    AirportCode: 'BCH',
+    CityName: 'Baucau'
+  },
+  {
+    AirportName: 'Val De Cans Arpt',
+    AirportCode: 'BEL',
+    CityName: 'Belem'
+  },
+  {
+    AirportName: 'Belgrade Beograd Arpt',
+    AirportCode: 'BEG',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Berlin Brandenburg Airport',
+    AirportCode: 'BER',
+    CityName: 'Berlin'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Bordeaux Arpt',
+    AirportCode: 'BOD',
+    CityName: 'Bordeaux'
+  },
+  {
+    AirportName: 'Boulder City Municipal Airport (FAA: 61B)',
+    AirportCode: 'BLD',
+    CityName: 'Boulder City'
+  },
+  {
+    AirportName: 'Burbank Glendale Pasadena Arpt',
+    AirportCode: 'BUR',
+    CityName: 'Burbank'
+  },
+  {
+    AirportName: 'Cachoeiro De Itapemirim Arpt',
+    AirportCode: 'CDI',
+    CityName: 'Cachoeiro De Itapemirim'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cape Girardeau Municipal Arpt',
+    AirportCode: 'CGI',
+    CityName: 'Cape Girardeau'
+  },
+  {
+    AirportName: 'Casa Grande Arpt',
+    AirportCode: 'CGZ',
+    CityName: 'Casa Grande'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Changde Arpt',
+    AirportCode: 'CGD',
+    CityName: 'Changde'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'USAF Academy',
+    AirportCode: 'AFF',
+    CityName: 'Colorado Springs'
+  },
+  {
+    AirportName: 'Golden Arpt',
+    AirportCode: 'GTR',
+    CityName: 'Columbus'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'Aeropuerto Intl De Cozumel',
+    AirportCode: 'CZM',
+    CityName: 'Cozumel'
+  },
+  {
+    AirportName: 'Fedl De Bachigualato Arpt',
+    AirportCode: 'CUL',
+    CityName: 'Culiacan'
+  },
+  {
+    AirportName: 'Antonio Jose De Sucre',
+    AirportCode: 'CUM',
+    CityName: 'Cumana'
+  },
+  {
+    AirportName: 'Death Valley Arpt',
+    AirportCode: 'DTH',
+    CityName: 'Death Valley'
+  },
+  {
+    AirportName: 'Defiance Memorial Arpt',
+    AirportCode: 'DFI',
+    CityName: 'Defiance'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Denham Arpt',
+    AirportCode: 'DNM',
+    CityName: 'Denham'
+  },
+  {
+    AirportName: 'Denilinquin Arpt',
+    AirportCode: 'DNQ',
+    CityName: 'Deniliquin'
+  },
+  {
+    AirportName: 'Derby Airport',
+    AirportCode: 'DRB',
+    CityName: 'Derby'
+  },
+  {
+    AirportName: 'Des Moines Municipal Airport',
+    AirportCode: 'DSM',
+    CityName: 'Des Moines'
+  },
+  {
+    AirportName: 'Destin Arpt',
+    AirportCode: 'DSI',
+    CityName: 'Destin'
+  },
+  {
+    AirportName: 'Detroit Metro Wayne Cnty Arpt',
+    AirportCode: 'DTW',
+    CityName: 'Detroit'
+  },
+  {
+    AirportName: 'Devils Lake Arpt',
+    AirportCode: 'DVL',
+    CityName: 'Devils Lake'
+  },
+  {
+    AirportName: 'Devonport Arpt',
+    AirportCode: 'DPO',
+    CityName: 'Devonport'
+  },
+  {
+    AirportName: 'Presidente Nicolau Lobato Intl Arpt',
+    AirportCode: 'DIL',
+    CityName: 'Dili'
+  },
+  {
+    AirportName: 'Wickede Dortmund Arpt',
+    AirportCode: 'DTM',
+    CityName: 'Dortmund'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Dresden Arpt',
+    AirportCode: 'DRS',
+    CityName: 'Dresden'
+  },
+  {
+    AirportName: 'Riverside Park Arpt',
+    AirportCode: 'DND',
+    CityName: 'Dundee'
+  },
+  { AirportName: 'Emden Arpt', AirportCode: 'EME', CityName: 'Emden' },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Fernando De Noronha Arpt',
+    AirportCode: 'FE',
+    CityName: 'Fernando De Noronha'
+  },
+  {
+    AirportName: 'Frederick Municipal',
+    AirportCode: 'FDK',
+    CityName: 'Frederick'
+  },
+  {
+    AirportName: 'Ft Lauderdale Hollywood Intl Arpt',
+    AirportCode: 'FLL',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Ft Lauderdale Excutive',
+    AirportCode: 'FXE',
+    CityName: 'Ft Lauderdale'
+  },
+  {
+    AirportName: 'Madeira Arpt',
+    AirportCode: 'FNC',
+    CityName: 'Funchal'
+  },
+  {
+    AirportName: 'Gadsden Municipal',
+    AirportCode: 'GAD',
+    CityName: 'Gadsden'
+  },
+  {
+    AirportName: 'Garden City Municipal',
+    AirportCode: 'GCK',
+    CityName: 'Garden City'
+  },
+  {
+    AirportName: 'Eelde Arpt',
+    AirportCode: 'GRQ',
+    CityName: 'Groningen'
+  },
+  {
+    AirportName: 'Kozhikode Arpt',
+    AirportCode: 'CCJ',
+    CityName: 'Kozhikode'
+  },
+  {
+    AirportName: 'La Desirade Arpt',
+    AirportCode: 'DSD',
+    CityName: 'La Desirade'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Magdeburg Cochstedt  Airport',
+    AirportCode: 'CSO',
+    CityName: 'Magdeburg Cochstedt'
+  },
+  {
+    AirportName: 'Mildenhall NAF',
+    AirportCode: 'GXH',
+    CityName: 'Mildenhall'
+  },
+  {
+    AirportName: 'Domodedovo Arpt',
+    AirportCode: 'DME',
+    CityName: 'Moscow'
+  },
+  {
+    AirportName: 'Neubrandenburg Arpt',
+    AirportCode: 'FNB',
+    CityName: 'Neubrandenburg'
+  },
+  {
+    AirportName: 'Kadena AFB',
+    AirportCode: 'DNA',
+    CityName: 'Okinawa'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Charles De Gaulle Intl Arpt',
+    AirportCode: 'CDG',
+    CityName: 'Paris'
+  },
+  {
+    AirportName: 'Paso De Los Libres Arpt',
+    AirportCode: 'AOL',
+    CityName: 'Paso De Los Libres'
+  },
+  {
+    AirportName: 'Deer Valley',
+    AirportCode: 'DVT',
+    CityName: 'Phoenix'
+  },
+  {
+    AirportName: 'San Carlos De Bariloche Intl Arpt',
+    AirportCode: 'BRC',
+    CityName: 'San Carlos Bariloche'
+  },
+  {
+    AirportName: 'Embarcadero',
+    AirportCode: 'EMB',
+    CityName: 'San Francisco'
+  },
+  {
+    AirportName: 'Talladega Arpt',
+    AirportCode: 'AS',
+    CityName: 'Talladega'
+  },
+  {
+    AirportName: 'Kortdoorn Arpt',
+    AirportCode: 'ALJ',
+    CityName: 'Alexander Bay'
+  },
+  {
+    AirportName: 'Thomas C Russell Field',
+    AirportCode: 'ALX',
+    CityName: 'Alexander City'
+  },
+  {
+    AirportName: 'Basongo Airport',
+    AirportCode: 'BA',
+    CityName: 'Basongo, Democratic Republic of the Congo'
+  },
+  {
+    AirportName: 'Bauru Airport',
+    AirportCode: 'BAU',
+    CityName: 'Bauru Old Code'
+  },
+  {
+    AirportName: 'Batajnica Arpt',
+    AirportCode: 'BJY',
+    CityName: 'Belgrade'
+  },
+  {
+    AirportName: 'Harrell Fieldsandro Arpt',
+    AirportCode: 'CDH',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Woodward Field',
+    AirportCode: 'CD',
+    CityName: 'Camden'
+  },
+  {
+    AirportName: 'Joao Suassuana Arpt',
+    AirportCode: 'CPV',
+    CityName: 'Campina Grande'
+  },
+  {
+    AirportName: 'Internacional',
+    AirportCode: 'CGR',
+    CityName: 'Campogrande'
+  },
+  {
+    AirportName: 'Maximo Gomez Arpt',
+    AirportCode: 'AVI',
+    CityName: 'Ciego De Avila'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Saint Gatien Arpt',
+    AirportCode: 'DOL',
+    CityName: 'Deauville'
+  },
+  { AirportName: 'Pyor Arpt', AirportCode: 'DCU', CityName: 'Decatur' },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Cardak Arpt',
+    AirportCode: 'DNZ',
+    CityName: 'Denizli'
+  },
+  {
+    AirportName: 'Ngurah Rai Arpt',
+    AirportCode: 'DPS',
+    CityName: 'Denpasar Bali'
+  },
+  {
+    AirportName: 'Centennial Arpt',
+    AirportCode: 'APA',
+    CityName: 'Denver'
+  },
+  ... 14 more items
+]
+[0mPOST /flights/allCities [32m200[0m 21.178 ms - 9314[0m
+Connected to MySQL database
+[
+  {
+    AirportName: 'Delhi Indira Gandhi Intl',
+    AirportCode: 'DEL',
+    CityName: 'Delhi'
+  },
+  {
+    AirportName: 'Campo Dell Oro Arpt',
+    AirportCode: 'AJA',
+    CityName: 'Ajaccio'
+  },
+  {
+    AirportName: 'Big Delta Arpt',
+    AirportCode: 'BIG',
+    CityName: 'Big Delta'
+  },
+  {
+    AirportName: 'Bocas Del Toro Arpt',
+    AirportCode: 'BOC',
+    CityName: 'Bocas Del Toro'
+  },
+  {
+    AirportName: 'Mandelieu Arpt',
+    AirportCode: 'CEQ',
+    CityName: 'Cannes'
+  },
+  {
+    AirportName: 'Cayo Largo Del Sur Arpt',
+    AirportCode: 'CYO',
+    CityName: 'Cayo Largo Del Sur'
+  },
+  {
+    AirportName: 'Ciudad Del Carmen Arpt',
+    AirportCode: 'CME',
+    CityName: 'Ciudad Del Carmen'
+  },
+  {
+    AirportName: 'Coromandel Arpt',
+    AirportCode: 'CMV',
+    CityName: 'Coromandel'
+  },
+  {
+    AirportName: 'International Del Rio',
+    AirportCode: 'DRT',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Delta Junction Arpt',
+    AirportCode: 'DJ',
+    CityName: 'Delta Junction'
+  },
+  {
+    AirportName: 'Delaware Airpark',
+    AirportCode: 'DVX',
+    CityName: 'Dover'
+  },
+  {
+    AirportName: 'Delta County',
+    AirportCode: 'ESC',
+    CityName: 'Escanaba'
+  },
+  {
+    AirportName: 'Del Bajio Arpt',
+    AirportCode: 'BJX',
+    CityName: 'Leon'
+  },
+  {
+    AirportName: 'Delta Downs Airport',
+    AirportCode: 'DD',
+    CityName: 'Orange'
+  },
+  {
+    AirportName: 'Alejo Garcia Arpt',
+    AirportCode: 'AGT',
+    CityName: 'Ciudad Del Este'
+  },
+  {
+    AirportName: 'Laughlin AFB',
+    AirportCode: 'DLF',
+    CityName: 'Del Rio'
+  },
+  {
+    AirportName: 'Enrique Olaya Herrara',
+    AirportCode: 'EOH',
+    CityName: 'Medellin'
+  },
+  {
+    AirportName: 'Wings Field',
+    AirportCode: 'BBX',
+    CityName: 'Philadelphia'
+  },
+  {
+    AirportName: 'Fuerteventura Arpt',
+    AirportCode: 'FUE',
+    CityName: 'Puerto Del Rosario'
+  }
+]
+[0mPOST /flights/allCities [32m200[0m 15.141 ms - 1535[0m
+[0mGET / [32m200[0m 11.662 ms - 32369[0m
+[0mGET / [32m200[0m 11.402 ms - 32369[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  from: 'DXB',
+  to: 'DEL',
+  adult: 1,
+  child: 0,
+  infant: 0,
+  travel_date: '2025-03-19',
+  return_date: '',
+  fare_type: '2'
+}
+Connected to MySQL database
+[0mPOST /flights/addFlightSearchData [32m200[0m 29.338 ms - 153[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights/flightResults [36m304[0m 220.485 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.766 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.083 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.468 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 1.167 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 0.894 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.926 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 3.691 ms - 166[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 0.837 ms - -[0m
+[0mGET /flightWorthCSS/images/sunrise.svg [36m304[0m 1.498 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.125 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 0.957 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.314 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.146 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 1.711 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.459 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.965 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.003 ms - -[0m
+[0mGET /flightWorthCSS/images/evening_time.svg [36m304[0m 0.846 ms - -[0m
+[0mGET /flightWorthCSS/images/afternoon_sun.svg [36m304[0m 0.836 ms - -[0m
+[0mGET /assets1/css/select2.min.css [33m404[0m 2.500 ms - 166[0m
+[0mGET /flightWorthCSS/images/night_time.svg [36m304[0m 0.976 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.489 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.160 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.309 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.038 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.010 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 0.838 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 2.011 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.833 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 0.977 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.025 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 0.974 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.840 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 0.857 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 0.855 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 1.032 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 0.895 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 1.600 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.091 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.438 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 1.143 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.896 ms - -[0m
+[0mGET /flights_india/flightCards.js [32m200[0m 2.253 ms - 211732[0m
+[0mGET /assets1/js/select2.min.js [33m404[0m 2.579 ms - 164[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+{
+  adults: '1',
+  child: '0',
+  infants: '0',
+  ResultFareType: 'Regular Fare',
+  data: 'undefined',
+  platform: '""',
+  from: 'DXB',
+  to: 'DEL',
+  travelDate: '2025-03-19',
+  fare_type: '2'
+}
+25
+[0mGET /getAgentData [36m304[0m 35.044 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 5.222 ms - 150[0m
+[0mGET /getBalance [36m304[0m 46.127 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.859 ms - -[0m
+[0mGET / [32m200[0m 10.978 ms - 32369[0m
+[0mPOST /flights/getAllFlights [32m200[0m 10078.999 ms - 619951[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+[0mGET /flights/book [36m304[0m 68.236 ms - -[0m
+[0mGET /images/new.gif [36m304[0m 2.416 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+[0mGET /flights/bookbook [32m200[0m 59.204 ms - 173500[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 1.318 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 0.949 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.778 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.416 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 2.014 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 1.604 ms - -[0m
+[0mGET /flightWorthCSS/css/myStyle.css [36m304[0m 3.361 ms - -[0m
+[0mGET /style.css [36m304[0m 1.965 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.042 ms - -[0m
+[0mGET /flightWorthCSS/images/Seat.png [36m304[0m 1.044 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.791 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.228 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 3.609 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 2.532 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.076 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.043 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 2.288 ms - -[0m
+[0mGET /flightWorthCSS/images/Baggage1.png [36m304[0m 1.089 ms - -[0m
+[0mGET /flightWorthCSS/images/Meal.png [36m304[0m 1.091 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.097 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.093 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.888 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 2.853 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 1.810 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 4.359 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 1.295 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 1.097 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.089 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 4.827 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.290 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 1.073 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 0.938 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 0.988 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.063 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 1.081 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.233 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 2.023 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 1.587 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 2.012 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 1.059 ms - -[0m
+[0mGET /flights_india/flightCards.js [36m304[0m 0.930 ms - -[0m
+[0mGET /flights_india/flightBooking.js [36m304[0m 1.021 ms - -[0m
+[0mGET /flightWorthCSS/images/cockpit.svg [36m304[0m 2.548 ms - -[0m
+[0mGET /flights_india/common.js [36m304[0m 2.463 ms - -[0m
+[0mGET /static/js/main.c9d5cbec.js [33m404[0m 6.046 ms - 165[0m
+[0mGET /images/new.gif [36m304[0m 3.056 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 20.436 ms - -[0m
+{
+  traceId: '20250129120649823747_9733b351-9a52-4272-bf61-8bac8a1f7867',
+  flightKey: '6E_DXB_DEL_1ADT_0CHD_0INF_1464_202501291206552060_7d177af9-2ce6-4d85-b3ae-c3d53cb92203_$MR_TVJPVEkwMTg=',
+  adult: '1',
+  child: '0',
+  infant: '0',
+  flight: '[{"departure":"DXB","arrival":"DEL","departureDateTime":"2025-03-19T20:50:00","BasicFare":488.433,"GrossFare":613.960281,"segments":[{"departure":"DXB","arrival":"DEL","departureDateTime":"2025-03-19T20:50:00","arrivalDateTime":"2025-03-20T01:40:00","flightNumber":"1464"}]}]'
+}
+25
+[0mGET /flightWorthCSS/images/flight-details-line.svg [36m304[0m 3.928 ms - -[0m
+[0mGET /getBalance [36m304[0m 39.916 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 1.058 ms - -[0m
+{
+  status: 200,
+  statusText: 'OK',
+  headers: Object [AxiosHeaders] {
+    'cache-control': 'no-store, no-cache',
+    pragma: 'no-cache',
+    'content-length': '13949',
+    'content-type': 'text/plain; charset=utf-8',
+    expires: '-1',
+    vary: 'Accept-Encoding',
+    server: 'Microsoft-IIS/10.0',
+    'set-cookie': [
+      '.AspNetCore.Session=CfDJ8BmNHwHehP1GmZhxYugthm3AoB%2BNOu5CaLQPiteJNLbCp3UE811erUcJICqvQsniEBTjox%2B635xSBU0fdKKuPNtqrcv%2Fd%2FoGWaFNYCICsNRFCR4jT1OpMTZDm6Ptn2mwfx2b3TLtdMvilxIZu7ZOviVU3%2FmAAkywdST%2FFrZ50KcE; path=/; samesite=lax; httponly'
+    ],
+    'x-powered-by': 'ASP.NET, ASP.NET',
+    date: 'Wed, 29 Jan 2025 06:37:47 GMT'
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      ApiKey: 'VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==',
+      'User-Agent': 'axios/1.7.4',
+      'Content-Length': '527',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+    data: '{"trackID":"20250129120649823747_9733b351-9a52-4272-bf61-8bac8a1f7867","flightKeys":["6E_DXB_DEL_1ADT_0CHD_0INF_1464_202501291206552060_7d177af9-2ce6-4d85-b3ae-c3d53cb92203_$MR_TVJPVEkwMTg="],"paxType":{"adult":"1","child":"0","infant":"0"},"flights":[{"departure":"DXB","arrival":"DEL","departureDateTime":"2025-03-19T20:50:00","BasicFare":488.433,"GrossFare":613.960281,"segments":[{"departure":"DXB","arrival":"DEL","departureDateTime":"2025-03-19T20:50:00","arrivalDateTime":"2025-03-20T01:40:00","flightNumber":"1464"}]}]}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '527',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'trvlnxtgateway.parikshan.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 10276209,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 35914,
+        [Symbol(triggerId)]: 35912
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'POST /api/AirSell HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'ApiKey: VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==\r\n' +
+      'User-Agent: axios/1.7.4\r\n' +
+      'Content-Length: 527\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: trvlnxtgateway.parikshan.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/AirSell',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'trvlnxtgateway.parikshan.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 527,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      apikey: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: {
+    ResponseStatusType: {
+      Id: '1',
+      Success: true,
+      Message: '',
+      RequestTimeStamp: '2025-01-29 12:07:35:5310',
+      ResponseTimeStamp: '2025-01-29 12:07:47:2781'
+    },
+    SellKey: 'S20250129120745356682_02e110d2-7ced-4579-b0d3-c5a05f808dd7',
+    TrackID: '20250129120649823747_9733b351-9a52-4272-bf61-8bac8a1f7867',
+    HoldAvailable: false,
+    Isfarerevised: false,
+    SessionTimeOut: 10,
+    Flights: [ [Object] ]
+  }
+}

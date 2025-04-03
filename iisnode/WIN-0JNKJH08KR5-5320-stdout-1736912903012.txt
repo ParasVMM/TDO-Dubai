@@ -1,0 +1,6 @@
+Server is running on port:  \\.\pipe\4ee095f6-0a2a-4a85-8bb4-684e2b5babd5
+[0mGET / [32m200[0m 65.090 ms - 31962[0m
+[0mGET / [32m200[0m 20.799 ms - 31962[0m
+[0mGET / [32m200[0m 53.590 ms - 31962[0m
+[0mGET / [32m200[0m 12.247 ms - 31962[0m
+[0mPOST /boaform/admin/formLogin [33m404[0m 16.429 ms - 163[0m

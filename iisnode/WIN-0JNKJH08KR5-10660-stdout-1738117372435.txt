@@ -1,0 +1,12 @@
+Server is running on port:  \\.\pipe\757e0a58-9233-4548-8654-13fcac3d8a7e
+[0mGET / [32m200[0m 66.349 ms - 32369[0m
+[0mGET / [32m200[0m 20.895 ms - 32369[0m
+[0mGET / [32m200[0m 15.423 ms - 32369[0m
+[0mGET /favicon.ico [33m404[0m 14.734 ms - 150[0m
+[0mGET /geoserver/web/ [33m404[0m 7.919 ms - 153[0m
+undefined
+[0mGET /subUser_changePassword [36m302[0m 9.487 ms - 23[0m
+[0mGET / [32m200[0m 12.622 ms - 32369[0m
+[0mGET / [32m200[0m 11.925 ms - 32369[0m
+[0mGET / [32m200[0m 15.080 ms - 32369[0m
+[0mGET / [32m200[0m 14.165 ms - 32369[0m

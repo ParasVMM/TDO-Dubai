@@ -1,0 +1,431 @@
+Connected to MySQL database
+35
+[0mGET /getAgentData [36m304[0m 37.838 ms - -[0m
+{
+  traceId: '20250129190246979921_2854a120-2354-4eef-a67b-a347eac71c8a',
+  flightKey: '6E_DEL_DXB_1ADT_0CHD_0INF_2615_1487_202501291902561281_6f687b11-85f7-4e3d-8304-ffc5505400b5_$MR_TVJPVEkwMTg=',
+  adult: '1',
+  child: '0',
+  infant: '0',
+  flight: '[{"departure":"DEL","arrival":"DXB","departureDateTime":"2025-01-31T09:55:00","BasicFare":632.964765,"GrossFare":733.493157,"segments":[{"departure":"DEL","arrival":"BBI","departureDateTime":"2025-01-31T09:55:00","arrivalDateTime":"2025-01-31T12:00:00","flightNumber":"2615"},{"departure":"BBI","arrival":"DXB","departureDateTime":"2025-01-31T18:00:00","arrivalDateTime":"2025-01-31T21:50:00","flightNumber":"1487"}]}]'
+}
+[0mGET /flightWorthCSS/images/flight-details-line.svg [36m304[0m 1.870 ms - -[0m
+[0mGET /getBalance [36m304[0m 51.843 ms - -[0m
+[0mGET /upload/agent-profile-logo/227_TOD%20Logo%20Open%20FIle.png [36m304[0m 1.144 ms - -[0m
+{
+  status: 200,
+  statusText: 'OK',
+  headers: Object [AxiosHeaders] {
+    'cache-control': 'no-store, no-cache',
+    pragma: 'no-cache',
+    'content-length': '26468',
+    'content-type': 'text/plain; charset=utf-8',
+    expires: '-1',
+    vary: 'Accept-Encoding',
+    server: 'Microsoft-IIS/10.0',
+    'set-cookie': [
+      '.AspNetCore.Session=CfDJ8BmNHwHehP1GmZhxYugthm2QbPpAGbNOV2uFRatMfUG7wclIzqNrRVQgwgFPpiUHtNF0eE5hEYoZb6xu0u6RyHJX2lIAiwo%2FCoe%2BwwIQr47QuReiybCAq9iYcv3aQnV9UKooiJWJ1M8mwJOfCHlyTfnwwgBQvWWYvMl%2FjZ%2Fh%2B8cm; path=/; samesite=lax; httponly'
+    ],
+    'x-powered-by': 'ASP.NET, ASP.NET',
+    date: 'Wed, 29 Jan 2025 13:35:19 GMT'
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      ApiKey: 'VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==',
+      'User-Agent': 'axios/1.7.4',
+      'Content-Length': '675',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+    data: '{"trackID":"20250129190246979921_2854a120-2354-4eef-a67b-a347eac71c8a","flightKeys":["6E_DEL_DXB_1ADT_0CHD_0INF_2615_1487_202501291902561281_6f687b11-85f7-4e3d-8304-ffc5505400b5_$MR_TVJPVEkwMTg="],"paxType":{"adult":"1","child":"0","infant":"0"},"flights":[{"departure":"DEL","arrival":"DXB","departureDateTime":"2025-01-31T09:55:00","BasicFare":632.964765,"GrossFare":733.493157,"segments":[{"departure":"DEL","arrival":"BBI","departureDateTime":"2025-01-31T09:55:00","arrivalDateTime":"2025-01-31T12:00:00","flightNumber":"2615"},{"departure":"BBI","arrival":"DXB","departureDateTime":"2025-01-31T18:00:00","arrivalDateTime":"2025-01-31T21:50:00","flightNumber":"1487"}]}]}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '675',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'trvlnxtgateway.parikshan.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 2392976,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 6870,
+        [Symbol(triggerId)]: 6868
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'POST /api/AirSell HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'ApiKey: VFJBVkVMIERFQUwgT25saW5lIC0gQ1VTVDMwMDcyNA==\r\n' +
+      'User-Agent: axios/1.7.4\r\n' +
+      'Content-Length: 675\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: trvlnxtgateway.parikshan.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/AirSell',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'trvlnxtgateway.parikshan.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 675,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://trvlnxtgateway.parikshan.net/api/AirSell',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      apikey: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: {
+    ResponseStatusType: {
+      Id: '1',
+      Success: true,
+      Message: '',
+      RequestTimeStamp: '2025-01-29 19:05:08:6929',
+      ResponseTimeStamp: '2025-01-29 19:05:19:5948'
+    },
+    SellKey: 'S20250129190518026877_2d01ac69-2d1e-4300-981a-faa924cb7d9e',
+    TrackID: '20250129190246979921_2854a120-2354-4eef-a67b-a347eac71c8a',
+    HoldAvailable: false,
+    Isfarerevised: false,
+    SessionTimeOut: 10,
+    Flights: [ [Object] ]
+  }
+}
+[0mPOST /flights/AirSell [32m200[0m 11345.971 ms - 133153[0m
+[0mGET /flightWorthCSS/images/alaram-clock.svg [36m304[0m 1.089 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /agent-dashboard [36m304[0m 19.912 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.377 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 2.253 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.909 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.984 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.962 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 2.200 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 1.826 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 1.143 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 1.146 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.690 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.276 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 2.683 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 1.113 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.117 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 0.993 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 0.982 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 2.176 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.210 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 1.134 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 0.995 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.981 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.086 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 0.977 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 0.978 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 0.894 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.886 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.700 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.306 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.875 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.865 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.910 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.576 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 3.576 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 3.235 ms - -[0m
+[0mGET /assets2/icons/fontawesome/webfonts/fa-solid-900.woff2 [36m304[0m 0.910 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/Flaticon_1.woff2 [36m304[0m 0.877 ms - -[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+{
+  userId: 16,
+  SubUser_email: 'mohandass.tdo@gmail.com',
+  SubUser_Name: 'Mohandass Aravamuthan',
+  userType: 'Co-Admin',
+  agentId: 217,
+  agentName: 'PARAS MARWAHA',
+  agentEmail: 'parasmarwaha369@gmail.com',
+  iat: 1738132493,
+  exp: 1738218893
+}
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 22.663 ms - -[0m
+25
+[0mGET /getBalance [36m304[0m 34.605 ms - -[0m
+[0mGET /flight-search [32m200[0m 45.193 ms - 148[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.898 ms - -[0m
+[0mGET / [32m200[0m 14.989 ms - 32369[0m
+[0mGET / [32m200[0m 14.094 ms - 32369[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+[0mGET /flights [36m304[0m 23.040 ms - -[0m
+[0mGET /assets2/vendor/chartist/css/chartist.min.css [36m304[0m 1.114 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css [36m304[0m 1.014 ms - -[0m
+[0mGET /assets2/css/style.css [36m304[0m 1.722 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.css [36m304[0m 3.343 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap.min.css [36m304[0m 3.022 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-select/css/bootstrap-select.min.css [36m304[0m 3.419 ms - -[0m
+[0mGET /assets2/flights/css/dropzone.min.css [36m304[0m 3.255 ms - -[0m
+[0mGET /assets2/flights/css/animation.css [36m304[0m 2.960 ms - -[0m
+[0mGET /assets2/flights/css/flatpickr.min.css [36m304[0m 1.973 ms - -[0m
+[0mGET /assets2/flights/css/flickity.min.css [36m304[0m 1.407 ms - -[0m
+[0mGET /assets2/vendor/datatables/css/jquery.dataTables.min.css [36m304[0m 3.849 ms - -[0m
+[0mGET /assets2/flights/css/lightbox.min.css [36m304[0m 2.457 ms - -[0m
+[0mGET /assets2/flights/css/magnifypopup.css [36m304[0m 1.127 ms - -[0m
+[0mGET /assets2/flights/css/select2.min.css [36m304[0m 2.275 ms - -[0m
+[0mGET /assets2/flights/css/prism.css [36m304[0m 1.832 ms - -[0m
+[0mGET /assets2/flights/css/rangeSlider.min.css [36m304[0m 1.463 ms - -[0m
+[0mGET /assets2/flights/css/bootstrap-icons.css [36m304[0m 0.969 ms - -[0m
+[0mGET /assets2/flights/css/fontawesome.css [36m304[0m 1.100 ms - -[0m
+[0mGET /assets2/flights/css/style.css [36m304[0m 0.965 ms - -[0m
+[0mGET /assets2/icons/fontawesome/css/all.min.css [36m304[0m 1.120 ms - -[0m
+[0mGET /assets2/icons/material-design-iconic-font/css/materialdesignicons.min.css [36m304[0m 1.005 ms - -[0m
+[0mGET /assets2/icons/themify-icons/css/themify-icons.css [36m304[0m 2.124 ms - -[0m
+[0mGET /assets2/icons/flaticon/flaticon.css [36m304[0m 1.002 ms - -[0m
+[0mGET /assets2/vendor/metismenu/css/metisMenu.min.css [36m304[0m 0.901 ms - -[0m
+[0mGET /assets2/icons/line-awesome/css/line-awesome.min.css [36m304[0m 0.879 ms - -[0m
+[0mGET /assets/img/TDO_logo1.png [36m304[0m 0.950 ms - -[0m
+[0mGET /assets2/flights/js/jquery.min.js [36m304[0m 3.111 ms - -[0m
+[0mGET /assets2/icons/flaticon_1/flaticon_1.css [36m304[0m 1.392 ms - -[0m
+[0mGET /assets2/flights/js/flatpickr.js [36m304[0m 2.455 ms - -[0m
+[0mGET /assets2/flights/js/flickity.pkgd.min.js [36m304[0m 2.158 ms - -[0m
+[0mGET /assets2/flights/js/lightbox.min.js [36m304[0m 2.148 ms - -[0m
+[0mGET /assets2/flights/js/rangeslider.js [36m304[0m 0.877 ms - -[0m
+[0mGET /assets2/flights/js/custom.js [36m304[0m 1.727 ms - -[0m
+[0mGET /assets2/flights/js/addadult.js [36m304[0m 1.355 ms - -[0m
+[0mGET /assets2/vendor/global/global.min.js [36m304[0m 0.985 ms - -[0m
+[0mGET /assets2/js/deznav-init.js [36m304[0m 1.702 ms - -[0m
+[0mGET /assets2/js/custom.min.js [36m304[0m 1.337 ms - -[0m
+[0mGET /assets2/flights/webfonts/fa-solid-900.woff2 [36m304[0m 0.914 ms - -[0m
+[0mGET /assets2/vendor/chartjs/chart.bundle.min.js [36m304[0m 0.893 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/moment.js [36m304[0m 1.698 ms - -[0m
+[0mGET /assets2/flights/js/select2.min.js [36m304[0m 1.333 ms - -[0m
+[0mGET /assets2/img_2.png [36m304[0m 1.769 ms - -[0m
+[0mGET /assets2/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js [36m304[0m 1.368 ms - -[0m
+[0mGET /assets2/vendor/apexchart/apexchart.js [36m304[0m 0.885 ms - -[0m
+[0mGET /assets2/vendor/peity/jquery.peity.min.js [36m304[0m 2.073 ms - -[0m
+[0mGET /assets2/vendor/datatables/js/jquery.dataTables.min.js [36m304[0m 0.838 ms - -[0m
+[0mGET /assets2/js/dashboard/dashboard-1.js [36m304[0m 0.861 ms - -[0m
+[0mGET /assets2/vendor/datatables/responsive/responsive.js [36m304[0m 0.855 ms - -[0m
+[0mGET /assets2/js/plugins-init/datatables.init.js [36m304[0m 0.860 ms - -[0m
+[0mGET /assets2/flights/images/next.png [33m404[0m 4.662 ms - 170[0m
+[0mGET /assets2/flights/images/loading.gif [36m304[0m 2.322 ms - -[0m
+[0mGET /assets2/flights/images/close.png [33m404[0m 6.420 ms - 171[0m
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE2LCJTdWJVc2VyX2VtYWlsIjoibW9oYW5kYXNzLnRkb0BnbWFpbC5jb20iLCJTdWJVc2VyX05hbWUiOiJNb2hhbmRhc3MgQXJhdmFtdXRoYW4iLCJ1c2VyVHlwZSI6IkNvLUFkbWluIiwiYWdlbnRJZCI6MjE3LCJhZ2VudE5hbWUiOiJQQVJBUyBNQVJXQUhBIiwiYWdlbnRFbWFpbCI6InBhcmFzbWFyd2FoYTM2OUBnbWFpbC5jb20iLCJpYXQiOjE3MzgxMzI0OTMsImV4cCI6MTczODIxODg5M30.MFV98gSiAbKt4JS4O5f_hhTAnLwzwetW3-N_4XJp_Fk
+Connected to MySQL database
+[0mGET /getAgentData [36m304[0m 24.248 ms - -[0m
+25
+[0mGET /getBalance [36m304[0m 36.519 ms - -[0m
+[0mGET /assets2/images/demo_avatar.png [36m304[0m 0.869 ms - -[0m
+[0mGET /assets2/flights/images/prev.png [33m404[0m 2.684 ms - 170[0m
+[0mGET /assets2/flights/img/favicon.png [36m304[0m 1.028 ms - -[0m
+[0mGET / [32m200[0m 12.809 ms - 32369[0m
+[0mGET /.git/refs/ [33m404[0m 2.898 ms - 149[0m
+[0mGET / [32m200[0m 12.331 ms - 32369[0m
+[0mGET /actuator/gateway/routes [33m404[0m 2.697 ms - 162[0m
+[0mGET / [32m200[0m 12.213 ms - 32369[0m
+[0mGET / [32m200[0m 10.503 ms - 32369[0m
+[0mGET / [32m200[0m 13.069 ms - 32369[0m
+[0mGET / [32m200[0m 14.058 ms - 32369[0m
+[0mGET / [32m200[0m 12.534 ms - 32369[0m
+[0mGET / [32m200[0m 12.360 ms - 32369[0m
+[0mGET / [32m200[0m 10.681 ms - 32369[0m
+[0mGET / [32m200[0m 11.868 ms - 32369[0m
+[0mGET / [32m200[0m 11.746 ms - 32369[0m
+[0mGET / [32m200[0m 10.727 ms - 32369[0m
+[0mGET / [32m200[0m 10.721 ms - 32369[0m
+[0mGET / [32m200[0m 12.203 ms - 32369[0m
+[0mGET / [32m200[0m 12.917 ms - 32369[0m
+[0mGET / [32m200[0m 11.078 ms - 32369[0m
+[0mGET / [32m200[0m 12.399 ms - 32369[0m
+[0mGET / [32m200[0m 12.696 ms - 32369[0m
+[0mGET / [32m200[0m 11.738 ms - 32369[0m
+[0mGET / [32m200[0m 10.664 ms - 32369[0m
+[0mGET / [32m200[0m 12.308 ms - 32369[0m
+[0mGET / [32m200[0m 12.244 ms - 32369[0m
+[0mGET / [32m200[0m 12.337 ms - 32369[0m
+[0mGET / [32m200[0m 11.153 ms - 32369[0m
+[0mGET /actuator/health [33m404[0m 3.880 ms - 154[0m
+[0mGET / [32m200[0m 10.804 ms - 32369[0m
+[0mGET / [32m200[0m 12.172 ms - 32369[0m
+[0mGET / [32m200[0m 12.787 ms - 32369[0m
+[0mGET / [32m200[0m 10.955 ms - 32369[0m

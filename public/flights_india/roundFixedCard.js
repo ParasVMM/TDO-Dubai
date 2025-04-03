@@ -1,0 +1,2356 @@
+class FlightFixedCards {
+    constructor(flight, index) {
+        this.flight = flight;
+        this.index = index;
+        console.log(flight)
+        //console.log("index",index)
+    }
+
+    render() {
+
+        let card = `<div class="p-3 d-flex my-2 one-way-new-result-card">
+                <div class="d-flex flight-info flex-column gap-0">
+                    <div class="spacing-0 flex-1 flight-info_flight-details pb-2 row" style="border-bottom: 1px solid rgb(233, 233, 233);">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="flight-info_flight-details">
+                                <div class="d-flex">
+                                    <div class="d-flex mx-2 flight-image">
+                                        <img class="vertical-bottom" alt="Flight" src="https://content.airhex.com/content/logos/airlines_${this.flight.onwardFlight.Origin.airlineCode}_350_350_s.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex flex-column flight-name">
+                                    <span class="flight-company">${this.flight.onwardFlight.airlineName}</span>
+                                    <span class="flight-company-secondary text-capitalize" title="Publish"></span>
+                                    <span class="fs-10 flight-number">${this.flight.onwardFlight.Origin.airlineCode}-${this.flight.onwardFlight.Origin.FlightNumber}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                            <div class="row">
+                                <div class="d-flex justify-content-start col-lg-4 col-md-4 col-sm-4 col-4">
+                                    <div class="d-flex flex-column">
+                                        <span class="title fw-600">${this.flight.onwardFlight.Origin.DepTime}</span>
+                                        <span class="fs-12">${this.flight.onwardFlight.Origin.DepDate}</span>
+                                        <span class="fs-10">${this.flight.onwardFlight.Origin.CityName}</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center col-lg-4 col-md-4 col-sm-4 col-4">
+                                    <div class="d-flex flex-column text-center">
+                                        <span class="fs-12 fw-500">${this.flight.onwardFlight.totalDuration.hours}h ${this.flight.onwardFlight.totalDuration.minutes}m</span>
+                                        <div class="d-flex flex-column">
+                                            <div class="cursor-pointer">
+                                                <p class="multi-stop-seperator">
+                                                    <span class="layover-pointer"></span>
+                                                </p>
+                                                <span class="fs-10 d-inline-block" style="margin-top: 7px;">${this.flight.onwardFlight.Stops}</span>
+                                                <!-- Take-off plane icon beneath the stops -->
+                                                <div class="mt-2">
+                                                    <i class="fa fa-plane-departure fs-10"></i>
+                                                    <!-- OR, if using an image -->
+                                                    <!-- <img src="path-to-your-icon/plane-takeoff-icon.png" alt="Takeoff Icon" class="flight-icon" style="width: 16px; height: 16px;"> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="d-flex justify-content-end col-lg-4 col-md-4 col-sm-4 col-4">
+                                    <div class="d-flex flex-column text-end">
+                                        <span class="title fw-600">${this.flight.onwardFlight.Destination.ArrTime}<span class="extra-days"></span></span>
+                                        <span class="fs-12">${this.flight.onwardFlight.Destination.ArrDate}</span>
+                                        <span class="fs-10">${this.flight.onwardFlight.Destination.CityName}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spacing-0 flex-1 flight-info_flight-details mt-2 row" style="border-bottom: none;">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="flight-info_flight-details">
+                                <div class="d-flex">
+                                    <div class="d-flex mx-2 flight-image">
+                                        <img class="vertical-bottom" alt="Flight" src="https://content.airhex.com/content/logos/airlines_${this.flight.returnFlight.Origin.airlineCode}_350_350_s.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex flex-column flight-name">
+                                    <span class="flight-company">${this.flight.returnFlight.airlineName}</span>
+                                    <span class="flight-company-secondary text-capitalize" title="Publish"></span>
+                                    <span class="fs-10 flight-number">${this.flight.returnFlight.AirlineCode}-${this.flight.returnFlight.FlightNumber}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                            <div class="row">
+                                <div class="d-flex justify-content-start col-lg-5 col-md-5 col-sm-5 col-4">
+                                    <div class="d-flex flex-column">
+                                        <span class="title fw-600">${this.flight.returnFlight.Origin.DepTime}</span>
+                                        <span class="fs-12">${this.flight.returnFlight.Origin.DepDate}</span>
+                                        <span class="fs-10">${this.flight.returnFlight.Origin.CityName}</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center px-0 col-lg-2 col-md-2 col-sm-2 col-4">
+                                    <div class="d-flex flex-column text-center">
+                                        <span class="fs-12 fw-500">${this.flight.returnFlight.totalDuration.hours}h ${this.flight.returnFlight.totalDuration.minutes}m</span>
+                                        <div class="d-flex flex-column">
+                                            <div class="cursor-pointer">
+                                                <p class="multi-stop-seperator">
+                                                    <span class="layover-pointer"></span>
+                                                </p>
+                                                <span class="fs-8 d-inline-block" style="margin-top: 7px;">${this.flight.returnFlight.Stops}</span>
+                                                <!-- Landing plane icon beneath the stops -->
+                                                <div class="mt-2">
+                                                    <i class="fa fa-plane-arrival fs-10"></i>
+                                                    <!-- OR, if using an image -->
+                                                    <!-- <img src="path-to-your-icon/plane-landing-icon.png" alt="Landing Icon" class="flight-icon" style="width: 16px; height: 16px;"> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-end col-lg-5 col-md-5 col-sm-5 col-4">
+                                    <div class="d-flex flex-column text-end">
+                                        <span class="title fw-600">${this.flight.returnFlight.Destination.ArrTime}<span class="extra-days"></span></span>
+                                        <span class="fs-12">${this.flight.returnFlight.Destination.ArrDate}</span>
+                                        <span class="fs-10">${this.flight.returnFlight.Destination.CityName}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 ps-4">
+                        <a class="fs-14 fw-600 mt-3 app-link-black" onclick="renderSideBarFixed(${this.index})">Flight Details</a>
+                    </div>
+                </div>
+                <div class="d-flex fare-info">
+                    <div class="flex-1 spacing-0 row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="d-flex flex-column fare-info_details" id="twoFares">`
+
+        const renderedFares = new Set(); // To track unique fare types
+
+// Create an array to store the combined fares
+        const allSegments = [
+            ...this.flight.onwardFlight.Segments,
+        ];
+
+// Track whether the first fare has been rendered
+        let isFirstFare = true;
+        let additionalFaresCount = 0;
+
+        for (let i = 0; i < allSegments.length; i++) {
+            const segment = allSegments[i];
+
+            console.log(`Processing segment:`, segment); // Debugging log
+            console.log(`Rendered Fares Set:`, renderedFares); // Debugging log
+
+            if (!renderedFares.has(segment.fare)) {
+                let flightCards = new FareFixedCards(segment, i);
+
+                if (isFirstFare) {
+                    segment.checked = true; // Mark the first segment as checked
+                    console.log(`Setting segment ${i} as checked (first fare)`); // Debug log
+                    card += flightCards.render(this.index);
+                    isFirstFare = false; // Toggle isFirstFare
+                } else {
+                    segment.checked = false; // Ensure other cards are unchecked
+                    console.log(`Rendering additional fare card for segment ${i}`); // Debug log
+                    card += `<div class="hidden-fare-card" id="fareCard${this.index}-${additionalFaresCount}" style="display: none;">
+                ${flightCards.render(this.index)}
+            </div>`;
+                    additionalFaresCount++;
+                }
+
+                renderedFares.add(segment.fare); // Add to rendered set
+            }
+        }
+
+// Render the additional fares if any
+        if (additionalFaresCount > 0) {
+            card += `
+    <div class="d-flex flex-column fare-info_details" id="readyotherFares${this.index}" style="display: none;">
+        <a class="fs-12 fw-500 flex-1 app-link-grey" onclick="toggleVisibility(${additionalFaresCount},${this.index})">
+            <div class="d-flex align-items-center justify-content-center">
+                <span>+${additionalFaresCount} More fares</span>
+                <svg stroke="currentColor" fill="currentColor"
+                     stroke-width="0" viewBox="0 0 24 24" height="1em"
+                     width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M7 10l5 5 5-5z"></path>
+                </svg>
+            </div>
+        </a>
+    </div>`;
+        }
+
+// Close the main fare div
+        card += `</div>`;
+
+
+
+
+        console.log('Rendered Fares:', [...renderedFares]);
+        console.log('Additional Fares:', additionalFaresCount);
+
+        card += `
+<div style="display: flex; justify-content: flex-end;">
+    <button type="button"
+            class="app-btn app-btn-primary app-btn-medium px-3"
+            style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;" 
+            onclick="bookFixed(${this.index})">
+        Book
+    </button>
+</div>
+            
+                        </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+`;
+
+
+        return card
+    }
+
+}
+function toggleVisibility(additionalFaresCount, index) {
+    for (let i = 0; i < additionalFaresCount; i++) {
+        const fareCard = document.getElementById(`fareCard${index}-${i}`);
+        if (fareCard) {
+            if (fareCard.style.display === 'none' || !fareCard.style.display) {
+                fareCard.style.display = 'block'; // Show the card
+            } else {
+                fareCard.style.display = 'none'; // Hide the card
+            }
+        }
+    }
+
+    // Update the button text
+    const moreFaresButton = document.querySelector(`#readyotherFares${index} span`);
+    if (moreFaresButton) {
+        if (moreFaresButton.textContent.includes('+')) {
+            moreFaresButton.textContent = `-${additionalFaresCount} More fares`;
+        } else {
+            moreFaresButton.textContent = `+${additionalFaresCount} More fares`;
+        }
+    }
+}
+
+
+class FareFixedCards {
+
+    constructor(flight, index) {
+        this.flight = flight;
+        this.index = index;
+        console.log(this.flight)
+    }
+
+    render(index) {
+
+        let fareCard = ``;
+
+
+        if (this.index === 0) {
+            fareCard = `<div class="fare-component position-relative">
+                        <div class="spacing-0 row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6"
+                                 style="padding-left: 5px; padding-block: 10px;"><label
+                                class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer"
+                                for="ready${this.index}${index}"
+                                style="color: rgb(30, 30, 30);">
+                                <input
+                                class="cursor-pointer me-1"
+                                id="ready${this.index}${index}"
+                                type="radio"
+                                value="${this.index}"
+                                name = "ready${index}"
+                                checked
+                                >
+                                <div class="d-flex flex-column"><span
+                                    class="fs-12 text-capitalize dark-grey-color fw-600 text-break">${this.flight.fare}</span>
+
+                                    <div class="fs-10 amenities-info"><span
+                                        class="seats-left"><svg stroke="currentColor"
+                                                                fill="currentColor"
+                                                                stroke-width="0"
+                                                                viewBox="0 0 24 24"
+                                                                height="1em" width="1em"
+                                                                xmlns="http://www.w3.org/2000/svg"><path
+                                        fill="none" d="M0 0h24v24H0V0z"></path><path
+                                        d="M5 12V3H3v9c0 2.76 2.24 5 5 5h6v-2H8c-1.66 0-3-1.34-3-3zm15.5 6H19v-7c0-1.1-.9-2-2-2h-5V3H6v8c0 1.65 1.35 3 3 3h7v7h4.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z"></path></svg><span
+                                        class="seats-left_text">3</span></span><span
+                                        class=" fs-10 refundable-info fw-600 green-color">RF</span><span
+                                        class="cabin-baggage"><svg stroke="currentColor"
+                                                                   fill="currentColor"
+                                                                   stroke-width="0"
+                                                                   viewBox="0 0 512 512"
+                                                                   height="1em"
+                                                                   width="1em"
+                                                                   xmlns="http://www.w3.org/2000/svg"><path
+                                        d="M454.65 169.4A31.82 31.82 0 00432 160h-64v-16a112 112 0 00-224 0v16H80a32 32 0 00-32 32v216c0 39 33 72 72 72h272a72.22 72.22 0 0050.48-20.55 69.48 69.48 0 0021.52-50.2V192a31.75 31.75 0 00-9.35-22.6zM176 144a80 80 0 01160 0v16H176z"></path></svg><span
+                                        class="seats-left_text">15KG</span></span></div>
+                                </div>
+                            </label></div>
+                            <div data-watermark="FW76315FW76315 FW76315FW76315 FW76315FW76315"
+                                 class="p-2 d-flex justify-content-center align-items-end one-way-watermarked col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class=" position-relative d-flex flex-column"><span
+                                    class="fs-16 fw-600">AED ${(this.flight.FareBreakup.PublishedFare).toFixed(1)}</span><span
+                                    class="netFare fs-12 fw-500 hidden">AED ${(this.flight.FareBreakup.OfferedFare).toFixed(1)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+        `;
+        } else {
+            fareCard = `<div class="fare-component position-relative">
+                        <div class="spacing-0 row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6"
+                                 style="padding-left: 5px; padding-block: 10px;"><label
+                                class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer"
+                                for="ready${this.index}${index}"
+                                style="color: rgb(30, 30, 30);">
+                                <input
+                                class="cursor-pointer me-1"
+                                id="ready${this.index}${index}"
+                                value="${this.index}"
+                                type="radio"
+                                name = "ready${index}">
+                                <div class="d-flex flex-column"><span
+                                    class="fs-12 text-capitalize dark-grey-color fw-600 text-break">${this.flight.fare}</span>
+                                    <div class="fs-10 amenities-info"><span
+                                        class="seats-left"><svg stroke="currentColor"
+                                                                fill="currentColor"
+                                                                stroke-width="0"
+                                                                viewBox="0 0 24 24"
+                                                                height="1em" width="1em"
+                                                                xmlns="http://www.w3.org/2000/svg"><path
+                                        fill="none" d="M0 0h24v24H0V0z"></path><path
+                                        d="M5 12V3H3v9c0 2.76 2.24 5 5 5h6v-2H8c-1.66 0-3-1.34-3-3zm15.5 6H19v-7c0-1.1-.9-2-2-2h-5V3H6v8c0 1.65 1.35 3 3 3h7v7h4.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z"></path></svg><span
+                                        class="seats-left_text">3</span></span><span
+                                        class=" fs-10 refundable-info fw-600 green-color">RF</span><span
+                                        class="cabin-baggage"><svg stroke="currentColor"
+                                                                   fill="currentColor"
+                                                                   stroke-width="0"
+                                                                   viewBox="0 0 512 512"
+                                                                   height="1em"
+                                                                   width="1em"
+                                                                   xmlns="http://www.w3.org/2000/svg"><path
+                                        d="M454.65 169.4A31.82 31.82 0 00432 160h-64v-16a112 112 0 00-224 0v16H80a32 32 0 00-32 32v216c0 39 33 72 72 72h272a72.22 72.22 0 0050.48-20.55 69.48 69.48 0 0021.52-50.2V192a31.75 31.75 0 00-9.35-22.6zM176 144a80 80 0 01160 0v16H176z"></path></svg><span
+                                        class="seats-left_text">15KG</span></span></div>
+                                </div>
+                            </label></div>
+                            <div data-watermark="FW76315FW76315 FW76315FW76315 FW76315FW76315"
+                                 class="p-2 d-flex justify-content-center align-items-end one-way-watermarked col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class=" position-relative d-flex flex-column"><span
+                                    class="fs-16 fw-600">AED ${(this.flight.FareBreakup.PublishedFare).toFixed(1)}</span><span
+                                    class="netFare fs-12 fw-500 hidden">AED ${(this.flight.FareBreakup.OfferedFare).toFixed(1)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+        `;
+        }
+
+
+        return fareCard;
+    }
+}
+
+class SegmentInformationFixed {
+    constructor(flight, index, fare) {
+        this.flight = flight;
+        this.index = index;
+        this.fare = fare;
+    }
+
+    render() {
+        let segment = this.flight;
+        //  console.log(segment)
+        let segmentCard = '';
+
+        segmentCard += `
+        <div class="selected-flight-details__flight-leg my-2">`;
+        if (segment.LayoverTime !== 0) {
+            segmentCard += `
+                <div class="selected-flight-details__flight-leg_layover py-1 my-2">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                    <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path>
+                                </svg>
+                                <span class="selected-flight-details__flight-leg_layover__location ms-1">${segment.LayoverTime.hours}h ${segment.LayoverTime.minutes}m layover in ${segment.DepartureCityName}</span>
+                            </div>
+                `
+        }
+        segmentCard += `<div>
+                                <div class="selected-flight-details__flight-leg_details d-flex gap-3">
+                                    <div><img class="vertical-bottom" alt="Flight"
+                                              src="https://content.airhex.com/content/logos/airlines_${segment.AirlineCode}_350_350_s.png"></div>
+                                    <div class="d-flex flex-column text-uppercase fs-12 justify-content-center">
+                                        <div class="d-flex gap-2"><span class="primary-color">${segment.AirlineName}</span><span>${segment.AirlineCode}-${segment.FlightNumber}</span><span>BOOKING CLASS: ${segment.flightClass}</span>
+                                        </div>
+                                        <div>${this.fare}</div>
+<!--                                        <div class="d-flex gap-2"><span>economy</span><span>32N</span></div>-->
+                                    </div>
+                                </div>
+                                <div class="selected-flight-details__flight-leg_departure my-3">
+                                    <div class="d-flex align-items-center"><img
+                                            src="/flightWorthCSS/images/flight-details-line.svg" alt="" style="height: 50px;">
+                                    </div>
+                                    <div class="d-flex flex-column"><span class="dark-grey-color fs-14 fw-600">${segment.DepTime} (${segment.DepDate}) - ${segment.DepartureCityName} - Terminal ${segment.DepartureTerminal} </span><span
+                                            class="fs-10 mb-2">${segment.DepartureAirportName}</span><span
+                                            class="fs-12 grey-color mb-2">Travel Time: ${segment.Duration.hours}h ${segment.Duration.minutes}m</span><span
+                                            class="dark-grey-color fs-14 fw-600">${segment.ArrTime} (${segment.ArrDate}) - ${segment.ArrivalCityName} - Terminal ${segment.ArrivalTerminal} </span><span
+                                            class="fs-10">${segment.ArrivalAirportName}</span></div>
+                                </div>
+                                <div class="selected-flight-details__flight-leg_amenities"><span>Check In: ${segment?.Baggage[0]?.Weight || '15'} ${segment?.Baggage[0]?.Unit || 'Kg'} </span>
+                                </div>
+                            </div>
+                        
+                        </div>
+        `
+
+        return segmentCard;
+    }
+}
+
+function renderSideBarFixed(index) {
+    // console.log(index)
+    // Get the selected flight's segments
+    // const selectedFlight = (filteredFlights.length > 0) ? filteredFlights[index] : flightData[index];
+    const selectedFlight = flightData[index]
+    // console.log(selectedFlight)
+
+    let selectedValue;
+    // Get all radio buttons with the name "gender"
+    const radios = document.getElementsByName(`ready${index}`);
+
+    // Iterate through the radio buttons
+    for (let i = 0; i < radios.length; i++) {
+        // Check if the current radio button is selected
+        if (radios[i].checked) {
+            // Display the value of the selected radio button
+            selectedValue = radios[i].value;
+            break;  // Exit the loop once a selected button is found
+        }
+    }
+
+    //console.log(selectedValue)
+
+    // Define dynamic content using template literals (backticks)
+    let content = `
+    <div class="fade modal-backdrop show" id="div1"></div>
+    `;
+
+    // Create a wrapper div to hold the content
+    let wrapper = document.createElement("div");
+
+    // Set the innerHTML of the wrapper to the dynamic content
+    wrapper.innerHTML = content;
+
+    // Insert the wrapper before the body content
+    document.body.parentNode.insertBefore(wrapper, document.body);
+
+    let mySideBar = `
+      <div class="modal-dialog slide-from-right-animation modal-fullscreen" id="ans">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="app-sidebar__title modal-title h4">Flight Details</div>
+                <button type="button" class="btn-close" aria-label="Close"  onclick="removeDiv()"></button>
+            </div>
+            <div class="flight-details-sidebar modal-body">
+                <div class="flight-details_tabs">
+                    <div class="flight-details_tabs_container">
+                       <button class="tab-btn" data-target="flight-info">Flight Information</button>
+                            <button class="tab-btn" data-target="fare-breakup">Fare Breakup</button>
+                            <button class="tab-btn" data-target="baggage">Baggage</button>
+                            <button class="tab-btn" data-target="fare-rules">Fare Rules</button>
+                                   </div>
+                </div>
+                <div class="tab-content" id="flight-info">
+                <div class="selected-flight-details__trip-details mt-2 ">
+                    <div class="d-flex gap-2 trip-content align-items-center"><span class="sector-span">${selectedFlight.onwardFlight.Origin.CityName}(${selectedFlight.onwardFlight.Origin.CityCode}) -&gt; ${selectedFlight.onwardFlight.Destination.CityName}(${selectedFlight.onwardFlight.Destination.CityCode})</span><span
+                            class="date-span">One Way  ${convertToDesiredFormat(`${selectedFlight.onwardFlight.Origin.DepDate}`)}</span></div>
+                </div>
+                <div class="p-0 p-lg-3">
+                    <section class="selected-flight-details">`
+
+    selectedFlight.onwardFlight.Segments[selectedValue].flightDetails.forEach((segment, index) => {
+        const segmentCard = new SegmentInformationFixed(segment, index, selectedFlight.onwardFlight.Segments[selectedValue].fare)
+        mySideBar += segmentCard.render()
+    })
+
+
+    mySideBar += `</section>
+                </div>
+ <div class="selected-flight-details__trip-details mt-2 ">
+                    <div class="d-flex gap-2 trip-content align-items-center"><span class="sector-span">${selectedFlight.returnFlight.Origin.CityName}(${selectedFlight.returnFlight.Origin.CityCode}) -&gt; ${selectedFlight.returnFlight.Destination.CityName}(${selectedFlight.returnFlight.Destination.CityCode})</span><span
+                            class="date-span">One Way  ${convertToDesiredFormat(`${selectedFlight.returnFlight.Origin.DepDate}`)}</span></div>
+                </div>
+                <div class="p-0 p-lg-3">
+                    <section class="selected-flight-details">
+`;
+
+    selectedFlight.returnFlight.Segments[selectedValue].flightDetails.forEach((segment, index) => {
+        const segmentCard = new SegmentInformationFixed(segment, index, selectedFlight.returnFlight.Segments[selectedValue].fare)
+        mySideBar += segmentCard.render()
+    })
+
+    mySideBar += `
+</section>
+                </div>
+                </div>
+                <div class="tab-content" id="fare-breakup">
+                 <div class="fare-breakup mt-3">
+    <div class="fare-breakup_header">
+        <div class="fare-breakup_header_title">FARE BREAKUP SUMMARY</div>
+        <div class="fare-breakup_header_value">AMOUNT</div>
+    </div>
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">Base Fare</div>
+        <div style="position: absolute;left: 47%;top;10% ">AED</div>
+        <div class="fare-breakup_value">${(selectedFlight.onwardFlight.Segments[selectedValue].FareBreakup.BaseFare).toFixed(1)}</div>
+    </div>
+   <div class="fare-breakup_content">
+        <div class="fare-breakup_title">YQ Tax</div>
+        <div style="position: absolute;left: 47%;top;15% ">AED</div>
+        <div class="fare-breakup_value">0</div>
+    </div>
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">OT Tax</div>
+        <div style="position: absolute;left: 47%;top;20% ">AED</div>
+        <div class="fare-breakup_value">${(selectedFlight.onwardFlight.Segments[selectedValue].FareBreakup.totalTax).toFixed(1)}</div>
+    </div>
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">K3</div>
+        <div style="position: absolute;left: 47%;top;25% ">AED</div>
+        <div class="fare-breakup_value">0</div>
+    </div>
+<!--    <div class="fare-breakup_content">-->
+<!--        <div class="fare-breakup_title">GST</div>-->
+<!--        <div style="position: absolute;left: 47%;top;30% ">AED</div>-->
+<!--        <div class="fare-breakup_value">0.00</div>-->
+<!--    </div>-->
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">HC</div>
+        <div style="position: absolute;left: 47%;top;35% ">AED</div>
+        <div class="fare-breakup_value">0</div>
+    </div>
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">TDS</div>
+        <div style="position: absolute;left: 47%;top;40% ">AED</div>
+        <div class="fare-breakup_value">0</div>
+    </div>
+    <div class="fare-breakup_content">
+        <div class="fare-breakup_title">Discount</div>
+        <div style="position: absolute;left: 47%;top;45% ">AED</div>
+        <div class="fare-breakup_value">${(selectedFlight.onwardFlight.Segments[selectedValue].FareBreakup.Discount).toFixed(1)}</div>
+    </div>
+    <div class="fare-breakup_footer">
+        <div class="fare-breakup_title">Grand Total</div>
+        <div style="position: absolute;left: 47%;top;50% ">AED</div>
+        <div class="fare-breakup_value">${(selectedFlight.onwardFlight.Segments[selectedValue].FareBreakup.PublishedFare).toFixed(1)}</div>
+    </div>
+    <div class="fare-breakup_footer">
+        <div class="fare-breakup_title">Net Fare</div>
+        <div style="position: absolute;left: 47%;top;55% ">AED</div>
+        <div class="fare-breakup_value">${(selectedFlight.onwardFlight.Segments[selectedValue].FareBreakup.OfferedFare).toFixed(1)}</div>
+    </div>
+</div>
+</div>
+<div class="tab-content" id="baggage">
+                 <div class="baggage-table p-0 p-lg-3 mt-3">
+    <div><img src="/images/others/baggage-vector.svg" alt=""></div>
+    <div class="my-2 d-flex flex-column">
+        <div class="flex-column baggage-table_value_header mb-1">${selectedFlight.onwardFlight.Origin.CityCode}-${selectedFlight.onwardFlight.Destination.CityCode}</div>
+        <div class="baggage-table_value"><span class="fw-500">Check In baggage</span><span class="fw-600">15Kg</span>
+        </div>
+    </div>
+<!--    <div class="my-2 d-flex flex-column">-->
+<!--        <div class="flex-column baggage-table_value_header mb-1">BOM-TRV</div>-->
+<!--        <div class="baggage-table_value"><span class="fw-500">Check In baggage</span><span class="fw-600">ADT-15Kg CHD-15Kg</span>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="my-2 d-flex flex-column">-->
+<!--        <div class="flex-column baggage-table_value_header mb-1">TRV-BLR</div>-->
+<!--        <div class="baggage-table_value"><span class="fw-500">Check In baggage</span><span class="fw-600">ADT-15Kg CHD-15Kg</span>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div style="line-height: 1rem;"><span class="fs-10 grey-color">Baggage Disclaimer:- . Hand Baggage: Airlines permits only one (1pc) bag weighing not more than 7 KGS. In addition to the one piece of Hand Baggage permitted, Few Airlines may permit Customer to carry one additional personal article such as ladies purse or a small bag containing laptop not weighing more than 3 KGS. . Infant Baggage: Passenger Traveling with Infant are allowed to carry 1 Pc of additional Hand Baggage not exceeding 7 KGS. . The baggage information is just for reference, Please check with airline for more specific information.</span>
+    </div>
+</div>
+</div>
+<div class="tab-content" id="fare-rules">
+</div>
+            </div>
+        </div>
+    </div>
+      `;
+
+    document.getElementById("div2").innerHTML = mySideBar
+
+    // Add a class to the body
+    document.body.classList.add("modal-open");
+
+    // Add inline styles to body
+    document.body.style.color = "overflow: hidden";
+    document.body.style.fontSize = "padding-right: 17px";
+
+    initializeTabs();
+
+    // Display the first tab content by default
+    const firstTabContent = document.querySelector('.tab-content');
+    if (firstTabContent) {
+        // Hide all tab content first
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';
+        });
+        firstTabContent.style.display = 'block';
+    }
+
+    // Add the 'selected-tab-btn' class to the first tab button
+    const firstTabBtn = document.querySelector('.tab-btn');
+    if (firstTabBtn) {
+        firstTabBtn.classList.add('selected-tab-btn');
+    }
+}
+
+async function bookFixed(index) {
+    // Display loading animation using SweetAlert2
+    Swal.fire({
+        html: `
+        <div class="loading-container">
+            <img src="/images/new.gif" class="img-fluid" style="height: 400px;width:400px"/>
+        </div>
+        `,
+        allowOutsideClick: false,
+        showConfirmButton: false,
+        background: 'transparent',
+        customClass: {
+            popup: 'custom-toast'
+        }
+    });
+
+    console.log(filteredFlights)
+    // Use filteredFlights if available, otherwise fallback to flightData
+    let myArr = (filteredFlights.length > 0) ? filteredFlights : flightData;
+
+    // Deep copy the selected flight to avoid modifying the original array
+    let selectedFlight = JSON.parse(JSON.stringify(myArr[index]));
+
+    // If using filteredFlights, access the nested flight data
+    if (filteredFlights.length > 0 && selectedFlight.flight) {
+        console.log("")
+        selectedFlight = selectedFlight.flight;
+    }
+
+    //console.log("Selected Flight:", selectedFlight);
+    //console.log("Flight Array (myArr):", myArr);
+    //console.log("Selected Index:", index);
+
+    // Get the selected segment index from radio buttons
+    let selectedValue;
+    const radios = document.getElementsByName(`ready${index}`);
+    for (let i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            selectedValue = radios[i].value;
+            break;
+        }
+    }
+
+    // Validate the selected value and update Segments
+    if (
+        selectedFlight &&
+        selectedFlight.onwardFlight &&
+        Array.isArray(selectedFlight.onwardFlight.Segments) &&
+        selectedFlight.onwardFlight.Segments[selectedValue]
+    ) {
+        selectedFlight.onwardFlight.Segments = [selectedFlight.onwardFlight.Segments[selectedValue]];
+    } else {
+        // console.error("Invalid segment selection or data structure issue");
+        //console.log("Selected Value:", selectedValue);
+        //console.log("Selected Flight Structure:", selectedFlight);
+        Swal.close();
+        alert("Invalid segment selected or data structure issue. Please try again.");
+        return;
+    }
+
+    //console.log("Selected Flight after Segments update:", selectedFlight);
+
+    // Prepare the form data for booking request
+    let fd = new FormData();
+    fd.append("agentEmail", localStorage.getItem("agentEmail"));
+    fd.append(
+        "traceId",
+        (selectedFlight.onwardFlight.Supplier === "RIYA")
+            ? selectedFlight.onwardFlight.TraceId
+            : selectedFlight.onwardFlight.Segments[0]?.ResultIndex
+    );
+    fd.append("returnId", null);
+    fd.append("book", JSON.stringify(selectedFlight));
+    fd.append("returnBook", null);
+    fd.append("markup", 0);
+    fd.append("platformFee", 0);
+    fd.append("platformTax", 0);
+
+    // Close the loading animation
+    Swal.close();
+
+    // Save the selected flight to sessionStorage
+    sessionStorage.setItem("selectedFlight", JSON.stringify(selectedFlight));
+
+    try {
+        const response = await fetch('/flights/returnFixedBook', {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        });
+
+        const contentType = response.headers.get('content-type');
+
+        if (contentType && contentType.includes('application/json')) {
+            const data = await response.json();
+            console.log(data)
+            if (data.responseCode === 1) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Unauthorized',
+                    text: data.message,
+                });
+            }
+        } else {
+            // If it's not JSON, assume it's an HTML response
+            window.location.href = '/flights/returnFixedBook-Book';
+        }
+    }
+    catch (error) {
+        console.error('Error:', error);
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!',
+        });
+    }
+}
+
+// class TBOFareBreakupCardFixed {
+//
+//     constructor(fare, index) {
+//         this.fare = fare;
+//         this.index = index;
+//         console.log(fare)
+//     }
+//
+//
+//     render() {
+//
+//
+//         let flight = this.fare.Flights;
+//
+//         let totalFare = 0;
+//
+//         let adultFare = 0;
+//         let adultCount = ``;
+//         let childCount = ``;
+//         let infantCount = ``;
+//         let childFare = 0;
+//         let infantFare = 0;
+//         let adultBaseFare = 0;
+//         let childBasefare = 0;
+//         let infantBaseFare = 0;
+//         let adultTotaltax = 0;
+//         let childTotalTax = 0;
+//         let infantTotalTax = 0;
+//         let adultk3Tax = 0, adultyqTax = 0, adultyrTax = 0, adultTaxesSum = 0;
+//         let childk3Tax = 0, childyqTax = 0, childyrTax = 0, childTaxesSum = 0;
+//         let infantk3Tax = 0, infantyqTax = 0, infantyrTax = 0, infantTaxesSum = 0;
+//
+//         let adultCard = '';
+//         let childCard = '';
+//         let infantCard = '';
+//
+//         let totalPax = parseInt(arr.onwardFlight.adults) + parseInt(arr.onwardFlight.childs);
+//
+//         let markup_by_agent = parseFloat(arr.Segments[0].FareBreakup.MARKUP_ADDED_BY_AGENT);
+//
+//         const fareDifference = parseFloat((parseFloat(flight.Fare.PublishedFare || 0) - parseFloat(flight.Fare.OfferedFare || 0)).toFixed(1));
+//
+//         let markup_type = (fareDifference > 0) ? 'PLB' : 'Non PLB';
+//
+//         let markup_value = arr.Segments[0].FareBreakup.TDO_MARKUP_PLB,
+//             markup_percentage = arr.Segments[0].FareBreakup.TDO_MARKUP_PERCENTAGE;
+//
+//         let totalMarkup = (markup_type === 'PLB') ? ((fareDifference * parseFloat(markup_percentage) / 100)).toFixed(1) : (markup_value + (parseFloat(flight.Fare.PublishedFare) * parseFloat(markup_percentage) / 100)).toFixed(1)
+//
+//         let totalPublishFare = (markup_type === 'PLB') ? parseFloat(flight.Fare.PublishedFare) : (parseFloat(flight.Fare.PublishedFare) + parseFloat(totalMarkup)).toFixed(1)
+//
+//         let totalNetFare = (markup_type === 'PLB') ? parseFloat(flight.Fare.OfferedFare) + parseFloat(totalMarkup) : parseFloat(flight.Fare.OfferedFare) + parseFloat(totalMarkup)
+//
+//         let commission = (fareDifference > 0) ? (fareDifference - totalMarkup).toFixed(1) : 0;
+//
+//         let netPrice = (markup_type === 'PLB') ? ((parseFloat(flight.Fare.PublishedFare) + parseFloat(totalMarkup)) - fareDifference).toFixed(1) : (parseFloat(flight.Fare.PublishedFare) + parseFloat(totalMarkup) - fareDifference).toFixed(1);
+//
+//         let tds = (commission > 0) ? parseFloat((commission * 0.05).toFixed(1)) : 0
+//
+//
+//         let totalOtherTaxes = (markup_type === 'PLB') ? (
+//                 (flight.Fare.OtherCharges +
+//                     flight.Fare.ServiceFee +
+//                     markup_by_agent +
+//                     (flight?.Fare?.TransactionFee || 0)) / totalPax
+//             ).toFixed(1) :
+//             ((flight.Fare.OtherCharges +
+//                     flight.Fare.ServiceFee +
+//                     parseFloat(totalMarkup) +
+//                     markup_by_agent +
+//                     (flight?.Fare?.TransactionFee || 0)) / totalPax
+//             ).toFixed(1);
+//
+//         for (let i = 0; i < flight.FareBreakdown.length; i++) {
+//             if (flight?.FareBreakdown?.[i]?.PassengerType === 1) {
+//
+//                 adultFare = parseFloat(flight.FareBreakdown[i].BaseFare) + parseFloat(flight.FareBreakdown[i].Tax)
+//
+//                 adultBaseFare = parseFloat(flight.FareBreakdown[i].BaseFare);
+//
+//                 adultTotaltax = parseFloat(flight.FareBreakdown[i].Tax)
+//
+//                 flight?.FareBreakdown?.[i]?.TaxBreakUp?.forEach(tax => {
+//                     switch (tax.key) {
+//                         case 'K3':
+//                             adultk3Tax += tax.value;
+//                             break;
+//                         case 'YQTax':
+//                             adultyqTax += tax.value;
+//                             break;
+//                         case 'YR':
+//                             adultyrTax += tax.value;
+//                             break;
+//                         default:
+//                             if (tax.key !== 'TotalTax') {
+//                                 adultTaxesSum += tax.value;
+//                             }
+//                             break;
+//                     }
+//                 });
+//
+//                 if (flight.FareBreakdown[i].Tax !== adultk3Tax + adultyqTax + adultyrTax + adultTaxesSum) {
+//                     adultTaxesSum += Math.abs(flight.FareBreakdown[i].Tax - (adultk3Tax + adultyqTax + adultyrTax + adultTaxesSum));
+//                 }
+//
+//                 adultCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult:</span><span
+//                                                         class="fw-500">${adultBaseFare / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${adultyqTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${((adultTaxesSum / parseFloat(flight.FareBreakdown[i].PassengerCount)) + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${adultk3Tax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${adultyrTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+//                                                         class="fw-600">${adultFare / parseFloat(flight.FareBreakdown[i].PassengerCount) + parseFloat(totalOtherTaxes)}</span></div>
+//                                         </div>`
+//
+//
+//                 adultCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${flight.FareBreakdown[i].PassengerCount} x Adult</span><span
+//                                                         class="fw-600">${adultFare + (totalOtherTaxes * parseInt(arr.adults))}</span></div>`
+//
+//                 totalFare += adultFare;
+//             }
+//             if (flight.FareBreakdown[i].PassengerType === 2) {
+//
+//                 childFare = parseFloat(flight.FareBreakdown[i].BaseFare) + parseFloat(flight.FareBreakdown[i].Tax)
+//
+//                 childBasefare = parseFloat(flight.FareBreakdown[i].BaseFare);
+//
+//                 childTotalTax = parseFloat(flight.FareBreakdown[i].Tax)
+//
+//                 flight?.FareBreakdown?.[i]?.TaxBreakUp?.forEach(tax => {
+//                     switch (tax.key) {
+//                         case 'K3':
+//                             childk3Tax += tax.value;
+//                             break;
+//                         case 'YQTax':
+//                             childyqTax += tax.value;
+//                             break;
+//                         case 'YR':
+//                             childyrTax += tax.value;
+//                             break;
+//                         default:
+//                             if (tax.key !== 'TotalTax') {
+//                                 childTaxesSum += tax.value;
+//                             }
+//                             break;
+//                     }
+//                 });
+//
+//                 if (flight.FareBreakdown[i].Tax !== childk3Tax + childyqTax + childyrTax + childTaxesSum) {
+//                     childTaxesSum += Math.abs(flight.FareBreakdown[i].Tax - (childk3Tax + childyqTax + childyrTax + childTaxesSum));
+//                 }
+//
+//                 childCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Child:</span><span
+//                                                         class="fw-500">${childBasefare / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${childyqTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${((childTaxesSum / parseFloat(flight.FareBreakdown[i].PassengerCount)) + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${childk3Tax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${childyrTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Child Total:</span><span
+//                                                         class="fw-600">${childFare / parseFloat(flight.FareBreakdown[i].PassengerCount) + parseFloat(totalOtherTaxes)}</span></div>
+//                                         </div>`
+//
+//
+//                 childCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${flight.FareBreakdown[i].PassengerCount} x Child</span><span
+//                                                         class="fw-600">${childFare + (totalOtherTaxes * parseInt(arr.childs))}</span></div>`
+//
+//                 totalFare += childFare;
+//             }
+//             if (flight.FareBreakdown[i].PassengerType === 3) {
+//
+//                 infantFare = parseFloat(flight.FareBreakdown[i].BaseFare) + parseFloat(flight.FareBreakdown[i].Tax)
+//
+//                 infantBaseFare = parseFloat(flight.FareBreakdown[i].BaseFare);
+//
+//                 infantTotalTax = parseFloat(flight.FareBreakdown[i].Tax)
+//
+//
+//                 flight?.FareBreakdown?.[i]?.TaxBreakUp?.forEach(tax => {
+//                     switch (tax.key) {
+//                         case 'K3':
+//                             infantk3Tax = tax.value;
+//                             break;
+//                         case 'YQTax':
+//                             infantyqTax = tax.value;
+//                             break;
+//                         case 'YR':
+//                             infantyrTax = tax.value;
+//                             break;
+//                         default:
+//                             if (tax.key !== 'TotalTax') {
+//                                 infantTaxesSum += tax.value;
+//                             }
+//                             break;
+//                     }
+//                 });
+//
+//                 if (flight.FareBreakdown[i].Tax !== infantk3Tax + infantyqTax + infantyrTax + infantTaxesSum) {
+//                     infantTaxesSum += Math.abs(flight.FareBreakdown[i].Tax - (infantk3Tax + infantyqTax + infantyrTax + infantTaxesSum));
+//                 }
+//
+//                 infantCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Infant:</span><span
+//                                                         class="fw-500">${infantBaseFare / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${infantyqTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${infantTaxesSum / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${infantk3Tax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${infantyrTax / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+//                                                         class="fw-600">${infantFare / parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>
+//                                         </div>`
+//
+//
+//                 infantCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${flight.FareBreakdown[i].PassengerCount} x Infant</span><span
+//                                                         class="fw-600">${infantFare * parseFloat(flight.FareBreakdown[i].PassengerCount)}</span></div>`
+//
+//                 totalFare += infantFare;
+//             }
+//         }
+//
+//
+//         let calculatedTax = (platformFee * (platformTax / 100)).toFixed(1);
+//
+//         totalAmount = totalFare + (totalOtherTaxes * totalPax) + platformFee + parseFloat(calculatedTax);
+//
+//         let amountPayable = (parseFloat(netPrice) + tds + parseFloat(platformFee) + parseFloat(calculatedTax)).toFixed(1);
+//
+//         return `
+//        <section class="flight-fare-summary-section">
+//                                 <div class="fare-summary_container flex-1">
+//                                     <div class="fare-summary_title d-flex justify-content-between align-items-center">
+//                                         <span>FARE SUMMARY</span>
+//                                         <button type="button" class="app-btn-transparent p-0 dark-grey-color fs-16" onclick="showPayment()"
+//                                                 style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;">
+//                                             <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+//                                                  viewBox="0 0 512 512" height="1em" width="1em"
+//                                                  xmlns="http://www.w3.org/2000/svg">
+//                                                 <path d="M256 105c-101.8 0-188.4 62.4-224 151 35.6 88.6 122.2 151 224 151s188.4-62.4 224-151c-35.6-88.6-122.2-151-224-151zm0 251.7c-56 0-101.8-45.3-101.8-100.7S200 155.3 256 155.3 357.8 200.6 357.8 256 312 356.7 256 356.7zm0-161.1c-33.6 0-61.1 27.2-61.1 60.4s27.5 60.4 61.1 60.4 61.1-27.2 61.1-60.4-27.5-60.4-61.1-60.4z"></path>
+//                                             </svg>
+//                                         </button>
+//                                     </div>
+//                                     <div class="fare-summary_table watermarked"
+//                                          data-watermark="FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 ">
+//                                         ${adultCard}
+//                                         ${childCard}
+//                                         ${infantCard}
+//
+//                                         <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="text-center fw-600 fs-14 ">Total Fare</div>
+//                                             ${adultCount}
+//                                             ${childCount}
+//                                             ${infantCount}
+//                                             <div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">Platform Fee</span><span class="fw-600">AED ${platformFee}</span></div>
+//                                             <div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">Platform Tax</span><span class="fw-600">AED ${calculatedTax}</span></div>
+//                                         </div>
+//                                         <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2 paymentBreak hidden">
+//                                         <div class="d-flex justify-content-between fw-600 mb-2">
+//                                             <span>Payment Breakdown</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Gross Fare By Vendor:</span><span class="fw-500">${totalPublishFare}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Magin Given to TDO by Vendor:</span><span class="fw-500">${fareDifference}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Net Price For TDO:</span><span class="fw-500">${netPrice}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>TDO Markup(Already Added in Net):</span><span class="fw-500">${totalMarkup}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Travel Agent Markup:</span><span class="fw-500">${markup_by_agent}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Commission:</span><span class="fw-500">${commission}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>TDS On Commission:</span><span class="fw-500">${tds}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Platform Fee:</span><span class="fw-500">${platformFee}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Platform Tax:</span><span class="fw-500">${calculatedTax}</span></div>
+//                                      <div class="d-flex justify-content-between">
+//     <span>Net Payable by Travel Agent :</span>
+//     <span class="fw-500">AED ${amountPayable}</span>
+// </div>
+//   <div class="d-flex justify-content-between"><span>Net Earned By TDO:</span><span class="fw-500">${(parseFloat(totalMarkup) + parseFloat(platformFee)).toFixed(1)}</span></div>
+//   <div class="d-flex justify-content-between"><span>Net Earned By Agent:</span><span class="fw-500">${((parseFloat(totalPublishFare) + parseFloat(platformFee) + parseFloat(calculatedTax) - parseFloat(amountPayable)) + parseFloat(markup_by_agent)).toFixed(1)}</span></div>
+//                                      </div>
+//                                     </div>
+//
+//                                     <div class="fare-summary_footer watermarked">
+//                                         <div class="row spacing-0"><span class="col fare-summary_footer_title">Net Payable</span><span
+//                                                     class="col fare-summary_footer_value d-flex flex-column"><span id="totalAmountSpan">${(parseFloat(totalAmount)).toFixed(1)}</span></span>
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                                 <div class="my-3 d-none d-sm-block">
+//                                     <div class="booking-counter-background">
+//                                         <div class="countdown-timer">
+//                                             <div class="text-center">
+//                                                 <div class="countdown-timer__timer">
+//                                                     <div id="timer"><span class="me-1">00</span><span>:</span><span
+//                                                                 class="ms-1">00</span></div>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             </section>
+//        `
+//
+//
+//     }
+//
+// }
+
+// class TBOFareBreakupCardFixed {
+//
+//     constructor(fare,index)
+//     {
+//         this.fare = fare;
+//         this.index = index;
+//     }
+//
+//
+//
+//     render()
+//     {
+//
+//
+//
+//         let flight = this.fare.Flights;
+//
+//         let totalFare = 0;
+//
+//         let adultFare = 0;
+//         let childFare = 0;
+//         let infantFare = 0;
+//         let adultBaseFare = 0;
+//         let childBasefare = 0;
+//         let infantBaseFare = 0;
+//         let adultTotaltax = 0;
+//         let childTotalTax = 0;
+//         let infantTotalTax = 0;
+//         let adultk3Tax = 0, adultyqTax = 0, adultyrTax = 0, adultTaxesSum = 0;
+//         let childk3Tax = 0, childyqTax = 0, childyrTax = 0, childTaxesSum = 0;
+//         let infantk3Tax = 0, infantyqTax = 0, infantyrTax = 0, infantTaxesSum = 0;
+//
+//         let adultCard = '';
+//         let childCard = '';
+//         let infantCard = '';
+//
+//         let adultCount = ``;
+//         let childCount = ``;
+//         let infantCount = ``;
+//
+//         for (let i = 0; i < flight.length; i++){
+//
+//             for (let y = 0; y < flight[i].FlightPricingInfo.PaxFareDetails.length; y++) {
+//
+//                 let paxFare = flight[i].FlightPricingInfo.PaxFareDetails[y]
+//
+//                 if (paxFare.PaxType === 'ADT') {
+//
+//                     adultFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax)
+//
+//                     adultBaseFare = parseFloat(paxFare.BasicFare);
+//
+//                     adultTotaltax = parseFloat(paxFare.TotalTax)
+//
+//                     paxFare.PaxTaxDetails.forEach(tax => {
+//                         if (tax.TaxCode === 'K3') {
+//                             adultk3Tax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YQ') {
+//                             adultyqTax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YR') {
+//                             adultyrTax = tax.TaxAmount;
+//                         } else if (tax.TaxAmount !== 'TotalTax') {
+//                             // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+//                             adultTaxesSum += tax.TaxAmount;
+//                         }
+//                     });
+//
+//                     adultCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult:</span><span
+//                                                         class="fw-500">${adultBaseFare}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${adultyqTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${adultTaxesSum}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${adultk3Tax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${adultyrTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+//                                                         class="fw-600">${adultFare}</span></div>
+//                                         </div>`
+//
+//
+//                     adultCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${parseInt(arr.onwardFlight.adults)} x Adult</span><span
+//                                                         class="fw-600">${adultFare * parseInt(arr.onwardFlight.adults)}</span></div>`
+//                 }
+//
+//                 if (paxFare.PaxType === 'CHD') {
+//
+//                     childFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax)
+//
+//                     childBasefare = parseFloat(paxFare.BasicFare);
+//
+//                     childTotalTax = parseFloat(paxFare.TotalTax)
+//
+//                     paxFare.PaxTaxDetails.forEach(tax => {
+//                         if (tax.TaxCode === 'K3') {
+//                             childk3Tax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YQ') {
+//                             childyqTax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YR') {
+//                             childyrTax = tax.TaxAmount;
+//                         } else if (tax.TaxAmount !== 'TotalTax') {
+//                             // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+//                             childTaxesSum += tax.TaxAmount;
+//                         }
+//                     });
+//                     childCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Child:</span><span
+//                                                         class="fw-500">${childBasefare}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${childyqTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${childTaxesSum}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${childk3Tax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${childyrTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Child Total:</span><span
+//                                                         class="fw-600">${childFare}</span></div>
+//                                         </div>`
+//
+//
+//                     childCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${parseInt(arr.onwardFlight.childs)} x Child</span><span
+//                                                         class="fw-600">${childFare * parseInt(arr.onwardFlight.childs)}</span></div>`
+//                 }
+//                 if (paxFare.PaxType === 'INF') {
+//
+//                     infantFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax)
+//
+//                     infantBaseFare = parseFloat(paxFare.BasicFare);
+//
+//                     infantTotalTax = parseFloat(paxFare.TotalTax)
+//
+//                     paxFare.PaxTaxDetails.forEach(tax => {
+//                         if (tax.TaxCode === 'K3') {
+//                             infantk3Tax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YQ') {
+//                             infantyqTax = tax.TaxAmount;
+//                         } else if (tax.TaxCode === 'YR') {
+//                             infantyrTax = tax.TaxAmount;
+//                         } else if (tax.TaxAmount !== 'TotalTax') {
+//                             // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+//                             infantTaxesSum += tax.TaxAmount;
+//                         }
+//                     });
+//                     infantCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="d-flex justify-content-between fw-600 mb-2">
+//                                                 <span>Fare/Pax Type</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Infant:</span><span
+//                                                         class="fw-500">${infantBaseFare}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+//                                                         class="fw-500">${infantyqTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+//                                                         class="fw-500">${infantTaxesSum}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+//                                                         class="fw-500">${infantk3Tax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Fuel Charge:</span><span
+//                                                         class="fw-500">${infantyrTax}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+//                                                         class="fw-600">${infantFare}</span></div>
+//                                         </div>`
+//
+//
+//                     infantCount = `<div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">${parseInt(arr.onwardFlight.infants)} x Infant</span><span
+//                                                         class="fw-600">${parseFloat(infantFare) * parseInt(arr.onwardFlight.infants)}</span></div>`
+//                 }
+//             }
+//
+//         }
+//
+//
+//         // old
+//         let totalPax = parseInt(arr.onwardFlight.adults) + parseInt(arr.onwardFlight.childs) + parseInt(arr.onwardFlight.infants);
+//
+//         let markup_by_agent  = 0;
+//
+//         const fareDifference = 0;
+//         let markup_type = '';
+//
+//         let markup_value = 0;
+//
+//         let totalMarkup = 0;
+//
+//         let totalPublishFare = 0;
+//
+//         let totalNetFare = 0
+//
+//         let commission = 0
+//
+//         let netPrice = 0
+//
+//         let tds  = 0
+//
+//
+//         let totalOtherTaxes = 0
+//
+//
+//         let calculatedTax = 0;
+//
+//         totalAmount = (adultFare * parseInt(arr.onwardFlight.adults)) + (childFare * parseInt(arr.onwardFlight.childs)) + (infantFare * parseInt(arr.onwardFlight.infants)) + parseFloat(calculatedTax);
+//
+//         let amountPayable = (parseFloat(netPrice) + tds + parseFloat(calculatedTax)).toFixed(1);
+//
+//         return `
+//        <section class="flight-fare-summary-section">
+//                                 <div class="fare-summary_container flex-1">
+//                                     <div class="fare-summary_title d-flex justify-content-between align-items-center">
+//                                         <span>FARE SUMMARY</span>
+//                                         <button type="button" class="app-btn-transparent p-0 dark-grey-color fs-16" onclick="showPayment()"
+//                                                 style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;">
+//                                             <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+//                                                  viewBox="0 0 512 512" height="1em" width="1em"
+//                                                  xmlns="http://www.w3.org/2000/svg">
+//                                                 <path d="M256 105c-101.8 0-188.4 62.4-224 151 35.6 88.6 122.2 151 224 151s188.4-62.4 224-151c-35.6-88.6-122.2-151-224-151zm0 251.7c-56 0-101.8-45.3-101.8-100.7S200 155.3 256 155.3 357.8 200.6 357.8 256 312 356.7 256 356.7zm0-161.1c-33.6 0-61.1 27.2-61.1 60.4s27.5 60.4 61.1 60.4 61.1-27.2 61.1-60.4-27.5-60.4-61.1-60.4z"></path>
+//                                             </svg>
+//                                         </button>
+//                                     </div>
+//                                     <div class="fare-summary_table watermarked"
+//                                          data-watermark="FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 ">
+//                                         ${adultCard}
+//                                         ${childCard}
+//                                         ${infantCard}
+//
+//                                         <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+//                                             <div class="text-center fw-600 fs-14 ">Total Fare</div>
+//                                             ${adultCount}
+//                                             ${childCount}
+//                                             ${infantCount}
+//                                             <div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">Platform Fee</span><span class="fw-600">₹0</span></div>
+//                                             <div class="d-flex justify-content-between"><span
+//                                                         class="fw-500">Platform Tax</span><span class="fw-600">₹${calculatedTax}</span></div>
+//                                         </div>
+//                                         <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2 paymentBreak hidden">
+//                                         <div class="d-flex justify-content-between fw-600 mb-2">
+//                                             <span>Payment Breakdown</span><span>Amount</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Gross Fare By Vendor:</span><span class="fw-500">${totalPublishFare}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Magin Given to TDO by Vendor:</span><span class="fw-500">${fareDifference}</span></div>
+//                                             <div class="d-flex justify-content-between"><span>Net Price For TDO:</span><span class="fw-500">${netPrice}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>TDO Markup(Already Added in Net):</span><span class="fw-500">${totalMarkup}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Travel Agent Markup:</span><span class="fw-500">${markup_by_agent}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Commission:</span><span class="fw-500">${commission}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>TDS On Commission:</span><span class="fw-500">${tds}</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Platform Fee:</span><span class="fw-500">0</span></div>
+//                                         <div class="d-flex justify-content-between"><span>Platform Tax:</span><span class="fw-500">${calculatedTax}</span></div>
+//                                      <div class="d-flex justify-content-between">
+//     <span>Net Payable by Travel Agent :</span>
+//     <span class="fw-500">₹${amountPayable}</span>
+// </div>
+//   <div class="d-flex justify-content-between"><span>Net Earned By TDO:</span><span class="fw-500">${(parseFloat(totalMarkup)).toFixed(1)}</span></div>
+//   <div class="d-flex justify-content-between"><span>Net Earned By Agent:</span><span class="fw-500">${((parseFloat(totalPublishFare) - parseFloat(amountPayable)) + parseFloat(markup_by_agent)).toFixed(1)}</span></div>
+//                                      </div>
+//                                     </div>
+//
+//                                     <div class="fare-summary_footer watermarked">
+//                                         <div class="row spacing-0"><span class="col fare-summary_footer_title">Net Payable</span><span
+//                                                     class="col fare-summary_footer_value d-flex flex-column"><span id="totalAmountSpan">${(parseFloat(totalAmount)).toFixed(1)}</span></span>
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                                 <div class="my-3 d-none d-sm-block">
+//                                     <div class="booking-counter-background">
+//                                         <div class="countdown-timer">
+//                                             <div class="text-center">
+//                                                 <div class="countdown-timer__timer">
+//                                                     <div id="timer"><span class="me-1">00</span><span>:</span><span
+//                                                                 class="ms-1">00</span></div>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             </section>
+//        `
+//
+//
+//     }
+//
+// }
+
+
+class TBOFareBreakupCardFixed {
+    constructor(fare, index,AgentMark,TdoMark) {
+        // console.log(fare);
+        this.fare = fare;
+        this.index = index;
+        this.Agent = AgentMark;
+        this.TDO = TdoMark;
+        this.adults = arr.onwardFlight.adults || 0; // Default to 0 if undefined
+        this.childs = arr.onwardFlight.childs || 0;
+        this.infants = arr.onwardFlight.infants || 0;
+        console.log(this.TDO,this.Agent)
+        console.log(this.adults,this.childs,this.infants)
+    }
+
+
+    calculateTaxes(paxFare) {
+        let taxes = {k3Tax: 0, yqTax: 0, yrTax: 0, otherTaxesSum: 0};
+
+        paxFare.PaxTaxDetails.forEach(tax => {
+            switch (tax.TaxCode) {
+                case 'K3':
+                    taxes.k3Tax = parseFloat(tax.TaxAmount) || 0;
+                    break;
+                case 'YQ':
+                    taxes.yqTax = parseFloat(tax.TaxAmount) || 0;
+                    break;
+                case 'YR':
+                    taxes.yrTax = parseFloat(tax.TaxAmount) || 0;
+                    break;
+                default:
+                    taxes.otherTaxesSum += parseFloat(tax.TaxAmount) || 0;
+                    break;
+            }
+        });
+
+        return taxes;
+    }
+
+    createFareCard(paxType, totalBaseFare, totalFare, totalTax, taxes,markPerPax) {
+        console.log(markPerPax)
+        // Removing decimals by rounding values
+        totalBaseFare = Math.ceil(totalBaseFare);
+        totalFare = Math.ceil(totalFare) + Math.ceil(markPerPax);
+        totalTax = Math.ceil(totalTax) + Math.ceil(markPerPax);
+        taxes.yqTax = Math.ceil(taxes.yqTax);
+        taxes.otherTaxesSum = Math.ceil(taxes.otherTaxesSum);
+        taxes.k3Tax = Math.ceil(taxes.k3Tax);
+        taxes.yrTax = Math.ceil(taxes.yrTax);
+
+        return `
+        <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+            <div class="d-flex justify-content-between fw-600 mb-2">
+                <span>Fare/Pax Type</span><span>Amount</span>
+            </div>
+            <div class="d-flex justify-content-between"><span>${paxType}:</span><span class="fw-500">${totalBaseFare}</span></div>
+            <div class="d-flex justify-content-between"><span>YQ Tax:</span><span class="fw-500">${taxes.yqTax}</span></div>
+            <div class="d-flex justify-content-between"><span>Other Taxes:</span><span class="fw-500">${totalTax}</span></div>
+            <div class="d-flex justify-content-between"><span>K3:</span><span class="fw-500">${taxes.k3Tax}</span></div>
+            <div class="d-flex justify-content-between"><span>Total ${paxType}:</span><span class="fw-500">${totalFare}</span></div>
+            <hr>
+            <!-- Centered Total Fare and Net Payable -->
+            
+        </div>`;
+    }
+
+    createPassengerCountHtml(paxType, paxCount, paxFare, totalOtherTaxes,markPerPax) {
+        // Calculate total amount per passenger type and round it off
+        let totalAmount = Math.ceil(paxFare * paxCount) + (Math.ceil(markPerPax )* paxCount);
+        return `
+<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+<div class="d-flex justify-content-between">
+            <span>${paxCount} x ${paxType}</span>
+            <span class="fw-500 text-end">${totalAmount}</span>
+        </div>
+</div>`;
+    }
+
+    render() {
+        let myflights = this.fare || [];
+        let totalFares = {Adult: 0, Child: 0, Infant: 0};
+        let totalBaseFares = {Adult: 0, Child: 0, Infant: 0};
+        let totalTaxes = {Adult: 0, Child: 0, Infant: 0};
+        let totalCards = {Adult: '', Child: '', Infant: ''};
+        let paxCounts = {Adult: this.adults, Child: this.childs, Infant: this.infants};
+        let count = parseInt(this.adults) + parseInt(this.childs) + parseInt(this.infants);
+        console.log("count",count)
+        let markPerPax = ((this.TDO + this.Agent)/count).toFixed(1)
+        let trip  = {};
+
+        console.log("Markup",markPerPax)
+        let mytrip = [];
+
+        myflights.forEach(f => {
+            f.Flights.forEach(flight => {
+                let adultFare = 0;
+                let childFare = 0;
+                let infantFare = 0;
+                let adultBaseFare = 0;
+                let childBasefare = 0;
+                let infantBaseFare = 0;
+                let adultTotaltax = 0;
+                let childTotalTax = 0;
+                let infantTotalTax = 0;
+                let adultk3Tax = 0, adultyqTax = 0, adultyrTax = 0, adultTaxesSum = 0;
+                let childk3Tax = 0, childyqTax = 0, childyrTax = 0, childTaxesSum = 0;
+                let infantk3Tax = 0, infantyqTax = 0, infantyrTax = 0, infantTaxesSum = 0;
+
+                let adultPublishFare = 0;
+                let childPublishFare = 0;
+                let infantPublishfare = 0;
+
+
+                segArray = [];
+
+
+                let segment = flight.Segments;
+
+                (flight.FlightPricingInfo.PaxFareDetails || []).forEach(paxFare => {
+                    let baseFare = Math.ceil(parseFloat(paxFare.BasicFare) || 0);
+                    let totalTax = Math.ceil(parseFloat(paxFare.TotalTax) || 0);
+                    let totalFare = baseFare + totalTax;
+                    let taxes = this.calculateTaxes(paxFare);
+
+                    switch (paxFare.PaxType) {
+
+                        case 'ADT':
+                            totalFares.Adult += totalFare;
+                            totalBaseFares.Adult += baseFare;
+                            totalTaxes.Adult += totalTax;
+                            totalCards.Adult = this.createFareCard('Adult', totalBaseFares.Adult, totalFares.Adult, totalTaxes.Adult, taxes,markPerPax);
+
+                            adultFare = parseFloat(paxFare.BasicFare).toFixed(1) + parseFloat(paxFare.TotalTax).toFixed(1)
+
+                            adultBaseFare = parseFloat(paxFare.BasicFare).toFixed(1);
+
+                            adultPublishFare = parseFloat(paxFare.GrossFare).toFixed(1);
+
+                            adultTotaltax = parseFloat(paxFare.TotalTax).toFixed(1)
+
+                            paxFare.PaxTaxDetails.forEach(tax => {
+                                if (tax.TaxCode === 'K3') {
+                                    adultk3Tax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YQ') {
+                                    adultyqTax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YR') {
+                                    adultyrTax = tax.TaxAmount;
+                                } else if (tax.TaxAmount !== 'TotalTax') {
+                                    // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+                                    adultTaxesSum += tax.TaxAmount;
+                                }
+                            });
+
+                            break;
+                        case 'CHD':
+                            totalFares.Child += totalFare;
+                            totalBaseFares.Child += baseFare;
+                            totalTaxes.Child += totalTax;
+                            totalCards.Child = this.createFareCard('Child', totalBaseFares.Child, totalFares.Child, totalTaxes.Child, taxes,markPerPax);
+
+                            childFare = parseFloat(paxFare.BasicFare).toFixed(1) + parseFloat(paxFare.TotalTax).toFixed(1)
+
+                            childBasefare = parseFloat(paxFare.BasicFare).toFixed(1);
+
+                            childTotalTax = parseFloat(paxFare.TotalTax).toFixed(1)
+
+                            childPublishFare = parseFloat(paxFare.GrossFare).toFixed(1);
+
+                            paxFare.PaxTaxDetails.forEach(tax => {
+                                if (tax.TaxCode === 'K3') {
+                                    childk3Tax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YQ') {
+                                    childyqTax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YR') {
+                                    childyrTax = tax.TaxAmount;
+                                } else if (tax.TaxAmount !== 'TotalTax') {
+                                    // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+                                    childTaxesSum += tax.TaxAmount;
+                                }
+                            });
+
+                            break;
+                        case 'INF':
+                            totalFares.Infant += totalFare;
+                            totalBaseFares.Infant += baseFare;
+                            totalTaxes.Infant += totalTax;
+                            totalCards.Infant = this.createFareCard('Infant', totalBaseFares.Infant, totalFares.Infant, totalTaxes.Infant, taxes,markPerPax);
+                            infantFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax)
+
+                            infantBaseFare = parseFloat(paxFare.BasicFare).toFixed(1);
+
+                            infantTotalTax = parseFloat(paxFare.TotalTax).toFixed(1)
+
+                            infantPublishfare = parseFloat(paxFare.GrossFare).toFixed(1);
+
+                            paxFare.PaxTaxDetails.forEach(tax => {
+                                if (tax.TaxCode === 'K3') {
+                                    infantk3Tax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YQ') {
+                                    infantyqTax = tax.TaxAmount;
+                                } else if (tax.TaxCode === 'YR') {
+                                    infantyrTax = tax.TaxAmount;
+                                } else if (tax.TaxAmount !== 'TotalTax') {
+                                    // Sum other taxes excluding K3, YQTax, YR, and TotalTax
+                                    infantTaxesSum += tax.TaxAmount;
+                                }
+                            });
+                            break;
+                    }
+
+
+                    paxFaree = {
+                        "Adult" : {
+                            "commission_per_pax" : 0,
+                            "markup_per_pax" : 0,
+                            "markup_by_agent_per_pax" : 0,
+                            "tds_per_pax" : 0,
+                            "base_fare"  : adultBaseFare,
+                            "total_tax" : adultTotaltax,
+                            "yq_tax" : adultyqTax,
+                            "yr_tax" : adultyrTax,
+                            "k3_tax" : adultk3Tax,
+                            "additional_tax" : adultTaxesSum,
+                            "published_fare" : adultPublishFare,
+                            "service_fee" : 0,
+                            "other_charges" :  0,
+                            "transaction_fee" : 0
+                        },
+                        "Child" : {
+                            "commission_per_pax" : 0,
+                            "markup_per_pax" : 0,
+                            "markup_by_agent_per_pax" : 0,
+                            "tds_per_pax" : 0,
+                            "base_fare"  : childBasefare,
+                            "total_tax" : childTotalTax,
+                            "yq_tax" : childyqTax,
+                            "yr_tax" : childyrTax,
+                            "k3_tax" : childk3Tax,
+                            "additional_tax" : childTaxesSum,
+                            "published_fare" : childPublishFare,
+                            "service_fee" : 0,
+                            "other_charges" :  0,
+                            "transaction_fee" : 0
+                        },
+                        "Infant" : {
+                            "commission_per_pax" : 0,
+                            "markup_per_pax" : 0,
+                            "markup_by_agent_per_pax" : 0,
+                            "tds_per_pax" : 0,
+                            "base_fare"  : infantBaseFare,
+                            "total_tax" : infantTotalTax,
+                            "yq_tax" : infantyqTax,
+                            "yr_tax" : infantyrTax,
+                            "k3_tax" : infantk3Tax,
+                            "additional_tax" : infantTaxesSum,
+                            "published_fare" : infantPublishfare,
+                            "service_fee" : 0,
+                            "other_charges" :  0,
+                            "transaction_fee" : 0
+                        }
+                    }
+
+                    for(let seg1 = 0; seg1<segment.length; seg1++)
+                    {
+                        let currentFlight = segment[seg1];
+                        let nextFlight = segment[seg1+1];
+
+                        let layover_time =''
+
+
+
+                        let totalMinutes = 0;
+
+                        // Parse current flight's TotalTime to minutes
+                        const [currentHours, currentMinutes] = currentFlight.OriginDestination.TotalTime.split(':').map(Number);
+                        totalMinutes = currentHours * 60 + currentMinutes;
+
+
+                        const totalHours = Math.floor(totalMinutes / 60);
+                        const remainingMinutes = totalMinutes % 60;
+
+
+
+                        let arrivalTime = currentFlight?.OriginDestination?.ArrivalDateTime;
+                        let nextDepartureTime = nextFlight?.OriginDestination?.DepartureDateTime;
+
+                        if (!arrivalTime || !nextDepartureTime) {
+                            console.log(`Skipping layover calculation: Missing time information for flight`);
+                            layover_time = 'NO_LAYOVER'
+                        }
+                        else {
+                            // Get the arrival time of the current flight
+                            let arrivalMinutes = convertToMinutes(arrivalTime);
+
+                            // Get the departure time of the next flight
+                            let nextDepartureMinutes = convertToMinutes(nextDepartureTime);
+
+                            // Calculate layover in minutes
+                            let layoverMinutes = nextDepartureMinutes - arrivalMinutes;
+
+                            // Handle layover crossing midnight
+                            if (layoverMinutes < 0) {
+                                layoverMinutes += 24 * 60; // Add 24 hours in minutes
+                            }
+
+                            let hours = Math.floor(layoverMinutes / 60);
+                            let minutes = layoverMinutes % 60;
+
+                            layover_time = `${hours}h ${minutes}m`
+                        }
+
+                        // Convert total duration to hours and minutes
+
+                        let singleSegment = {
+                            origin : `${segment[seg1].OriginDestination.Departure}`,
+                            destination : `${segment[seg1].OriginDestination.Arrival}`,
+                            departure : segment[seg1].OriginDestination.DepartureDateTime,
+                            arrival : segment[seg1].OriginDestination.ArrivalDateTime,
+                            duration  : `${totalHours}:${remainingMinutes}`,
+                            departure_terminal : segment[seg1].DepartureTerminal,
+                            arrival_terminal : segment[seg1].ArrivalTerminal,
+                            departure_airport_name : `${segment[seg1].OriginDestination.Departure}`,
+                            departure_airport_code : `${segment[seg1].OriginDestination.Departure}`,
+                            arrival_airport_code : `${segment[seg1].OriginDestination.Arrival}`,
+                            arrival_airport_name : `${segment[seg1].OriginDestination.Arrival}`,
+                            airline_name :  segment[seg1].Carrier,
+                            airline_code :  segment[seg1].Carrier,
+                            flight_number : segment[seg1].FlightNumber,
+                            layover_time : layover_time
+                        }
+
+                        segArray.push(singleSegment)
+                    }
+
+                     trip = {
+                        stops : segment.length-1,
+                        origin : `${segment[0].OriginDestination.Departure}`,
+                        destination : `${segment[0].OriginDestination.Arrival}`,
+                        departure : segment[0].OriginDestination.DepartureDateTime,
+                        IsLCC : (flight.AirlineType === 'LCC') ? true : false,
+                        arrival : segment[0].OriginDestination.ArrivalDateTime,
+                        duration  : flight.OriginDestination.TotalTime,
+                        result_index : f.SellKey,
+                        departure_terminal : segment[0].DepartureTerminal,
+                        arrival_terminal : segment[0].ArrivalTerminal,
+                        departure_airport_name : `${segment[0].OriginDestination.Departure}`,
+                        departure_airport_code : `${segment[0].OriginDestination.Departure}`,
+                        arrival_airport_code : `${segment[segment.length - 1].OriginDestination.Arrival}`,
+                        arrival_airport_name : `${segment[segment.length - 1].OriginDestination.Arrival}`,
+                        airline_name :  segment[0].Carrier,
+                        airline_code :  segment[0].Carrier,
+                        flight_number : segment[0].FlightNumber,
+                        fare_type : flight.FareName,
+                        base_fare : flight.BasicFare,
+                        total_tax : flight.TotalTax,
+                        published_fare : flight.GrossFare,
+                        offered_fare : flight.NetAmount,
+                        commission : 0,
+                        tds_on_commission : 0,
+                        yq_tax : 0,
+                        yr_tax : 0,
+                        k3_tax : 0,
+                        additional_taxes : 0,
+                        tdo_markup : 0,
+                        agent_markup : 0,
+                        service_fee : 0,
+                        other_charges : 0,
+                        transaction_fee :  0,
+                        segments : segArray,
+                        paxPrice: paxFaree
+                    }
+
+                    mytrip.push(trip);
+                });
+              
+            });
+            
+            trips = [...mytrip];
+
+            console.log(trips)
+        })
+
+
+        totalAmount = Math.ceil(
+            (totalFares.Adult * paxCounts.Adult + (Math.ceil(markPerPax)*paxCounts.Adult)) +
+            (totalFares.Child * paxCounts.Child + (Math.ceil(markPerPax)*paxCounts.Child)) +
+            (totalFares.Infant * paxCounts.Infant + (Math.ceil(markPerPax)*paxCounts.Infant))
+        );
+
+        let adultCount = this.createPassengerCountHtml('Adult', paxCounts.Adult, totalFares.Adult, totalTaxes.Adult , markPerPax);
+        let childCount = this.createPassengerCountHtml('Child', paxCounts.Child, totalFares.Child, totalTaxes.Child , markPerPax);
+        let infantCount = this.createPassengerCountHtml('Infant', paxCounts.Infant, totalFares.Infant, totalTaxes.Infant , markPerPax);
+
+        return `
+        <section class="flight-fare-summary-section">
+            <div style="background: white" class="fare-summary_container flex-1">
+                <div class="fare-summary_title d-flex justify-content-between align-items-center">
+                    <span>FARE SUMMARY</span>
+                    <button type="button" class="app-btn-transparent p-0 dark-grey-color fs-16" onclick="showPayment()">...</button>
+                </div>
+                ${totalCards.Adult} 
+                ${totalCards.Child}
+                ${totalCards.Infant}
+                <div class="d-flex justify-content-center">
+                <span class="fw-600">Total Fare</span>
+            </div>
+                ${adultCount}
+                ${childCount}
+                ${infantCount}
+                <div class="fare-summary_title d-flex justify-content-between align-items-center">
+                    <span>Net Payable</span>
+                    <span>${totalAmount}</span>
+<!--                    <button type="button" class="app-btn-transparent p-0 dark-grey-color fs-16" onclick="showPayment()">...</button>-->
+                </div>
+            </div>
+            
+            <div class="my-3 d-none d-sm-block">
+                <div class="booking-counter-background">
+                    <div class="countdown-timer">
+                        <div class="text-center">
+                            <div class="countdown-timer__timer">
+                                <div id="timer1"><span class="me-1">00</span><span>:</span><span class="ms-1">00</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>`;
+    }
+}
+
+class TRIPJACKFareBreakupCardFixed {
+
+    constructor(fare, adults, childs, infants) {
+        this.fare = fare;
+        this.adults = adults;
+        this.childs = childs;
+        this.infants = infants;
+    }
+
+
+    render() {
+
+        let totalFare = 0;
+
+        let adultFare = 0;
+        let adultCount = ``;
+        let childCount = ``;
+        let infantCount = ``;
+        let childFare = 0;
+        let infantFare = 0;
+        let adultBaseFare = 0;
+        let childBasefare = 0;
+        let infantBaseFare = 0;
+        let adultTotaltax = 0;
+        let childTotalTax = 0;
+        let infantTotalTax = 0;
+        let adultk3Tax = 0, adultyqTax = 0, adultyrTax = 0, adultTaxesSum = 0;
+        let childk3Tax = 0, childyqTax = 0, childyrTax = 0, childTaxesSum = 0;
+        let infantk3Tax = 0, infantyqTax = 0, infantyrTax = 0, infantTaxesSum = 0;
+
+        let adultCard = '';
+        let childCard = '';
+        let infantCard = '';
+
+
+        let totalPax = parseInt(arr.adults) + parseInt(arr.childs);
+
+        let markup_by_agent = parseFloat(arr.Segments[0].FareBreakup.MARKUP_ADDED_BY_AGENT);
+
+        const fareDifference = parseFloat((parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF || 0) - parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.NF || 0)).toFixed(1));
+
+        let markup_type = (fareDifference > 0) ? 'PLB' : 'Non PLB';
+
+        let markup_value = arr.Segments[0].FareBreakup.TDO_MARKUP_PLB,
+            markup_percentage = arr.Segments[0].FareBreakup.TDO_MARKUP_PERCENTAGE;
+
+        let totalMarkup = (markup_type === 'PLB') ? ((fareDifference * parseFloat(markup_percentage) / 100)).toFixed(1) : (markup_value + (parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF) * parseFloat(markup_percentage) / 100)).toFixed(1)
+
+        let totalPublishFare = (markup_type === 'PLB') ? parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF) : (parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF) + parseFloat(totalMarkup)).toFixed(1)
+
+        let totalNetFare = (markup_type === 'PLB') ? parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.NF) + parseFloat(totalMarkup) : parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.NF) + parseFloat(totalMarkup)
+
+        let commission = (fareDifference > 0) ? (fareDifference - totalMarkup).toFixed(1) : 0;
+
+        let netPrice = (markup_type === 'PLB') ? ((parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF) + parseFloat(totalMarkup)) - fareDifference).toFixed(1) : (parseFloat(this.fare.totalPriceInfo.totalFareDetail.fC.TF) + parseFloat(totalMarkup) - fareDifference).toFixed(1);
+
+        let tds = (commission > 0) ? parseFloat((commission * 0.05).toFixed(1)) : 0
+
+
+        let totalOtherTaxes = (
+            (parseFloat(totalMarkup) +
+                markup_by_agent) / totalPax
+        ).toFixed(1);
+        this.fare.tripInfos.forEach((flight, innerIndex) => {
+            if (flight.totalPriceList[0].fd) {
+                if ("ADULT" in flight.totalPriceList[0].fd) {
+                    adultFare += flight?.totalPriceList?.[0]?.fd?.ADULT?.fC?.TF || 0
+                    adultTotaltax += flight?.totalPriceList?.[0]?.fd?.ADULT?.fC?.TAF || 0
+                    adultBaseFare += flight?.totalPriceList?.[0]?.fd?.ADULT?.fC?.BF || 0
+
+                    const afCTaxes = flight?.totalPriceList?.[0]?.fd?.ADULT?.afC?.TAF || [];
+
+                    for (const [taxName, taxValue] of Object.entries(afCTaxes)) {
+                        if (taxName === "YQ") {
+                            adultyqTax += taxValue;
+                        } else if (taxName === "YR") {
+                            adultyrTax += taxValue;
+                        } else if (taxName === "K3") {
+                            adultk3Tax += taxValue;
+                        } else {
+                            adultTaxesSum += taxValue;
+                        }
+                    }
+
+                    adultCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+                                            <div class="d-flex justify-content-between fw-600 mb-2">
+                                                <span>Fare/Pax Type</span><span>Amount</span></div>
+                                            <div class="d-flex justify-content-between"><span>Adult:</span><span
+                                                        class="fw-500">${adultBaseFare}</span></div>
+                                            <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+                                                        class="fw-500">${adultyqTax}</span></div>
+                                            <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+                                                        class="fw-500">${(adultTaxesSum + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+                                            <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+                                                        class="fw-500">${adultk3Tax}</span></div>
+                                         
+                                            <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+                                                        class="fw-600">${(adultFare + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+                                        </div>`
+
+
+                    adultCount = `<div class="d-flex justify-content-between"><span
+                                                        class="fw-500">${this.adults} x Adult</span><span
+                                                        class="fw-600">${((adultFare * parseFloat(this.adults)) + (parseFloat(totalOtherTaxes) * parseFloat(this.adults))).toFixed(1)}</span></div>`
+
+
+                }
+                if ("CHILD" in flight.totalPriceList[0].fd) {
+                    childFare += flight?.totalPriceList?.[0]?.fd?.CHILD?.fC?.TF || 0
+                    childTotalTax += flight?.totalPriceList?.[0]?.fd?.CHILD?.fC?.TAF || 0;
+                    childBasefare += flight?.totalPriceList?.[0]?.fd?.CHILD?.fC?.BF || 0;
+
+                    const afCTaxes = flight?.totalPriceList?.[0]?.fd?.CHILD?.afC?.TAF || [];
+
+                    for (const [taxName, taxValue] of Object.entries(afCTaxes)) {
+                        if (taxName === "YQ") {
+                            childyqTax += taxValue;
+                        } else if (taxName === "YR") {
+                            childyrTax += taxValue;
+                        } else if (taxName === "K3") {
+                            childk3Tax += taxValue;
+                        } else {
+                            childTaxesSum += taxValue;
+                        }
+                    }
+
+                    childCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+                                            <div class="d-flex justify-content-between fw-600 mb-2">
+                                                <span>Fare/Pax Type</span><span>Amount</span></div>
+                                            <div class="d-flex justify-content-between"><span>Child:</span><span
+                                                        class="fw-500">${childBasefare}</span></div>
+                                            <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+                                                        class="fw-500">${childyqTax}</span></div>
+                                            <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+                                                        class="fw-500">${(childTaxesSum + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+                                            <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+                                                        class="fw-500">${childk3Tax}</span></div>
+                                    
+                                            <div class="d-flex justify-content-between"><span>Child Total:</span><span
+                                                        class="fw-600">${(childFare + parseFloat(totalOtherTaxes)).toFixed(1)}</span></div>
+                                        </div>`
+
+
+                    childCount = `<div class="d-flex justify-content-between"><span
+                                                        class="fw-500">${this.childs} x Child</span><span
+                                                        class="fw-600">${((childFare * parseFloat(this.childs)) + (parseFloat(totalOtherTaxes) * parseFloat(this.childs))).toFixed(1)}</span></div>`
+
+                }
+                if ("INFANT" in flight.totalPriceList[0].fd) {
+                    infantFare += flight?.totalPriceList?.[0]?.fd?.INFANT?.fC?.TF || 0
+                    infantTotalTax += flight?.totalPriceList?.[0]?.fd?.INFANT?.fC?.TAF || 0
+                    infantBaseFare += flight?.totalPriceList?.[0]?.fd?.INFANT?.fC?.BF || 0;
+
+                    const afCTaxes = flight?.totalPriceList?.[0]?.fd?.INFANT?.afC?.TAF || [];
+
+                    for (const [taxName, taxValue] of Object.entries(afCTaxes)) {
+                        if (taxName === "YQ") {
+                            infantyqTax += taxValue;
+                        } else if (taxName === "YR") {
+                            infantyrTax += taxValue;
+                        } else if (taxName === "K3") {
+                            infantk3Tax += taxValue;
+                        } else {
+                            infantTaxesSum += taxValue;
+                        }
+                    }
+
+                    infantCard = `<div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+                                            <div class="d-flex justify-content-between fw-600 mb-2">
+                                                <span>Fare/Pax Type</span><span>Amount</span></div>
+                                            <div class="d-flex justify-content-between"><span>Infant:</span><span
+                                                        class="fw-500">${infantBaseFare}</span></div>
+                                            <div class="d-flex justify-content-between"><span>YQ Tax:</span><span
+                                                        class="fw-500">${infantyqTax}</span></div>
+                                            <div class="d-flex justify-content-between"><span>OtherTaxes:</span><span
+                                                        class="fw-500">${infantTaxesSum}</span></div>
+                                            <div class="d-flex justify-content-between"><span>K3/AirlineGST:</span><span
+                                                        class="fw-500">${infantk3Tax}</span></div>
+                                        
+                                            <div class="d-flex justify-content-between"><span>Adult Total:</span><span
+                                                        class="fw-600">${infantFare}</span></div>
+                                        </div>`
+
+
+                    infantCount = `<div class="d-flex justify-content-between"><span
+                                                        class="fw-500">${this.infants} x Infant</span><span
+                                                        class="fw-600">${infantFare * parseFloat(this.infants)}</span></div>`
+
+
+                }
+            }
+        })
+
+        totalAmount = (adultFare * parseFloat(this.adults)) + infantFare * parseFloat(this.infants) + (childFare * parseFloat(this.childs));
+
+        let calculatedTax = (platformFee * (platformTax / 100)).toFixed(1);
+
+        totalAmount = (adultFare * parseFloat(this.adults)) + infantFare * parseFloat(this.infants) + (childFare * parseFloat(this.childs)) + (parseFloat(totalOtherTaxes) * parseInt(totalPax)) + platformFee + parseFloat(calculatedTax);
+
+        let amountPayable = (parseFloat(netPrice) + parseFloat(tds) + parseFloat(platformFee) + parseFloat(calculatedTax)).toFixed(1);
+
+        return `
+       <section class="flight-fare-summary-section">
+                                <div class="fare-summary_container flex-1">
+                                    <div class="fare-summary_title d-flex justify-content-between align-items-center">
+                                        <span>FARE SUMMARY</span>
+                                        <button type="button" class="app-btn-transparent p-0 dark-grey-color fs-16" onclick="showPayment()"
+                                                style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                 viewBox="0 0 512 512" height="1em" width="1em"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256 105c-101.8 0-188.4 62.4-224 151 35.6 88.6 122.2 151 224 151s188.4-62.4 224-151c-35.6-88.6-122.2-151-224-151zm0 251.7c-56 0-101.8-45.3-101.8-100.7S200 155.3 256 155.3 357.8 200.6 357.8 256 312 356.7 256 356.7zm0-161.1c-33.6 0-61.1 27.2-61.1 60.4s27.5 60.4 61.1 60.4 61.1-27.2 61.1-60.4-27.5-60.4-61.1-60.4z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="fare-summary_table watermarked"
+                                         data-watermark="FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 ">
+                                        ${adultCard}
+                                        ${childCard}
+                                        ${infantCard}
+                                        <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2">
+                                            <div class="text-center fw-600 fs-14 ">Total Fare</div>
+                                            ${adultCount}
+                                            ${childCount}
+                                            ${infantCount}
+                                          <div class="d-flex justify-content-between"><span
+                                                        class="fw-500">Platform Fee</span><span class="fw-600">AED ${platformFee}</span></div>
+                                            <div class="d-flex justify-content-between"><span
+                                                        class="fw-500">Platform Tax</span><span class="fw-600">AED ${calculatedTax}</span></div>
+                                        </div>
+                                        <div class="row spacing-0 px-2 py-1 d-flex flex-column gap-2 paymentBreak hidden">
+                                        <div class="d-flex justify-content-between fw-600 mb-2">
+                                            <span>Payment Breakdown</span><span>Amount</span></div>
+                                            <div class="d-flex justify-content-between"><span>Gross Fare By Vendor:</span><span class="fw-500">${totalPublishFare}</span></div>
+                                            <div class="d-flex justify-content-between"><span>Magin Given to TDO by Vendor:</span><span class="fw-500">${fareDifference}</span></div>
+                                            <div class="d-flex justify-content-between"><span>Net Price For TDO:</span><span class="fw-500">${netPrice}</span></div>
+                                        <div class="d-flex justify-content-between"><span>TDO Markup(Already Added in Net):</span><span class="fw-500">${totalMarkup}</span></div>
+                                        <div class="d-flex justify-content-between"><span>Travel Agent Markup:</span><span class="fw-500">${markup_by_agent}</span></div>
+                                        <div class="d-flex justify-content-between"><span>Commission:</span><span class="fw-500">${commission}</span></div>
+                                        <div class="d-flex justify-content-between"><span>TDS On Commission:</span><span class="fw-500">${tds}</span></div>
+                                        <div class="d-flex justify-content-between"><span>Platform Fee:</span><span class="fw-500">${platformFee}</span></div>
+                                        <div class="d-flex justify-content-between"><span>Platform Tax:</span><span class="fw-500">${calculatedTax}</span></div>
+                                     <div class="d-flex justify-content-between">
+    <span>Net Payable by Travel Agent :</span>
+    <span class="fw-500">AED ${amountPayable}</span>
+</div>
+  <div class="d-flex justify-content-between"><span>Net Earned By TDO:</span><span class="fw-500">${(parseFloat(totalMarkup) + parseFloat(platformFee)).toFixed(1)}</span></div>
+  <div class="d-flex justify-content-between"><span>Net Earned By Agent:</span><span class="fw-500">${((parseFloat(totalPublishFare) + parseFloat(platformFee) + parseFloat(calculatedTax) - parseFloat(amountPayable)) + parseFloat(markup_by_agent)).toFixed(1)}</span></div>
+                                     </div>
+                                    </div>
+                                    <div class="fare-summary_footer watermarked"
+                                         data-watermark="FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 FW76315 ">
+                                        <div class="row spacing-0"><span class="col fare-summary_footer_title">Total Fare</span><span
+                                                    class="col fare-summary_footer_value d-flex flex-column"><span id="totalAmountSpan">${totalAmount}</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-3 d-none d-sm-block">
+                                    <div class="booking-counter-background">
+                                        <div class="countdown-timer">
+                                            <div class="text-center">
+                                                <div class="countdown-timer__timer">
+                                                    <div id="timer1"><span class="me-1">00</span><span>:</span><span
+                                                                class="ms-1">00</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+       `
+    }
+
+}
+
+function showNet() {
+    const netFareElements = document.querySelectorAll('.netFare');
+
+    // Toggle the class that controls visibility for each element
+    netFareElements.forEach(element => {
+        element.classList.toggle('hidden');
+    });
+}
+
+function AirlineFIlterFixed() {
+    document.getElementById('airlineFilter').innerHTML = '';
+    // Create a map to store counts for each airline
+    const airlineCounts = new Map();
+
+    // Calculate counts for each airline
+    flightArray.forEach((flight) => {
+        const airlineName = flight.flight.onwardFlight.airlineName;
+
+        airlineCounts.set(airlineName, (airlineCounts.get(airlineName) || 0) + 1);
+    });
+
+
+    // Create and append elements for each airline
+    airlineCounts.forEach((count, airlineName) => {
+        const checkboxId = `brand${airlineName.replace(/\s/g, '')}`;
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}">
+            <input id="${checkboxId}" value="${airlineName}" type="checkbox"
+                   name="carrier"
+                   style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFilters()">${airlineName}</label>
+`;
+
+        const div = `
+           ${checkbox}
+        `;
+
+
+        document.getElementById("airlineSector").innerHTML = `${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById("dTime").innerHTML = `${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById("aTime").innerHTML = `${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById("dFN").innerHTML = `Filter By Flight Number ${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById('airlineFilter').innerHTML += div
+    });
+}
+
+function AirlineFIlterReturnFixed() {
+    document.getElementById('airlineFilterReturn').innerHTML = '';
+    // Create a map to store counts for each airline
+    const airlineCounts = new Map();
+
+    // Calculate counts for each airline
+    flightArray.forEach((flight) => {
+        const airlineName = flight.flight.returnFlight.airlineName;
+
+        airlineCounts.set(airlineName, (airlineCounts.get(airlineName) || 0) + 1);
+    });
+
+
+    // Create and append elements for each airline
+    airlineCounts.forEach((count, airlineName) => {
+        const checkboxId = `brand${airlineName.replace(/\s/g, '')}`;
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}Return">
+            <input id="${checkboxId}Return" value="${airlineName}" type="checkbox"
+                   name="carrierReturn"
+                   style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFiltersReturn()">${airlineName}</label>
+`;
+
+        const div = `
+           ${checkbox}
+        `;
+
+
+        document.getElementById("airlineSectorReturn").innerHTML = `${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById("dTimeReturn").innerHTML = `${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById("aTimeReturn").innerHTML = `${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById("dFNR").innerHTML = `Filter By Flight Number ${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById('airlineFilterReturn').innerHTML += div
+    });
+}
+
+function fareFIlterFixed() {
+
+    document.getElementById('fareFilter').innerHTML = '';
+    // Create a map to store counts for each airline
+    const fareCounts = new Map();
+
+    // Calculate counts for each airline
+    flightArray.forEach((flight) => {
+        flight.flight.onwardFlight.Segments.forEach((segment, index) => {
+            const airlineName = segment.fare;
+
+            fareCounts.set(airlineName, (fareCounts.get(airlineName) || 0) + 1);
+        })
+    });
+
+    // Create and append elements for each airline
+    fareCounts.forEach((count, airlineName) => {
+        const checkboxId = `brand${airlineName.replace(/\s/g, '')}`;
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}">
+            <input id="${checkboxId}" value="${airlineName}" type="checkbox"
+                   name="allfares"
+                   style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFilters()">${airlineName}</label>
+`;
+
+        const div = `
+           ${checkbox}
+        `;
+        document.getElementById("fareSector").innerHTML = `${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById('fareFilter').innerHTML += div
+    });
+}
+
+function fareFIlterReturnFixed() {
+
+    document.getElementById('fareFilterReturn').innerHTML = '';
+    // Create a map to store counts for each airline
+    const fareCounts = new Map();
+
+    // Calculate counts for each airline
+    flightArray.forEach((flight) => {
+        flight.flight.returnFlight.Segments.forEach((segment, index) => {
+            const airlineName = segment.fare;
+
+            fareCounts.set(airlineName, (fareCounts.get(airlineName) || 0) + 1);
+        })
+    });
+
+    // Create and append elements for each airline
+    fareCounts.forEach((count, airlineName) => {
+        const checkboxId = `brand${airlineName.replace(/\s/g, '')}`;
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}Return">
+            <input id="${checkboxId}Return" value="${airlineName}" type="checkbox"
+                   name="allfaresReturn"
+                   style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFiltersReturn()">${airlineName}</label>
+`;
+
+        const div = `
+           ${checkbox}
+        `;
+        document.getElementById("fareSectorReturn").innerHTML = `${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById('fareFilterReturn').innerHTML += div
+    });
+}
+
+async function PriceFilterDivFixed() {
+    const priceDiv = document.getElementById("priceFilter");
+    priceDiv.innerHTML = '';
+    const publishedFares = [];
+
+    // Collect PublishedFares
+    flightArray.forEach(flight => {
+        flight.flight.onwardFlight.Segments.forEach(detail => {
+            publishedFares.push(detail.FareBreakup.PublishedFare);
+        });
+    });
+
+    // Calculate min and max values from the array of PublishedFares
+    const minPublishedFare = Math.min(...publishedFares);
+    const maxPublishedFare = Math.max(...publishedFares);
+
+    const div = `
+        <div class="d-flex text-lh-1">
+            <span>AED </span>
+            <span id="rangeSliderExample3MAEDesult"> </span>
+            <span class="mx-0dot5"> — </span>
+            <span>AED </span>
+            <span id="rangeSliderExample3MaxResult"> </span>
+        </div>
+        <input class="js-range-slider" type="text"
+            data-extra-classes="u-range-slider height-35"
+            data-result-min="#rangeSliderExample3MAEDesult"
+            data-result-max="#rangeSliderExample3MaxResult">
+    `;
+
+    priceDiv.insertAdjacentHTML('beforeend', div);
+
+    // Initialize ionRangeSlider for price filter
+    $(document).ready(function () {
+        $("#rangeSliderExample3MAEDesult").text(minPublishedFare.toFixed(1));
+        $("#rangeSliderExample3MaxResult").text(maxPublishedFare.toFixed(1));
+
+        $(".js-range-slider").ionRangeSlider({
+            skin: "round",
+            type: "double",
+            grid: false,
+            hide_from_to: true,
+            hide_min_max: true,
+            min: minPublishedFare.toFixed(1),
+            max: maxPublishedFare.toFixed(1),
+            from: minPublishedFare.toFixed(1),
+            to: maxPublishedFare.toFixed(1),
+            prefix: "AED ",
+            onChange: function (data) {
+                $("#rangeSliderExample3MAEDesult").text(data.from.toFixed(1));
+                $("#rangeSliderExample3MaxResult").text(data.to.toFixed(1));
+
+                // Call the applyFilters function with the range slider value
+                applyFilters();
+            }
+        });
+    });
+}
+
+async function stopsFilterFixed() {
+    document.getElementById('stopFilter').innerHTML = '';
+    // Create a map to store counts for each stops option
+    const stopsCounts = new Map();
+
+    // Calculate counts for each stops option
+    flightArray.forEach((flight) => {
+        const stops = `${flight.flight.onwardFlight.Stops}`;  // Use 'stops' property, default to 'Non Stop' if undefined
+        stopsCounts.set(stops, (stopsCounts.get(stops) || 0) + 1);
+    });
+
+    // console.log(stopsCounts)
+
+    // Create and append elements for each stops option
+    stopsCounts.forEach((count, stopsOption) => {
+        // console.log(stopsOption)
+        const checkboxId = `stops${stopsOption.replace(/\s/g, '')}`;
+        // console.log(checkboxId)
+        // console.log(checkboxId)
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}">
+            <input id="${checkboxId}" value="${stopsOption}" type="checkbox"
+                 name="stops" style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFilters()">${stopsOption}</label>
+`;
+        const div = `
+            ${checkbox}
+        `;
+
+
+        // console.log(div);
+
+        document.getElementById("stopSector").innerHTML = `${flightArray[0].flight.onwardFlight.Origin.CityCode} -> ${flightArray[0].flight.onwardFlight.Destination.CityCode}`
+        document.getElementById('stopFilter').innerHTML += div;
+    });
+}
+
+async function stopsFilterReturnFixed() {
+    document.getElementById('stopFilterReturn').innerHTML = '';
+    // Create a map to store counts for each stops option
+    const stopsCounts = new Map();
+
+    // Calculate counts for each stops option
+    flightArray.forEach((flight) => {
+        const stops = `${flight.flight.returnFlight.Stops}`;  // Use 'stops' property, default to 'Non Stop' if undefined
+        stopsCounts.set(stops, (stopsCounts.get(stops) || 0) + 1);
+    });
+
+    // console.log(stopsCounts)
+
+    // Create and append elements for each stops option
+    stopsCounts.forEach((count, stopsOption) => {
+        // console.log(stopsOption)
+        const checkboxId = `stops${stopsOption.replace(/\s/g, '')}`;
+        // console.log(checkboxId)
+        // console.log(checkboxId)
+        const checkbox = `  <label
+                                            class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer app-check-box"
+                                            style="color: rgb(91, 91, 91);" for="${checkboxId}Return">
+            <input id="${checkboxId}Return" value="${stopsOption}" type="checkbox"
+                 name="stopsReturn" style="margin-right: 7px; appearance: none; width: 15px; height: 15px; border-radius: 3px; border: 1px solid rgb(91, 91, 91);" onclick="applyFiltersReturn()">${stopsOption}</label>
+`;
+        const div = `
+            ${checkbox}
+        `;
+
+
+        // console.log(div);
+
+        document.getElementById("stopSectorReturn").innerHTML = `${flightArray[0].flight.returnFlight.Origin.CityCode} -> ${flightArray[0].flight.returnFlight.Destination.CityCode}`
+        document.getElementById('stopFilterReturn').innerHTML += div;
+    });
+}
+
