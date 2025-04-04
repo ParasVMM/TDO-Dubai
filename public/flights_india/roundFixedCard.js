@@ -2354,3 +2354,8 @@ async function stopsFilterReturnFixed() {
     });
 }
 
+function convertToMinutes(timeString) {
+    let [date, time] = timeString.split('T');
+    let [hours, minutes] = time.split(':').map(Number);
+    return hours * 60 + minutes;
+}

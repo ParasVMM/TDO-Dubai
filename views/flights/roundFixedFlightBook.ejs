@@ -201,7 +201,7 @@
                                 <div class="flight-booking-page_header">Special Service Request</div>
                                 <div class="d-flex flex-wrap">
                                     <div class="m-2">
-                                        <button type="button" class="app-btn-transparent p-0" style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;"><img src="/flightWorthCSS/images/Seat.png" alt=""> </button>
+                                        <button type="button" class="app-btn-transparent p-0" onclick="SeatModal()" style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;"><img src="/flightWorthCSS/images/Seat.png" alt=""> </button>
                                     </div>
                                     <div class="m-2">
                                         <button type="button" class="app-btn-transparent p-0" onclick="BaggageModal()" style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;"><img src="/flightWorthCSS/images/Baggage1.png" alt=""> </button>
@@ -259,33 +259,8 @@
 <!--                                </div>-->
                             </div>
                             <div class="separator"></div>
-                            <!--                            <div class="flight-booking-page_content p-3 d-flex flex-column flex-md-row justify-content-between">-->
-                            <!--                                <div>-->
-                            <!--                                    <div class="fs-6 fw-600">Travel Insurance</div>-->
-                            <!--                                    <div class="fs-12 fw-400 mb-2">Click here to Book Domestic Insurance (Rs XXX)</div>-->
-                            <!--                                    <div class="d-flex flex-column gap-2"><label-->
-                            <!--                                                class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer "-->
-                            <!--                                                for="true" style="color: rgb(91, 91, 91);"><input-->
-                            <!--                                                    class="cursor-pointer " id="true" type="radio"-->
-                            <!--                                                    name="travelInsurance"-->
-                            <!--                                                    style="appearance: none; border-width: 2px; border-style: solid; min-width: 16px; min-height: 16px; border-radius: 50%; border-color: rgb(91, 91, 91); background-color: rgb(255, 255, 255); margin-right: 7px; box-shadow: none;">Yes,-->
-                            <!--                                            Secure my trip</label><label-->
-                            <!--                                                class=" d-flex  fw-500 align-items-center fs-12 cursor-pointer radio-label-checked"-->
-                            <!--                                                for="false" style="color: rgb(30, 30, 30);"><input-->
-                            <!--                                                    class="cursor-pointer " id="false" type="radio"-->
-                            <!--                                                    name="travelInsurance" checked=""-->
-                            <!--                                                    style="appearance: none; border-width: 2px; border-style: solid; min-width: 16px; min-height: 16px; border-radius: 50%; border-color: rgb(113, 191, 68); background-color: rgb(113, 191, 68); margin-right: 7px; box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset;">No,-->
-                            <!--                                            I will book without travel insurance.</label>-->
-                            <!--                                        <div class="fs-12 grey-color">By adding insurance I agree to the Terms &amp;-->
-                            <!--                                            Conditions and confirm all passengers are between 2 to 70 years of age. I-->
-                            <!--                                            hereby declare and understand that Flightworth facilitates the access of-->
-                            <!--                                            third party travel insurance to its customer. I shall not mark-up or charge-->
-                            <!--                                            any additional amount for facilitating the access of third party travel-->
-                            <!--                                            insurance to the end customer.-->
-                            <!--                                        </div>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
+
+
                             <div class="separator"></div>
                             <div class="flight-booking-page_content p-3 d-flex justify-content-between flex-column flex-sm-row gap-1">
                                 <label class=" d-flex fs-14 fw-500 fw-500 align-items-center fs-12 cursor-pointer app-check-box"
@@ -399,6 +374,1379 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div role="dialog" id="seatModal" aria-modal="true" class="fade app-modal booking-confirm-modal modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title h4">Seats</div>
+                    <button type="button" class="btn-close" onclick="CloseSeatModal()" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="seat-selection-section">
+                        <div class="seat-sectors-row d-flex" id="seatSectors">
+                        </div>
+                        <div class="separator"></div>
+                        <div class="d-flex flex-sm-row flex-column">
+                            <div class="d-flex flex-sm-column flex-row seat-travellers-info overflow-auto" id="seatTravellers">
+                                <div class="traveller-name current-traveller-seat-selection">
+                                    <div class="d-flex flex-column"><span>Traveller 1</span><small
+                                                class="traveller-name__subheading">Select Seat</small></div>
+                                </div>
+                            </div>
+                            <div class="flight-seat-map d-flex justify-content-center align-items-center flex-1">
+                                <div class="flight-seat-map_container">
+                                    <div class="flight-seat-map_cockpit"><img src="/flightWorthCSS/images/cockpit.svg" alt=""></div>
+                                    <div class="flight-seat-map_layout" id="renderSeats">
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number"
+                                                 style="margin-top: 32px;">1
+                                            </div>
+                                            <div class="flight-seat-map_row-designator_right-number"
+                                                 style="margin-top: 32px;">1
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator  ">A</div>
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator  ">B</div>
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator flight-seat-map_row-designator_aisle-space ">
+                                                    C
+                                                </div>
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator  ">D</div>
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator  ">E</div>
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_row-designator  ">F</div>
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">2</div>
+                                            <div class="flight-seat-map_row-designator_right-number">2</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">3</div>
+                                            <div class="flight-seat-map_row-designator_right-number">3</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">3E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">4</div>
+                                            <div class="flight-seat-map_row-designator_right-number">4</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">5</div>
+                                            <div class="flight-seat-map_row-designator_right-number">5</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">6</div>
+                                            <div class="flight-seat-map_row-designator_right-number">6</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">7</div>
+                                            <div class="flight-seat-map_row-designator_right-number">7</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">8</div>
+                                            <div class="flight-seat-map_row-designator_right-number">8</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">9</div>
+                                            <div class="flight-seat-map_row-designator_right-number">9</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">10</div>
+                                            <div class="flight-seat-map_row-designator_right-number">10</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">11</div>
+                                            <div class="flight-seat-map_row-designator_right-number">11</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">12</div>
+                                            <div class="flight-seat-map_row-designator_right-number">12</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">13</div>
+                                            <div class="flight-seat-map_row-designator_right-number">13</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">14</div>
+                                            <div class="flight-seat-map_row-designator_right-number">14</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">15</div>
+                                            <div class="flight-seat-map_row-designator_right-number">15</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">15E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">16</div>
+                                            <div class="flight-seat-map_row-designator_right-number">16</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">16E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">17</div>
+                                            <div class="flight-seat-map_row-designator_right-number">17</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">17B</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">17C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">18</div>
+                                            <div class="flight-seat-map_row-designator_right-number">18</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">19</div>
+                                            <div class="flight-seat-map_row-designator_right-number">19</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">19A</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">19B</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">19C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">20</div>
+                                            <div class="flight-seat-map_row-designator_right-number">20</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">21</div>
+                                            <div class="flight-seat-map_row-designator_right-number">21</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">22</div>
+                                            <div class="flight-seat-map_row-designator_right-number">22</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">23</div>
+                                            <div class="flight-seat-map_row-designator_right-number">23</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">24</div>
+                                            <div class="flight-seat-map_row-designator_right-number">24</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">25</div>
+                                            <div class="flight-seat-map_row-designator_right-number">25</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">26</div>
+                                            <div class="flight-seat-map_row-designator_right-number">26</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">27</div>
+                                            <div class="flight-seat-map_row-designator_right-number">27</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">27B</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">27C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">28</div>
+                                            <div class="flight-seat-map_row-designator_right-number">28</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat   flight-seat-map_empty-space flight-seat-map_booked-seat  "></div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">28B</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">28C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">28D</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">28E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat   flight-seat-map_empty-space flight-seat-map_booked-seat  "></div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">29</div>
+                                            <div class="flight-seat-map_row-designator_right-number">29</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">29E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">29F</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">30</div>
+                                            <div class="flight-seat-map_row-designator_right-number">30</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">30E</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">31</div>
+                                            <div class="flight-seat-map_row-designator_right-number">31</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">32</div>
+                                            <div class="flight-seat-map_row-designator_right-number">32</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">33</div>
+                                            <div class="flight-seat-map_row-designator_right-number">33</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">34</div>
+                                            <div class="flight-seat-map_row-designator_right-number">34</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">35</div>
+                                            <div class="flight-seat-map_row-designator_right-number">35</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">35C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">36</div>
+                                            <div class="flight-seat-map_row-designator_right-number">36</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">36D</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">37</div>
+                                            <div class="flight-seat-map_row-designator_right-number">37</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space     ">
+                                                    <div class="seat-text">37C</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">38</div>
+                                            <div class="flight-seat-map_row-designator_right-number">38</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">38D</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex position-relative">
+                                            <div class="flight-seat-map_row-designator_left-number">39</div>
+                                            <div class="flight-seat-map_row-designator_right-number">39</div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat flight-seat-map_aisle-space   flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat      ">
+                                                    <div class="seat-text">39D</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center ">
+                                                <div class="flight-seat-map_seat    flight-seat-map_booked-seat  ">
+                                                    <div class="seat-text">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="app-btn app-btn-outlined app-btn-medium " onclick="CloseSeatModal()"
+                            style="padding: 0.5rem; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; font-weight: 600;">
+                        Continue
+                    </button>
                 </div>
             </div>
         </div>

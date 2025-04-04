@@ -1446,9 +1446,10 @@ function seatModal() {
         });
 
 
-        updateSeatOptions();
+        if (updateSeatOptions()) {
+            $("#seatModal").modal("show");
+        }
 
-        $("#seatModal").modal("show");
     }
     else
     {
@@ -1637,12 +1638,24 @@ function updateBaggageOptions()
 
 function updateSeatOptions()
 {
-
+    console.log("seat")
     document.getElementById("renderSeats").innerHTML = '';
 
     const msector = document.querySelectorAll('.seat-sector');
     const travellers = document.querySelectorAll('.seat-traveller-name');
 
+    console.log(msector)
+    console.log(travellers)
+    if(msector.length < 1){
+        {
+            toastMixin.fire({
+                animation: true,  // Enables animation for the toast
+                icon: 'error',  // This sets the warning icon
+                title: `No Extra Seat Facility Available For This FLight.`
+            })
+        }
+        return false
+    }
     msector.forEach(function(sector) {
         if (sector.classList.contains('active-seat-sector')) {
             const selectedSectorId = sector.id;
@@ -1655,7 +1668,8 @@ function updateSeatOptions()
 
                     if(arr.Supplier === Suppliers.RIYA)
                     {
-
+                        console.log("Baggage")
+                        console.log(fareBreakupResponse)
                         let Baggage = fareBreakupResponse.response.response.Flights[0].Segments[selectedSectorId.split("-")[0]].SeatLayoutDetails.DiaplayLayout[0]                        || "NO SEAT";
                         if(Baggage !== 'NO SEAT')
                         {
@@ -1673,6 +1687,8 @@ function updateSeatOptions()
                     else
                     {
 
+                        console.log("Seat1")
+                        console.log(ssrResponse)
                         let seatDynamic =  ssrResponse?.response?.tripSeatMap?.tripSeat?.[selectedSectorId] || 'NO SEAT';
 
                             if(seatDynamic !== 'NO SEAT')

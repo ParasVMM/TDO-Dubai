@@ -1371,18 +1371,51 @@ async function ticketReturn() {
     }
 }
 
+function SeatModal() {
+    document.getElementById("seatTravellers").innerHTML = '';
+
+    if ($("#details").valid()) {
+
+        Array(parseInt(arr.onwardFlight.adults)).fill().forEach((_, index) => {
+            let adultForm = new seatPassengers("Adult", index+1);
+            document.getElementById("seatTravellers").innerHTML+= adultForm.renderSeatPassengers()
+            // You can apply any logic here for each adult
+        });
+
+        Array(parseInt(arr.onwardFlight.childs)).fill().forEach((_, index) => {
+            let adultForm = new seatPassengers("Child", index+1);
+            document.getElementById("seatTravellers").innerHTML+= adultForm.renderSeatPassengers();
+            // You can apply any logic here for each adult
+        });
+
+
+        if (updateSeatOptions()) {
+            $("#seatModal").modal("show");
+        }
+
+    }
+    else
+    {
+        toastMixin.fire({
+            animation: true,  // Enables animation for the toast
+            icon: 'warning',  // This sets the warning icon
+            title: 'Please Fill Passenger Details First'  // Warning message to display
+        });
+    }
+}
+
 function MealModal() {
     document.getElementById("mealTravellers").innerHTML = '';
 
     if ($("#details").valid()) {
 
-        Array(parseInt(arr.adults)).fill().forEach((_, index) => {
+        Array(parseInt(arr.onwardFlight.adults)).fill().forEach((_, index) => {
             let adultForm = new mealPassengers("Adult", index + 1);
             document.getElementById("mealTravellers").innerHTML += adultForm.renderMealPassengers()
             // You can apply any logic here for each adult
         });
 
-        Array(parseInt(arr.childs)).fill().forEach((_, index) => {
+        Array(parseInt(arr.onwardFlight.childs)).fill().forEach((_, index) => {
             let adultForm = new mealPassengers("Child", index + 1);
             document.getElementById("mealTravellers").innerHTML += adultForm.renderMealPassengers();
             // You can apply any logic here for each adult
@@ -1391,9 +1424,10 @@ function MealModal() {
         const msector = document.querySelectorAll('.meal-sector');
         const travellers = document.querySelectorAll('.traveller-name');
 
-        updateMealOptions();
+        if(updateMealOptions()){
+            $("#mealModal").modal("show");
+        }
 
-        $("#mealModal").modal("show");
     } else {
         toastMixin.fire({
             animation: true,  // Enables animation for the toast
@@ -1404,17 +1438,20 @@ function MealModal() {
 }
 
 function BaggageModal() {
+
+    console.log("Baggage")
+    console.log(arr)
     document.getElementById("baggageTravellers").innerHTML = '';
 
     if ($("#details").valid()) {
 
-        Array(parseInt(arr.adults)).fill().forEach((_, index) => {
+        Array(parseInt(arr.onwardFlight.adults)).fill().forEach((_, index) => {
             let adultForm = new baggagePassengers("Adult", index + 1);
             document.getElementById("baggageTravellers").innerHTML += adultForm.renderBaggagePassengers()
             // You can apply any logic here for each adult
         });
 
-        Array(parseInt(arr.childs)).fill().forEach((_, index) => {
+        Array(parseInt(arr.onwardFlight.childs)).fill().forEach((_, index) => {
             let adultForm = new baggagePassengers("Child", index + 1);
             document.getElementById("baggageTravellers").innerHTML += adultForm.renderBaggagePassengers();
             // You can apply any logic here for each adult
@@ -1423,9 +1460,10 @@ function BaggageModal() {
         const msector = document.querySelectorAll('.baggage-sector');
         const travellers = document.querySelectorAll('.traveller-name');
 
-        updateBaggageOptions();
+        if(updateBaggageOptions()){
+            $("#baggageModal").modal("show");
+        }
 
-        $("#baggageModal").modal("show");
     } else {
         toastMixin.fire({
             animation: true,  // Enables animation for the toast
@@ -1435,7 +1473,6 @@ function BaggageModal() {
     }
 }
 
-
 function updateMealOptions() {
 
     document.getElementById("mealOptions").innerHTML = '';
@@ -1443,6 +1480,14 @@ function updateMealOptions() {
     const msector = document.querySelectorAll('.meal-sector');
     const travellers = document.querySelectorAll('.traveller-name');
 
+    if(msector.length === 0){
+        toastMixin.fire({
+            animation: true,  // Enables animation for the toast
+            icon: 'error',  // This sets the warning icon
+            title: `No Meal Facility Available For This FLight.`
+        });
+        return false
+    }
     msector.forEach(function (sector) {
         if (sector.classList.contains('active-meal-sector')) {
             const selectedSectorId = sector.id;
@@ -1504,6 +1549,15 @@ function updateBaggageOptions() {
     const msector = document.querySelectorAll('.baggage-sector');
     const travellers = document.querySelectorAll('.baggage-traveller-name');
 
+    console.log(msector)
+    if(msector.length === 0){
+        toastMixin.fire({
+            animation: true,
+            icon: 'error',
+            title: `No Extra Baggage Facility Available For This Flight.`
+        });
+        return false
+    }
     msector.forEach(function (sector) {
         if (sector.classList.contains('active-baggage-sector')) {
             const selectedSectorId = sector.id;
@@ -1557,6 +1611,85 @@ function updateBaggageOptions() {
 
                     }
                     calculateTotalBaggagePriceNew()
+                    return
+                }
+            })
+
+            return;  // Since you can't break out of forEach, this stops further execution in this iteration
+        }
+    });
+}
+
+function updateSeatOptions()
+{
+    console.log("seat")
+    document.getElementById("renderSeats").innerHTML = '';
+
+    const msector = document.querySelectorAll('.seat-sector');
+    const travellers = document.querySelectorAll('.seat-traveller-name');
+
+    console.log(msector)
+    console.log(travellers)
+    if(msector.length < 1){
+        {
+            toastMixin.fire({
+                animation: true,  // Enables animation for the toast
+                icon: 'error',  // This sets the warning icon
+                title: `No Extra Seat Facility Available For This FLight.`
+            })
+        }
+        return false
+    }
+    msector.forEach(function(sector) {
+        if (sector.classList.contains('active-seat-sector')) {
+            const selectedSectorId = sector.id;
+            console.log("Selected Sector ID:", selectedSectorId);
+
+            travellers.forEach((traveller, index) => {
+                if(traveller.classList.contains('current-traveller-seat-selection'))
+                {
+                    const selectedTraveller = traveller.id;
+
+                    if(arr.Supplier === Suppliers.RIYA)
+                    {
+                        console.log("Baggage")
+                        console.log(fareBreakupResponse)
+                        let Baggage = fareBreakupResponse.response.response.Flights[0].Segments[selectedSectorId.split("-")[0]].SeatLayoutDetails.DiaplayLayout[0]                        || "NO SEAT";
+                        if(Baggage !== 'NO SEAT')
+                        {
+                            makeSeats(parseInt(selectedSectorId.split("-")[0]), selectedSectorId.split("-")[1], selectedSectorId.split("-")[2])
+                        }
+                        else
+                        {
+                            toastMixin.fire({
+                                animation: true,  // Enables animation for the toast
+                                icon: 'error',  // This sets the warning icon
+                                title: `No Extra Baggage Facility Available For This FLight.`
+                            });
+                        }
+                    }
+                    else
+                    {
+
+                        console.log("Seat1")
+                        console.log(ssrResponse)
+                        let seatDynamic =  ssrResponse?.response?.tripSeatMap?.tripSeat?.[selectedSectorId] || 'NO SEAT';
+
+                        if(seatDynamic !== 'NO SEAT')
+                        {
+                            renderSeatstj(selectedSectorId)
+                        }
+                        else
+                        {
+                            toastMixin.fire({
+                                animation: true,  // Enables animation for the toast
+                                icon: 'error',  // This sets the warning icon
+                                title: `No Extra Seat Facility Available For This FLight.`
+                            });
+                        }
+
+                    }
+
                     return
                 }
             })
@@ -2183,6 +2316,48 @@ class baggagePassengers {
 `;
 
     }
+}
+
+class seatPassengers
+{
+    constructor(pax, index)
+    {
+        this.pax = pax;
+        this.index = index;
+    }
+
+    renderSeatPassengers()
+    {
+        let active = '';
+
+        active = (this.pax === "Adult" && this.index === 1) ? 'seat-traveller-name current-traveller-seat-selection' : 'seat-traveller-name';
+
+        return `
+    <div class="${active}" id="${this.pax}_first_name${this.index}"><span>${document.getElementById(`${this.pax}_first_name${this.index}`).value}</span>
+    <div id="${this.pax}_first_name${this.index}seat"></div>
+    </div><br>
+`;
+
+    }
+}
+
+class seatSectors
+{
+    constructor(sector, index, segmentIndex)
+    {
+        this.sector  = sector;
+        this.index = index;
+        this.segmentIndex = segmentIndex
+    }
+    renderSeatSectors()
+    {
+        let active = '';
+
+        active = (this.index === 0) ? 'seat-sector active-seat-sector' : 'seat-sector';
+
+        return `<div class="${active}" id="${this.index}-${this.sector.Origin}-${this.sector.Destination}">${this.sector.Origin} - ${this.sector.Destination}</div>`;
+    }
+
 }
 
 class PassengerForm {

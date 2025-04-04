@@ -325,7 +325,7 @@ class TBOFareBreakupCard {
         let totalFare = 0;
 
         let totalPax = parseInt(arr.adults) + parseInt(arr.childs) + parseInt(arr.infants);
-        let markPerPax = ((this.TDO + this.Agent)/totalPax).toFixed(1);
+        let markPerPax = parseFloat(((this.TDO + this.Agent) / totalPax).toFixed(1));
         let adultFare = 0;
         let childFare = 0;
         let infantFare = 0;
@@ -363,13 +363,13 @@ class TBOFareBreakupCard {
 
             if (paxFare.PaxType === 'ADT') {
 
-                adultFare = parseFloat(paxFare.BasicFare).toFixed(1) + parseFloat(paxFare.TotalTax).toFixed(1) + markPerPax
+                adultFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax) + markPerPax
 
-                adultBaseFare = parseFloat(paxFare.BasicFare).toFixed(1);
+                adultBaseFare = parseFloat(paxFare.BasicFare);
 
-                adultPublishFare = parseFloat(paxFare.GrossFare).toFixed(1);
+                adultPublishFare = parseFloat(paxFare.GrossFare);
 
-                adultTotaltax = parseFloat(paxFare.TotalTax).toFixed(1)
+                adultTotaltax = parseFloat(paxFare.TotalTax)
 
                 paxFare.PaxTaxDetails.forEach(tax => {
                     if (tax.TaxCode === 'K3') {
@@ -406,17 +406,17 @@ class TBOFareBreakupCard {
 
                 adultCount = `<div class="d-flex justify-content-between"><span
                                                         class="fw-500">${parseInt(arr.adults)} x Adult</span><span
-                                                        class="fw-600">${(adultFare * parseInt(arr.adults)).toFixed(1) + (parseInt(arr.infants)* markPerPax)}</span></div>`
+                                                        class="fw-600">${(adultFare * parseInt(arr.adults)) + (parseInt(arr.infants)* markPerPax)}</span></div>`
             }
             if (paxFare.PaxType === 'CHD') {
 
-                childFare = parseFloat(paxFare.BasicFare).toFixed(1) + parseFloat(paxFare.TotalTax).toFixed(1) + markPerPax
+                childFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax) + markPerPax
 
-                childBasefare = parseFloat(paxFare.BasicFare).toFixed(1);
+                childBasefare = parseFloat(paxFare.BasicFare);
 
-                childTotalTax = parseFloat(paxFare.TotalTax).toFixed(1)
+                childTotalTax = parseFloat(paxFare.TotalTax)
 
-                childPublishFare = parseFloat(paxFare.GrossFare).toFixed(1);
+                childPublishFare = parseFloat(paxFare.GrossFare);
 
                 paxFare.PaxTaxDetails.forEach(tax => {
                     if (tax.TaxCode === 'K3') {
@@ -451,17 +451,17 @@ class TBOFareBreakupCard {
 
                 childCount = `<div class="d-flex justify-content-between"><span
                                                         class="fw-500">${parseInt(arr.childs)} x Child</span><span
-                                                        class="fw-600">${(childFare * parseInt(arr.childs)).toFixed(1)+ (parseInt(arr.childs)* markPerPax)}</span></div>`
+                                                        class="fw-600">${(childFare * parseInt(arr.childs))+ (parseInt(arr.childs)* markPerPax)}</span></div>`
             }
             if (paxFare.PaxType === 'INF') {
 
-                infantFare = parseFloat(paxFare.BasicFare).toFixed(1) + parseFloat(paxFare.TotalTax).toFixed(1) + markPerPax
+                infantFare = parseFloat(paxFare.BasicFare) + parseFloat(paxFare.TotalTax) + markPerPax
 
-                infantBaseFare = parseFloat(paxFare.BasicFare).toFixed(1);
+                infantBaseFare = parseFloat(paxFare.BasicFare);
 
-                infantTotalTax = parseFloat(paxFare.TotalTax).toFixed(1)
+                infantTotalTax = parseFloat(paxFare.TotalTax)
 
-                infantPublishfare = parseFloat(paxFare.GrossFare).toFixed(1);
+                infantPublishfare = parseFloat(paxFare.GrossFare);
 
                 paxFare.PaxTaxDetails.forEach(tax => {
                     if (tax.TaxCode === 'K3') {
@@ -496,7 +496,7 @@ class TBOFareBreakupCard {
 
                 infantCount = `<div class="d-flex justify-content-between"><span
                                                         class="fw-500">${parseInt(arr.infants)} x Infant</span><span
-                                                        class="fw-600">${(parseFloat(infantFare) * parseInt(arr.infants)).toFixed(1) + (parseInt(arr.infants)* markPerPax)}</span></div>`
+                                                        class="fw-600">${(parseFloat(infantFare) * parseInt(arr.infants)) + (parseInt(arr.infants)* markPerPax)}</span></div>`
             }
         }
 
@@ -528,9 +528,9 @@ class TBOFareBreakupCard {
 
         let calculatedTax = 0;
 
-        totalAmount = ((adultFare * parseInt(arr.adults)) + (childFare * parseInt(arr.childs)) + (infantFare * parseInt(arr.infants)) + parseFloat(calculatedTax)).toFixed(1);
+        totalAmount = ((adultFare * parseInt(arr.adults)) + (childFare * parseInt(arr.childs)) + (infantFare * parseInt(arr.infants)) + parseFloat(calculatedTax));
 
-        let amountPayable = (parseFloat(netPrice) + tds + parseFloat(calculatedTax)).toFixed(1);
+        let amountPayable = (parseFloat(netPrice) + tds + parseFloat(calculatedTax));
 
         paxFare = {
             "Adult" : {
@@ -743,14 +743,14 @@ class TBOFareBreakupCard {
     <span>Net Payable by Travel Agent :</span>
     <span class="fw-500">AED${amountPayable}</span>
 </div>
-  <div class="d-flex justify-content-between"><span>Net Earned By TDO:</span><span class="fw-500">${(parseFloat(totalMarkup)).toFixed(1)}</span></div>
-  <div class="d-flex justify-content-between"><span>Net Earned By Agent:</span><span class="fw-500">${((parseFloat(totalPublishFare) - parseFloat(amountPayable)) + parseFloat(markup_by_agent)).toFixed(1)}</span></div>
+  <div class="d-flex justify-content-between"><span>Net Earned By TDO:</span><span class="fw-500">${(parseFloat(totalMarkup))}</span></div>
+  <div class="d-flex justify-content-between"><span>Net Earned By Agent:</span><span class="fw-500">${((parseFloat(totalPublishFare) - parseFloat(amountPayable)) + parseFloat(markup_by_agent))}</span></div>
                                      </div>
                                     </div>
                              
                                     <div class="fare-summary_footer watermarked">
                                         <div class="row spacing-0"><span class="col fare-summary_footer_title">Net Payable</span><span
-                                                    class="col fare-summary_footer_value d-flex flex-column"><span id="totalAmountSpan">${(parseFloat(totalAmount)).toFixed(1)}</span></span>
+                                                    class="col fare-summary_footer_value d-flex flex-column"><span id="totalAmountSpan">${(parseFloat(totalAmount))}</span></span>
                                         </div>
                                     </div>
                                 </div>
