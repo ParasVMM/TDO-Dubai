@@ -387,7 +387,7 @@ class SegmentInformation
     render()
     {
         let segment = this.flight;
-
+        console.log(segment)
         let segmentCard = '';
 
         segmentCard+=`
@@ -427,7 +427,7 @@ class SegmentInformation
                                             class="dark-grey-color fs-14 fw-600">${segment.ArrTime} (${segment.ArrDate}) - ${segment.ArrivalCityName} - ${segment.ArrivalTerminal}</span><span
                                             class="fs-10">${segment.ArrivalAirportName}</span></div>
                                 </div>
-                                <div class="selected-flight-details__flight-leg_amenities"><span>Check In: ${segment.Baggage}</span>
+                                <div class="selected-flight-details__flight-leg_amenities"><span>Check In: ${segment.Baggage[0].weight || '15'} ${segment.Baggage[0].unit || 'Kg'} </span>
                                 </div>
                             </div>
                         

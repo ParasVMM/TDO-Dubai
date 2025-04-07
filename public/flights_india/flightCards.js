@@ -290,7 +290,7 @@ class SegmentInformation
                                             class="dark-grey-color fs-14 fw-600">${segment.ArrTime} (${segment.ArrDate}) - ${segment.ArrivalCityName} - ${segment.ArrivalTerminal}</span><span
                                             class="fs-10">${segment.ArrivalAirportName}</span></div>
                                 </div>
-                                <div class="selected-flight-details__flight-leg_amenities"><span>Check In: ${segment.Baggage[0].Weight} ${segment.Baggage[0].Unit}</span>
+                                <div class="selected-flight-details__flight-leg_amenities"><span>Check In: ${segment.Baggage[0]?.Weight??'15'} ${segment.Baggage[0]?.Unit??'Kg'}</span>
                                 </div>
                             </div>
                         
@@ -589,16 +589,20 @@ class TBOFareBreakupCard {
                 let nextFlight = segment[seg1+1];
     
                 let layover_time =''
-    
-    
+
+
 
                 let totalMinutes = 0;
 
-           // Parse current flight's TotalTime to minutes
-    const [currentHours, currentMinutes] = currentFlight.OriginDestination.TotalTime.split(':').map(Number);
-    totalMinutes = currentHours * 60 + currentMinutes;
+                if (currentFlight.OriginDestination?.TotalTime) {
+                    const [currentHours, currentMinutes] = currentFlight.OriginDestination?.TotalTime.split(':').map(Number);
+                    totalMinutes = currentHours * 60 + currentMinutes;
+                } else {
+                    totalMinutes = 0; // or handle it however you want when TotalTime is null
+                }
 
-            
+
+
                 const totalHours = Math.floor(totalMinutes / 60);
                 const remainingMinutes = totalMinutes % 60;
 
@@ -662,7 +666,7 @@ class TBOFareBreakupCard {
                 departure : segment[0].OriginDestination.DepartureDateTime,
                 IsLCC : (flight.AirlineType === 'LCC') ? true : false,
                 arrival : segment[0].OriginDestination.ArrivalDateTime,
-                duration  : flight.OriginDestination.TotalTime,
+                duration: flight.OriginDestination?.TotalTime ?? 'Unknown',
                 result_index : this.fare.SellKey,
                 departure_terminal : segment[0].DepartureTerminal,
                 arrival_terminal : segment[0].ArrivalTerminal,

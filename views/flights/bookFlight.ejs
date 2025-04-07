@@ -530,7 +530,7 @@
                 <div class="d-flex align-items-center">
                   <h6 class="font-size-14 font-weight-bold text-gray-5 mb-0">
                     <i class="fa-solid fa-clock"></i>
-                    ${arr.Segments[i].OriginDestination.TotalTime}
+                    ${arr.Segments[i]?.OriginDestination?.TotalTime ?? 'Unknown'}
                 </h6>
                 
                 </div>
@@ -680,7 +680,7 @@
 
             <div class="flex-content-center flex-column mb-3">
                 <h6 class="font-size-14 font-weight-bold text-gray-5 mb-0">
-                    ${arr.OriginDestination.TotalTime}
+                    ${arr.OriginDestination?.TotalTime ?? 'Unknown'}
                 </h6>
                 <div class="width-60 border-top border-primary border-width-2 my-1"></div>
                 <div class="font-size-14 text-gray-1">${stops} Stops</div>
@@ -746,7 +746,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="td">${arr.Segments[0].Baggage.Weight} ${arr.Segments[0].Baggage.Unit}</td>
+                    <td class="td">${arr.Segments[0]?.Baggage?.Weight || '15'} ${arr.Segments[0]?.Baggage?.Unit || 'Kg'}</td>
                     <td class="td">${arr.Segments[0].CabinBaggage}</td>
                     <td class="td">${reissue}</td>
                     <td class="td">${cancellation}</td>
@@ -2168,7 +2168,7 @@
     document.getElementById('passengerDOB').textContent = new Date(res1.response.Passengers[0].DateOfBirth).toLocaleDateString();
     document.getElementById('passportNumber').textContent = res1.response.Passengers[0].PassportDetail.PassportNo;
     document.getElementById('passportExpiry').textContent = new Date(res1.response.Passengers[0].PassportDetail.PassportExpiry).toLocaleDateString();
-    document.getElementById('baggageAllowance').textContent = `${res1.response.Flights[0].Segments[0].Baggage.Weight} ${res1.response.Flights[0].Segments[0].Baggage.Unit} checked + ${res1.response.Flights[0].Segments[0].CabinBaggage}`;
+    document.getElementById('baggageAllowance').textContent = `${res1.response.Flights[0].Segments[0].Baggage?.Weight || '15'} ${res1.response.Flights[0].Segments[0].Baggage?.Unit || 'Kg'} checked + ${res1.response.Flights[0].Segments[0].CabinBaggage}`;
     
     document.getElementById('carrier').textContent = res1.response.Flights[0].ValidatingCarrier;
     document.getElementById('flightNumber').textContent = res1.response.Flights[0].Segments[0].FlightNumber;
@@ -2176,7 +2176,7 @@
     document.getElementById('seatStatus').textContent = res1.response.Flights[0].Segments[0].SeatRemaining;
 
     document.getElementById('departureInfo').innerHTML = `<p><strong>From:</strong> ${res1.response.Flights[0].OriginDestination.Departure} (${res1.response.Flights[0].OriginDestination.Departure}), Terminal ${res1.response.Flights[0].Segments[0].DepartureTerminal}</p><p><strong>Date & Time:</strong> ${new Date(res1.response.Flights[0].OriginDestination.DepartureDateTime).toLocaleString()}</p>`;
-    document.getElementById('arrivalInfo').innerHTML = `<p><strong>To:</strong> ${res1.response.Flights[0].OriginDestination.Arrival} (${res1.response.Flights[0].OriginDestination.Arrival}), Terminal ${res1.response.Flights[0].Segments[0].ArrivalTerminal}</p><p><strong>Date & Time:</strong> ${new Date(res1.response.Flights[0].OriginDestination.ArrivalDateTime).toLocaleString()}</p><p><strong>Duration:</strong> ${res1.response.Flights[0].OriginDestination.TotalTime}</p>`;
+    document.getElementById('arrivalInfo').innerHTML = `<p><strong>To:</strong> ${res1.response.Flights[0].OriginDestination.Arrival} (${res1.response.Flights[0].OriginDestination.Arrival}), Terminal ${res1.response.Flights[0].Segments[0].ArrivalTerminal}</p><p><strong>Date & Time:</strong> ${new Date(res1.response.Flights[0].OriginDestination.ArrivalDateTime).toLocaleString()}</p><p><strong>Duration:</strong> ${res1.response.Flights[0].OriginDestination?.TotalTime??'Unknown'}</p>`;
 
     document.getElementById('basicFare').textContent = res1.response.Flights[0].BasicFare;
     document.getElementById('totalTax').textContent = res1.response.Flights[0].TotalTax;

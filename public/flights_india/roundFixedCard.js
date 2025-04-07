@@ -1637,9 +1637,13 @@ class TBOFareBreakupCardFixed {
 
                         let totalMinutes = 0;
 
-                        // Parse current flight's TotalTime to minutes
-                        const [currentHours, currentMinutes] = currentFlight.OriginDestination.TotalTime.split(':').map(Number);
-                        totalMinutes = currentHours * 60 + currentMinutes;
+                        if (currentFlight.OriginDestination?.TotalTime) {
+                            const [currentHours, currentMinutes] = currentFlight.OriginDestination?.TotalTime.split(':').map(Number);
+                            totalMinutes = currentHours * 60 + currentMinutes;
+                        } else {
+                            totalMinutes = 0; // or handle it however you want when TotalTime is null
+                        }
+
 
 
                         const totalHours = Math.floor(totalMinutes / 60);
@@ -1705,7 +1709,7 @@ class TBOFareBreakupCardFixed {
                         departure : segment[0].OriginDestination.DepartureDateTime,
                         IsLCC : (flight.AirlineType === 'LCC') ? true : false,
                         arrival : segment[0].OriginDestination.ArrivalDateTime,
-                        duration  : flight.OriginDestination.TotalTime,
+                         duration: flight.OriginDestination?.TotalTime ?? 'Unknown',
                         result_index : f.SellKey,
                         departure_terminal : segment[0].DepartureTerminal,
                         arrival_terminal : segment[0].ArrivalTerminal,
